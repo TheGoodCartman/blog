@@ -10,7 +10,7 @@ website:
         href: https://github.com/TheGoodCartman
 format:
   html:
-    theme: cosmo
+    theme: minty
     css: styles.css
 
 
