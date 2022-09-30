@@ -1,0 +1,17 @@
+---
+title: "Olympia - (live) dabei sein ist alles"
+date: "2012-07-30T22:10:03"
+categories: [gedacht,gesehen]
+---
+
+Stell Dir vor, es ist Olympia - und keiner außerhalb der Stadien kann es sehen. So geht es vielen Sportarten in [London](http://www.london2012.com), denn die Olympischen Spiele decken eine so große Bandbreite des Sports ab (302 Entscheidungen in 26 Sportarten und nur zwei Wochen), dass der Tag gar nicht genügend Stunden hat, um auf parallele Austragungen zu verzichten.
+
+ARD und ZDF als deutsche Berichterstatter bemühen sich redlich, für alle Sportarten Platz in ihren Sendungen zu reservieren, auch wenn sie nicht so publikumswirksam sind wie Schwimmen oder Leichtathletik. Unter dieser Vielfalt leidet leider der Anteil an Liveübertragungen im Programm, da jeder Sendeplatz für die Wiederholung einer Entscheidung automatisch verhindert, dass von anderer Stelle aktuell berichtet werden kann. [Vor vier Jahren](/blog/2008/08/17/live-is-live/) haben dies die Öffentlich-Rechtlichen noch mit ihren Spartenkanälen aufgefangen; dieses Jahr soll Streaming über die Mediatheken diese Aufgabe übernehmen.
+
+Am gestrigen Sonntag habe ich bei der ARD die Probe aufs Exempel gemacht, doch meine Erfahrungen sind ernüchternd. Zum Einen war die Seite der ARD teilweise so langsam, dass ich minutenlang auf die Übersicht der verfügbaren Streams warten musste. Zum Anderen waren die Streams selber von enttäuschender Qualität. Obwohl ich einen schnellen Kabelanschluss habe, wurde nur wenig Bandbreite davon genutzt, so dass die Bilder stark pixelten und mit Frameraten von ungefähr 10 Bildern pro Sekunde macht eine Sportübertragung einfach keinen Spaß.
+
+Besser läuft es dagegen bei der [Europäische Rundfunkunion (EBU)](http://www.eurovisionsports.tv), die 12 parallele Kanäle in einer Auflösung von 640x380 mit 700kbit streamt. Ein paar der wichtigsten Finals werden sogar in HD (720p@1500kbit) übertragen, wobei der Stream am Samstag nachmittag vom Straßenrennen im Radsport fast TV-Qualität erreichte. Die Frameraten sind im Gegensatz zur ARD stabil und die fehlenden Kommentatoren können manchmal sogar von Vorteil sein. Eine unnötigerweise von Flash betriebene [Seite informiert über den Programmablauf der einzelnen Kanäle](http://www.eurovisionsports.tv/london2012/epg/index.html). In einer idealen Welt würde ich auf der Übersichtsseite der Streams direkt sehen, was gerade auf den Kanälen läuft, aber Zapping ist ohnehin nicht möglich. Dies liegt an einer 30sekündigen Werbung eines der Sponsoren der Spiele, die beim Anklicken eines Streams automatisch startet. Läuft eine Übertragung erst einmal, ist sie werbefrei, aber nach drei Tagen Olympia kann ich den nervenden Spot langsam nicht mehr sehen.
+
+Für mich erfreulich ist, dass fast alle Spiele vom Beachvolleyball übertragen werden, die auf dem [Horse Guards Parade](http://www.panoramicearth.com/3950) in einem Stadion in traumhafter Kulisse stattfinden. Die Qualität ähnelt dabei der von [LaOlaTV](http://www.laola1.tv/), die alle anderen Beachvolleyballevents der World Tour übertragen. Beim Tennis sieht es nicht ganz so gut aus, da die ersten Runden auf vielen Plätzen parallel ausgespielt werden - aber dies wird sich im Gegensatz zum Zustand des heiligen Rasens in Wimbledon im Laufe des Turniers bessern.
+
+Wer also auf der Suche nach einer Übertragung seiner ganz persönlichen Lieblingssportart ist und wie ich nicht live in London dabei sein kann, der sollte ruhig einmal die Streams der EBU ausprobieren.

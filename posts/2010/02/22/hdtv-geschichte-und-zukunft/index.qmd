@@ -1,0 +1,11 @@
+---
+title: "HDTV - Geschichte und Zukunft"
+date: "2010-02-22T23:20:03"
+categories: [gefunden]
+---
+
+Vor acht Tagen [schrieb ich](/blog/2010/02/13/hdtv-ein-holpriger-start/) noch über meine Erfahrungen mit dem HDTV-Regelbetrieb der öffentlich-rechtlichen Sender ARD HD und ZDF HD und wagte den Ausblick, dass das verwendete 720p50-Format aufgrund seiner Außenseiterrolle nur eine Zwischenlösung darstellt. In den [Niederlanden](http://www.heise.de/newsticker/meldung/Niederlaender-sehen-HDTV-kuenftig-in-1080i-statt-720p-185464.html) hat es nach Zuschauerprotesten bereits 2008 einen Wechsel auf das momentan weltweit am weitesten verbreitete Format 1080i gegeben, und dies hat nun Mitglieder eines Forums dazu veranlasst, eine [Petition](http://www.ipetitions.com/petition/jetzt1080i/) zu starten, die selbiges für Deutschland fordert.
+
+Ich habe diese natürlich sofort unterzeichnet, selbst wenn die Petition wohl kaum die Aufmerksamkeit der Entscheider bei ARD und ZDF erringen wird. Alle Argumente der Initiatoren kann ich jedoch nicht unterschreiben. Ich stimme zu, dass von der besseren zeitlichen Auflösung der 50 Vollbilder bei der Übertragung von in 1080i produzierten Sendungen wie aktuell Olympia nichts zu sehen ist, aber dennoch möchte ich nicht erst den Zwischenschritt auf 1080i gehen sondern gleich 1080p vorschlagen bzw Bilder in der bei der Produktion verwendeten Qualität ausgestrahlt sehen - da gibt es den wenigsten Transferverlust, nämlich keinen. Kein Probleme sehe ich dagegen bei der Darstellung von 720p auf Full-HD-Fernsehern (wie meinem), diese stellen Bilder auch in der kleineren HD-Auflösung 1280x720 scharf dar, die "bedeutend schlechtere Technologie der Aufskalierung" ist eben nicht "kontraproduktiv für eine perfekte Bilddarstellung", da sie von Anfang an Teil des HD-Standards war und alle Geräte darauf ausgelegt sind.
+
+Wie dieser Standard sich entwickelt hat und welcher interessante Alleingang der Europäer mit einem analogen Standard bereits 1992 zu HDTV-Übertragungen von den olympischen Spielen in Barcelona und Albertville führten, kann man auf den Seiten des [Fernsehmuseums](http://www.fernsehmuseum.info/fernsehnorm-hdtv.html) nachlesen. Die Texte dort sind zwar recht unzusammenhängend, aber trotzdem enorm informativ und deshalb lesenswert!

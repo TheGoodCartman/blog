@@ -1,0 +1,13 @@
+---
+title: "Datenschutz extrem"
+date: "2007-10-02T16:11:46"
+categories: [gedacht,gefunden]
+---
+
+Vor Gericht und auf hoher See ist man in Gottes Hand - dies trifft vor allem und gerade dann zu, wenn es um die schwierigen Aspekte der Technik geht. So hat das Amtsgericht Berlin Mitte, genau gegenüber meiner Arbeitsstelle, nun [entschieden](http://www.heise.de/newsticker/meldung/96781), dass die Speicherung von IP-Adressen als Spezialform personenbezogener Daten auf einer Webseite rechtswidrig ist. In dem behandelten Fall ging es um die Homepage des Bundesjustizministeriums, doch das Urteil ist problemlos auf alle deutschen Webseiten übertragbar und könnte damit die nächste Abmahnwelle auslösen.
+
+Denn momentan legt nicht nur ein Großteil der im Netz verwendeten Server automatisch Access Logs an (und die meisten Betreiber werten diese auch aus), sondern ebenso speichert weit verbreitete Software für Foren und Blogs auf die eine oder andere Art, wer wann auf sie zugegriffen hat. Die Gemeinsamkeit all dieses Loggings ist jedoch, dass es auf Grundlage der IP-Adressen basiert - diese sind aus meiner Sicht ein Kompromiss aus Anonymität und Nachverfolgbarkeit des einzelnen Nutzers. Anonym, weil man zwar über das Domain Name System Informationen über den Internet Service Provider herausfinden kann (u.a. Land, manchmal sogar die Stadt), aber nur dieser genau weiß, welcher Anschluss gerade über diese IP-Adresse mit dem Netz verbunden ist. Da die meisten IP-Adressen aufgrund deren mangelnder Anzahl ständig neu vergeben werden, stellt die IP-Adresse also keine dauerhafte Identifizierung eines Anschlusses dar - von einem Nutzer ganz abgesehen.
+
+Dementsprechend schließe ich mich der [Argumentation von 3DCenter](http://www.3dcenter.de/news/2007/woche40.php#2007-10-01) an, dass dieses Urteil ganz klar über das Ziel hinausschießt, die Nutzer zu schützen. Zwar ist es richtig, dass man damit Benutzerprofile erstellen kann, doch aus oben genannten Gründen sind diese Informationen meist nur über eine kurze Zeitspanne gültig und lassen keinerlei Rückschluss auf die Person hinter der IP-Adresse zu. Wenn überall der Datenschutz durch die Politik untergraben wird, dann ist es etwas befremdlich, wenn auf der anderen Seite ein Amtsgericht ein selbst von Datenschützern akzeptiertes Verfahren als für nicht ausreichend befindet.
+
+Vielleicht ist meine Sicht auch aufgrund meines Berufes zu technisch geprägt, doch die Infrastruktur aller deutschen Webseiten anzupassen stelle ich mir als eine Mammutaufgabe vor. Ich erwarte auf jeden Fall gespannt die bestimmt folgenden Klagen an anderen Gerichten, denn eine Rechtsmeinung setzt sich meist erst dann durch, wenn mehrere Gerichte unabhängig voneinander ein ähnliches Urteil gefällt haben.

@@ -1,0 +1,13 @@
+---
+title: "Shopping reverted"
+date: "2009-04-22T20:50:57"
+categories: [getan]
+---
+
+Glück muss man haben: [Mein erster kommerzieller MP3-Download bei Amazon](/blog/2009/04/08/die-schroders-rock-harz-amazon-und-so/) entpuppte sich gleich als Problemfall. Drei Stücke des Albums enthielten Fehler (Sprünge während des Songs), so dass ich reklamieren musste. Da man einen Download bei Amazon nicht wiederholen kann, wendete ich mich per Formular an den Onlinehändler. Es kam zu einem eifrigen Mailverkehr zwischen mir und verschiedenen Kundendienstmitarbeitern - die Reaktionszeiten waren erfreulich niedrig - mit dem Ergebnis, dass mir wiederholt vorgeschlagen wurde, die Dateien neu herunterzuladen. Doch jedes Mal funktionierte der genannte Link nicht.
+
+Also wechselte ich meinen Mail-Stil von konstruktiv auf fordernd, und siehe da, plötzlich stellte sich die Situation wie folgt dar: Das *Schröders*-Album soll von der Plattenfirma fehlerhaft geliefert worden sein, woraufhin Amazon den Download sperrte - nachdem ich den Kauf getätigt hatte, aber vor den vergeblichen Wiederholungsversuchen, so dass diese nicht funktionieren konnten. Warum davon nicht alle Kundendienstmitarbeiter wussten bleibt unklar, aber zumindest bekomme ich den Kaufpreis erstattet.
+
+Dies passiert hoffentlich auch nach dem Rücksenden des [Bluetooth-Kopfhörers](http://www.sony.de/product/hed-stereo-bluetooth/dr-bt21g), den ich für meinen [MP3-Player](/blog/2008/04/26/sony-hat-mich-wieder/) bestellt hatte. Denn entgegen der schönen Werbeversprechen ist die qualitativ hochwertige Stereo-Übertragung in der aktuellen Bluetooth-Version zu fehleranfällig, um sinnvoll genutzt zu werden. Schon innerhalb meines Wohnzimmers konnte ich mich nicht frei bewegen, ohne Aussetzer der Musik zu erhalten. Und wenn ich den Player dann noch in der Hosentasche am Körper vergrub, war es ganz aus mit dem kontinuierlichen Abspielen.
+
+Das Pairing mit allen meinen BT-Geräten (Laptop, Handy, PS3) klappte dafür problemlos und auch als Freisprecheinrichtung macht der *BT21G* eine gute Figur. Aber für diese Funktion allein gibt man keine 90 Euro aus, noch dazu saßen die Kopfhörer schlecht auf meinen Ohren und die Qualität des Tons war zumindest beim ersten Hören nicht so gut, wie ich es von Ohrmuschelhörern gewöhnt bin. Da nehme ich doch lieber ein Kabel in Kauf und spare mir die kostenintensive Technik, wenn dafür der Sound stimmt. Ganz aufgeben tue ich die Bluetooth-Fähigkeiten meines MP3-Players aber nicht, ein weiterer Versuch mit einem Autoradio ist noch drin. Da kann man schließlich Sende- und Empfangsgerät nah beieinander platzieren.

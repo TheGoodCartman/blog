@@ -1,0 +1,19 @@
+---
+title: "Project1709 oder wie Canon den nächsten Trend verschläft"
+date: "2013-05-01T16:56:15"
+categories: [gedacht,gefunden]
+---
+
+Dass bei Canon die Mühlen etwas langsamer mahlen, hat der japanische Konzern bereits bewiesen, als er letztes Jahr als letzter der großen Digitalkamerahersteller eine spiegellose Systemkamera vorstellte. Mit ihrem [Project1709](http://www.project1709.com/) setzt die Firma diese Taktik fort, frei nach dem Motto "gut Ding will Weile haben".
+
+Denn bereits am 17.09. hat Canon über eine [Pressemitteilung](http://www.canon.de/About_Us/Press_Centre/Press_Releases/Consumer_News/News/Your_lifetime_of_images.aspx) ihren neuen Online-Bildverwaltungsdienst im Stile von Flickr vorgestellt. Der natürlich marketingwirksam als cloud-basiert beschriebene Service soll dieses Jahr starten, doch schon kurz nach der Ankündigung konnten freiwillige Nutzer an einer Beta-Phase teilnehmen und den Feinschliff der Plattform mitgestalten.
+
+Da ich ohnehin auf der Suche nach einer Speicherlösung für die Fotos meines Blogs war und das Projekt in Deutschland startete, habe ich mich Ende September um eine Einladung für die Testphase bemüht. Dabei wurde ich zum ersten Mal überrascht, denn die Verzahnung mit den Social Networks ist so stark, dass ich mich nur als Nutzer von Facebook, Yahoo, Google oder Windows Live anmelden konnte. Nicknames sind neuerdings ebenfalls tabu, aber zum Glück überprüft (noch) niemand den angegebenen Namen.
+
+Nach nur zehn Tagen bekam ich dann auch schon die Bestätigung meiner Anfrage, in der ich vertröstet wurde, dass Einladungen nach dem first-come-first-serve-Prinzip vergeben werden. Es sollten danach noch einige entschuldigende Mails folgen, bis ich Ende November endlich einen Account eröffnen konnte. Voller Spannung loggte ich mich in die Plattform ein, doch der Aufregung folgte schnell die Ernüchterung: Project1709 hatte zu diesem Zeitpunkt einen Funktionsumfang, den ich nur spartanisch nennen kann.
+
+Ich konnte Fotos hochladen, die danach in einer Timeline angezeigt wurden (die Sortierung per Album folgte erst später). Ich konnte diese filtern, um schnell ein Bild in meiner Sammlung zu suchen. Und ich konnte Bilder mit Facebook synchronisieren. Da ich kein Facebook-Mitglied bin, war diese Funktion nutzlos für mich. Und außer über Facebook gab es keine Möglichkeit, an die eigenen Bilder zu gelangen, ohne sich einzuloggen (inzwischen gibt es eine Flickr-Synchronisation).
+
+Seit diesem ersten Test habe ich mich kein weiteres Mal in Project1709 eingeloggt. Ich verfolge zwar die Newsletter und habe auch einen Vorschlag eingereicht, die Bilder ohne Login verfügbar zu machen, doch die Entwicklung der Plattform schreitet sehr gemächlich voran und konzentriert sich vor allem auf die interne Verwaltung der Bilder.
+
+Ich lese aus dieser Entwicklung heraus, dass Canon Project1709 vor allem als Backup-Lösung bzw Online-Portfolio-Dienst für professionelle Fotografen vermarkten will. Ich benötige leider etwas anderes. Und vor allem glaube ich nicht, dass Canon Erfolg mit diesem Produkt haben wird, wenn es weiter so gemächlich daran arbeitet. In dem halben Jahr seit meiner Anmeldung haben die meisten der Cloud-Foto-Dienste deutlich mehr Funktionen umgesetzt als Project1709 - und die Plattform ist noch nicht einmal offiziell online (deshalb verstehe ich auch nicht, weshalb Rollouts teilweise Ausfallzeiten von 3 Stunden nach sich ziehen - noch nie etwas von [Continuous Delivery](http://de.wikipedia.org/wiki/Continuous_Delivery) gehört?). Im Web 2.0 hat Project1709 ohne Alleinstellungsmerkmale keine Chance, und wenn Canon auch noch Geld für die Nutzung verlangen will, dann sollte es vorher vielleicht einmal Konkurrenten wie 500px anschauen. Ich begebe mich auf jeden Fall neu auf die Suche nach einer Möglichkeit, meine Bilder im Netz abzulegen und andere darauf zugreifen zu lassen.
