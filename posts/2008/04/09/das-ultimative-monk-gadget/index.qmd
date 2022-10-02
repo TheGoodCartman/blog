@@ -6,4 +6,4 @@ categories: [gefunden]
 
 <img src='untangler.jpg' alt='untangler.jpg' />
 
-... hat mein Vater von einer Werbeveranstaltung mitgebracht: Den [Untangler](http://www.telefonkabelentwirrer.net/BASIC.719.0.html). Das kleine <del datetime="2008-04-09T20:52:06+00:00">Stück Plaste</del> Gerät wird zwischen Telefonhörer und Hörerkabel eingesetzt (ja es gibt noch DECT-freie Telefone, zum Beispiel am Arbeitsplatz) und verhindert schlicht und ergreifend, dass sich die geringelte Schnur verdreht, da es beliebig um die eigene Achse rotieren kann. Dass noch niemand vorher auf diese simple Idee gekommen ist!
+... hat mein Vater von einer Werbeveranstaltung mitgebracht: Den [Untangler](http://www.telefonkabelentwirrer.net/BASIC.719.0.html). Das kleine ~~Stück Plaste~~ Gerät wird zwischen Telefonhörer und Hörerkabel eingesetzt (ja es gibt noch DECT-freie Telefone, zum Beispiel am Arbeitsplatz) und verhindert schlicht und ergreifend, dass sich die geringelte Schnur verdreht, da es beliebig um die eigene Achse rotieren kann. Dass noch niemand vorher auf diese simple Idee gekommen ist!

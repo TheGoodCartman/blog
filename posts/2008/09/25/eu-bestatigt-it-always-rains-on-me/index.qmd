@@ -4,7 +4,7 @@ date: "2008-09-25T18:50:59"
 categories: [gedacht,gefunden]
 ---
 
-<del datetime="2008-09-25T17:09:45+00:00">Amerikanische Wissenschaftler haben</del> [Die EU hat](http://www.mz-web.de/servlet/ContentServer?pagename=ksta/page&atype=ksArtikel&aid=1222235479134&calledPageId=987490165154) herausgefunden, dass meine Heimatstadt Halle unter 258 untersuchten europäischen Städten im Jahr 2004 die absolut meisten Regentage hatte. Und diese Statistik führt Halle überraschenderweise vor Köln und den dort erwarteten Städten von den britischen Inseln an.
+~~Amerikanische Wissenschaftler haben~~ [Die EU hat](http://www.mz-web.de/servlet/ContentServer?pagename=ksta/page&atype=ksArtikel&aid=1222235479134&calledPageId=987490165154) herausgefunden, dass meine Heimatstadt Halle unter 258 untersuchten europäischen Städten im Jahr 2004 die absolut meisten Regentage hatte. Und diese Statistik führt Halle überraschenderweise vor Köln und den dort erwarteten Städten von den britischen Inseln an.
 
 Kein Wunder, dass ich eine eher depressive und negative Lebenseinstellung habe. Erst zu DDR-Zeiten [keine Farben außer Grau](http://www.3sat.de/3sat.php?http://www.3sat.de/kulturzeit/specials/68317/index.html) kennengelernt, und dann auch noch selten die Sonne gesehen. Auf der anderen Seite sollte ich mich an den Regen gewöhnt haben und damit umgehen können, was definitiv nicht der Fall ist.
 

@@ -4,7 +4,7 @@ date: "2007-08-12T22:20:36"
 categories: [gedacht,gewesen,getan]
 ---
 
-Das Wochenende fing damit an, dass ich gleich im Zug bemerkte, wo sich mein Laptop-Netzteil befand - nämlich zu Hause. Mit einem Akkuladestand von ca. 5% habe ich dann das Notebook <del datetime="2007-08-12T21:20:49+00:00">vollkommen</del> fast umsonst von Berlin nach Halle und wieder zurück geschleppt - das Wordpress-Update muss wohl noch etwas warten.
+Das Wochenende fing damit an, dass ich gleich im Zug bemerkte, wo sich mein Laptop-Netzteil befand - nämlich zu Hause. Mit einem Akkuladestand von ca. 5% habe ich dann das Notebook ~~vollkommen~~ fast umsonst von Berlin nach Halle und wieder zurück geschleppt - das Wordpress-Update muss wohl noch etwas warten.
 
 ---
 

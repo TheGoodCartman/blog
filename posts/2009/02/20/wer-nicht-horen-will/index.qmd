@@ -38,6 +38,6 @@ Doch noch bevor ich Depressionen entwickeln konnte bekam ich noch am selben Tag 
 
 **Epilog**
 
-Zudem löst KD auch meinen Telekomanschluss ab und mit 6MBit habe ich meinen Downstream verdreifacht (was sich aber nur selten bemerkbar macht). Einen weiteren Vorteil hat der neue Anschluss: Telefon und Internet sind jetzt genau da, wo ich sie brauche - nämlich im Wohnzimmer. <del datetime="2009-04-19T08:17:20+00:00">[Da meine PS3 leider kein WPA2 unterstützt](/blog/2009/03/29/technik-wie-sie-sein-sollte/), benötigt sie ein anachronistisches Netzwerkkabel, welches nun keine Raumgrenzen mehr überwinden muss</del>.
+Zudem löst KD auch meinen Telekomanschluss ab und mit 6MBit habe ich meinen Downstream verdreifacht (was sich aber nur selten bemerkbar macht). Einen weiteren Vorteil hat der neue Anschluss: Telefon und Internet sind jetzt genau da, wo ich sie brauche - nämlich im Wohnzimmer. ~~[Da meine PS3 leider kein WPA2 unterstützt](/blog/2009/03/29/technik-wie-sie-sein-sollte/), benötigt sie ein anachronistisches Netzwerkkabel, welches nun keine Raumgrenzen mehr überwinden muss~~.
 
 Der Preis hält sich zusammen mit dem nun nötigen Fernseh-Tarif im Rahmen der alten Summe aus T-Com und DSL, und ich bin schlussendlich um die bittere Erfahrungen reicher: Never touch a running system; vor allem nicht wegen ein paar lumpigen Euro im Monat.
