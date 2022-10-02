@@ -4,7 +4,7 @@ date: "2012-06-03T19:25:30"
 categories: [gewesen,getan]
 ---
 
-<div style="margin: 1em auto; width: 500px;"><iframe src="http://www.gpsies.com/mapOnly.do?fileId=mihejymryqaoshna" width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+<iframe src="http://www.gpsies.com/mapOnly.do?fileId=mihejymryqaoshna" width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 
 Nachdem ich im [Vorjahr](/blog/2011/06/05/sternfahrt/) die südliche A100 mit meinem Fahrrad unsicher gemacht habe, sollte dieses Jahr nun die AVUS folgen. Also bin ich heute morgen trotz der mäßigen Wetteraussichten in die S-Bahn eingestiegen und zum Treffpunkt Wannsee gefahren, wo ich mich pünktlich 12:20 Uhr der [Sternfahrt](http://www.adfc-berlin.de/aktionenprojekte/sternfahrt/sternfahrt-2012/1159-sternfahrt-2012.html) anschloss.
 
