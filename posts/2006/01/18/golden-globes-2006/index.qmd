@@ -6,7 +6,7 @@ categories: [gefunden]
 
 Unsere ortsansässige Zeitung MZ [berichtet in der heutigen Ausgabe](http://www.mz-web.de/servlet/ContentServer?pagename=ksta/page&atype=ksArtikel&aid=1137318373425) über die Verleihung der Golden Globes. Dabei ist dem Reporter aber ein Fehler unterlaufen, welcher in der Online-Version des Artikels schon korrigiert ist:
 
-![Ausschnitt aus dem Artikel &quot;«Brokeback Mountain» gewinnt vier Golden Globes&quot; der heutigen Printausgabe der Mitteldeutschen Zeitung](/blog/wp-content/uploads/2006/01/mz_phoenix.png)
+![Ausschnitt aus dem Artikel &quot;«Brokeback Mountain» gewinnt vier Golden Globes&quot; der heutigen Printausgabe der Mitteldeutschen Zeitung](mz_phoenix.png)
 
 Da wird sich Joaquin Phoenix aber über seinen zweiten Globus gefreut haben - den <del datetime="2006-01-18T13:03:31+00:00">Ersten</del> <ins datetime="2006-01-18T13:03:31+00:00">Einzigen</ins> bekam er als männliche Musical-Hauptrolle in der Johnny-Cash-Biografie "Walk the Line", die ich mir trotz Blondie Reese Witherspoon bestimmt ansehen werde. Die beste weibliche Hauptrolle ging übrigens an Felicity Huffman für ihre Rolle in "Transamerica".
 

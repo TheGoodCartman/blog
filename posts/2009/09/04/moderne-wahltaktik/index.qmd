@@ -4,7 +4,7 @@ date: "2009-09-04T21:20:33"
 categories: [gedacht,getan]
 ---
 
-![Ergebnis Wahl-o-mat](/blog/wp-content/uploads/2009/09/wahl-o-mat.jpg)
+![Ergebnis Wahl-o-mat](wahl-o-mat.jpg)
 
 Derzeit sind die Server dank der medialen Werbung noch ausgelastet, aber [wie bei jeder Wahl](/blog/2006/02/26/wahlkampf-in-sachsen-anhalt/) habe ich auch diesmal den [Wahl-o-maten](http://www12.bpb.de/methodik/XQJYR3,0,WahlOMat_Bundestagswahl.html) ausprobiert. Nicht, um mir meine Meinung zu bilden, sondern um einen Überblick über einige Kernaussagen der Wahlprogramme der Parteien zu bekommen.
 

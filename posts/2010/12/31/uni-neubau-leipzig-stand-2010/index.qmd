@@ -4,7 +4,7 @@ date: "2010-12-31T00:54:04"
 categories: [gewesen]
 ---
 
-![Leipzig 2010](/blog/wp-content/uploads/2010/12/leipzig2010.jpg)
+![Leipzig 2010](leipzig2010.jpg)
 
 [Vor zwei Jahren](/blog/2008/12/22/leipzig-weihnachten-2008/) stand bereits der Rohbau, und vor einem Jahr fanden die [Feierlichkeiten zum 600jährigen Bestehen der Universität Leipzig](http://www.zv.uni-leipzig.de/service/presse/pressemeldungen.html?ifab_modus=detail&ifab_id=3587) schon in der neuen Aula statt. Und doch ist ein Jahr später das Neubauprojekt des Campus am Augustusplatz immer noch nicht vollendet.
 

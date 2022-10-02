@@ -4,7 +4,7 @@ date: "2007-07-02T20:41:03"
 categories: [gewesen,getan]
 ---
 
-![Feuershow bei den Highland Games](/blog/wp-content/uploads/2007/07/highlandgames2007.jpg)
+![Feuershow bei den Highland Games](highlandgames2007.jpg)
 
 Alljährich findet seit 2005 auf der Halleschen Pferderennbahn eine lokale Ausgabe der [Highland Games](http://www.highlandgame-halle.de/) statt. Organisiert von [Schottland-Fans eines lokalen Umzugsunternehmens](http://www.ebronen-clan.de/), bieten diese einen unterhaltsamen Mix aus Kraftsport, Show, Musik und dem üblichen, von Mittelaltermärkten bekannten Wandervolk.
 

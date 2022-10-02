@@ -4,7 +4,7 @@ date: "2008-03-26T20:04:24"
 categories: [gefunden]
 ---
 
-<a href="http://www.southparkstudios.com/fans/avatar/"><img src='/blog/wp-content/uploads/2008/03/kingoli_south_park.jpg' alt='kingoli_south_park.jpg' /></a>
+<a href="http://www.southparkstudios.com/fans/avatar/"><img src='kingoli_south_park.jpg' alt='kingoli_south_park.jpg' /></a>
 
 Das Internet wird erwachsen und die Welt wächst zusammen, so wie es sich alle Utopisten immer vorgestellt haben. Oder zumindest so ähnlich. Auf jeden Fall kann sich jetzt jeder auf diesem Planeten mit einer ausreichend schnellen Internetverbindung und einer gegenüber Zensur eher kritischen Regierung [**alle** South-Park-Folgen](http://www.southparkstudios.com/news/3405) im Browser anschauen - nicht nur die seltsame Auswahl von [MTV](http://www.mtv.de/article/15580046). Und dazu noch in einer überraschend guten Qualität, die alle bisherigen YouTube-Schnipsel der Serie weit in den Schatten stellt.
 

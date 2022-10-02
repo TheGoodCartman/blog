@@ -4,7 +4,7 @@ date: "2006-02-25T16:43:08"
 categories: [gedacht,getan]
 ---
 
-![Quelle: http://www1.ndr.de/ndr_pages_std/0,2570,OID2320328_REF_SPC2312772,00.html](/blog/wp-content/uploads/2006/02/bw_ruegen.jpg)
+![Quelle: http://www1.ndr.de/ndr_pages_std/0,2570,OID2320328_REF_SPC2312772,00.html](bw_ruegen.jpg)
 
 > Für alle Reisenden* beim Verlassen der [Insel Rügen](http://www.ruegen.de/) über den Rügendamm**. 
 

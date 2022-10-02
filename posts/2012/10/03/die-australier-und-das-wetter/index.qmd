@@ -4,7 +4,7 @@ date: "2012-10-03T22:27:02"
 categories: [gedacht,gewesen]
 ---
 
-<a href="/blog/wp-content/uploads/2012/10/australien_wetter.jpg" rel="lightbox">![Typisch australisches Wetter](/blog/wp-content/uploads/2012/10/australien_wetter-500x211.jpg)</a>
+![Typisch australisches Wetter](australien_wetter.jpg)
 
 Bevor ich nach Australien kam, war meine Vorstellung vom roten Kontinent geprägt von ganzjährigem Sonnenschein und massiver Hautkrebsgefahr aufgrund des Ozonlochs. Doch dann landete ich an einem Herbstmorgen in Melbourne und wurde konfrontiert mit acht Grad <del datetime="2012-10-03T19:41:05+00:00">warmen</del> kaltem Regenwetter, dass sich zwei Tage lang nicht ändern sollte (der Busfahrer vom Airport Shuttle ließ trotzdem die Klimaanlage auf Anschlag laufen). Darauf waren ich und mein Koffer nicht eingestellt, aber zum Glück ließ ich das Tiefdruckgebiet mit der Fahrt nach Sydney hinter mir.
 

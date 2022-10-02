@@ -4,7 +4,7 @@ date: "2009-08-11T22:39:22"
 categories: [gewesen]
 ---
 
-![biermeile](/blog/wp-content/uploads/2009/08/biermeile.jpg)
+![biermeile](biermeile.jpg)
 
 Die Stationen dieses Jahr (Qualität vor Quantität):
 

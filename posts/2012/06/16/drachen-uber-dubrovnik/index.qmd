@@ -4,7 +4,7 @@ date: "2012-06-16T22:21:44"
 categories: [gedacht,gesehen,gewesen]
 ---
 
-<a href="/blog/wp-content/uploads/2012/06/dubrovnik.jpg" rel="lightbox">![Dubrovnik](/blog/wp-content/uploads/2012/06/dubrovnik_klein.jpg)</a>
+<a href="dubrovnik.jpg" rel="lightbox">![Dubrovnik](dubrovnik_klein.jpg)</a>
 
 Ganz so weit ist es noch nicht, denn in der zweiten Staffel der großartigen Fantasy-Serie *Game of Thrones* muss die Khaleesi mit ihren Drachen erst noch nach Westeros übersetzen, um die Rückeroberung des Iron Thrones in Angriff zu nehmen. Doch der in King's Landing spielende Handlungsstrang bietet ausgiebig Gelegenheiten, um als Zuschauer den Drehortwechsel von Malta nach Dubrovnik zu bemerken.
 

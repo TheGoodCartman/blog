@@ -10,10 +10,10 @@ Trotzdem habe ich es geschafft, in vier Tagen sieben überwiegend gute Filme zu 
 
 In den nächsten Tagen werde ich nach und nach die Kritiken zu den gesehenen Beiträgen nachreichen - bis dahin heißt es, Schlaf nachzuholen!
 
-<a href="/blog/2010/03/08/david-wants-to-fly/">![Ticket David wants to fly](/blog/wp-content/uploads/2010/02/ticket-david-wants-to-fly.jpg)</a>
-<a href="/blog/2010/02/20/kanikosen/">![Ticket Kanikosen](/blog/wp-content/uploads/2010/02/ticket-kanikosen.jpg)</a>
-<a href="/blog/2010/02/28/el-mal-ajeno-for-the-good-of-others/">![Ticket El mal ajeno](/blog/wp-content/uploads/2010/02/ticket-el-mal-ajeno.jpg)</a>
-<a href="/blog/2010/02/27/boxhagener-platz/">![Ticket Boxhagener Platz](/blog/wp-content/uploads/2010/02/ticket-boxhagener-platz.jpg)</a>
-<a href="/blog/2010/03/27/the-illusionist/">![Ticket The Illusionist](/blog/wp-content/uploads/2010/02/ticket-the-illusionist.jpg)</a>
-<a href="/blog/2010/03/28/phobidilia/">![Ticket Phobidilia](/blog/wp-content/uploads/2010/02/ticket-phobidilia.jpg)</a>
-<a href="/blog/2010/02/25/bibliotheque-pascal/">![Ticket Bibliotheque Pascal](/blog/wp-content/uploads/2010/02/ticket-bibliotheque-pascal.jpg)</a>
+<a href="/blog/2010/03/08/david-wants-to-fly/">![Ticket David wants to fly](ticket-david-wants-to-fly.jpg)</a>
+<a href="/blog/2010/02/20/kanikosen/">![Ticket Kanikosen](ticket-kanikosen.jpg)</a>
+<a href="/blog/2010/02/28/el-mal-ajeno-for-the-good-of-others/">![Ticket El mal ajeno](ticket-el-mal-ajeno.jpg)</a>
+<a href="/blog/2010/02/27/boxhagener-platz/">![Ticket Boxhagener Platz](ticket-boxhagener-platz.jpg)</a>
+<a href="/blog/2010/03/27/the-illusionist/">![Ticket The Illusionist](ticket-the-illusionist.jpg)</a>
+<a href="/blog/2010/03/28/phobidilia/">![Ticket Phobidilia](ticket-phobidilia.jpg)</a>
+<a href="/blog/2010/02/25/bibliotheque-pascal/">![Ticket Bibliotheque Pascal](ticket-bibliotheque-pascal.jpg)</a>

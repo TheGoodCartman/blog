@@ -4,7 +4,7 @@ date: "2009-08-18T23:41:45"
 categories: [gedacht]
 ---
 
-![hacked](/blog/wp-content/uploads/2009/08/hacked.jpg)
+![hacked](hacked.jpg)
 
 Jetzt ist es passiert. Hacker haben den Server meines Webhosting-Anbieters übernommen und alle `index*.*`-Dateien durch eine mit Skripten nur so übersäte HTML-Seite ersetzt. Ich habe dies schnell bemerkt und mittlerweile (hoffentlich) alle geänderten Dateien ausgetauscht.
 

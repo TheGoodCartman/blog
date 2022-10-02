@@ -4,7 +4,7 @@ date: "2008-12-08T23:00:30"
 categories: [gedacht]
 ---
 
-![Teig](/blog/wp-content/uploads/2008/12/teig.jpg)
+![Teig](teig.jpg)
 
 Kettenbriefe und -mails kenne ich zur Genüge. Dass es jedoch auch Kettenteig gibt, war mir bis Samstag unbekannt. Da bekam ich nämlich ein Gefäß mit einer hellen, schaumigen Flüssigkeit überreicht, an dem ein Rezept für [Glücksbrot](http://de.wikipedia.org/wiki/Glücksbrot#Varianten) hing. Darin heißt es, dass man den Teig in sechs Tagen mit allerlei Zutaten füttern muss und danach vierteilt. Drei Viertel sollen dann an gute Menschen weitergegeben werden, ein Viertel wird zu Brot verarbeitet. Ursprünglich stamme der Teig aus dem Vatikan. Er soll der Familie Glück bringen und nur einmal im Leben gebacken werden.
 

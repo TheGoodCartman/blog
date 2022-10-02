@@ -4,6 +4,6 @@ date: "2011-01-22T23:05:58"
 categories: [gewesen]
 ---
 
-![Fichtelberg](/blog/wp-content/uploads/2011/01/fichtelberg.jpg)
-![Skimagistrale](/blog/wp-content/uploads/2011/01/skimagistrale.jpg)
-![Hrebecna](/blog/wp-content/uploads/2011/01/hrebecna.jpg)
+![Fichtelberg](fichtelberg.jpg)
+![Skimagistrale](skimagistrale.jpg)
+![Hrebecna](hrebecna.jpg)

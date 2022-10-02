@@ -8,7 +8,7 @@ Ausgehend von meiner Kritik zu [München](/blog/2006/02/07/munchen/) und der ges
 
 Also habe ich schnell die [IMDB](http://www.imdb.com) zu Rate gezogen und einen Filmlängenvergleich der letzten zehn Kinofilme des Regisseurs erstellt, um herauszufinden, ob dies nur Zufall ist oder ein Schema dahinter steckt.
 
-![Längenvergleich der letzten 10 Filme von Steven Spielberg](/blog/wp-content/uploads/2006/02/spielberg_film_laengen_vergleich.png)
+![Längenvergleich der letzten 10 Filme von Steven Spielberg](spielberg_film_laengen_vergleich.png)
 
 Auffallend ist, dass die vier längsten Filme alle auf realen Ereignissen basieren. Steven Spielberg neigt also scheinbar dazu, bei diesen Filmen die Geschichte sehr ausführlich und genau auf der Leinwand umzusetzen. Doch während *Schindlers Liste* als Extrem durchaus zu überzeugen weiß, ist [München](/blog/2006/02/07/munchen/) etwas zu lang geraten.
 

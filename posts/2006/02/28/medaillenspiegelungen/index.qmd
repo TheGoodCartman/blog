@@ -6,7 +6,7 @@ categories: [gefunden,getan]
 
 Olympia ist vorbei, alle Medaillen sind vergeben. Da wird es Zeit, den [Medaillenspiegel](/blog/2006/02/17/der-kampf-um-die-goldenen-ananasscheiben/) wieder aus der Sidebar zu entfernen. Zuvor will ich jedoch noch ein paar Auswertungen vorstellen.
 
-![Medaillenspiegel während der Olympischen Winterspiele 2006 in meinem Blog](/blog/wp-content/uploads/2006/02/medalcount.png)
+![Medaillenspiegel während der Olympischen Winterspiele 2006 in meinem Blog](medalcount.png)
 
 Deutschland hat zum dritten Mal nach der Wiedervereinigung die Wertung [der erfolgreichsten Nation](http://www.torino2006.org/ENG/IDF/MDL/MDL_Big.html) bei einer Winterolympiade gewonnen, so dass sich zumindest im Wintersport [die Hoffnungen von Franz Beckenbauer](http://www.netzeitung.de/sport/357174.html) erfüllt haben. Mit den 29 Turiner Medaillen ist mein Heimatland im [ewigen Medaillenspiegel](http://www.kicker.de/content/olympia/olympia.asp?mode=medaillenspiegelewig&folder=22011) nun ganz dicht an Russland herangerückt - wobei diese Liste aufgrund der zwischenzeitlichen Teilung von Deutschland und dem Zerfall der UDSSR eher skeptisch betrachtet werden sollte.
 

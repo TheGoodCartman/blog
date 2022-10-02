@@ -4,7 +4,7 @@ date: "2012-07-07T22:06:51"
 categories: [gewesen]
 ---
 
-![Australien](/blog/wp-content/uploads/2012/07/australien.jpg)
+![Australien](australien.jpg)
 
 Auf dem roten Kontinent erinnert vieles an Europa, doch am anderen Ende der Welt ist auch vieles anders. Das fängt mit den Jahreszeiten an (den höchsten Bierkonsum haben die Aussies zu Weihnachten ;) und geht beim Linksverkehr und den anders herum drehenden Abflüssen weiter. Durch die Isolation des Kontinents konnte sich die Tierwelt relativ autark entwickeln: So bevölkern statt Spatzen und Tauben Ibisse und Flughunde die Bäume und die Beuteltiere (Possums, Wombats, Känguruhs und Koalas) haben die weitere Evolution hin zu höheren Säugetieren einfach verschlafen. Von den giftigen Spinnen, Schlangen und Quallen, die gerne mit Australien verbunden werden, habe ich zum Glück nichts gesehen.
 

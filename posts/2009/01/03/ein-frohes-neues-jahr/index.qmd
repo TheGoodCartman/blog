@@ -6,6 +6,6 @@ categories: [gewesen]
 
 ... wünsche ich allen meinen Lesern mit [erneut](/blog/2008/01/09/ein-gesundes-neues-jahr/) einer Auswahl an Winterimpressionen aus dem Riesengebirge.
 
-![winterpanorama](/blog/wp-content/uploads/2009/01/winterpanorama.jpg)
-![vrchlabi](/blog/wp-content/uploads/2009/01/vrchlabi.jpg)
-![schneefall](/blog/wp-content/uploads/2009/01/schneefall1.jpg)
+![winterpanorama](winterpanorama.jpg)
+![vrchlabi](vrchlabi.jpg)
+![schneefall](schneefall1.jpg)
