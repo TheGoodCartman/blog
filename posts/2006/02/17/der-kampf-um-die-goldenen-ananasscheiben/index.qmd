@@ -10,4 +10,4 @@ Auf [Yahoo](http://sports.yahoo.com/olympics/torino2006/medals) habe ich einen p
 
 Also muss ich das Ergebnis des mit [lastRSS](http://lastrss.webdot.cz/) geparsten Feeds noch nach Medaillenwertigkeit ordnen und gebe momentan nur die drei besten Nationen aus, da diese mit hoher Wahrscheinlichkeit auch unter den Teams mit den meisten Medaillen sind. Gespannt bin ich nun, wie dieses Feature bzw dessen Verarbeitung die Ladezeiten meines Blogs verzögert.
 
-<ins datetime="2006-02-19T20:32:30+00:00">**Update**: Einen besseren Feed habe ich nicht gefunden, dafür aber frei verfügbare Flaggenbilder auf [blogpotato](http://flags.blogpotato.de/). So dürfte der Medaillenspiegel hoffentlich die letzte Woche der Olympischen Spiele überstehen!</ins>
+**Update**: Einen besseren Feed habe ich nicht gefunden, dafür aber frei verfügbare Flaggenbilder auf [blogpotato](http://flags.blogpotato.de/). So dürfte der Medaillenspiegel hoffentlich die letzte Woche der Olympischen Spiele überstehen!
