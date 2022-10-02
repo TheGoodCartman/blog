@@ -4,7 +4,7 @@ date: "2007-09-12T20:57:32"
 categories: [gewesen]
 ---
 
-<img src='alexa.jpg' alt='alexa.jpg' width="500" height="318"/>
+![alexa.jpg](alexa.jpg)
 
 In Berlin ist alles etwas größer als woanders in der Republik. So ist es nicht ungewöhnlich, dass sich nachts hundert Polizisten als Wellenbrecher gegen eine Menschenmenge stemmen. Doch diesmal hieß es keine autonome Demo in Kreuzberg zu bändigen, sondern die Schnäppchenjäger bei der [Eröffnung eines neuen Einkaufszentrums](http://www.tagesspiegel.de/berlin/Stadtleben-Alexa-Eroeffnung-Gedraenge;art125,2377924) in geordnete Bahnen zu lenken - die wilde Meute hatte zuvor eine Schaufensterscheibe eingedrückt und für mehrere Verletzte gesorgt.
 

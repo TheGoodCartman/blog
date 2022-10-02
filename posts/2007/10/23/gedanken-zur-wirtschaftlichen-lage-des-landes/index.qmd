@@ -4,7 +4,7 @@ date: "2007-10-23T20:02:27"
 categories: [gedacht]
 ---
 
-<img src='plusundschlecker.gif' alt='plusundschlecker.gif' width="500" height="336" border="1" />
+![plusundschlecker.gif](plusundschlecker.gif)
 
 Die Spatzen pfeifen es von den Dächern: Die Einzelhandelskette Plus, auch gern der Discounter mit den kleinen Preisen genannt, [steht vor dem Verkauf](http://www.welt.de/welt_print/article1249743/Ausverkauf_im_Einzelhandel.html). Doch was hat das mit den seltsamen Punkten zu tun, die sich auf dem Bild diesem Artikel voranstellen? Symbolisieren sie etwa ein komplexes Modell zur Abbildung der Volkswirtschaft unseres Landes?
 

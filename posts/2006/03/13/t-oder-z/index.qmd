@@ -8,4 +8,4 @@ Seit wann heißt der [FRITZ](http://www.fritz-halle.de) eigentlich [FRIZZ](http:
 
 Egal - kostenlose Kinotickets nehme ich immer gern:
 
-<a href="/blog/2006/03/21/mord-im-pfarrhaus/">![FRIZZ kostenlose Kinotickets](frizz.jpg)</a>
+[![FRIZZ kostenlose Kinotickets](frizz.jpg)](/blog/2006/03/21/mord-im-pfarrhaus/)

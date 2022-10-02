@@ -4,4 +4,4 @@ date: "2008-02-05T21:23:06"
 categories: [gefunden]
 ---
 
-<img src='memory_stick.jpg' alt='memory_stick.jpg' />
+![memory_stick.jpg](memory_stick.jpg)

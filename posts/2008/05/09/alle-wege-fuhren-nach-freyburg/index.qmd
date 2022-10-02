@@ -4,7 +4,7 @@ date: "2008-05-09T21:41:26"
 categories: [gedacht,gewesen]
 ---
 
-<img src='neuenburg.jpg' alt='neuenburg.jpg' />
+![neuenburg.jpg](neuenburg.jpg)
 
 Jedenfalls taten sie das für mich um Männertag herum. Am Mittwoch vor Himmelfahrt stand [Walpurgisnacht-Rock](http://www.walpurgisnacht-rock.de) auf [Schloss Neuenburg](http://de.wikipedia.org/wiki/Schloss_Neuenburg_(Freyburg)) oberhalb von Freyburg auf dem Programm. Sieben Bands und die interessante Kulisse innerhalb der Burgmauern waren der Anreiz, mir dieses Mini-Festival einmal anzusehen.
 

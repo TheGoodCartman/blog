@@ -4,7 +4,7 @@ date: "2008-04-26T18:58:11"
 categories: [gehört,getan]
 ---
 
-<img src='mp3player.jpg' alt='mp3player.jpg' />
+![mp3player.jpg](mp3player.jpg)
 
 [Lange](/blog/2007/12/20/nicht-ohne-fernbedienung/) [habe ich nun](/blog/2008/01/21/stand-der-technik/) [um eine Entscheidung](/blog/2008/02/05/stand-der-technik-ii/) [gerungen](/blog/2008/02/13/stand-der-technik-iii/), [welcher MP3-Player](/blog/2008/03/02/stand-der-technik-iv/) meinen in die Jahre gekommenen iRiver H10 ersetzen soll. Schlussendlich habe ich mich für den Sony NWZ A829B entschieden und bin damit nach drei Jahren der Untreue wieder zu meiner [Stammmarke](/blog/2008/03/12/sackgasse-der-evolution/) zurückgekehrt.
 

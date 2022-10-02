@@ -6,9 +6,9 @@ categories: [gewesen]
 
 ... wünsche ich trotz der leichten Verspätung allen meinen Lesern. Ich habe den Jahreswechsel im Riesengebirge verbracht und beginne deshalb das neue Jahr mit ein paar Winterimpressionen:
 
-<img src='winterwald.jpg' alt='winterwald.jpg' />
-<img src='riesengebirge.jpg' alt='riesengebirge.jpg' />
-<img src='schneekoppe.jpg' alt='schneekoppe.jpg' />
-<img src='murmelfall.jpg' alt='murmelfall.jpg' />
-<img src='winterland.jpg' alt='winterland.jpg' />
+![winterwald.jpg](winterwald.jpg)
+![riesengebirge.jpg](riesengebirge.jpg)
+![schneekoppe.jpg](schneekoppe.jpg)
+![murmelfall.jpg](murmelfall.jpg)
+![winterland.jpg](winterland.jpg)
 

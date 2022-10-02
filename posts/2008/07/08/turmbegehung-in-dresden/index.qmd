@@ -4,7 +4,7 @@ date: "2008-07-08T21:55:51"
 categories: [gewesen,getan]
 ---
 
-<img src='frauenkirche.jpg' alt='frauenkirche.jpg' />
+![frauenkirche.jpg](frauenkirche.jpg)
 
 Bei meinem [Kurzbesuch in Dresden](/blog/2008/06/29/campusparty-2008/) blieben am nächsten Morgen noch ein paar Stunden, um mir die barocke Innenstadt des Elbflorenz anzuschauen. Das Wetter war ausgezeichnet, und so nutzte ich die Gelegenheit, die [Frauenkirche](http://www.frauenkirche.de/) zu besteigen. Während die Besichtigung des Innenraumes kostenlos ist, darf der Besucher für den Zugang zum Turm acht Euronen berappen. Dies ist zwar ein hoher Kurs, dafür ist der Aufstieg aber auch so bequem wie nur möglich. Bis zum Beginn der Kuppel muss man einen Fahrstuhl nutzen und danach führt ein Rundgang mit leichter Steigung bis zur Aussichtsplattform; erst dort finden sich die ersten, wenigen Treppenstufen.
 

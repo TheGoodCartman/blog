@@ -4,7 +4,7 @@ date: "2012-10-23T22:03:59"
 categories: [gewesen]
 ---
 
-<a href="http://gigapan.com/gigapans/117204" target="_blank">![Die Oberbaumbrücke](festival_of_lights_panorama.jpg)</a>
+[![Die Oberbaumbrücke](festival_of_lights_panorama.jpg)](http://gigapan.com/gigapans/117204)
 
 Seit gestern strahlt der Fernsehturm wieder in langweiligem Grau und macht so deutlich, dass die zwölf Tage des [Festival of Lights](http://festival-of-lights.de/) hinter Berlin liegen. Während dieser Zeit wurden wieder Sehenswürdigkeiten nachts in bunten Farben angestrahlt, und ich habe ein paar Abende genutzt, um mit der Kamera durch die Stadt zu ziehen. Das gute Wetter tat sein übriges, um mich und tausende andere Amateurfotografen auf die Straßen zu treiben. Vor ein paar Jahren bei kaltem Nieselregen war der Blick auf die Illuminationen und Installationen noch ungestörter.
 
