@@ -1,6 +1,7 @@
 ---
 listing:
   contents: "**/*.qmd"
+  fields: [date, title, description, categories]
   feed: true
   sort: "date desc"
   type: default
