@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>The KingOli Blog</title>
+<link>https://kingoli.net/blog/index.html</link>
+<atom:link href="https://kingoli.net/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.1.251</generator>
+<lastBuildDate>Sun, 02 Oct 2022 21:59:59 GMT</lastBuildDate>
+<item>
+  <title>Stadia - ein Nachruf</title>
+  <link>https://kingoli.net/blog/2022/10/02/stadia/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><a href="https://blog.google/products/stadia/message-on-stadia-streaming-strategy/">Seit Donnerstag ist es offiziell</a> - Google Stadia schaltet Anfang 2023 seine Server ab. Nachdem das eigene Spielestudio geschlossen wurde und es seit <em>Cyberpunk 2077</em> kein wirklich relevantes Spiel mehr für die Plattform gab, ist dies nun der Schlussstrich unter ein Projekt, an das schon lange niemand mehr geglaubt hat.</p>
+<p>Dabei trauere ich dem Service schon etwas nach, denn technisch hat mich Stadia überzeugt: Ein Controller, ein Google Chromecast Stick, und schon konnte ich am Fernseher spielen, als stände eine Konsole im Wohnzimmer. Nur mit dem Unterschied, dass ich keine teure Hardware kaufen musste, die danach 150W pro Stunde verbaucht und rumlärmt, um die Leistung zu kühlen.</p>
+<p>Aber klar, die Spiele mussten irgendwo berechnet werden, d.h. der Lärm und der Verbrauch fielen in Googles Rechenzentren an. Deshalb habe ich das Geschäftsmodell von Stadia auch nicht verstanden: Ich habe <a href="../../../../blog/2021/03/16/red-dead-redemption-2/">zwei</a> <a href="../../../../blog/2021/05/07/cyberpunk-2077/">Spiele</a> für gerade einmal 100€ gekauft, bekam als Bundle auch noch die Hardware dazu und musste für die laufenden Kosten nichts zahlen. Zumindest für die mir ausreichenden FullHD-Auflösung - erst für 4K-Streaming wurde ein Monats-Abo über 10€ verlangt. Keine Ahnung, wie sich dies jemals rechnen sollte.</p>
+<p>Nun muss es das auch nicht mehr, und ich werde <em>Baldur’s Gate 3</em> auf einem anderen System spielen wüssen - dabei war es eines der Highlights bei der Vorstellung von Stadia vor drei Jahren, hat es in der Zeit aber nicht aus dem Early Access herausgeschafft. Und was hätte ich mich über Ports von <em>The Witcher III</em> oder <em>Stray</em> gefreut.</p>
+<p>Zum Abschied hätte ich aber noch einen Wunsch an Google: <a href="https://9to5google.com/2022/09/29/stadia-controller-bluetooth/">Bitte schaltet Blutooth in den Controllern frei</a>. Aktuell kann ich am PC nur mit einem USB-C-Kabel und einer im Hintergrund den XBox-Controller emulierenden Software zocken, was doch recht umständlich ist. Den Controller nicht zu Elektroschrott zu machen wäre mir persönlich wichtiger als die Rückerstattung.</p>
+
+
+
+ ]]></description>
+  <category>gespielt</category>
+  <guid>https://kingoli.net/blog/2022/10/02/stadia/index.html</guid>
+  <pubDate>Sun, 02 Oct 2022 21:59:59 GMT</pubDate>
+</item>
+<item>
+  <title>The Legend of Zelda: Breath of the Wild</title>
+  <link>https://kingoli.net/blog/2021/10/10/zelda/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Vor ungefähr 30 Jahren war Teil 1 der Zelda-Reihe auf dem NES mein allererstes Open-World-Spiel - auch wenn ich den Begriff zu der Zeit nicht kannte. Damals wurde ich als Spieler mit einer sehr rudimentären Handlung in eine Welt geworfen, die ich zwar theoretisch von Anfang an komplett erkunden konnte, die aber schnell aufzeigte, wo der Charakter Link seine Grenzen hat. Erst mit wachsendem Waffenarsenal aus den Dungeons war der Held wirklich für viele Bereiche gerüstet, und einiges im Spiel war so gut versteckt, dass ich ohne einen Spieleführer nicht weit gekommen wäre.</p>
+<p>Die Rückkehr der Zelda-Reihe in das Open-World-Genre ließ die Erinnerungen an meinen ersten Ausflug nach Hyrule wach werden. Gerade zu Beginn des Spiels fühlte ich mich verloren in der großen, teilweise unverständlichen Welt. War die knappe Story in den 80ern nicht ungewöhnlich, sind die kargen Happen, die Breath of the Wild dem Spieler hinwirft, heutzutage sehr irritierend, gerade verglichen mit Storymonstern wie RDR oder Skyrim.</p>
+<p>In der ersten Spielstunde trifft Link auf genau einen NPC, und dessen Dialoge sind nicht einmal vertont. Dies trifft auf den Großteil der Gespräche im Spiel zu - das ist ganz und gar nicht zeitgemäß. Dieser Charakter erklärt dem Spieler einige Game-Mechaniken, doch schon in dieser Erklärphase des Spiels in einem begrenzten Bereich der Welt zeigt Breath of the Wild, dass es es dem Spieler niemals einfach machen wird. Freie Exploration ist quasi das Grundgerüst des Spiels, nur selten wurde ich explizit irgendwo hingeschickt, um etwas zu tun.</p>
+<p>Schnell lernte ich, dass sich die meisten Waffen sehr schnell abnutzen (sehr ärgerlich), dass mit Klettern (und ausreichend Ausdauer) eigentlich jeder Ort von Hyrule erreicht werden kann und dass es kalte, warme und heiße Gegenden gibt, die spezielle Kleidung oder Nahrung erfordern, um dort zu überleben.</p>
+<p>Dabei hatte ich gleich meinen ersten Frustmoment im Spiel. Von einem Buch in einer Försterhütte erfuhr ich, dass ich ein Ziel oben auf einem Berg nur mit einem speziellen Gericht gegen die Kälte erreichen kann. Für dessen Herstellung muss ich Wild mit einer unbekannten Zutat mischen. Dumm war nur: An der Jagdstelle wollte lange Zeit kein Wild zum Jagen auftauchen (Bug?). Und dann wusste ich immer noch nicht, was die unbekannte Zutat ist. Dieses “Probieren geht über Studieren” ist ein Grundprinzip des Spiels, aber hier war es zwingend zum Weiterkommen notwendig. Da ich so wenig Wild hatte, ging das nur über Speichern und Neuladen. Nach drei Stunden Frust griff ich deshalb zum ersten Mal nach dem Ratgeber Internet - im erweiterten Intro eines Spiels sollte das eigentlich nicht notwendig sein.</p>
+<p>Nach dieser etwas holprigen Einführung wurde es zum Glück besser: Die anfangs leer wirkende Welt hat neben vielen Monstern auch ein paar Dörfer zu bieten und zu meiner Verwirrung ein knappes Dutzend Ställe. Dort finden sich dann endlich auch ein paar Quests abseits der Hauptstory, d.h. es gibt endlich etwas Struktur neben dem freien Erkunden. So kam ich ziemlich schnell zu einem der vier Endbosse - Titanen genannte Riesenmaschinen, die erst in Betrieb genommen werden müssen, um danach einen vom Oberbösewicht Ganon gesandten Fluch zu besiegen.</p>
+<p>Bei meinem ersten Versuch, den Wasserfluch Ganons im Titan Vah Ruta zu besiegen, lernte ich aber schnell: Ich war zu früh und unvorbereitet in die Aufgabe gerannt. Denn auch wenn Breath of the wild ein Action Adventure ist und deshalb Erfahrungen sammeln und Fähigkeiten ausbauen kein Spielinhalt sind, so gibt es doch mit den Herzen und der Ausdauer Attribute, die zwingend erhöht werden müssen, um gegen die Endbosse anzukommen.</p>
+<p>Und wie kommt man zu diesen Updates? Da kommt wieder die explorative Spielmechanik zum Tragen: In ganz Hyrule sind über 100 Schreine mehr oder weniger gut versteckt, in denen Jahrtausende alte mumifizierte Priester mit für Action Adventures üblichen Rätseln dem Spieler Herausforderungen stellen, deren Lösung mit einem sogenannten Zeichen der Bewährung belohnt wird. Und je vier dieser Zeichen können an Statuen der Göttin Hylia gegen einen weiteren Herz- oder Ausdauercontainer eingetauscht werden.</p>
+<p>Warum? Was hat die Göttin mit den Mumien zu tun? Weshalb wurden vor zehntausend Jahren riesige unterirdische Rätsel gebaut? Das wird im Spiel nicht geklärt. Aber wer nachrechnet wird merken, dass einige Schreine gelöst werden müssen, um Link substantiell zu stärken. Ich war am Ende bei 70 Schreinen angelangt. Und da sich die Schreine über die gesamte Karte verteilen, kommt man gar nicht umher, alle Gebiete von Hyrule zu erkunden.</p>
+<p>Und beim Erkunden findet man so viel mehr als nur die Schreine, die auch als Schnellreisepunkte dienen. Z.B. die Krogs, kleine Blattwesen, die sich unter Steinen und hinter kleinen Rätseln verstecken, und deren Belohnung wiederum in größere Taschen für z.B. Waffen eingetauscht werden können.</p>
+<p>Wo andere Spiele also über Storyquests verlangen, dass ein Spieler bestimmte Anforderungen erfüllt, macht BotW dies sehr indirekt und erwartet gleichzeitig, dass die Spielewelt mit Neugierde erkundet wird. Zu den meisten Seltsamkeiten findet sich irgendwo ein NPC, der etwas dazu zu sagen hat. Leider sind manche Beschreibungen (z.B. von Türmen) sehr mehrdeutig und die Questmarker zeigen auf den Auftraggeber, aber nicht auf das Ziel.</p>
+<p>Ansonsten ist Hyrule überaschend zugänglich. Mit der zum Klima passenden Kleidung kann Link durch seine Kletterfähigkeit jeden Berg erklimmen und muss sich deshalb theoretisch nicht an die vorgegebenen Wege durch Hyrule halten. Praktisch entdeckt man die Ställe und Hinweise auf Schreine hauptsächlich an den Wegen, so dass es sinnvoll ist, diese alle einmal abzulaufen. Oder zu reiten - allerdings empfand ich das Fangen und Einreiten wenig motivierend und war deshalb fast ausschließlich per pedes unterwegs.</p>
+<p>Und wie bei den meisten Open-World-Spielen nagt dieses alles-erlaufen-können doch merklich an der Glaubwürdigkeit der Spielewelt. Innerhalb weniger Laufminuten wechseln sich nicht nur extreme Klimazonen ab (inkl. Phänomenen wie dass lokal im Sandsturm die Sicht sehr schlecht ist, von weit weg das Gebiet aber per Fernglas eingesehen werden kann), sondern auch sehr unterschiedliche Völker und Dörfer, die die (respawnenden) Monster außerhalb der Tore seltsamerweise kaum tangieren.</p>
+<p>Optisch schön ist das Wetter in BotW umgesetzt. Im Regen leidet Links Kletterfähigkeit und bei Gewittern ziehen metallene Waffen Blitze an, aber nur so lange man sie offen am Körper trägt. Sobald sie in der Tasche verschwinden, ist das kein Problem mehr. Allerdings erfordern einige Quests schönes Wetter (die blaue Flamme), und mindestens einmal musste ich minutenlang auf besseres Wetter warten.</p>
+<p>Das sind dann die Momente, wo die Spielelemente von BotW nicht so gut ineinandergreifen, wie sie könnten. So toll Link klettern kann, in den Schreinen funktioniert dies nicht - denn dann wären die Rätsel meist einfacher zu lösen. Beim Kochen können nicht nur Gerichte entstehen, sondern auch Tränke, aber wieso es zusätzlich zu den Kochschalen auch noch die Möglichkeit gibt, Zutaten am Feuern zu rösten, hat sich mir nicht erschlossen.</p>
+<p>Verbesserungswürdig fand ich auch das User Interface. Die ungenauen Analogssticks fallen eigentlich nur bei den Bosskämpfen negativ auf. Richtig gefreut hätte ich mich aber über mehr Einblick in die Haltbarkeit der Waffen. Erst kurz vor dem Zerbrechen gibt es einen Hinweis darauf. D.h. man schleppt zwar ein Arsenal an Waffen mit sich herum, aber ob es für die anstehenden Aufgaben reicht, kann man nur abschätzen. Zusammen mit den steigenden Preisen für die Erweiterung der Taschen verwaltet man als Spieler eigentlich ständig nur den Mangel und steht gefühlt alle 10min vor der Entscheidung, eine vielleicht bald kaputt gehende Waffe gegen eine schwächere, aber möglicherweise längere haltende Alternative einzutauschen. Wie habe ich mir eine Schmiedeoption gewünscht, um die Haltbarkeit meiner Lieblingswaffen zu verlängern.</p>
+<p>Bis knapp vor dem Ende des Spiels war ich auch immer knapp bei Kasse, da die für die verschiedenen Klimazonen wichtige Kleidung ebenso wie deren Aufrüstung Geld kostet und es immer ungewiss bleibt, ob die gefundenen Zutaten im Inventar für Quests benötigt werden oder verkauft werden können - wobei nur weniges wirklich gute Preise erzielt. Dadurch wird auch der eigentlich mächtige Bogen abgewertet, da Pfeile teuer im Einkauf und so ständig Mangelware sind.</p>
+<p>Fazit: In vielen Medien wurde BotW als das beste Spiel für die Switch bezeichnet. Außer bei der Grafik kann ich diese Einschätzung nicht nachvollziehen. Ja, es bietet ein tolles Spielerlebnis und hat einen großen Umfang, aber gleichzeitig gibt es viele Ecken und Kanten, die mich frustrierten. Das aufs Erkunden bauende Spielprinzip wird über alles gestellt, und dafür sogar eine motivierenden Story geopfert.</p>
+
+
+
+ ]]></description>
+  <category>gespielt</category>
+  <guid>https://kingoli.net/blog/2021/10/10/zelda/index.html</guid>
+  <pubDate>Sun, 10 Oct 2021 14:01:00 GMT</pubDate>
+</item>
+<item>
+  <title>Cyberpunk 2077</title>
+  <link>https://kingoli.net/blog/2021/05/07/cyberpunk-2077/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="steuerung" class="level4">
+<h4 class="anchored" data-anchor-id="steuerung">Steuerung</h4>
+<p>Der Umstieg von RDR2 auf Cyberpunk fiel gar nicht schwer - viele Tasten sind gleich belegt (Zielen, Angriff, Schnellzugriff auf die Karte) und die Belegung folgt - mit Ausnahmen - einem logischen Muster und es gibt kaum Doppelbelegungen. Gestört hat mich nur, dass Ducken/Verstecken mit derselben Taste ausgelöst wird wie das Abbrechen des aktuellen Dialogs - denn es gibt Missionen, wo ein Dialog direkt in die Action mündet und ich aus Versehen die Mitteilungen von Johnny abbrach, obwohl ich mich nur verstecken wollte.</p>
+<p>Generell kein Freund bin ich von der First-Person-Perspektive. Zwar ist es nur konsequent, dass in einer so die drei Dimensionen ausnutzenden Spielewelt auch der Blick total frei ist, aber es gibt kein Snapping für Gegenstände, mit denen man interagieren kann, d.h. man ist eigentlich ständig am Suchen, auf welcher Höhe der Blick sein muss, um etwas auszulösen (und in einigen Situationen schafft man es gar nicht, die fokussierten Gegenstände aufzuheben). Auch die (wenigen) Jump-and-Run-Passagen fallen durch die Perspektive unnötig schwer.</p>
+<p>Die Bewegungen des Charakters V fühlen sich auch zu sehr nach Strafing als einer natürlichen Bewegung an, obwohl es leichte Ab-/Aufwärtsbewegungen wie bei Schritten gibt. Ganz schlimm ist es aber mit den Autos, deren Bewegung aus der Innenperspektive das Gefühl von Hovercrafts erzeugt - wer einmal in einem echten Auto gesessen hat kann darüber nur lachen. Die Autosteuerung ist zudem ordentlich misslungen (Motorräder lassen sich deutlich besser steuern), was vermutlich an dem verfrühten Release liegt, denn in andere Teile des Spiels wurde sichtbar mehr Zeit und Liebe investiert. Zum Glück darf beim Fahren aber auf eine Schulterkamera gewechselt werden.</p>
+<p>Nervig an der First-Person-Perspektive ist auch die Augmented Reality. Missionsziele und andere Points-of-Interest wie Shops werden direkt im Sichtfeld eingeblendet. Das nervt vor allem beim Autofahren, da diese Marker gerne die vor einem liegende Straße überblenden.</p>
+</section>
+<section id="story" class="level4">
+<h4 class="anchored" data-anchor-id="story">Story</h4>
+<p>Ich liebe ja Open-World-Spiele die es trotzdem schaffen, eine gute Story zu erzählen. Bei Cyberpunk läuft die Hauptquestlinie wie auf Schienen ab. Wo es früher Spiele gab, in denen die Spielewelt korridorartig vorgab, wo es als nächstes hingeht, legt Cyberpunk hier virtuelle Brotkrumen aus in Form von vielen kleinen Minizielen pro Mission, für die auf der Minimap der Weg hin markiert wird. Einfacher geht es kaum.</p>
+<p>Ist dann eine Mission vorüber, gibt es meist direkt eine Überleitung zur nächsten: Rufe den einen Charakter an, begebe Dich zu Ort Soundso - durch diese kleinen Cliffhanger verschwimmen die Grenzen zwischen einzelnen Missionen. Und das ist ein echtes Problem für das Spiel, denn dadurch wirkt die Haupthandlung kürzer, als sie eigentlich ist: Ein Prolog, zwei parallele Handlungsstränge gefolgt von den Sakamura-Quests - und schon stand ich vor einer Tür, an der mir das Spiel empfahl, Nebenquests noch abzuschließen, weil mich das Finale erwartet. Nach knapp 20 Stunden Spielzeit - da bin ich von Open-World-Spielen anderes gewöhnt.</p>
+<p>Die Geradlinigkeit der Story setzt sich auch in den Lösungswegen fort. Der Stealth-Weg als Hacker und Meuchler steht als eine einzige Option neben dem klassischen Kämpfer zu Verfügung. Ich habe mich lange versucht am leisen Vorgehen, bin dann aber schlussendlich zum gefühlt leichteren Weg der direkten Konfrontation zurückgekehrt. Das hat mehrere Gründe: Zum Einen konnte ich recht schnell zu Beginn des Spiels ein Katana-Schwert per Itemverbesserung auf so hohe Werte upgraden, dass keine Schusswaffe oder Hacks mithielten. Zum Anderen ist das Verhalten der Gegner extrem schwer verständlich - wieso wurde ich jetzt trotz Versteck entdeckt, was hat die Wache dazu bewogen, Alarm auszulösen? In einer Mission habe mich ich nach über einer Stunde Scheitern-und-Neuladen als Hacker schließlich entschlossen, einfach konsequent jede Wache mit dem Katana zu köpfen - und war nach wenigen Minuten durch. Es hat auch keinerlei Konsequenzen, wenn man statt die Wachen zu betäuben sie einen Kopf kleiner macht. In der besagten Mission musste am Ende ein Virus in einen Computer eingespielt werden. Doch ob man sich nun unbemerkt bis dahin gehackt hat oder ein Blutbad rund um den Computer angerichtet hat, es macht einfach keinen Unterschied. Und das ist sehr schade, denn darunter leidet die Glaubwürdigkeit der Geschichte enorm - die ohnehin gerne groß auf den Putz haut und Volten schlägt, die mich teilweise kopfschütteln ließ.</p>
+<p>Zumindest ist es unterhaltsam, was vor allem am Charakter von Johnny liegt. Man möchte nicht mit V tauschen, aber sein Blick auf die Spielewelt hebt sich angenehm von allen anderen NPCs ab, von denen einige blass und austauschbar bleiben. So haben mich auch nur wenige Nebenquests motiviert, sie zu erledigen. Die meisten werden einfach per Anruf oder SMS ins Questlog eingetragen, wo die vielfach nichtssagende Beschreibung von Johnnys Sarkasmus dominiert wird.</p>
+<p>Vor den letzten Missionen muss man sich als Spieler schließlich für einen von fünf oder sechs verschiedenen Wegen entscheiden, je nachdem wieviele Hauptnebencharaktere man vorher von sich überzeugt hat. Was diese Entscheidung für Folgen hat wird aber vorher nicht erklärt und ist schlecht abschätzbar, so dass ich leider das wohl langweiligste aller Enden gewählt habe, welches nach dem finalen Bosskampf die Story in einer halbstündigen Beschäftigungstherapie unbefredigend austrudeln lässt.</p>
+<p>Im krassen Gegensatz zur engen Führung durch die Story steht die totale Freiheit in der Welt von Night City. Gleich nach dem Prolog kann jede Ecke der Stadt erreicht werden; hunderte an Nebenquests warten auf der unübersichtlichen Karte darauf, entdeckt zu werden. Und das ist wörtlich gemeint, denn erklärt wird dem Spieler nur wenig. Warum rufen mich zig wildfremde Charaktere an, um mir Aufträge zu geben? Und wie funktionieren die Einsätze für die Polizei und vor allem: was habe ich davon? Was hat es genau mit den Banden in den Bezirken auf sich? Fragen über Fragen…</p>
+<p>Manchmal heißt die Antwort vielleicht einfach: Dieses Spielelement ist nicht fertig geworden. Ganz offensichtlich ist dies beim Schnellreisesystem. In Night City gibt es nämlich U-Bahnhöfe, die man nicht betreten kann, und Bushaltestellen, an denen kein Bus fährt. Dafür stehen dort Automaten, die einen sofort zu einer anderen Haltestelle katapultieren. Ein Hinweis darauf fehlt aber dem Spiel. Anfangs hat der Spieler nämlich kein Auto zur Verfügung, und Night City ist keine Fußgängerstadt. Zum Glück kam ich darauf, dass wie in GTA haltende Autos ohne Risiko gehighjacked werden können (weshalb ich nicht verstand, weshalb es Missionen zum Kauf von Autos gibt). Am Ende habe ich aufgrund der verkorksten Fahrzeugsteuerung aber fast nur noch das Schnellreisesystem genutzt.</p>
+<p>Und das ist ein weiteres Problem von Cyberpunk: Wo die Rockstar Games dem Spieler die Welt in Etappen näherbringt und sie auch ausreichend divers gestaltet, sehen sich die Stadtteile von Night City zu ähnlich: Überall Straßen und Hochhäuser, nur die Außenbezirke heben sich optisch überhaupt ab. Und so habe ich nach Spielende immer noch kein Gesamtbild der Stadt im Kopf, zu labyrinthisch ist sie aufgebaut und zu leicht ist es, per Schnellreise von A nach B zu springen.</p>
+<p>Gar nicht hilfreich ist dabei die Map. Diese ist zwar theoretisch so dreidimensional wie der Aufbau der Stadt auf den verschiedenen Ebenen, kann aber nicht beliebig gedreht werden, um Übersichtlichkeit zu generieren. In ausschließlich Blau- und Rottönen fällt es sehr schwer, von der Karte auf die Umgebung zu schließen und umgekehrt; ganz zu schweigen von der erschlagenden Zahl an Quest-/Shop-/Whatever-Punkten, die standardmäßig angezeigt werden. Zum Glück ist die Wegführung zuverlässig.</p>
+</section>
+<section id="rpg" class="level4">
+<h4 class="anchored" data-anchor-id="rpg">RPG</h4>
+<p>Habe ich schon erwähnt, dass das Spiel wenig erklärt? Gerade die Möglichkeiten beim Hacken muss man durch Try-and-Error erschließen. Ganze Teilbäume in der Charakterentwicklung blieben mir unklar. Ganz abgesehen davon dass ich viele Levelaufstiegspunkte gar nicht in Charakterfertigkeiten investiert habe, weil mir die Verbesserungen zu gering erschienen. 3% hier, 5% dort, 20% mehr Schaden gegen Machinen, wobei ich geschätzt nur gegen 20 gekämpft habe - das sind doch kein Anreize! Die eigentlichen Attribute habe ich immer nur gelevelt, wenn das Spiel mich vor eine Option stellte, für die ich ein höheres Level benötigte. So wenig Bock auf Leveln und Verbessern habe ich selten in einem Rollenspiel gehabt. Und bis zum Schluss habe ich vergeblich darauf gewartet, dass noch ein sechstes Attribut auftaucht - schließlich gibt es einen ungenutzten Slot im Menü…</p>
+<p>Wirklich sinnvoll ist eigentlich nur das Arbeiten an den Waffen und den Klamotten/Cyberverbesserungen. Beides landet zu Hauf im eigenen Inventar und erlaubt kontinuierliche Steigerungen von Panzerung und Angriffskraft. Leider hat die Panzerung eines Objektes nichts mit dessen Aussehen zu tun (oder gar der Beschreibung). Eine Brille kann mehr panzern als ein Helm, ein Unterhemd kann besser schützen als ein dicker Mantel - da passen Inhalt und Verpackung leider nicht zusammen.</p>
+<p>Neben dem klassischen Leveln auf Basis von Erfahrungspunkten gibt es weiterhin eine sich steigernde Street Credibility, wenn man bestimmte Missionen erfüllt oder Gegner nur betäubt, und einzelne Levels für jeden Waffen-/Angriffskategorie (Fertigkeit), die wiederum Verbesserungen freischalten. Aber auch diese verschachtelte Komplexität änderte nichts daran, dass Leveln in Cyberpunk einfach nicht motivierend ist.</p>
+</section>
+<section id="grafik" class="level4">
+<h4 class="anchored" data-anchor-id="grafik">Grafik</h4>
+<p>Hier zeigt sich Cyberpunk von seiner starken Seite. Auch ohne Raytracing sieht Night City extrem gut aus, vor allem die Neon-Lichteffekte und die Wettereinflüsse sind klasse umgesetzt. Dazu kommen die sehr detaillierten und realistischen Charaktermodelle, die alleine bei den Bewegungen etwas schwächeln. Dafür gibt es eine große Bandbreite an Figuren im Spiel, auch Standard-Gegner wiederholen sich selten. Dank der First-Person-Perspektive sehe ich mich selber leider nur selten, obwohl vor Beginn des Spiels extrem viel am Aussehen gewerkelt werden kann. Sogar Spiegel müssen erst aktiviert werden, um das eigene Spiegelbild zu sehen.</p>
+<p>Aber das ist eine Kleinigkeit - wenn das Spiel überall so rund wäre wie in der grafischen Darstellung, dann würde es vermutlich mehr als das Mittelmaß sein, in das Story und RPG-Basis es hinabziehen.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>gespielt</category>
+  <guid>https://kingoli.net/blog/2021/05/07/cyberpunk-2077/index.html</guid>
+  <pubDate>Fri, 07 May 2021 14:35:00 GMT</pubDate>
+</item>
+<item>
+  <title>Red Dead Redemption II</title>
+  <link>https://kingoli.net/blog/2021/03/16/red-dead-redemption-2/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>An Teil 1 von Red Dead Redemption habe ich nur gute Erinnerungen. Das Spiel war damals eine grandiose Kombination aus dem Gameplay von GTA, der guten Steuerung zu Pferd (besser als anderen Spiele, in denen ich davor Reiterfahrungen machen durfte) und dem grafisch wie inhaltlich fantastisch umgesetzten Wild-West-Szenario.</p>
+<p>Und nun kommt RDR2 und macht viele dieser Sachen einfach mal schlechter als der Vorgänger. Es fängt an mit der missratenen Steuerung: Die intuitive Eingängigkeit von RDR1 ist einer teilweise dreifachen Belegung von Tasten gewichen: Manche Aktionen werden mit einem einfachen Druck ausgelöst, andere mit einem längeren Halten und dann gibt es noch auf dem richtigen Timing basierendes Rhythmus-Drücken. Als Sahnehäubchen wurden beiden Analogsticks Drück-Aktionen verpasst. Na gut, nach etlichen Spielstunden habe ich das gelernt, aber bis zum Ende störte mich, dass die vier Aktionstasten (bei Stadia A, B, X &amp; Y) in unterschiedlichen Kontexten (Einkaufen, Plündern, am Pferd) andere Aktionen triggern, ähnliche Aktionen jedoch selten auf gleichen Tasten liegen. Zum Glück wird die Belegung immer angezeigt, aber ein einfaches “X ist immer Bestätigen” finde ich deutlich besser. Irgendjemand bei Rockstar war zudem der Meinung, dass sich Faustkampf so fundamental von allen anderen Kämpfen unterscheidet, dass dafür nicht die Schultertasten verwendet werden können.</p>
+<p>Ganz warm wurde ich auch nicht mit dem Reiten. Viel zu oft bin ich beim schnellen Reiten an Zäunen, Bäumen oder anderen Reitern hängen geblieben. Wenn das Pferd automatisch springen kann, warum kann es dann nicht knapp an etwas vorbeireiten, liebe Kollisionsabfrage? Und warum kann es im Galopp engere Kurven reiten als aus dem Stand? Ganz besonders geärgert habe ich mich über die Richtungssteuerung. Standardmäßig werden Bewegungen des Analogsticks aus der Perspektive der Kamera umgesetzt. Beim Reiten von der Kamera weg funktioniert das ganz gut, aber beim Losreiten nahm das Pferd niemals die Richtung, in die ich gerade wollte. Also habe ich die Steuerung auf die Perspektive des Pferdes umgestellt - was beim Losreiten nun gut funktioniert, aber ansonsten viel zu sensibel ist. Kleinste Bewegungen des Analogsticks führen zu sprunghaften Richtungswechseln des Pferdes, anders als bei der Kameraperspektive.</p>
+<p>Das Ring-Menü zur Wahl der aktiven Waffe ist inzwischen mehrdimensional (drei kontextsensitive Hauptebenen, die einzelnen Abschnitte des Rings und darin noch Listen) und überschneidet sich leider mit den als Inventory dienenden Taschen am Mann und am Pferd. Einige Gegenstände sind in beiden vorhanden (Schnellzugriff auf Nahrung), andere nur in einem. So kann ich Klamotten, die ich in meiner Unterkunft für die Pferdetasche ausgewählt habe, nur über das Ringmenü wechseln, während ich andere Gegenstände am Pferd stehend sehen kann (Fälle, Tierkadaver). Beim Verkauf kann ich aber Gegenstände aus der Pferdetasche verkaufen, auch wenn das Pferd weit weg steht. Wenn man es einmal begriffen hat, kommt man damit klar, aber es ist weder leicht verständlich noch konsistent.</p>
+<p>Was mich weiterhin an der Steuerung genervt hat sind die vielen interaktiven Filmsequenzen, in denen ich im richtigen Moment auf bestimmte Knöpfe drücken muss - in einem Open-World-Spiel, das viel Wert auf Freiheit legt, kann ich auf so etwas verzichten (dazu gehört auch das Drehen der Analogsticks beim Angeln). Ich weiß, komplexe Spielmechaniken einfach zugänglich zu machen ist nicht der leichteste Job, aber RDR2 versagt hier aus meiner Sicht.</p>
+<p>Grafisch ist das Spiel dagegen wieder top. Gerade der Prolog mitten in einem Schneesturm weiß zu beeindrucken. Teilweise leidet die Spielerfahrung unter zu starkem Gegenlicht, zu dunklen Nächten und zu dichtem Nebel, aber das gehört wie die richtige Kleidung für das jeweilige Klima zu den realistischen Elementen, die RDR2 zu einem Erlebnis machen. Gerade bei Starkregen oder Gewittern wollte ich am liebsten stehen bleiben und das Schauspiel einfach nur genießen.</p>
+<p>Zu der hinzugewonnenen Realität passt aber leider das Landschaftsdesign nur bedingt. Klar, es gibt wie beim Vorgänger grandiose Landschaften zu bewundern - aber diese sind viel zu gedrängt und viel zu stark bevölkert. Wo in RDR noch ein gutes Gefühl der großen Weite des Westens entstand, ist man in Teil 2 in fünf Minuten durch jeden der “Bundesstaaten” mitsamt extremen Klimazonenunterschieden geritten und hat dabei nicht nur alle paar Meter die gar nicht scheue Fauna bewundern dürfen, sondern auch viele Dörfer und Farmen links und rechts des Weges und dazwischen unzählige Reiter und Kutschen. Die vielen verschiedenen Tiere (inklusive den legendären Varianten) dürfen alle nach Lust und Laube gejagt und geweidet werden - jedoch gibt es neuerdings Felle in unterschiedlichen Qualitätsstufen, und diese hängen an den zufällig spawnenden Tieren. Da für einige Items im Spiel die Felle in bester Qualität benötigt werden, riecht das verdächtig nach Lootboxen.</p>
+<p>Gar nicht angedockt habe ich bei der Story. Dass ein Rockstar Game gewalttätig ist, das wusste ich auch vorher. Aber schon in GTA V gefiel mir nicht, dass ich einen mir zutiefst unsympathischen Charakter zwingend spielen musste. Open-World-Spiele, noch dazu mit leichten Rollenspielanteilen wie RDR, leben eigentlich davon, dass ich meinen Charakter nach meinem Gutdünken entwickeln kann. Ich kann ihn zum Knight in shiny armour machen oder zum Bad Boy, oder alles dazwischen. Grundsätzlich geht das in RDR2 auch: Ich kann in Nebenquests und zufälligen Begegnungen den Menschen helfen oder - auch in der Hauptstoryline - den knallharten Gangster mimen, der alles tut, um seiner Bande das Überleben zu sichern.</p>
+<p>Ärgerlicherweise ändert das nichts daran, dass ich in den Hauptquests nicht aus der Rolle des Bandenmitglieds ausbrechen kann. Ich muss alles machen, was das Spiel mir aufzwingt, und dazu gehört leider auch das Entvölkern ganzer Dörfer. Es gibt einen Questgeber namens Micah, bei dem ich schon vor der Mission weiß, dass er nicht ganz richtig im Kopf ist und es auf jeden Fall zu vielen Toten kommen wird. Klar, dies ist Teil der der Erzählung, bei der sich der Hauptcharakter langsam von seinen “Freunden” und seiner Vaterfigur entfremdet, aber dies geschieht für meinen Geschmack viel zu langsam.</p>
+<p>In RDR (I) war die Motivation für die viele Gewalt (ein Drehbuchkniff), dass John Marston zum Rachefeldzug gezwungen wurde. In RDR II fehlt sogar dieses Feigenblatt, und das hat mir bitter aufgestoßen. Stattdessen hetze ich von Kapitel zu Kapitel, von einem Unterschlupf zum nächsten, ohne Perspektive auf Besserung. Es ist eine einzige lange, gewalttätige Flucht, die erst spannend wird, als Arthur Morgan ein Schicksalsschlag ereilt. Für diese repitative Handlung sind 103 Missionen einfach zu viel. Sie erlauben zwar anfangs, die vielen Mitglieder der Bande näher kennen zu lernen, aber in der zweiten Hälfte des Spiels sind es meist nur noch Dutch und Micah. Ich habe mich erwischt, dass ich in die vielen Nebenmissionen geflüchtet bin, weil ich die Hauptquest einfach nicht mehr spielen wollte. Ganz besonders geärgert habe ich mich darüber, dass ich oft zu Questgebern in den Unterschlupf gerufen werden, nur damit nach einem kurzem Dialogstart wieder Dutch oder Micah die Quest highjacken. Da zeigt mir das Spiel (und die Designer) gefühlt den Zeigefinger, und das mag ich ganz und gar nicht.</p>
+<p>Insgesamt habe ich knapp 80 Stunden in RDR2 investiert und kann nicht behaupten, dass ich über die gesamte Zeit gut unterhalten wurde. Gerne könnten die 20 Epilog-Missionen wegfallen und die Handlung zwischendurch gestrafft werden.</p>
+
+
+
+ ]]></description>
+  <category>gespielt</category>
+  <guid>https://kingoli.net/blog/2021/03/16/red-dead-redemption-2/index.html</guid>
+  <pubDate>Tue, 16 Mar 2021 10:13:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bye Bye Blog</title>
+  <link>https://kingoli.net/blog/2014/01/01/bye-bye-blog/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Es ist <a href="../../../../blog/2010/05/31/blogpause/">wieder</a> so weit. Diesmal vielleicht für immer: Nach einem <a href="../../../../blog/2014/01/01/mein-jahr-2013-in-zahlen/">enttäuschenden Jahr 2013</a> stelle ich ab sofort die Arbeit an meinem Blog ein.</p>
+<p>Das ist eine schwere Entscheidung, aber ich muss diese Konsequenz ziehen. Das letzte Jahr hat gezeigt, dass meine Prioritäten sich verlagern. Ich habe keine Zeit mehr für den zeitraubenden Prozess, meine Gedanken in nachvollziehbare Worte zu fassen. Unzählige Artikelleichen zeugen davon. Die vielen Lücken bei den gesehenen Filmen führen zudem den Sinn dieses Blogs ad absurdum. Ich wollte immer eine Gedächtnisstütze haben, in der ich auch nach Jahren noch nachschlagen kann, was mir nach Sichtung eines Films durch den Kopf ging.</p>
+<p>Diesen Zweck erfüllt der Blog schon jetzt nicht mehr. Also werde ich keine Zeit mehr in etwas investieren, das mich nur halb zufriedenstellt. Da zudem absehbar ist, dass ich künftig noch weniger in das Schreiben investieren kann, lasse ich es lieber bleiben und versuche dafür mehr zu sehen und zu lesen. Der Blog selber wird in seinem aktuellen Zustand bestehen bleiben und vielleicht sogar noch den einen oder anderen Artikel sehen - mehr aber auch nicht.</p>
+<p>Deshalb: Bye bye, mein Blog, und dankeschön an alle Leser!</p>
+
+
+
+ ]]></description>
+  <category>gedacht</category>
+  <guid>https://kingoli.net/blog/2014/01/01/bye-bye-blog/index.html</guid>
+  <pubDate>Wed, 01 Jan 2014 17:22:24 GMT</pubDate>
+</item>
+<item>
+  <title>Mein Jahr 2013 in Zahlen</title>
+  <link>https://kingoli.net/blog/2014/01/01/mein-jahr-2013-in-zahlen/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Ich wünsche allen meinen Lesern ein frohes neues Jahr. Wie schon in den letzten Jahren möchte ich den Jahreswechsel nutzen, um einen ganz persönlichen Rückblick auf das Jahr 2013 zu werfen.</p>
+Zuerst die schnöden Zahlen:
+<ul>
+<li>
+(nur) 14 mal im Kino gewesen
+</li>
+<li>
+93 Filme gesehen
+</li>
+<li>
+26 Blogeinträge verfasst (die Konsequenz folgt)
+</li>
+<li>
+5 Bücher gelesen (ein Rekord-Tiefstwert)
+</li>
+<li>
+3674 Bilder geschossen
+</li>
+</ul>
+<p>Als nächstes folgt eine Liste der zehn besten Filme, die ich dieses Jahr gesehen habe (sehr Science-Fiction-lastig):</p>
+<ol>
+<li>
+<a href="../../../../blog/2013/11/22/the-congress/">The Congress</a>
+</li>
+<li>
+Frankenweenie
+</li>
+<li>
+<a href="../../../../blog/2013/11/19/gravity/">Gravity</a>
+</li>
+<li>
+Looper
+</li>
+<li>
+Inside Llewyn Davis
+</li>
+<li>
+Django Unchained
+</li>
+<li>
+<a href="../../../../blog/2013/07/22/paulette/">Paulette</a>
+</li>
+<li>
+The Place Beyond the Pines
+</li>
+<li>
+<a href="../../../../blog/2013/04/20/sightseers/">Sightseers</a>
+</li>
+<li>
+Zero Dark Thirty
+</li>
+</ol>
+<p>Und weil Last.fm so schön meine Hörgewohnheiten loggt gibt es auch erstmals eine Liste der von mir am häufigsten gehörten Alben des Jahres:</p>
+<ol>
+<li>
+Bring Me the Horizon – Sempiternal
+</li>
+<li>
+Placebo – Loud Like Love
+</li>
+<li>
+Korn – The Paradigm Shift
+</li>
+<li>
+Silverstein – This Is How the Wind Shifts
+</li>
+<li>
+Circa Survive – Violent Waves
+</li>
+<li>
+Coheed and Cambria – The Afterman: Descension
+</li>
+<li>
+Mumford &amp; Sons – Babel
+</li>
+<li>
+In Fear and Faith – In Fear and Faith
+</li>
+<li>
+Deftones – Koi No Yokan
+</li>
+<li>
+Coheed and Cambria – The Afterman: Ascension
+</li>
+<li>
+Memphis May Fire – Challenger
+</li>
+</ol>
+
+
+
+ ]]></description>
+  <category>gedacht</category>
+  <category>gesehen</category>
+  <category>gehört</category>
+  <guid>https://kingoli.net/blog/2014/01/01/mein-jahr-2013-in-zahlen/index.html</guid>
+  <pubDate>Wed, 01 Jan 2014 17:05:14 GMT</pubDate>
+</item>
+<item>
+  <title>Blue Jasmine</title>
+  <link>https://kingoli.net/blog/2013/11/28/blue-jasmine/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><em>USA (2013) Regie: Woody Allen Darsteller: Cate Blanchett (Jasmine), Sally Hawkins (Ginger), Alec Baldwin (Hal), Bobby Cannavale (Chili), Andrew Dice Clay (Augie), Michael Stuhlbarg (Dr.&nbsp;Flicker), Louis C.K. (Al), Peter Sarsgaard (Dwight Westlake), Alden Ehrenreich (Danny Francis)</em> <a href="http://www.bluejasmine.de">Offizielle Homepage</a></p>
+<p>Jasmine hat einen großen Absturz hinter sich: Ihr Mann Hal, ein reicher Bauunternehmer, hat sich als Betrüger herausgestellt und im Gefängnis das Leben genommen. Jetzt steht sie, die das Leben der Manhattener Upper Class in vollen Zügen gelebt hat, plötzlich ohne Mittel da. Zum Glück nimmt ihre Halbschwester Ginger sie in ihrer kleinen Wohnung in San Francisco auf, denn Jasmine weiß nicht mehr weiter. Ein Nervenzusammenbruch und Medikamentenmissbrauch haben merkliche Spuren in ihrer Psyche hinterlassen.</p>
+<p>Jasmine bleibt nur die Gewissheit, dass sie nicht dauerhaft so leben will wie Ginger. Sie will zurück in die Upper Class und ein Online-Studium zur Innenarchitektin soll ihr dabei helfen. Dumm nur, dass Jasmine nicht mit Computern umgehen kann. Also nimmt sie wohl oder übel einen Job als Empfangsschwester bei einem Zahnarzt an, um Computerkurse an der Abendschule zu finanzieren. Als sie jedoch auf einer Party den Diplomaten Westlake kennenlernt, tut sich eine Abkürzung zurück in die Welt der Reichen für sie auf…</p>
+<p>Auch mit fast 80 Jahren bringt Woody Allen wie gewohnt jedes Jahr einen neuen Film in die Kinos - und die Stars stehen Schlange für eine Rolle. In <em>Blue Jasmine</em> steht die große Cate Blanchett (nicht nur auf dem Plakat) im Vordergrund, in einer Charakterrolle, wie sie der Altmeister lange nicht mehr ausgearbeitet hat. Dem Drama um Jasmine muss sich alles unterordnen, sogar der für Allen typische Humor, der nur in wenigen Szenen vorsichtig durchbricht. Stattdessen dominiert eine fatalistische Handlung, die von vielen Flashbacks unterbrochen wird. Über diese wird zum Einen die Vorgeschichte um Jasmines Ehemann Hal erzählt, zum Anderen verdeutlichen sie dem Zuschauer die voranschreitende psychische Störung der Hauptfigur.</p>
+<p>Denn immer wieder flieht Jasmine aus der unerfreulichen Gegenwart in Selbstgespräche und Tagträume. Sie ist vollkommen gefangen in ihrer Weltsicht, nach der Reichtum nur eine Frage der Haltung und des Denkens ist und ihr deshalb im Gegensatz zu ihrer Schwester etwas besseres zusteht - die Überheblichkeit der Oberschicht. Diese Arroganz und Verleugnung der Realitäten geht so weit, dass sie Gingers Freund einen Looser nennt, weil er aus ihrer Sicht keine großen Ziele hat. Der tote Ex-Mann dagegen, obwohl ein Betrüger von gigantischen Ausmaßen, ist in ihrer gestörten Wahrnehmung immer noch das Ideal. So trifft sie auch keine Mitschuld, dass Hal die Zukunftsträume von Ginger und ihrem Ex-Mann Augie zerstört hat. Sie als Vermittlerin wollte ja nur helfen und bei Geld darf man nicht kleinlich sein.</p>
+<p>Als er das Geld der Schwester verzockte hat sie spätestens gewusst, dass Hal ein Betrüger ist. Doch die Behörden informiert sie erst, als sie herausfindet, dass Hal auch sie betrogen hat - mit anderen Frauen. So zerstört sie sein Leben nicht um Gutes zu tun, sondern aus dem niederem Instinkt der Rache. Solange er ihr ermöglichte, an der feinen Gesellschaft teilzunehmen, war es egal, wie er das Geld heranschafft. Aber selber Opfer der eigenen Haltung zu sein, das verkraftet sie nicht.</p>
+<p>Woody Allen zeichnet mit diesem Storytwist ein bitterböses Charakterbild der ethiklosen Upper Class. Doch er beschränkt sich nicht darauf, sondern führt den Niedergang von Jasmine bis zu einem noch bittereren Ende. Zuvor lässt er kurz einen Hoffnungsschimmer am Horizont erscheinen: Jasmine, immer noch der Meinung dass sie nichts anderes verdient als einen weiteren reichen Mann, lernt auf einer Party den perfekten Nachfolger für Hal kennen. Nur mit dem Unterschied, dass sie diesmal an einen Saubermann gerät, der ihre Ansicht nicht teilt, dass der Zweck die Mittel heiligt. Die sich in Lügen manifestierende Selbstverleugnung stürzt sie schließlich endgültig ins Fiasko und zehrt den verbliebenen Rest ihrer Nerven auf.</p>
+<p>Mit einer großartigen Cate Blanchett als perfekte Verkörperung der Jasmine und der gelungenen Erzählform hätte aus dieser Geschichte ein Film von der Klasse eines <a href="../../../../blog/2006/01/26/match-point/">Match Point</a> werden <del>können</del> müssen. Doch leider hat Woody Allen den Film mit einer Sammlung von unglaubwürdigen Nebenfiguren versehen. Die Idee der zwei so unterschiedlichen weil adoptierten Schwestern nehme ich ihm noch ab, aber ansonsten funktioniert die Figur der Ginger überhaupt nicht. Das fängt an mit den beiden Kindern, die nach der anfänglichen Vorstellung für den Rest des Films verschwinden, und setzt sich fort bei ihrem Freund, der immer sorgfältig gestylt Arbeiterhemden trägt, die ihn wohl als Mechaniker ausweisen sollen. Ihrem Ex-Mann Augie habe ich als einzigen der Runde den Handwerker abgenommen, der sehnsuchtsvoll an seinen durch Jasmine vereitelten Traum von der Selbständigkeit zurückdenkt, während er von seinem Job auf einer Ölplattform in Alaska berichtet.</p>
+<p>Dazu gesellt sich in der Mitte des Film die seltsame Kausalkette, dass Jasmine ihr Studium der Innenarchitektur unbedingt online absolvieren möchte, obwohl sie noch nie einen Computer bedient hat. Also steht plötzlich ein MacBook in Gingers Küche und Jasmine arbeitet als Sprechstundenhilfe, um das Geld für einen Abendkurs zu verdienen. Nachvollziehen kann ich das nicht, aber zum Glück windet sich der Film aus diesem verwirrten Mittelteil wieder heraus.</p>
+<p>Trotzdem bleibt am Ende der Eindruck zurück, einen nur mittelmäßigen Film gesehen zu haben. Eine gute Idee und die optimale Besetzung mit Cate Blanchett reichen nicht, wenn der Rest der Handlung uninspiriert und unglaubwürdig dazu geschustert wurde. Von Woody Allen erwarte ich einfach mehr!</p>
+
+
+
+ ]]></description>
+  <category>gesehen</category>
+  <guid>https://kingoli.net/blog/2013/11/28/blue-jasmine/index.html</guid>
+  <pubDate>Thu, 28 Nov 2013 09:56:14 GMT</pubDate>
+</item>
+<item>
+  <title>Meine Sony α65 - ein vergleichendes Review</title>
+  <link>https://kingoli.net/blog/2013/11/28/sony-a65/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Als ich vor einiger Zeit diesen <a href="http://www.13thfloorphotography.blogspot.de/2013/08/an-unfair-comparison-review-of-a58-and.html">Artikel über einen Vergleich einer Sony α58 mit einer Olympus OM-D E-M5</a> las, wurde ich daran erinnert, dass ich zu beiden Kameras auch etwas schreiben wollte. Genauer gesagt zu den Kritikpunkten des Artikels an der α58, die ich mit meiner inzwischen anderthalb Jahre alten α65 fast 1:1 nachvollziehen kann. Die Olympus-Kamera habe ich dagegen im Berliner Olympus OM-D: Photography Playground im August ausprobieren können, so dass ich auch dazu etwas schreiben will.</p>
+<p>Anfangen möchte ich mit der Entscheidung, weshalb ich überhaupt eine Sony-Kamera gekauft habe. Vor fast drei Jahren wuchs in mir der Wunsch bessere Fotos aufzunehmen, als es meine <a href="../../../../blog/2009/07/19/so-viel-zoom-muss-sein/">Hosentascheknipse</a> erlaubt. Zum einen hatte ich an der Nikon D90 eines Reisegefährten gesehen, dass bei gleichen Motiven der qualitative Unterschied größer als erwartet ist. Zum Anderen wollte ich endlich mit der Tiefenschärfe herumspielen, so dass ein größerer Sensor unabdingbar war.</p>
+<p>Also stand ich vor dem Einstieg in die DSLR-Fotographie. Der <a href="../../../../blog/2011/10/03/die-ostkuste-der-usa/">USA-Urlaub</a> mit der Canon 350D meines Bruders bestätigte mich in meinem Wunsch und gab mir vor allem die Gewissheit, dass ich wirklich bereit bin, ein solches Gerät ständig mit mir herum zu schleppen. Im Bereich meiner Preisvorstellung tummelten sich Ende 2011 die Canon EOS 600D, die Nikon 5100, die Sony α65 und die Pentax K-5 - letztere strich ich aufgrund ihres schlichten Designs sofort aus der Liste. Ich wollte einen möglichst kleinen Body und die spiegellosen Systemkameras waren aufgrund der geringen Objektivauswahl noch keine ernsthafte Alternative.</p>
+<p>Hätte ich die Entscheidung heute treffen müssen, hätte ich eine Sony NEX-6 gewählt, da es inzwischen sehr schöne Objektive wie das 18-105 F4 und das 10-18 F4 für das NEX-Bajonett gibt. Doch vor knapp zwei Jahren war daran nicht zu denken, und so blieben die beiden Platzhirsche Canon und Nikon plus der Herausforderer Sony mit seinen technischen Innovationen. Denn Sony bot nicht nur die (potentiell Licht kostende) SLT-Technik, die ein echtes WYSIWYG ohne beschnittenen Liveview-Modus wie bei der Konkurrenz ermöglicht, sondern ebenso einen tollen digitalen Sucher (aus meiner Sicht den kleinen optischen Suchern der Einsteiger-DSLR überlegen) und etwas, dass es maximal für Nikon als Aufsteckgerät gab: Automatisches Geotagging der Bilder durch In-Camera-GPS.</p>
+<p>Also habe ich die Sony α65 bestellt und nach ein paar Monaten <a href="http://futurezone.at/b2b/flut-verzoegert-produktstart-von-sonys-nex-7/24.572.213">Verzögerung durch die Flutkatastrophe in Asien</a> besaß ich endlich eine eigene “ernsthafte” Kamera. Diese hat mich inzwischen um den halben Globus begleitet und mir viel Freude bereitet. Dennoch gibt es einige Punkte zu kritisieren, womit ich auf den oben verlinkten Artikel zurückkomme.</p>
+<p>Die Sony benötigt keinen Kontrastautofokus, weil sie dank des durchlässigen Spiegels gleichzeitig (phasen-) fokussieren und mit dem Sensor aufnehmen kann. Geschwindigkeitsprobleme konnte ich dementsprechend nicht beobachten, doch zwei Punkte trüben die Erfahrung etwas. Das Eine sind die wenigen Autofokuspunkte, die noch dazu alle sehr zentral angeordnet sind. Eine Bildkomposition ist so oft nur durch vorheriges Fokussieren mit anschließendem Schwenken des Bildausschnittes möglich - bei 24 Megapixeln werden jedoch kleinste Schärfeabweichungen sofort evident. Für zeitunkritische Aufnahmen hätte ich also gerne einen Kontrastautofokus als Option gehabt.</p>
+<p>Desweiteren fehlt der α65 im Gegensatz zur größeren Schwester α77 ein Autofokushilfslicht für schwierige Lichtbedingungen. Zuletzt gab es einige Situationen, in denen ich es schmerzlich vermisst habe. Ärgerlich ist in diesem Zusammenhang, dass zwar ein Vorblitz den Autofokus unterstützen kann - allerdings nur in den Auto-Modi. Ich dagegen fotografiere fast ausschließlich in den PASM-Modi.</p>
+<p>Eine weitere Software-Beschränkung trennt die beiden Kamera-Schwestermodelle: Der Auto-ISO-Modus ist auf 100-1600 beschränkt und kann nicht angepasst werden. Dabei konnte dies bereits meine Hosentaschenkamera und bei Olympus jede Systemkamera im Portfolio. Meine Erfahrung ist, dass ISO 1600 bei 24MP oft zu viel für die Kamera ist. Ich würde also gerne 100-800 einstellen, werde jedoch im Gegensatz zur α77 durch die Firmware daran gehindert. Ich würde mir wünschen, dass Sony seine Modelle durch die Hardware voneinander abgrenzt und nicht künstliche Softwarebeschränkungen einbaut.</p>
+<p>Das gleiche Spiel findet sich bei den Bildreihen. So toll der Serienbildmodus mit 10 Bildern pro Sekunde ist, bei den Belichtungsreihen gibt es maximal drei Aufnahmen in Folge und der Bereich kann nur zwischen 0 und 0,7EV gewählt werden. Die α77 wiederum beherrscht 5 Aufnahmen und 3EV Unterschied. Aus diesem Grund steuere ich HDR-Aufnahmen inzwischen voll manuell über die Belichtungszeit, die ich abhängig vom Histogramm einstelle.</p>
+<p>Wo ich schon beim nächsten Punkt bin: Für das Display und den digitalen Sucher kann ich aus 6 bzw 5 Anzeigemodi auswählen. Eine individuelle Kombination von anzuzeigenden Elementen, also z.B. das Histogramm zusammen mit der Horizontanzeige, ist jedoch nicht möglich. Ebenso kann ich zwar die Funktionen einiger Knöpfe an Rück- und Oberseite anpassen, eine Kombination von Einstellungen als persönliche Vorgabe im Moduswählrad gibt es jedoch nicht. Hier zeigt mir Sony mehr als deutlich, dass ich nur eine Prosumer-Kamera erworben habe und kein Profimodell. Trotzdem sollte sich nicht schon nach einem Jahr der Gummi der Daumenablage lösen!</p>
+<p>Was sich im Nachhinein als negativ herausgestellt hat, ist ironischerweise Sonys Innovationsgeist, der mich erst zu der Firma hinzog. Denn in den letzten anderthalb Jahren hat Sony vor allem daran gearbeitet, sein Angebot im Bereich der spiegellosen Systemkameras auszubauen. Viele Modelle und Objektive der NEX-Serie bis hin zu den neuen Fullframe-Kameras A7/A7R haben die Resourcen der Entwicklungsabteilung gebunden, so dass für den A-Mount nur wenig neues Glas erschienen ist.</p>
+<p>Dieses Problem haben Käufer einer OM-D E-M5 nicht. Olympus konzentriert sich voll auf seine m43-Kameras und verbessert sie stetig. Sofort überzeugt hat mich die M5 aber nicht, als ich sie Ende Mai in den Opernwerkstätten Berlin ausprobieren konnte. Dies lag teilweise am Konzept des Fotografie-Spielplatzes, dessen 12 Installationen einfach zu wenig Licht boten, um vernünftige Belichtungszeiten zu ermöglichen, und teilweise am schlechten Standardobjektiv, welches ich als deutlich limitierend empfand. Der nicht vorhandene Blitz tat sein übriges, so dass ich vor allem eines fotografiert habe: Viel Rauschen bei ISO 1600.</p>
+<p>Auch der Weißabgleich hatte seine Probleme, in der schwierigen Lichtsituation die Farben korrekt wiederzugeben. Das kenne ich jedoch ebenso von der Sony, die bei abnehmenden Licht schnell zu kalte Farben produziert.</p>
+<p>Trotzdem konnte ich mich davon überzeugen, dass der Kontrastautofokus der M5 wirklich schnell ist und der 5-Achsen-Bildstabilisator besser arbeitet als der Steady Shot in meiner Sony. Dieser gerät teilweise schon bei 125mm Brennweite und gutem Licht an seine Grenzen, so dass ich ihn genausogut ausschalten kann. Dank einer Zusammenarbeit von Sony und Olympus wird es den 5-Achsen-Stabilisator aber bald auch in Sony-Modellen geben.</p>
+<p>Bei meiner Kamerawahl war ein möglichst kleinen Gehäuse ein Wunschfaktor - mit der M5 in der Hand wurde mir klar, dass es auch zu klein gibt. Denn die Knöpfe der Olympus sind für meine großen Finger nur schwer zu bedienen; das Drehrad um den Auslöser ist viel zu hakelig. Einzig das Display überzeugte mich mit seiner Helligkeit und der Touchfunktion, aber beim winzigen und viel zu grellen digitalen Sucher sehnte ich mich zu meiner α65 zurück.</p>
+<p>Bei der Wahl zwischen meiner Sony und der M5 würde ich deshalb wieder zur α65 greifen. Trotz aller Einschränkungen ist sie mindestens so leistungsfähig wie die Olympus mit dem kleineren Bildsensor, was auch <a href="http://www.dxomark.com/Cameras/Compare-Camera-Sensors/Compare-cameras-side-by-side/(appareil1)/793%7C0/(brand)/Olympus/(appareil2)/735%7C0/(brand2)/Sony">DxoMark bestätigt</a>.</p>
+
+
+
+ ]]></description>
+  <category>gedacht</category>
+  <category>gefunden</category>
+  <guid>https://kingoli.net/blog/2013/11/28/sony-a65/index.html</guid>
+  <pubDate>Thu, 28 Nov 2013 09:21:38 GMT</pubDate>
+</item>
+<item>
+  <title>The Congress</title>
+  <link>https://kingoli.net/blog/2013/11/22/the-congress/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><em>Israel/Deutschland/Polen/Luxenburg/Frankreich/Belgien (2013) Regie: Ari Folman Darsteller: Robin Wright (Robin Wright), Kodi Smit-McPhee (Aaron Wright), Sami Gayle (Sarah Wright), Danny Huston (Jeff), Jon Hamm (Dylan Truliner), Paul Giamatti (Dr.&nbsp;Barker), Harvey Keitel (Al) und andere Trickfilmfiguren</em> <a href="http://congress.pandorafilm.de/">Offizielle Homepage</a></p>
+<p>Robin Wright ist mit Anfang 40 scheinbar am Ende ihrer Karriere als Schauspielerin angelangt. Niemand in Hollywood will sie mehr besetzen; zu viele Rollenangebote hat sie abgelehnt, zu eigenwillig hat sie sich bei den Dreharbeiten verhalten. Also lebt sie mit ihren beiden Kindern in einer ehemaligen Flugzeughalle und kümmert sich hauptsächlich um den Sohn, der an einer Krankheit leidet, die ihm nach und nach erst das Gehör und dann das Augenlicht kosten wird.</p>
+<p>Da die Behandlung des Sohnes einiges Geld kostet, lässt sie sich auf einen Deal mit einem Studioboss ein: eine finale, letzte Rolle. Das Studio scannt ihr Äußeres ein und digitalisiert ihre Emotionen mit dem Ziel, künftig beliebig Filme mit einer nicht-alternden, virtuellen Robin Wright zu drehen. Die echte Robin willigt ein, nie wieder vor eine Filmkamera zu treten.</p>
+<p>20 Jahre später hat sich die Welt radikal geändert. Jeder Mensch besitzt ein frei wählbares digitales Ich, mit dem er in künstliche Welten flüchten kann. Doch das Filmstudio, welches diese Welten beherrscht, hat revolutionäres vor. Mit Hilfe von synthetischen Drogen soll jeder Mensch die Wahrnehmung der echten Welt seinen Bedürfnissen anpassen können, in seiner ganz eigenen Welt leben können. Deshalb soll Robin einen weiteren Vertrag unterschreiben, in welchem sie die Rechte an ihrem Abbild auf allen Sinnesebenen abtritt.</p>
+<p>Für die Unterschrift unter den Vertrag wird sie zum titelgebenden Futurologischen Kongress eingeladen, der im virtuellen Nobelhotel des Filmstudios stattfindet. Doch aus der als triumphale Vorstellung gedachten Veranstaltung wird eine Katastrophe, als Gegner der neuen Technik den Kongress überfallen und alle Beteiligten einem Drogencocktail ausgesetzt werden. Robin wird bei der Flucht aus dem Hotel verletzt und muss eingefroren werden, da niemand sie heilen kann.</p>
+<p>Wiederum 20 Jahre später wird sie aufgeweckt und findet sich in einer Welt wieder, in der fast die gesamte Menschheit in die eigene drogenbasierte Wahrnehmung geflüchtet ist. Robin macht sich auf die Suche nach ihren beiden Kindern und muss dabei entdecken, was aus der realen Welt hinter der Drogenfassade geworden ist…</p>
+<p>Vor fünf Jahren gelang Ari Folman mit <a href="../../../../blog/2009/01/28/waltz-with-bashir/">Waltz with Bashir</a> einer der besten jemals gedrehten Animationsfilme. Die Kombination aus einem eindringlichen Thema, erzählt aus einer interessanten Perspektive und versehen mit einer neuartigen, perfekt passenden Animationstechnik führte zu einem großen Gesamtkunstwerk. Als ich davon hörte, dass Folman als nächstes das Buch “Der Futurologische Kongress” von Stanislaw Lem verfilmen wollte, war ich dementsprechend sehr gespannt und voller Erwartungen beim Screening im Rahmen des diesjährigen <a href="http://www.fantasyfilmfest.com/filme/Congress.html">FFF</a>.</p>
+<p>Umso irritierter war ich im ersten Drittel des Films, als sich die Handlung selbstreflexiv um die Umwälzungen in der Filmwelt am Beispiel von Robin Wright drehte. Keine Animation weit und breit, dafür eine kleine Geschichte mit nur wenigen Charakteren. Damit habe ich nicht gerechnet.</p>
+<p>Doch der Futorologische Kongress sollte noch folgen und mit ihm viele Plotelemente, die eigentlich Ijon Tichy erlebt, der Held aus Lems Sterntagebüchern. Geschickt verbindet Folman das Thema von der Entfernung der Darstellung vom tatsächlichen Ich aus der filmbezogenen Storyline um Robin Wright mit der Suche nach der tief unter der Drogenwahrnehmung verborgen liegenden Realität aus der Buchvorlage.</p>
+<p>Doch der Film schlägt als Folge seines ersten Drittels den Weg zu einem abweichenden Ende ein. Wo bei Lem zum Schluss alles ist wie vorher und sämtliche Drogenerfahrungen nur im Kopf stattgefunden haben, kommt Folman in seinem Gedankengang einer zuksessiven gesellschaftlichen Umwälzung zu einer anderen Vision der Zukunft: Die Menschheit hat sich fast vollständig in die potemkinschen Dörfer der eigenen Vorstellung zurückgezogen und nur wenige ziehen die Tristesse der Realität einer manipulierten Wahrnehmung vor.</p>
+<p>Dies hat natürlich Auswirkungen auf die reale Welt. Die in der eigenen Wahrnehmungswelt versunkenen Menschen sind nurmehr Zombiewesen, deren Körper irgendwie am Leben gehalten werden. Der Unterschied zu der grellbunten animierten Drogenwelt ist extrem. Von den Häusern, deren Einrichtung über die Kleidung bis hin zum Wetter ist alles grau. Es scheint, als hätten sich alle kreativen Menschen aus der Realität geflüchtet und der Rest der Menschheit versucht als stützender Unterbau die Fassade nicht einstürzen zu lassen.</p>
+<p>Doch so unreflektiert negativ, wie es anscheinend abgebildet ist, lässt Folman diese Welt der Zukunft nicht stehen. Robins Sohn mit seinen abgestorbenen körperlichen Sinnen kann dank der Drogen wieder Bilder und Geräusche wahrnehmen, wenn auch nur in seinem Kopf und als Reaktion auf andere Sinnesreize. Und Robin schafft es schließlich, dank der aufgelösten Schranken von Raum und Zeit des eigenen Wahrnehmungssystems, zu ihrem Sohn zu finden und mit ihm zu leben. Ein sehr versöhnliches Ende für eine nicht immer positiv gemalte Zukunftsperspektive.</p>
+<p>Diese lebt, im Gegensatz zu <a href="../../../../blog/2009/01/28/waltz-with-bashir/">Waltz with Bashir</a>, von ihrer eindeutig als solche zu erkennenden Trickfilmwelt, die nicht nur real gedrehte Szenen verschleiert oder filtert. Alles ist quietschbunt, die Charaktere bedienen sich bei bekannten Bildern aus der gesamten Trickfilmgeschichte. Die Kreativität scheint dabei abhanden gekommen zu sein, da sich viele Figuren wie die von Marilyn Monroe wiederholen. Eine Lesart dieses Details ist, dass die Menschen sich nicht mehr anstrengen, wo sie doch alles sein können, was sie wollen. Es gibt folglich kein Streben mehr und keine neuen Ideen, so dass es den Menschen auch egal ist, wie sie in der echten Welt aussehen und was mit ihren Körpern passiert.</p>
+<p>Zusammengehalten werden die verschiedenen imaginären und zeitlich getrennten Welten des Films durch den ruhigen Soundtrack. Ein wiederkehrendes Pianomotiv lässt auch auf dem hektischen Kongress und in der deprimierenden realen Welt der Zukunft noch an das Happy End glauben. Von dem vorher extra angekündigten <a href="http://www.dolby.com/us/en/consumer/content/movie/release/dolby-atmos-movies.html">Dolby Atmos</a>, welches über zusätzliche Deckenlautsprecher verfügt, habe ich aber nicht viel mitbekommen. Dazu ist der Film über weite Teile einfach zu ruhig. Und das ist auch gut so, denn obwohl <em>The Congress</em> es nicht schafft, die Buchvorlage adäquat auf die Leinwand zu bringen und verglichen mit <a href="../../../../blog/2009/01/28/waltz-with-bashir/">Waltz with Bashir</a> den Kürzeren zieht, so hat er doch einiges zu sagen und zu zeigen, über dass es sich nachzudenken lohnt!</p>
+
+
+
+ ]]></description>
+  <category>gesehen</category>
+  <guid>https://kingoli.net/blog/2013/11/22/the-congress/index.html</guid>
+  <pubDate>Fri, 22 Nov 2013 22:26:23 GMT</pubDate>
+</item>
+<item>
+  <title>Gravity</title>
+  <link>https://kingoli.net/blog/2013/11/19/gravity/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><em>USA/UK (2013) Regie: Alfonso Cuarón Darsteller: Sandra Bullock (Dr.&nbsp;Ryan Stone), George Clooney (Matt Kowalski)</em> <a href="http://www.gravity-derfilm.de/">Offizielle Homepage</a></p>
+<p>Die Astronauten Dr.&nbsp;Ryan Stone und Matt Kowalski sind im Einsatz am Hubble-Teleskop, als Trümmerteile von Satelliten ihr Shuttle zerstören. Ihre einzige Chance auf eine Rückkehr zur Erde besteht darin, mit den Antriebsdüsen von Kowalskis Raumanzug bis zur ISS zu fliegen - wenn denn der Treibstoff und die Luftreserven reichen…</p>
+<p>Ganz am Ende des Films mehren sich Szenen, die prototypisch für <em>Gravity</em> sind. Da sieht der Zuschauer in einer beeindruckenden Plansequenz wie Sandra Bullock sich schwimmend aus einem See rettet um am schlammigen Ufer erschöpft liegen zu bleiben. Kurz darauf rafft sie sich jedoch auf und erhebt sich mit letzter Kraft, von der Kamera aus Bodenperspektive festgehalten.</p>
+<p>Technische Perfektion trifft hier auf einen plakativen Verweis auf den Filmtitel. Bullocks Figur darf stellvertretend für die gesamte Menschheit deren Evolution in Sekunden nachvollziehen und damit den gewonnenen Kampf gegen die Schwerkraft noch einmal ausfechten. Denn die Raumfahrt ist in <em>Gravity</em> nichts anderes als die Überwindung der Bindung an den Erdenkörper - die jedoch in der Sehnsucht der Raumfahrer weiterlebt und so niemals komplett gekappt wird.</p>
+<p>Von diesem Thema erzählt der Film in einer minimalen Figurenkonstellation und gleichzeitig technisch brillianten Materialschlacht. Diese Extreme setzen sich auch beim Soundtrack fort, der wiederholt in dramatischen Situationen als Ersatz für die fehlende Akustik des Weltraums crescendo-artig in den Vordergrund drängt, nur um dann minutenlang zu schweigen und den Zuschauer mit den Funksignalen allein zu lassen</p>
+<p>Als Ergebnis hatte ich zum ersten Mal seit <em>2001</em> wieder das Gefühl, eine realistische Darstellung der Raumfahrt zu sehen. Cuarón schafft es, die Gefahren des Weltraums greifbar zu machen, die Hilflosigkeit des an dieses Habitat nicht angepassten Menschen intensiv zu verdeutlichen. Der Zuschauer erlebt, was es bedeutet, ohne Orientierung in der Leere zu treiben, weil in der Schwerelosigkeit ein Impuls ausreicht, um für immer im unendlichen Raum zu treiben. Er sieht aus der Perspektive von Ryan die Folgen der Luftlosigkeit, die der Mensch nicht nur zum Atmen benötigt sondern auch als Träger von Wärme, Sprache und anderen Geräuschen. Die Zerstörungen der diversen Raumstationen und -kapseln werden dadurch, dass sie nicht zu hören sind, umso intensiver und vor allem gefährlicher wahrgenommen.</p>
+<p>Doch <em>Gravity</em> funktioniert nur in dieser engen Umarmung von Handlung und -ort. Wenn ich mir das Weltall wegdenke, dann bleibt auf der Handlungsebene die Odyssee eines Menschen durch undenkbare Katastrophen übrig, die in ihrer ständigen Steigerung des Schleifencharakters (Aufbruch zum nächsten Rettungsanker -› Probleme auf dem Weg dahin -› Ankunft und Ernüchterung) fast schon kafkaesk wirkt. Nur dass die Reise hier auf ein Ziel hinausläuft und am Ende Ermüdungserscheinungen durch den repetativen Charakter zeigt.</p>
+<p>Dies liegt auch daran, dass Sandra Bullock den größten Teil des Films ohne jegliche Interaktion mit anderen Schauspielern auskommen muss - ein schweres Unterfangen, vor allem bei Bluescreenaufnahmen, denen zusätzlich das Szenenbild fehlt. Dies funktioniert in den Situationen gut, in denen sie aufgrund der unglaublichen Pechsträhne am Verzweifeln ist und ihre Wut in eine kleine Raumkapsel hinausschreit oder mit den vielen chinesisch beschrifteten Knöpfen eines Bedienpultes klarkommen muss. Da habe ich ihr die im Grenzbereich agierende Astronautin abgenommen. Wenn sie jedoch ihre allzu dramatische Hintergrundgeschichte im Dialog mit einem sie nicht verstehenden Funker auf der Erde aufarbeiten oder die plakative Aussage “Es liegt alles an Dir, die Situation zu verändern” transportieren muss, dann wirkte es auf mich nur aufgesetzt. Letztere Szene nutzt Cuarón aber sehr geschickt, um die Auswirkungen von zu viel CO₂ in der Luft zu demonstrieren und gleichzeitig George Clooney noch einmal ins Bild zu holen - eine willkommene Abwechslung, trotz seines kaum ausgearbeiteten Charakters.</p>
+<p>In all seiner technischen Brillianz, die bis auf die Ausstattung des Raumstationen durchschlägt (welche jeweils kaum eine Minute von innen zu sehen sind), leistet sich <em>Gravity</em> doch ein paar Unglaubwürdigkeiten. Nehme ich die Verkettung von unglücklichen Umständen noch als Handlungsgrundlage hin, so glaube ich jedoch nicht, dass Drucktüren immer so extrem aufspringen wie gezeigt - sonst müssten ständig Astronauten im All verloren gehen. Und was Cuarón an Vorurteilen über Russen und Chinesen auftischt kratzt ganz schön an der ansonsten realistischen Fassade des Films: Die Russen werden mit ihrer Raumkapsel und der nicht funktionierenden Treibstoffanzeige als inkompetent dargestellt, haben aber natürlich einen versteckten Vodka an Bord, während in der chinesischen Station Tischtennisschläger durch die Gegend schweben.</p>
+<p>Visuell bombastisch, akustisch übertrieben, beklemmend dramatisch - mit feinen Tönen hält sich Regisseur Cuarón nicht auf. Am Ende bleibt trotz der vielen Ecken ein sehr intensiver Film in Erinnerung, der vor allem mit seiner beeindruckend realistischen Abbildung des Weltraums überzeugen kann.</p>
+
+
+
+ ]]></description>
+  <category>gesehen</category>
+  <guid>https://kingoli.net/blog/2013/11/19/gravity/index.html</guid>
+  <pubDate>Tue, 19 Nov 2013 21:02:38 GMT</pubDate>
+</item>
+<item>
+  <title>Baedeker vs Dumont vs Marco Polo - ein Reiseführervergleich am Beispiel der Toskana</title>
+  <link>https://kingoli.net/blog/2013/10/06/baedeker-vs-dumont-vs-marco-polo-ein-reisefuehrervergleich-am-beispiel-der-toskana/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Reiseführer habe ich für jeden größeren Urlaub im Bücherregal stehen. Darunter finden sich Marco Polos, Baedekers, Stefan Loose Reiseführer, ADAC und viele mehr. Doch für keinen Urlaub hatte ich bisher den Luxus mehrerer Reiseführer gleichzeitig, um deren Qualität vergleichen zu können. Dank einer Ausleihe und viel investierter Zeit konnte ich nun einen direkten Vergleich vornehmen und will mein Urteil nicht für mich behalten.</p>
+<p><em>Baedeker Norditalien 6. Auflage 2011, ISBN 978-3-8297-1242-2, 25,95€</em></p>
+<p>Der Baedeker ist der einzige Reiseführer aus meinem Vergleich, der nicht 100%ig zu meinem Reiseziel (die Toskana) passte, sondern den größeren Bereich von ganz Norditalien abdeckte. Das hatte den Vorteil, dass die beiliegende Karte (ein Pluspunkt dafür, dass sie herausnehmbar ist) den kompletten italienischen Teil der Reiseroute abdeckte. Der größere Kartenbereich geht jedoch auf Kosten der Details, weshalb ich eine genauere Karte vor Ort in der Toskana erworben habe.</p>
+<p>Der Vorteil der größeren Abdeckung gilt auch inhaltlich: Zwischenziele wie der Gardasee und an die Toskana angrenzende Sehenswürdigkeiten wie Cinque Terre wurden ebenfalls besprochen. Die anderen beiden Reiseführer hören an der Grenze der Region Toskana auf.</p>
+<p>Dieser Vorteil ist gleichzeitig auch der größte Nachteil des Baedeker: 50% des Inhalts waren für mich überflüssig. Da er die einzelnen Reiseziele zudem nicht örtlich gruppiert, sondern strikt alphabetisch anordnet, war ich ständig am Blättern. Hier haben die anderen Reiseführer die Nase vorne, welche die Toskana in Kapitel herunterbrechen und zusammenhängende Gebiete auch zusammen behandeln. Dies halte ich für sinnvoller.</p>
+<p>Aber gut, dies gehört ebenso zum Baedeker-Konzept wie der Schwerpunkt auf Kunst und Architektur und ihre Geschichte. Mich interessiert dies eher weniger, doch Italien mit seiner reichen Historie bietet dem Reiseführer genügend Material, welches er in vielen Absätzen ausführlich behandelt.</p>
+<p>Als echtes Problem haben sich beim Lesen die Stadtpläne herausgestellt. Bei größeren Zielen sind sie auf ein oder zwei Seiten abgedruckt. Doch sie sind oft so skaliert, dass kein Platz für Straßennamen mehr blieb. Weiterhin passen sie nicht zum Text. Dort sind Wegerouten beschrieben, die aufgrund der fehlenden Straßennamen nicht nachvollzogen werden können. Teilweise müssen im Text genannte Sehenswürdigkeiten mühselig auf der Karten gesucht werden oder liegen gar außerhalb des Ausschnitts. Ein Reiseführer sollte mir bei der Orientierung helfen und dafür Informationen aufbereiten und nicht neue Fragen zum Verständnis aufwerfen.</p>
+<p>Abgesehen von diesen konzeptuellen und qualitativen Problemen habe ich den Urlaub jedoch gut mit dem Baedeker planen können und hätte mir deshalb keine weitere Literatur zugelegt. Dank der Beliebtheit des Reiseziels Toskana fanden sich im Freundeskreis jedoch weitere Reiseführer, die ich für ergänzende Informationen herangezogen habe.</p>
+<p><em>Dumont Toscana 2. Auflage 2011, ISBN 978-3-7701-7253-5, 14,95€</em></p>
+<p>Im Gegensatz zum Baedeker und Marco Polo haben die Dumont-Reiseführer eine individuellere Herangehensweise. Die Autoren treten mit ihren Meinung weit mehr in den Vordergrund als bei den auf Objektivität bemühten Konkurrenten. Dies äußert sich in Rubriken wie dem Lieblingsort und den immer wieder die Texte unterbrechenden Entdeckungstouren und einem sehr persönlichen Schreibstil.</p>
+<p>Dieser wirkt sich sogar auf den ansonsten in allen drei Reiseführern sehr ähnlichen Teil mit Hintergrundinformationen zu Land und Reise aus. Im Abriss zur Geschichte der Toskana nehmen die Jahre 1986 bis 2010 einen Viertel des Platzes ein. Dabei werden sogar Regionalwahlen angesprochen, wobei die Sympathie der Autorin erkennbar auf Seiten der politisch Linken liegt. Ich wurde dunkel an die rot gefärbte Sicht auf die Geschichte zu DDR-Zeiten erinnert.</p>
+<p>An einigen Stellen ist die Autorin auch offener, als ich es aus Reiseführern gewohnt bin. So wirft sie einigen der erwähnten Restaurants ihre einfallslose Küche vor. Ob dies nur eine persönliche Note ist, sie vielleicht keine empfehlenswerten Restaurants kennt und ob die Konkurrenten weniger kritisch bei ihren Empfehlungen sind - ich weiß es nicht. Überrascht hat mich der leicht sarkastische Schreibstil auf jeden Fall.</p>
+<p>Bei den Innenstadtplänen kann sich der Dumont mit übersichtlicheren Grafiken vom Baedeker absetzen. Dafür gibt es beim Layout Abstriche: Die Überschriftenhierarchie wird teilweise über Farben gelöst. So habe ich oft die Übersicht verloren, ob ich mich noch in dem Abschnitt zu nahen Reisezielen befinde bzw worauf sich die Rubrik Essen &amp; Trinken gerade bezieht. Das lösen die Konkurrenten deutlich besser.</p>
+<p><em>Marco Polo Toskana 16. Auflage 2010, ISBN 978-3-8297-0571-4, 9,95€</em></p>
+<p>Der Marco Polo zeichnet sich vor allem durch seine Reduktion aufs Wesentliche aus. Persönliche Ansichten und Schreibstile der Autoren wie beim Dumont - hat er nicht. Schwerpunkte wie die Kunstgeschichte im Baedeker - hat er nicht. Gefühlt richtet er sich mehr an jüngere Leser (es gibt Hinweise für das Nachtleben), die kurz und bündig informiert werden wollen. Und kommt damit ganz gut bei mir an.</p>
+<p>Die Reduktion kommt der geringen Seitenanzahl zu Gute. Der Marco Polo ist der einzige der drei Reiseführer, den ich unterwegs mitgenommen habe, weil er in die Beintasche meiner Hose gepasst hat. Zudem finde ich als begeisterter Turmsteiger es sehr angenehm, dass er Aussichtspunkte mit einem eigenen Symbol im Text hervorhebt. Da die Bilder gefühlt aktueller und passender sind und das Layout keine Fragen offen lässt, verzeihe ich ihm auch die nicht herausnehmbare und auf 16 Seiten aufgeteilte Karte.</p>
+<p>Im Zweifel würde ich also den Marco Polo wählen, weil er einfach praktisch ist. Mit der Karte des Baedeker wäre er fast perfekt. Die anderen Reiseführer sind teurer und bieten dafür mehr Lesestoff. Da ich aber alle Reiseziele im Internet gegenchecke, benötige ich diesen höheren Informationsgrad gar nicht. Am Ende hätte ich mit jedem der drei den Urlaub gut planen können!</p>
+
+
+
+ ]]></description>
+  <category>gelesen</category>
+  <category>gewesen</category>
+  <guid>https://kingoli.net/blog/2013/10/06/baedeker-vs-dumont-vs-marco-polo-ein-reisefuehrervergleich-am-beispiel-der-toskana/index.html</guid>
+  <pubDate>Sun, 06 Oct 2013 16:15:54 GMT</pubDate>
+</item>
+<item>
+  <title>Kildare Round Tower</title>
+  <link>https://kingoli.net/blog/2013/08/04/kildare-round-tower/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Die abgeschiedene Lage von Irland als Insel am Ende der damals bekannten Welt hat sicherlich ihren Anteil am Fehlen von repräsentativen Kirchengebäuden, wie sie z.B. <a href="../../../../blog/2005/09/09/koln-im-september/">Deutschland</a> <a href="../../../../blog/2005/10/05/in-ulm-um-ulm-und-um-ulm-herum/">aufweisen</a> <a href="../../../../blog/2011/04/27/backsteingotik-mit-turmbefahrung/">kann</a>. Keine wichtige Handelsstraße führt über die Insel, keine Mäzene drückten ihren Reichtum und Einfluss mit der Förderung von Künstlern umd Architekten aus. Hinzu kommt, dass die Iren, anfangs wichtige Exporteure des katholischen Glaubens, über viele Jahrhunderte von Besatzern in ihrer Religion unterdrückt wurden. Dabei sind sie ein kleines Volk geblieben, welches keinen Bedarf an riesigen Gotteshäusern hat - eine schlechte Voraussetzung für einen Turmkletterer wie mich.</p>
+<p>Doch aus der Blütezeit der irischen Kirche, als deren Mönche die gesamte christianisierte Welt beeinflussten und ihr Verständnis der Religion bis nach Italien trugen, ist Irland ein Unikum der frühromanischen Baukunst erhalten geblieben: Die Rundtürme. Zu finden ausschließlich auf der irischen Insel, in Schottland und der Isle of Man, zeugen heute nur noch 69 teilweise erhaltene Exemplare von diesem im elften Jahrhundert in Mode gekommenen Bauschema.</p>
+<p>Die freistehenden Türme mit kreisförmiger Grundfläche haben alle ein markantes Merkmal, welches heute noch über ihren Zweck rätseln lässt: Ihr einziger Eingang ist eine drei Meter über dem Boden befindliche Türöffnung. Weit verbreitet ist die Interpretation, dass die Mönche diese Türme zum Schutz vor den Wikingern bauten. Wurde ihre Siedlung angegriffen, so versteckten sie sich darin und zogen die Leitern, welche hoch zum Eingang führten, einfach nach innen. Wie aber ein <a href="http://gotireland.com/2012/09/04/round-towers-the-medieval-mysterious-marvels-of-ireland/">Blogger</a> überzeugend argumentiert, wäre dies kein wirklicher Schutz gewesen. Mit einem Brandpfeil oder einer eigenen Leiter sind drei Meter schnell überwunden, und ausgeräuchert werden wollten die Mönche bestimmt nicht. Weit überzeugender ist die Vermutung, dass die vormittelalterliche Statik keine hohen Türme ohne entsprechendes Fundament erlaubte. So entstand die erste Öffnung erst oberhalb der sicheren Grundmauern in 3 Metern Höhe.</p>
+<p>Von den 65 noch erhaltenen Türmen Irlands sind genau zwei auch besteigbar. Ich habe mir die Gelegenheit nicht entgehen lassen, und den näher an Dublin gelegenen <a href="http://www.voicesfromthedawn.com/kildare-round-tower/">Kildare Round Tower</a> erklommen. Die massiven Mauern lassen im Inneren der Türme keinen Platz für Treppen, so dass Leitern die einzelnen Zwischenböden miteinander verbinden. Wer den Aufstieg wagt, sollte deshalb Taschen und Rucksäcke am Boden lassen, sie behindern nur das Klettern in dem engen Zwischenraum zwischen Mauer und Leiter. Aus demselben Grund dürfen sich maximal sechs Personen gleichzeitig im Turm befinden - ein Ausweichen und Aneinandervorbeigehen ist schlicht nicht möglich. Auf der Turmspitze steht eine Art Käfig, um ein Herabstürzen aufgrund der starken Winde und dem teilweise fehlenden Mauerwerk zu verhindern.</p>
+<p>Die Aussicht vom Turm, der die nebenan stehende St.&nbsp;Brigid’s Cathedral mühelos überragt, ist typisch irisch: Kildare hat eine Hauptstraße mit Geschäften, Wohngebiete mit schmalen Einfamilienhäusern und liegt inmitten von grünen Hügeln. Stellt sich also immer noch die Frage, weshalb hier vor über tausend Jahren ein Turm hingebaut wurde. Ich vermute eine Mischung aus weithin sichtbarem Statussymbol (sieh’ her, wozu die Kirche in der Lage ist!) und dem Wunsch, dem eigenen Gott so nah wie möglich zu sein - die Gründe für den Bau fast jedes kirchlichen Glockenturms. Beeindruckend ist auf jeden Fall, dass die Türme die Zeiten überstanden haben und ich mir diese Fragen von deren Spitze aus stellen kann!</p>
+<p><img src="https://kingoli.net/blog/2013/08/04/kildare-round-tower/kildare1.jpg" class="img-fluid" alt="kildare1.jpg"> <img src="https://kingoli.net/blog/2013/08/04/kildare-round-tower/kildare2.jpg" class="img-fluid" alt="kildare2.jpg"> <img src="https://kingoli.net/blog/2013/08/04/kildare-round-tower/kildare3.jpg" class="img-fluid" alt="kildare3.jpg"> <img src="https://kingoli.net/blog/2013/08/04/kildare-round-tower/kildare4.jpg" class="img-fluid" alt="kildare4.jpg"> <img src="https://kingoli.net/blog/2013/08/04/kildare-round-tower/kildare5.jpg" class="img-fluid" alt="kildare5.jpg"></p>
+
+
+
+ ]]></description>
+  <category>gewesen</category>
+  <guid>https://kingoli.net/blog/2013/08/04/kildare-round-tower/index.html</guid>
+  <pubDate>Sun, 04 Aug 2013 21:12:09 GMT</pubDate>
+  <media:content url="https://kingoli.net/blog/2013/08/04/kildare-round-tower/kildare1.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Cloud Atlas</title>
+  <link>https://kingoli.net/blog/2013/07/31/cloud-atlas/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><em>von David Mitchell, herausgegeben von rororo, ISBN 978-3-499-24036-2, 9,99€</em></p>
+<p><em>Deutschland/USA/Hong Kong/Singapore (2012) Regie: Tom Tykwer, Andy Wachowski, Lana Wachowski Darsteller: Tom Hanks (Dr.&nbsp;Henry Goose / Hotelmanager / Isaac Sachs / Dermot Hoggins / Cavendish-Schauspieler / Zachary), Halle Berry (Eingeborene / Jocasta Ayrs / Luisa Rey / Partygast / Ovid / Meronym), Jim Broadbent (Captain Molyneux / Vyvyan Ayrs / Timothy Cavendish / Prescient), Hugo Weaving (Haskell Moore / Tadeusz Kesselring / Bill Smoke / Schwester Noakes / Mephi / Old Georgie), Jim Sturgess (Adam Ewing / Highlander / Hae-Joo Chang / Zacharys Schwager Adam), Doona Bae (Tilda Ewing / Mexikanische Frau / Sonmi), Ben Whishaw (Schiffsjunge / Robert Frobisher / Georgette / Stammesmitglied), Keith David (Kupaka / Joe Napier / An-kor Apis / Prescient), James D’Arcy (Rufus Sixsmith / Pfleger James / Archivar), Xun Zhou (Talbot / Yoona-939 / Rose), David Gyasi (Autua / Lester Rey / Duophysite), Susan Sarandon (Madame Horrox / Ursula / Yusouf Suleiman / Äbtissin), Hugh Grant (Reverend Giles Horrox / Lloyd Hooks / Denholme Cavendish / Seher Rhee / Kona-Häuptling), Katy Karrenbauer (Schlägerin in Pub) und andere Seelen auf Wanderung</em> <a href="http://www.cloudatlas-derfilm.de/">Offizielle Homepage</a></p>
+<p>Der kalifornische Notar Adam Ewing zieht sich im 19.Jahrhundert auf der Schiffsreise von Australien zurück nach Hause eine schwere Krankheit zu. Der mittellose englische Komponist Robert Frobisher heuert aus Geldnot in Belgien bei einem alten Meister als dessen Gehilfe an. Die Reporterin Luisa Rey deckt einen Skandal um ein Atomkraftwerk auf. Der Verleger Timothy Cavendish wird auf der Flucht vor schlagkräftigen Gläubigern von seinem Bruder in einem Altersheim untergebracht; muss jedoch feststellen, dass eine Rückkehr nicht vorgesehen ist. In der Zukunft berichtet ein Sonmi-Klon für die Geschichtsbücher, wie ihr Aufstieg zu einem Menschen sie zum Spielball der Konzernokratie machte. Viele Jahre später nach einer atomaren Katastrophe muss Zachary, ein Ureinwohner Hawaiis, in einer archaischen Gesellschaft um sein Überleben und das seiner Sippe kämpfen.</p>
+<p>Sechs Geschichten erzählt Mitchell in seinem Buch <em>Wolkenatlas</em>. Sechs Geschichten, die parabelartig angeordnet und miteinander verbunden sind und sich durch unterschiedliche Schreibstile voneinander unterscheiden. Den Anfang macht Adam Ewings Reisetagebuch in der Sprache des 19.Jahrhunderts, das mitten im Satz abbricht. Robert Frobisher schreibt ausufernde Briefe an seinen in England verbliebenen Geliebten. Die Story der Reporterin wird in kurzen Romankapiteln erzählt, dessen Skript in den Händen des Verlegers Cavendish landet. Dieser wiederum berichtet von seiner Odyssee in Form einer Drehbuchvorlage.</p>
+<p>Die dystopische Welt der nahen Zukunft erlebt der Leser über ein Verhör des Sonmi-Klons, welches aufgezeichnet wird. Die Postapokalypse auf Hawaii schließlich ist eine orale Erzählung in einer stark verfremdeten Sprache und zugleich die einzige Episode des Buches, die nicht an einer spannenden Stelle mit einem Cliffhanger unterbrochen wird. Ging es bis dahin immer vorwärts in der Zeit, wechselt an diesem Wendepunkt des Buchs die Richtung um 180° und schließt die unterbrochenen Episoden eine nach der anderen ab - das letzte Wort hat der amerikanische Notar.</p>
+<p>Verbunden sind die Erzählstränge meistens durch Medien aus der jeweiligen Vergangenheit: Frobisher liest die Tagebücher von Ewing, seine Briefe wiederum werden zur Lektüre von Luisa Rey. Ein Buchmanuskript über ihren Fall soll von Cavendish verlegt werden, dessen verfilmte Geschichte auf Sonmis Medienabspieler landet. Ihr Verhör schließlich ist eine wichtige Aufzeichnung aus der Vergangenheit vor der atomaren Katastrophe, welche die Precious, wie sich die Überlebenden nennen, aufbewahrt haben.</p>
+<p>Als weitere Überschneidung teilen sich einige Charaktere ein kometenförmiges Muttermal an der Schulter und tragen Erinnerungen an Ereignisse der anderen Figuren in sich. Gleichzeitig wird immer wieder - wenn auch mit unterschiedlichen Bedeutungen - das Bild des titelgebenden Wolkenatlas bemüht. Ganz im Stil der Postmoderne ist das einzige Werk von Robert Frobisher sein Wolkenatlas-Sextet, welches den Aufbau des Roman als Musikstück wiederspiegelt.</p>
+<p>Als über allem liegendes Thema kristallisiert sich so ein Konzept der Seelenwanderung heraus; wird sich mit Formen der Wiedergeburt beschäftigt. Das passiert nicht als zentrales Element, wird jedoch wiederholt angesprochen. Einen Rahmen bilden dabei die Riten und Vorstellungen der Südseevölker. In der ersten Episode entdeckt Adam Ewing auf den Chathaminseln in einem Vulkankrater das Heiligtum der Eingeborenen (in Bäume eingeritzte Bilder der Verstorbenen) und rettet danach einen gefüchteten Sklaven. Ein paar Jahrhunderte später wiederholt sich diese Handlung auf Hawaii, wie um einen Rahmen zu bilden und zu sagen: Nach vielen Jahren der menschlichen Entwicklung gibt es immer noch Sklaverei, doch auch der Glaube an die Seelenwanderung ist erhalten geblieben, und die verschlungenen Pfade des Buches beweisen seine Korrektheit.</p>
+<p>Wie bereits erwähnt haben die einzelnen Buchepisoden nur wenige Berührungspunkte und können auch einzeln für sich betrachtet werden. Ich fand vor allem die verwendeten Sprachstile sehr spannend; gerade in den beiden in der Zukunft spielenden Handlungen. Die Sonmi-Episode nimmt sich viele Anleihen an Klassikern des Science-Fiction-Genres. Die Konzernokratie als eines der großen Weltreiche, gebaut auf Konsum und Überwachung und geleitet von einem großen Führer, erinnert stark an <em>1984</em> mit asiatischen Einflüssen. Der Kreislauf der Klone, die am Ende ihres Lebenszyklus zu ihrer eigenen Nahrung verarbeitet werden, ist natürlich eine Referenz auf <em>Soylent Green</em>, womit an anderer Stelle im Buch sogar kokettiert wird.</p>
+<p>Was mir außerordentlich gut gefallen hat ist die Sprache, welche Bezeichnungen für Dinge des täglichen Lebens gegen bekannte Markenhersteller ausgetauscht hat, ganz im Sinne des Neusprech aus <em>1984</em>. Schuhe heißen so Nike, Handys werden als Sonys bezeichnet und Kameras als Nikons. Das sagt mehr über die nicht näher beleuchtete Entwicklung der Konzernokratie aus, die aus einer staatlich gesteuerten Monopolisierung (ähnlich der russischen Oligarchie) hervor gegangen zu sein scheint, als eine Aufarbeitung der Historie.</p>
+<p>Sehr befremdlich, aber ähnlich faszinierend präsentiert sich die Sprache auf Hawaii nach der Atomkatastrophe. Sie zeugt von einem kleinen Wortschatz, bei dem es ähnliche Ersetzungen wie in der Sonmi-Episode gegeben hat, jedoch aus einer ganz anderen Perspektive. Das Volk von Zachary hat entweder absichtlich oder als Folge der atomaren Katastrophe sämtliche Erinnerungen an die Errungenschaften der Menschheit vor der Apokalypse über Bord geworfen und steht diesen mit Unverständnis gegenüber. So heißt jegliche Technik einfach Clever, Eigenschaften werden mit boah gesteigert und viele Wörter wie Wahr für Wahrheit wurden einfach abgekürzt.</p>
+<p>Aber nicht jeder Handlungsstrang hat mich gleichermaßen angezogen. Die Notar-Episode war mir rein inhaltlich zu dünn und abgegriffen, und die Luisa Rey Story hat (absichtlich?) Schwächen wie die Charakterzeichnung und das nicht enden wollende Finale, bei dem sich immer wieder neue Chancen für die Reporerin auftun, ein Beweisstück zu finden und Luisa gefühlt einer handvoll Anschläge auf ihr Leben glücklich entgeht.</p>
+<p>Die drei Regisseure des Verfilmung hatten sich also viel vorgenommen, dieses facettenreiche Buch für die Leinwand zu adaptieren. Da scheint die Entscheidung nur folgerichtig, die einzelnen Episoden unter ihnen aufzuteilen und so deren stilistische Unterschiede stärker hervorzuheben. Schließlich sind charakteristische Merkmale der einzelnen Episoden wie die Brief- oder Tagebuchform umgesetzt in Szenen nur schwer auszumachen. Als Analogie zu den Sprachstilen wurden sechs verschiedene Filmgenres ausgewählt und zum Glück die Sprachfeinheiten beibehalten.</p>
+<p>Die Grundstruktur der parabelförmigen Anordnung der Handlungsfäden wurde jedoch aufgegeben. Der Film springt zwischen seinen Geschichten hin und her, was gerade im Mittelteil zu einem Problem wird. Im Gegensatz zu normalen Storybögen liegt der Gipfel der Dramatik aufgrund der Cliffhanger im Buch in der Mitte der Episoden. Durch die Überlänge des Films wird nach anderthalb Stunden dieser Punkt erreicht, an dem ich das Gefühl hatte, kurz vor dem Ende zu stehen - obwohl noch einmal anderthalb Stunden auf selbiges warten sollte.</p>
+<p>Zumindest bei der Sonmi-Episode hätte dieses Gefühl verhindert werden können, denn diese wurde massiv umgeschrieben (an anderen Stelle fehlen nur kleinere Abschnitte). Die Anzahl an Handlungsorten wurde zusammengestrichen und so der Episode ein großer Teil ihrer Faszination geraubt. Von dem kritischen Blick auf eine ökonomische Diktatur bleibt nicht viel mehr übrig als ein Überwachungsstaat, dabei bietet allein diese Episode genug Stoff für einen eigenen Film.</p>
+<p>Mehr gestört hat mich aber, wie die Grundidee der Seelenwanderung abgewandelt wurde. Im Buch finden sich nur wenige Anzeichen, welcher Charakter in welcher Figur wiedergeboren wurde. Der Film unterstellt mit seiner Auswahl an Schauspielern für einzelne Rollen (als Highlights Hugh Grant in der Rolle eines Südsee-Kannibalen und Hugo Weaving als Schwester Noakes) eine viel umgreifendere Verbundenheit fast aller Akteure, wobei für mich keine wiederkehrenden Figurenkonstellationen erkennbar waren und damit kein System. Den Untertitel “alles ist verbunden” kann ich so nicht nachvollziehen, da mir ein Zweck oder ein Sinn jenseits von “Du wirst wiedergeboren” fehlt. Da ist das Buch deutlich eleganter.</p>
+<p>Fazit: Der Wolkenatlas ist ein faszinierendes Buch mit einer interessanten Struktur, reich an Geschichten und Gedankengängen. Der Film kann da nicht ganz mithalten, zu viel wurde bei der Adaption des Drehbuchs geopfert. Ich bewundere den Mut der drei Regisseure, diese ambitionierte Projekt gestemmt zu haben, aber am Ende ist �?nur�? ein weiterer Episodenfilm herausgekommen, der leider die Grundidee des Buches verwässert.</p>
+
+
+
+ ]]></description>
+  <category>gesehen</category>
+  <category>gelesen</category>
+  <guid>https://kingoli.net/blog/2013/07/31/cloud-atlas/index.html</guid>
+  <pubDate>Wed, 31 Jul 2013 21:50:02 GMT</pubDate>
+</item>
+<item>
+  <title>Paulette</title>
+  <link>https://kingoli.net/blog/2013/07/22/paulette/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><em>Frankreich (2012) Regie: Jérôme Enrico Darsteller: Bernadette Lafont (Paulette), Carmen Maura (Maria), Dominique Lavanant (Lucienne), Françoise Bertin (Renée), André Penvern (Walter), Ismaël Dramé (Léo), Jean-Baptiste Anoumon (Ousmane), Axelle Laffont (Agnès), Paco Boublard (Vito) und andere Drogendealer</em> <a href="http://www.paulette-film.de/‎">Offizielle Homepage</a></p>
+<p>Die Achtzigjährige Paulette hat ein glückliches Leben hinter sich. Mit ihrem Mann führte sie eine erfolgreiche Pâtisserie, verbrachte die Urlaube mit der gemeinsamen Tochter an der See. Doch nach dem Tod des Mannes ging alles den Bach hinunter. Sie musste ihren kleinen Laden an Chinesen verkaufen und lebt nun von der Mindestrente in einem Problembezirk von Paris. Zu allem Überfluss hat ihre Tochter auch noch einen Schwarzen geheiratet - in Paulettes Augen sind die Ausländer das Problem allen - und im Speziellen ihres - Übels.</p>
+<p>Als ihre Wohnungseinrichtung aufgrund von Mietrückständen gepfändet wird, ergreift Paulette die Initiative. Von ihrem Schwiegersohn bei der Drogenfahndung hat sie erfahren, dass mit Drogenhandel gutes Geld zu verdienen ist. Als per Zufall ein Päckchen Hasch in ihren Händen landet, macht sie dem örtlichen Drogenboss das Angebot, es für ihn zu verticken…</p>
+<p>Schwarze Komödien sind eigentlich nicht typisch französisch, sondern eine Spezialität der britischen Nachbarn. Doch womit Paulettes verbittertes Mundwerk unentwegt um sich schießt, das ist bitterböse. Ihren Neffen nennt sie das Negerlein, den “Schlitzaugen” schiebt sie Kakerlaken unter und der dunkelhäutige Pfarrer, bei dem sie regelmäßig beichtet, “hätte eigentlich verdient, ein Weißer zu sein”.</p>
+<p>Das Drehbuch verfrachtet diese erzkonservative Frau nicht nur in ein Banlieue, wo sie fast ausschließlich von den verhassten Ausländern umgeben ist, sondern auch noch in die Rolle einer Drogendealerin. Diese Ausgangsbasis wird nach allen Regeln der Kunst ausgeschlachtet, von den ersten Versuchen der Drogenoma, das Haschisch zu portionieren und an den Junkie zu bringen, über die Auseinandersetzung mit den Platzhirschen im Viertel (eine Jugendgang) und den Wechsel auf Spacecakes als die gefahrlosere und gewinnbringendere Form des Drogenhandels. Zu der Konstruiertheit des Drehbuchs gehört weiterhin ein Schwiegersohn bei der Drogenpolizei, von dem sich Paulette anfangs noch Informationen zum Handwerk geben lässt und der gerne einmal mit seinem zwergenhaften Kollegen in ihrer Wohnung auftaucht, an dessen Tür die Kunden bald Schlange stehen.</p>
+<p>Obwohl <em>Paulette</em> durchaus Probleme wie Altersarmut, der Banlieues und des Drogenhandels (bis hin zum Schulhof) anspricht, will er doch niemals richtig weh tun oder gar die Ursachen und Auswirkungen näher beleuchten. Die Drogen sind ausschließlich weich und ihr Konsum hat höchstens lustige Folgen, die Drogenabhängigen sind harmlose Kiffer und ihre Dealer kleine Jungs, die nur ein wenig Essen benötigen. Hinter all den harten Worten versteckt sich eine Komödie klassischen Zuschnitts mit einem fantastisch-verträumten Ende, welches ausschließlich die Probleme von Paulette löst - die restlichen Konflikte lösen sich quasi in Luft auf.</p>
+<p>Was den Film sehenswert macht ist also sein konsequent bitterböser Humor (auch nach ihrer Wandlung nennt Paulette ihren Enkel “kleine Buschtrommel”) und wie er das Genre des Drogenfilms persifliert. Da gibt es zum Beispiel eine Szene, wo Paulette ihre jugendlichen Dealer-Konkurrenten an den Tisch bittet und mit Spacecakes zu einer Zusammenarbeit überredet. Dabei wandert die Kamera hinter den Rücken der Protagonisten um den Tisch herum, genau wie in <em>Reservoir Dogs</em>. Es sind diese unvermuteten kleinen Details und Referenzen, die am Ende aus <em>Paulette</em> mehr machen als nur den nächsten Komödienhit aus Frankreich.</p>
+
+
+
+ ]]></description>
+  <category>gesehen</category>
+  <guid>https://kingoli.net/blog/2013/07/22/paulette/index.html</guid>
+  <pubDate>Mon, 22 Jul 2013 18:01:48 GMT</pubDate>
+</item>
+<item>
+  <title>Wall on Wall</title>
+  <link>https://kingoli.net/blog/2013/06/29/wall-on-wall/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Vor ein paar Monaten habe ich bei einer <a href="http://aspekte.zdf.de/ZDF/zdfportal/programdata/c736b822-1406-36dd-bbf3-bd196f7c161a/20066070">Kultursendung im ZDF</a> einen Bericht über den Fotographen Kai Wiedenhöfer gesehen. Der Berliner verbrachte die vergangenen Jahre mit dem Langzeitprojekt, Grenzmauern in aller Welt auf Fotos zu dokumentieren (u.a. den Zaun an der amerikanisch-mexikanischen Grenze und die Friedenslinie in Belfast). Für mich spannend war vor allem der Ansatz, mit einer <a href="http://www.hasselbladpages.com/xpan.html">Panorama-Film-Kamera aus den 90er Jahren</a> zu arbeiten. Das ungewöhnliche Filmformat (17:6) hat einen großen Einfluss auf die Bildkomposition und spiegelt die <a href="http://www.wallonwall.org/?p=53">Mauer-Motive</a> in ihren Ausmaßen gut wieder.</p>
+<p>In seiner Heimatstadt mit ihrer Mauervergangenheit hat Wiedenhöfer nun das tolle Projekt <a href="http://www.wallonwall.org/">Wall on Wall</a> gestartet, für das ich hiermit Werbung betreiben möchte. Er hat es geschafft, die East-Side-Gallery als öffentliche Ausstellungsfläche für seine Mauerpanoramen zu gewinnen. Der Wahnsinn von Grenzzäunen abgebildet auf einer der verrücktesten Grenzen des letzten Jahrhunderts! Die Kosten für das Projekt wurden dabei per <a href="http://www.kickstarter.com/projects/701554058/wallonwall-a-photo-exhibition-on-the-berlin-wall">Kickstarter</a> finanziert.</p>
+<p>Ab 10. Juli kann jeder Interessierte die <a href="http://berlin-fotofestival.de/blog/2013/06/25/festival-highlight-wall-on-wall-eroffnung-10-juli/">Fotoausstellung</a> kostenlos besichtigen. Ich werde sie mir auf jeden Fall ansehen und kann dies jedem Foto- und Panoramafreund nur empfehlen!</p>
+
+
+
+ ]]></description>
+  <category>gefunden</category>
+  <guid>https://kingoli.net/blog/2013/06/29/wall-on-wall/index.html</guid>
+  <pubDate>Sat, 29 Jun 2013 16:00:37 GMT</pubDate>
+</item>
+<item>
+  <title>Lincoln</title>
+  <link>https://kingoli.net/blog/2013/06/01/lincoln/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Ich bin hin- und hergerissen von Steven Spielbergs letztem Spielfilm. Auf der einen Seite ist er teilweise schwerfällig, pathetisch (gleich in der ersten Szene) und ganz schön lang geraten. Auf der anderen Seite hat er trotz des ernsten Themas viele leichte, unterhaltsame, ja fast komische Momente (der versuchte Schuss auf den Stimmenfänger, der Sprint vom Capitol zum Weißen Haus) und zeigt die historische Figur Lincoln auch als Mensch, wobei vor allem sein Hang zu Anekdoten immer wieder positiv wie negativ dargestellt wird. Am stärksten hat mich der Film aber in den spannenden Debatten im Repräsentantenhaus gefesselt, deren in großen Wellen schwappende Emotionen, ganz in der angelsächsischen Tradition, mit Beleidigungen im Stil des 19. Jahrhunderts zu unterhalten wissen.</p>
+<p>Mein innerer Zwiespalt über <em>Lincoln</em> geht weiter bei der Leistung der Schauspieler. Daniel Day-Lewis hat den Oscar verdient, aber so wie das Drehbuch ab und zu in den Pathos abgleitet haben sich auch einige Szenen des Overactings eingeschlichen. Dass die deutsche Synchronstimme nicht so richtig zu ihm passt ist da nur ein weiterer Punkt - aber zumindest ist sie verständlich und nicht so vernuschelt wie das Original. Ganz unten im Niveau ist dagegen John Williams mit seinem Score angelangt, der oft sehr unpassend die Atmosphäre der Bilder stört und dem nichts kreativeres einfällt als Lincoln ein heroisches Bläser-Thema auf den Leib zu schreiben.</p>
+<p>Es ist sicherlich nicht Spielbergs bester Film geworden, aber mir hat der Ansatz gefallen, Lincolns Persönlichkeit abzubilden indem nur ein paar Tage vor der Abstimmung über die Abschaffung der Sklaverei erzählt werden. Ob meine Kritikpunkte die guten Seiten aufwiegen, muss jeder für sich entscheiden - <em>Lincoln</em> hat mich auf jeden Fall bewegt und über Tage beschäftigt, da gibt es schlechteres was ich über einen Film schreiben könnte!</p>
+
+
+
+ ]]></description>
+  <category>gesehen</category>
+  <guid>https://kingoli.net/blog/2013/06/01/lincoln/index.html</guid>
+  <pubDate>Sat, 01 Jun 2013 11:43:30 GMT</pubDate>
+</item>
+<item>
+  <title>Star Trek Into Darkness</title>
+  <link>https://kingoli.net/blog/2013/05/23/star-trek-into-darkness/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><em>USA (2013) Regie: J.J. Abrams Darsteller: Chris Pine (Kirk), Zachary Quinto (Spock), Benedict Cumberbatch (John Harrison/Khan), Simon Pegg (Scotty), Karl Urban (Pille), Zoe Saldana (Uhura), John Cho (Sulu), Anton Yelchin (Chekov), Bruce Greenwood (Admiral Christopher Pike), Peter Weller (Admiral Marcus), Alice Eve (Dr.&nbsp;Carol Marcus) und eine Menge Menschen in Torpedos</em> <a href="http://www.star-trek-film.de/">Offizielle Homepage</a></p>
+<p>Kaum hat Kirk nach den Ereignissen in <a href="../../../../blog/2009/05/16/star-trek/">Star Trek</a> das Kommando auf der Enterprise übernommen, wird es nach einer missglückten Mission auch schon wieder an Pike rückübertragen. Doch dann passiert ein Angriff auf eine Sitzung der ranghöchsten Sternenflottenoffiziere, den nur wenige überleben. Der Attentäter, ein Geheimagent der Sternenflotte, flieht nach Kronos, einem Klingonen-Mond. Kirk macht sich mit der Enterprise auf, den Flüchtenden wieder einzufangen.</p>
+<p>Doch dieser ist anders, als Kirk es erwartet hat. Zum Einen hat er übermenschliche Kräfte, zum Anderen besitzt er Informationen über die Sternenflotte, die seine Ergreifung in einem anderen Licht erscheinen lassen…</p>
+<p>Spätestens, als der Geheimagent Harrison seinen eigentlichen Namen Khan preisgibt, ist jedem Trekkie klar, dass sich <em>Star trek into Darkness</em> schamlos an <em>Star Trek II: Der Zorn des Khan</em> bedient. Nach dem Reboot folgt also die Konsolidierung für alle diejenigen, die den immerhin 31 Jahre alten Film - einer der besten der Original-Crew - nicht kennen. Dabei sind es nur einzelne Handlungselemente, die neu variiert werden - genug, um die Referenzen von Kundigen erkennen zu lassen, doch mit durchaus eigenem Charakter.</p>
+<p>Ansonsten setzt der Film genau da an, wo JJ Abrams beim Vorgänger aufhörte. Wieder gibt es eine rasante, mit viel Action die Drehbuchschwächen überbügelnde Inszenierung. Diesmal schließt sich jedoch der Schnitt dem Niveau der Handlung an und lässt mit unmotiviert abgebrochenen Szenen die teilweise ins Leere laufenden Handlungsfäden deutlich werden. Etwas weniger davon und Abrams hätte sich bequem die Überlänge sparen können.</p>
+<p>Zudem finde ich es schade, dass Benedict Cumberbatch als Khan so wenig Leinwandzeit verglichen mit seinem ebenso charismatischen Vorgänger Ricardo Montalbán bekommt. Wenn die Filmkritik seine Performance lobt, dann kann es nur daran liegen, dass die anderen Darsteller keine Konkurrenz darstellen. Denn eine von dem Supergehirn ausgehende Gefahr ist zu keiner Zeit erkennbar, was vor allem an der Dialogarmut des Films liegt. Khan wird hauptsächlich mit seiner körperlichen Überlegenheit im Kampf dargestellt (er besiegt fast im Alleingang eine Klingonenkolonie, kämpft sich durch das Superschiff der Föderation und ist mit Phasern nicht zu betäuben). Das wird der Figur nicht gerecht und vor allem braucht es keinen Benedict Cumberbatch für so eine eindimensionale Rolle.</p>
+<p>Der Film verhindert in seiner Hektik und Ruhelosigkeit jegliche Atmosphäre. Handlungsvorantreibende Informationen werden quasi im Vorbeigehen und Rennen vermittelt, nie gibt es Zeit für Diskussionen oder gar Reflektionsmöglichkeiten. Früher haben sich in Star Trek die Offiziere zusammengesetzt und beratschlagt, was die beste Strategie ist. Bevor Scotty oder Spock Aussagen über das Schiff getroffen haben, mussten sie erst Konsolen oder Mitarbeiter konsultieren. Und als Spock in <em>Star Trek II</em> den Warpkern repariert, da musste er dies nicht wie Kirk hier mit roher Gewalt an etwas machen, das eigentlich ein Präzisionsinstrument ist. Ärgerlich, dass so eine der intensivsten Szenen von <em>Star Trek II</em> fast komplett ihrer Wirkung beraubt wird (inklusive einer billigen Rettung).</p>
+<p>Da ist es nicht verwunderlich, dass der Film zwischenzeitlich an ein Computerspiel erinnert. In einer Sequenz werden Kirk und Khan mit Raumanzügen durch ein Trümmerfeld im All geschickt (der Transporter funktioniert immer nur so, wie es das Drehbuch gerade benötigt). Dabei wird der Flug durch den Raum aus der Egoperspektive gezeigt und mit einem Heads-up-Display unterstützt. Ich fühlte mich wie in einem Rennspiel, nur ohne Möglichkeit der Steuerung. Eine unschöne Erfahrung.</p>
+<p>Gleichzeitig war dies eine der wenigen Szenen, in welcher der 3D-Effekt der nachträglichen Konvertierung halbwegs zum Tragen kam. Konnte ich in <a href="../../../../blog/2013/05/01/iron-man-3/">Iron Man 3</a> noch von einer angenehmen Zurückhaltung schreiben, so ist 3D in <em>Star Trek Into Darkness</em> eine Verschwendung und ärgerliche Preistreiberei. JJ Abrams hat weder darauf geachtet, 3D-wirksame Kameraeinstellungen zu verwenden, noch profitiert der Film in irgendeiner Form künstlerisch von den Effekten. Das gilt ebenso für die schon <a href="../../../../blog/2009/05/16/star-trek/">im Vorgänger kritisierten Lens Flares</a>, die zumindest nicht mehr unentwegt die Sicht auf das Geschehen verdecken.</p>
+<p>Am Ende bleibt ein weiterer hektischer Film übrig, dem ich vor allem die mangelnde Eigenständigkeit ankreide. Wenn sich JJ Abrams schon bei der Vorlage bedient, dann soll er nicht nur Elemente in wilder Kombination neu zusammenmischen, damit sie zu seiner Highspeed-Inszenierung passen. Liebe StarWars-Fans, ich habe jetzt schon Mitleid mit Euch, wenn ich nur daran denke, was die Kombination Disney/Abrams mit eurem Universum anstellen wird. Die gute Nachricht ist, dass es aus dem resultierenden Zeitmangel so schnell keinen weiteren Abrams-StarTrek-Film geben wird!</p>
+
+
+
+ ]]></description>
+  <category>gesehen</category>
+  <guid>https://kingoli.net/blog/2013/05/23/star-trek-into-darkness/index.html</guid>
+  <pubDate>Thu, 23 May 2013 18:01:30 GMT</pubDate>
+</item>
+<item>
+  <title>Klettern am Ufer</title>
+  <link>https://kingoli.net/blog/2013/05/16/klettern-am-ufer/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Als ich heute in der <a href="http://www.mz-web.de/halle-saalekreis/deutscher-alpenverein-wackelige-kletterpartie-am-riveufer,20640778,22781592.html">Zeitung las</a>, dass in Halle die Porphyrfelsen am Riveufer für Klettertouren entlang zweier Routen freigegeben werden, da wurde ich spontan an meinen Australienurlaub vor einem Jahr erinnert. In Brisbane gibt es entlang des Brisbane River nämlich nicht nur ein Freibad, einen Botanischen Garten und schöne Parkanlagen, sondern auch Kletterfelsen direkt in der Innenstadt, die nachts besonders schön angeleuchtet werden:</p>
+<p><img src="https://kingoli.net/blog/2013/05/16/klettern-am-ufer/brisbane1.jpg" class="img-fluid" alt="brisbane1.jpg"> <img src="https://kingoli.net/blog/2013/05/16/klettern-am-ufer/brisbane2.jpg" class="img-fluid" alt="brisbane2.jpg"> <img src="https://kingoli.net/blog/2013/05/16/klettern-am-ufer/brisbane3.jpg" class="img-fluid" alt="brisbane3.jpg"></p>
+<p>Ich war überrascht, wie stark das Angebot selbst in der glühenden Mittagshitze angenommen wurde. Eine Stadt, die solch ein Angebot für ihre Bewohner und Touristen bereithält, ist in meiner Wahrnehmung gleich ein Stück lebenswerter. Deshalb freut es mich, dass so etwas nun in Halle möglich ist und hoffe auf weitere positive Impulse dieser Art.</p>
+
+
+
+ ]]></description>
+  <category>gedacht</category>
+  <category>gefunden</category>
+  <category>gewesen</category>
+  <guid>https://kingoli.net/blog/2013/05/16/klettern-am-ufer/index.html</guid>
+  <pubDate>Thu, 16 May 2013 21:14:57 GMT</pubDate>
+  <media:content url="https://kingoli.net/blog/2013/05/16/klettern-am-ufer/brisbane1.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Project1709 oder wie Canon den nächsten Trend verschläft</title>
+  <link>https://kingoli.net/blog/2013/05/01/project1709-oder-wie-canon-den-nachsten-trend-verschlaft/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Dass bei Canon die Mühlen etwas langsamer mahlen, hat der japanische Konzern bereits bewiesen, als er letztes Jahr als letzter der großen Digitalkamerahersteller eine spiegellose Systemkamera vorstellte. Mit ihrem <a href="http://www.project1709.com/">Project1709</a> setzt die Firma diese Taktik fort, frei nach dem Motto “gut Ding will Weile haben”.</p>
+<p>Denn bereits am 17.09. hat Canon über eine <a href="http://www.canon.de/About_Us/Press_Centre/Press_Releases/Consumer_News/News/Your_lifetime_of_images.aspx">Pressemitteilung</a> ihren neuen Online-Bildverwaltungsdienst im Stile von Flickr vorgestellt. Der natürlich marketingwirksam als cloud-basiert beschriebene Service soll dieses Jahr starten, doch schon kurz nach der Ankündigung konnten freiwillige Nutzer an einer Beta-Phase teilnehmen und den Feinschliff der Plattform mitgestalten.</p>
+<p>Da ich ohnehin auf der Suche nach einer Speicherlösung für die Fotos meines Blogs war und das Projekt in Deutschland startete, habe ich mich Ende September um eine Einladung für die Testphase bemüht. Dabei wurde ich zum ersten Mal überrascht, denn die Verzahnung mit den Social Networks ist so stark, dass ich mich nur als Nutzer von Facebook, Yahoo, Google oder Windows Live anmelden konnte. Nicknames sind neuerdings ebenfalls tabu, aber zum Glück überprüft (noch) niemand den angegebenen Namen.</p>
+<p>Nach nur zehn Tagen bekam ich dann auch schon die Bestätigung meiner Anfrage, in der ich vertröstet wurde, dass Einladungen nach dem first-come-first-serve-Prinzip vergeben werden. Es sollten danach noch einige entschuldigende Mails folgen, bis ich Ende November endlich einen Account eröffnen konnte. Voller Spannung loggte ich mich in die Plattform ein, doch der Aufregung folgte schnell die Ernüchterung: Project1709 hatte zu diesem Zeitpunkt einen Funktionsumfang, den ich nur spartanisch nennen kann.</p>
+<p>Ich konnte Fotos hochladen, die danach in einer Timeline angezeigt wurden (die Sortierung per Album folgte erst später). Ich konnte diese filtern, um schnell ein Bild in meiner Sammlung zu suchen. Und ich konnte Bilder mit Facebook synchronisieren. Da ich kein Facebook-Mitglied bin, war diese Funktion nutzlos für mich. Und außer über Facebook gab es keine Möglichkeit, an die eigenen Bilder zu gelangen, ohne sich einzuloggen (inzwischen gibt es eine Flickr-Synchronisation).</p>
+<p>Seit diesem ersten Test habe ich mich kein weiteres Mal in Project1709 eingeloggt. Ich verfolge zwar die Newsletter und habe auch einen Vorschlag eingereicht, die Bilder ohne Login verfügbar zu machen, doch die Entwicklung der Plattform schreitet sehr gemächlich voran und konzentriert sich vor allem auf die interne Verwaltung der Bilder.</p>
+<p>Ich lese aus dieser Entwicklung heraus, dass Canon Project1709 vor allem als Backup-Lösung bzw Online-Portfolio-Dienst für professionelle Fotografen vermarkten will. Ich benötige leider etwas anderes. Und vor allem glaube ich nicht, dass Canon Erfolg mit diesem Produkt haben wird, wenn es weiter so gemächlich daran arbeitet. In dem halben Jahr seit meiner Anmeldung haben die meisten der Cloud-Foto-Dienste deutlich mehr Funktionen umgesetzt als Project1709 - und die Plattform ist noch nicht einmal offiziell online (deshalb verstehe ich auch nicht, weshalb Rollouts teilweise Ausfallzeiten von 3 Stunden nach sich ziehen - noch nie etwas von <a href="http://de.wikipedia.org/wiki/Continuous_Delivery">Continuous Delivery</a> gehört?). Im Web 2.0 hat Project1709 ohne Alleinstellungsmerkmale keine Chance, und wenn Canon auch noch Geld für die Nutzung verlangen will, dann sollte es vorher vielleicht einmal Konkurrenten wie 500px anschauen. Ich begebe mich auf jeden Fall neu auf die Suche nach einer Möglichkeit, meine Bilder im Netz abzulegen und andere darauf zugreifen zu lassen.</p>
+
+
+
+ ]]></description>
+  <category>gedacht</category>
+  <category>gefunden</category>
+  <guid>https://kingoli.net/blog/2013/05/01/project1709-oder-wie-canon-den-nachsten-trend-verschlaft/index.html</guid>
+  <pubDate>Wed, 01 May 2013 14:56:15 GMT</pubDate>
+</item>
+<item>
+  <title>Iron Man 3</title>
+  <link>https://kingoli.net/blog/2013/05/01/iron-man-3/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><em>USA (2013) Regie: Shane Black Darsteller: Robert Downey Jr.&nbsp;(Tony Stark), Guy Pearce (Aldrich Killian), Gwyneth Paltrow (Pepper Potts), Rebecca Hall (Maya Hansen), Jon Favreau (Happy Hogan), Ben Kingsley (Mandarin), Don Cheadle (James Rhodes) und eine Armee von Eisenmännern</em></p>
+<p>Tony Stark leidet nach dem Kampf gegen die Außerirdischen in <em>The Avengers</em> an ihm vorher unbekannten Panikattacken und Schlaflosigkeit. Da kommt ihm das Rätsel um den Mandarin gerade recht, der die Welt mit Anschlägen terrorisiert, bei denen anscheinend keine Bomben zu Einsatz kommen. Gewohnt offensiv lädt er den Mandarin zu sich nach Hause ein, um sich mit ihm zu messen. Doch die Idee geht nach hinten los und ehe Tony Stark sich versieht ist seine Villa und vor allem sein Labor mit den Iron-Man-Anzügen zerstört und er muss den Kampf vorerst ohne seinen Panzer austragen…</p>
+<p>Da sind wir nun beim inzwischen vierten <em>Iron-Man</em>-Film (zählt man <em>The Avengers</em> dazu) in nur fünf Jahren angelangt, der wie seine Vorgänger, auf die er direkt Bezug nimmt, keinen Untertitel trägt. Dieser Seriencharakter stört mich etwas, denn so bleibt das Gefühl zurück, dass Teil 3 nur ein weiteres Kettenteil ist, dem sowohl Selbständigkeit als auch eigener Anfang wie Ende abgeht. Ich kann jetzt schon nicht mehr die Plots der ersten beiden Filme auseinander halten, und das ist sehr schade, denn Kino kann so viel mehr bieten als Konformität.</p>
+<p>Passend dazu gibt es innerhalb des Films keine wahrnehmbare Charakterentwicklung. Der angebliche Konflikt um Tony Starks Angstzustände wird kurz vorm Finale beiläufig beiseite gewischt, das als Mut verkaufte Ende wird gar nicht erst begründet und der Rahmen des Films, ein Rückblick von Tony Stark auf die Ereignisse, will nicht so recht zum Inhalt passen - nachdem zwei Stunden lang nicht darauf zurückgegriffen wurde, hatte ich den Einstieg sogar schon wieder vergessen.</p>
+<p>Und wenn ich schon bei den Charakteren bin - die Rolle von Rebecca Hall ist ebenso verschenkt wie der Handlungsrahmen. 12 Jahre lang hat sie nicht mit Stark geredet, um ihr Problem gelöst zu bekommen, doch dann steht sie ausgerechnet vor seiner Tür, als ihr Verbündeter Starks Villa angreift und begibt sich damit in Lebensgefahr. Das darauf folgende Chaos ist, so schließe ich aus einigen Dialogen, nicht in dieser Form gewollt, so dass ihr Charakter bis zum Ende des Films (und ihrer Figur) untertauchen muss, um diese Drehbuchschwäche nicht zu offensichtlich zu machen. Solche unverständlichen Umwege geht das Drehbuch auf seiner unablässigen Hatz nach Situationen für einen Oneliner oder einer weiteren Actionsequenz. Die von Stark einmal gestellte Frage “und glaubst Du das?�? ist somit aus Sicht des Zuschauers mit einem klaren Nein zu beantworten.</p>
+<p>Ähnlich ärgerlich weil primitiv ist der Endkampf. Während des gesamten Films hat Tony Stark immer genau die Anzahl an Anzügen zur Verfügung, die er gerade benötigt, um seinem Gegner je nach Situation unter- oder überlegen zu sein. Am Ende zaubert er gar eine ganze Armee aus den Hut. Tony Stark ist nicht der geniale Mechaniker, als den ihn der Film verkaufen möchte, sondern ein billiger Taschenspieler.</p>
+<p>Ein positiver Aspekt des Drehbuchs sind dagegen die gut funktionierenden Nebenfiguren wie der von Ben Kingsley mit viel komödiantischem Talent gespielte Schauspieler hinter dem Mandarin oder der übereifrige Sicherheitschef (der Regisseur der ersten beiden Teile, Jon Favreau) mit einem Herz für <em>Downton Abbey</em>.</p>
+<p>Und für mich sehr erstaunlich war der sensibel eingesetzte 3D-Effekt. Keine Popups, keine nicht nachvollziehbaren schnellen Bewegungen oder Schnitte, sondern hauptsächlich riesige Kulissen dominieren das Bild, bei denen die Tiefenwirkung besonders gut zur Geltung kommt. Hervorzuheben sei dabei der Sturz aus der Air Force One vor der Küste von Florida oder der finale Kampf in einem Containerhafen, bei dem die gigantischen Proportionen besonders gut zur Geltung kommen.</p>
+<p>Trotzdem lohnt es sich nicht, die 3D-Fassung anzuschauen. Den guten Szenen stehen weite Teile des Films gegenüber, in denen von der Tiefenwirkung nichts zu merken ist, während einige wenige Szenen sehr künstlich aussehen, sei es weil die Menschen plötzlich einen metallenen Schimmer haben oder die 3D-Ebenen wie Ebenen aussehen und nicht die Tiefe ausstrahlen, die das Auge erwarten würde.</p>
+<p>So ist <em>Iron Man 3</em> ein weiterer mittelmäßiger Film aus dem gigantischen <a href="http://de.wikipedia.org/wiki/Marvel_Cinematic_Universe">Marvel-Cinematic-Universe</a>-Projekt, der zwar wie die bisherigen <em>Iron-Man</em>-Teile von dem Humor der Asperger-Hauptfigur und viel gut inszenierter Action lebt, aber unter seinem Seriencharakter und den Untiefen des Drehbuchs leidet.</p>
+
+
+
+ ]]></description>
+  <category>gesehen</category>
+  <guid>https://kingoli.net/blog/2013/05/01/iron-man-3/index.html</guid>
+  <pubDate>Wed, 01 May 2013 07:51:09 GMT</pubDate>
+</item>
+</channel>
+</rss>
