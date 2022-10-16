@@ -28,7 +28,7 @@ jobs:
         uses: socram8888/ftp-hash-sync@v1
         with:
           protocol: sftp
-          host: kingoli.net
+          host: w012899b.kasserver.com
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
           source: ./docs/
