@@ -25,10 +25,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Upload to kingoli.net
-        uses: SamKirkland/FTP-Deploy-Action@4.3.2
+        uses: socram8888/ftp-hash-sync@v1
         with:
-          server: kingoli.net
+          protocol: sftp
+          host: kingoli.net
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
-          local-dir: ./docs/
+          source: ./docs/
