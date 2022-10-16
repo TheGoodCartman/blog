@@ -23,3 +23,11 @@ jobs:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Upload to kingoli.net
+        uses: SamKirkland/FTP-Deploy-Action@4.3.2
+        with:
+          server: kingoli.net
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
