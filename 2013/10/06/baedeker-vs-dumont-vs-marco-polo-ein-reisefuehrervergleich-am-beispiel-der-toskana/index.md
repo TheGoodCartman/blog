@@ -4,6 +4,8 @@ date: "2013-10-06T18:15:54"
 categories: [gelesen,gewesen]
 ---
 
+![Florenz Panorama](florenz_500.jpg)
+
 Reiseführer habe ich für jeden größeren Urlaub im Bücherregal stehen. Darunter finden sich Marco Polos, Baedekers, Stefan Loose Reiseführer, ADAC und viele mehr. Doch für keinen Urlaub hatte ich bisher den Luxus mehrerer Reiseführer gleichzeitig, um deren Qualität vergleichen zu können. Dank einer Ausleihe und viel investierter Zeit konnte ich nun einen direkten Vergleich vornehmen und will mein Urteil nicht für mich behalten.
 
 *Baedeker Norditalien

@@ -12,9 +12,9 @@ Doch spätestens an der Matthiaskirche wird klar, dass dem nicht so ist. Ein Tou
 
 Zwei Dinge trüben im Nachhinein etwas das Bild von der Fischerbastei. Da ist zum Einen das zu Ostblockzeiten direkt hinter der Bastei errichtete Hotel, dessen Architektur die Jahrzehnte nicht so gut überstanden hat. In den Fenstern im Stil des Palasts der Republik wirkt die Spiegelung des weißen Steins der Anlage seltsam verzerrt und verfremdet. Immerhin gibt es im Erdgeschoss einen Eisladen und ein Souvenirgeschäft, welches Postkarten mit atmosphärischen Fotos von Budapests Sehenswürdigkeiten verkauft.
 
-Schade ist auch, dass weite Teile der Bastei von Restaurants belegt sind, zu denen nur begrenzt Zutritt besteht. So drängeln sich alle Touristen in zwei enge Türmchen oder bezahlen Eintritt für das Betreten eines Zinnenganges; den schönsten Ausblick gibt es aber vom nördlichsten und höchsten Turm der Anlage. Von der Fischerbastei führt ein schöner Fußweg über mehrere längere Treppen zum Batthyány-Platz hinab. Dieser liegt an der Donau, genau gegenüber dem Parlamentsgebäude und bietet sich deshalb für Fotografien des beeindruckenden Bauwerks an.
+Schade ist auch, dass weite Teile der Bastei von Restaurants belegt sind, zu denen nur begrenzt Zutritt besteht. So drängeln sich alle Touristen in zwei enge Türmchen oder bezahlen Eintritt für das Betreten eines Zinnenganges; den schönsten Ausblick gibt es aber vom nördlichsten und höchsten Turm der Anlage. Von der Fischerbastei führt ein schöner Fußweg über mehrere längere Treppen zum Batthyány-Platz hinab. Dieser liegt an der Donau, genau gegenüber dem Parlamentsgebäude und bietet sich deshalb für Fotos des beeindruckenden Bauwerks an.
 
-Zwei Tage nach dem Burgberg habe ich noch den Gellért-Berg bestiegen. Gestartet bin ich dabei an der Freiheitsbrücke mit ihrem markanten grünen Stahlgerüst. Ihren Namen trägt die Brücke erst seit 1946, als sie als erste von der Wehrmacht gesprengte Donaubrücke wieder eröffnet wurde. Direkt am Ende der Brücke steht das Gellért-Hotel mit dem gleichnamigen Bad, an dem eine lange Schlange auf den Einlass wartete. Wie in so vielen anderen Städte auch haben zuerst die Römer die heißen Quellen entdeckt und genutzt ([Aquincum](http://de.wikipedia.org/wiki/Aquincum)); heute gibt es in Budapest 10 Heilbäder, von denen das Gellért-Bad eines der bekanntesten ist.
+Zwei Tage nach dem Burgberg habe ich noch den Gellért-Berg bestiegen. Gestartet bin ich dabei an der Freiheitsbrücke mit ihrem markanten grünen Stahlgerüst. Ihren Namen trägt die Brücke erst seit 1946, als sie als erste von den von der Wehrmacht gesprengten Donaubrücken wieder eröffnet wurde. Direkt am Ende der Brücke steht das Gellért-Hotel mit dem gleichnamigen Bad, an dem eine lange Schlange auf den Einlass wartete. Wie in so vielen anderen Städte auch haben zuerst die Römer die heißen Quellen entdeckt und genutzt ([Aquincum](http://de.wikipedia.org/wiki/Aquincum)); heute gibt es in Budapest 10 Heilbäder, von denen das Gellért-Bad eines der bekanntesten ist.
 
 Nebem dem Gellért-Hotel erhebt sich der Gellért-Berg immerhin 235m über die Donau. So hoch hatte ich ihn gar nicht eingeschätzt, und so kam ich beim Aufstieg unerwartet ins Schwitzen. Der ganze Berg ist als große Parkanlage mit einem weit verzweigten Wegenetz angelegt, von dem allerdings nur Teile nachts von Lampen beleuchtet werden. Als ich am späten Abend zum zweiten Mal Richtung Freiheitsstatue unterwegs war, um Nachtfotos zu schießen, lief ich teilweise auf stockdusteren Pfaden. Weniger unheimlich, aber auch länger, ist der Weg über die Straße, die von Westen zum Berg hinaufführt.
 
@@ -23,17 +23,9 @@ Neben der Freiheitsstatue gibt es noch eine als Militärmuseum genutzte Zitadell
 ![budapest_01.jpg](budapest_01.jpg)
 ![budapest_02.jpg](budapest_02.jpg)
 ![budapest_03.jpg](budapest_03.jpg)
-![budapest_04.jpg](budapest_04.jpg)
-![budapest_05.jpg](budapest_05.jpg)
-![budapest_06.jpg](budapest_06.jpg)
 ![budapest_07.jpg](budapest_07.jpg)
 ![budapest_08.jpg](budapest_08.jpg)
-![budapest_09.jpg](budapest_09.jpg)
 ![budapest_10.jpg](budapest_10.jpg)
-![budapest_11.jpg](budapest_11.jpg)
-![budapest_12.jpg](budapest_12.jpg)
-![budapest_13.jpg](budapest_13.jpg)
-![budapest_14.jpg](budapest_14.jpg)
 ![budapest_17.jpg](budapest_17.jpg)
 ![budapest_18.jpg](budapest_18.jpg)
 ![budapest_20.jpg](budapest_20.jpg)

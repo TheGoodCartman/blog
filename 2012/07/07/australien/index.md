@@ -16,6 +16,5 @@ Neben der notgedrungen erlernten Eigenschaft, große Entfernungen im Auto zurüc
 
 Meine weiteren Eindrücke und Erfahrungen werde ich wie gewohnt in kleinere Berichte verpacken, zu denen dieser Artikel den Einstieg bildet.
 
-<ul>
-<li>[Sydney von oben](/blog/2012/07/08/sydney-von-oben/)</li>
-</ul>
+* [Sydney von oben](/blog/2012/07/08/sydney-von-oben/)
+* [Melbourne von oben](/blog/2013/08/09/melbourne-von-oben/)
