@@ -2,6 +2,7 @@
 title: "Australien"
 date: "2012-07-07T22:06:51"
 categories: [gewesen]
+abstract: " "
 ---
 
 ![Australien](australien.jpg)
@@ -16,5 +17,6 @@ Neben der notgedrungen erlernten Eigenschaft, große Entfernungen im Auto zurüc
 
 Meine weiteren Eindrücke und Erfahrungen werde ich wie gewohnt in kleinere Berichte verpacken, zu denen dieser Artikel den Einstieg bildet.
 
-* [Sydney von oben](/2012/07/08/sydney-von-oben/)
+* [Die Australier und das Wetter](/2012/10/03/die-australier-und-das-wetter/)
 * [Melbourne von oben](/2013/08/09/melbourne-von-oben/)
+* [Sydney von oben](/2012/07/08/sydney-von-oben/)
