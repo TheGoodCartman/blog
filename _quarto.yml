@@ -5,6 +5,7 @@ project:
 website:
   title: "The KingOli Blog"
   site-url: "https://kingoli.net/blog/"
+  favicon: k-typewriter.png
   navbar:
     right:
       - icon: github
