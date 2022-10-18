@@ -6,7 +6,7 @@ categories: [gewesen]
 
 Eigentlich bin ich ein [Pixelpeeper](http://en.wiktionary.org/wiki/pixel_peeper). Meine DSLR habe ich mir zugelegt, um hochauflösende Bilder auch in kritischen Situationen zu schießen. Doch eine große Kamera nimmt auch viel Platz ein, und nicht immer will ich eine große Tasche mit mir herumschleppen.
 
-So war es auch die letzten zwei Tage. Ich war auf einem Seminar in Ludwigslust und hatte anschließend noch einen abendlichen Termin in Berlin - mehr Gepäck als die kleine Reisetasche wollte ich nicht dabei haben. Also habe ich wie schon [vor zwei Wochen am Liepnitzsee](/blog/2013/03/03/liepnitzsee/) auf mein Handy zurückgegriffen, um die Kulisse des Seminars zu dokumentieren.
+So war es auch die letzten zwei Tage. Ich war auf einem Seminar in Ludwigslust und hatte anschließend noch einen abendlichen Termin in Berlin - mehr Gepäck als die kleine Reisetasche wollte ich nicht dabei haben. Also habe ich wie schon [vor zwei Wochen am Liepnitzsee](/2013/03/03/liepnitzsee/) auf mein Handy zurückgegriffen, um die Kulisse des Seminars zu dokumentieren.
 
 Das [Handy](/blog/?s=milestone) ist, was die Bildqualität angeht, das komplette Gegenstück zu meiner DSLR. Kleiner Sensor, viel Rauschen, und eigentlich nur bei Sonnenlicht zu gebrauchen. Die gemachten Bilder sind, selbst wenn optimale Bedingungen herrschen, höchstens in kleineren Aufösungen (um 1000 Pixel Breite) zu gebrauchen. Für mein Blog ist dies jedoch gerade ausreichend.
 

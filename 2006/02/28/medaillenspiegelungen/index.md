@@ -4,7 +4,7 @@ date: "2006-02-28T13:38:29"
 categories: [gefunden,getan]
 ---
 
-Olympia ist vorbei, alle Medaillen sind vergeben. Da wird es Zeit, den [Medaillenspiegel](/blog/2006/02/17/der-kampf-um-die-goldenen-ananasscheiben/) wieder aus der Sidebar zu entfernen. Zuvor will ich jedoch noch ein paar Auswertungen vorstellen.
+Olympia ist vorbei, alle Medaillen sind vergeben. Da wird es Zeit, den [Medaillenspiegel](/2006/02/17/der-kampf-um-die-goldenen-ananasscheiben/) wieder aus der Sidebar zu entfernen. Zuvor will ich jedoch noch ein paar Auswertungen vorstellen.
 
 ![Medaillenspiegel während der Olympischen Winterspiele 2006 in meinem Blog](medalcount.png)
 

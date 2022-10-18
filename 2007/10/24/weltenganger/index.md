@@ -7,7 +7,7 @@ categories: [gelesen]
 *von Sergej Lukianenko,
 erschienen bei Heyne, ISBN 978-3-453-52349-4, 15,00€*
 
-Nachdem mir das letzte Werk von Lukianenko, [Spektrum](/blog/2007/06/24/spektrum/), so gut gefallen hat, habe ich mir die neue Veröffentlichung *Weltengänger* sofort zugelegt. Doch obwohl es alle überzeugenden Elemente des erstgenannten Buches enthält - die popkulturellen Spielereien mit der Literatur, die scheinbar wohlbekannte, aber facettenreich variierte Geschichte und der angenehme russische Charme - kann es in keiner Weise mit diesem mithalten.
+Nachdem mir das letzte Werk von Lukianenko, [Spektrum](/2007/06/24/spektrum/), so gut gefallen hat, habe ich mir die neue Veröffentlichung *Weltengänger* sofort zugelegt. Doch obwohl es alle überzeugenden Elemente des erstgenannten Buches enthält - die popkulturellen Spielereien mit der Literatur, die scheinbar wohlbekannte, aber facettenreich variierte Geschichte und der angenehme russische Charme - kann es in keiner Weise mit diesem mithalten.
 
 Dies fängt schon damit an, dass sich Heyne entschieden hat, das Buch mit übergroßer Schrift auf die Länge von 590 Seiten zu strecken - wohl um damit den um einen Euro erhöhten Preis zu rechtfertigen; 15 Euro für ein Taschenbuch sind schon recht happig. Leider braucht das Buch dann auch noch über 400 Seiten, um richtig in Fahrt zukommen.
 

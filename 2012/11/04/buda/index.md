@@ -18,7 +18,7 @@ Zwei Tage nach dem Burgberg habe ich noch den Gellért-Berg bestiegen. Gestartet
 
 Nebem dem Gellért-Hotel erhebt sich der Gellért-Berg immerhin 235m über die Donau. So hoch hatte ich ihn gar nicht eingeschätzt, und so kam ich beim Aufstieg unerwartet ins Schwitzen. Der ganze Berg ist als große Parkanlage mit einem weit verzweigten Wegenetz angelegt, von dem allerdings nur Teile nachts von Lampen beleuchtet werden. Als ich am späten Abend zum zweiten Mal Richtung Freiheitsstatue unterwegs war, um Nachtfotos zu schießen, lief ich teilweise auf stockdusteren Pfaden. Weniger unheimlich, aber auch länger, ist der Weg über die Straße, die von Westen zum Berg hinaufführt.
 
-Neben der Freiheitsstatue gibt es noch eine als Militärmuseum genutzte Zitadelle auf dem Berg, doch deren Besuch habe ich mir gespart. Denn von hier oben kann ein beeindruckendes Panorama von Budapest genossen werden. Der Gellért-Berg ist höher als alle umliegenden Stadtteile und so kann das Auge dem Verlauf der Donau folgen, die Ausmaße des Burgpalastes bestaunen und sogar das Riesenrad auf dem [Sziget](/blog/2012/09/04/sziget-2012/) erblicken. Der Aufstieg lohnt sich also auf jeden Fall!
+Neben der Freiheitsstatue gibt es noch eine als Militärmuseum genutzte Zitadelle auf dem Berg, doch deren Besuch habe ich mir gespart. Denn von hier oben kann ein beeindruckendes Panorama von Budapest genossen werden. Der Gellért-Berg ist höher als alle umliegenden Stadtteile und so kann das Auge dem Verlauf der Donau folgen, die Ausmaße des Burgpalastes bestaunen und sogar das Riesenrad auf dem [Sziget](/2012/09/04/sziget-2012/) erblicken. Der Aufstieg lohnt sich also auf jeden Fall!
 
 ![budapest_01.jpg](budapest_01.jpg)
 ![budapest_02.jpg](budapest_02.jpg)

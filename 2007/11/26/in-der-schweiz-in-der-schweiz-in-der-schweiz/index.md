@@ -17,6 +17,6 @@ Aber auch in der Schweiz wird auf Weihnachtsmärkten nicht nur Traditionelles ge
 Diese erzeugen dafür die Ortsnamen und abgewandelten Begriffe der Schweizer. Viele Ös und Üs und vor allem die Li-Form (Verhüterli, Christkindli) sorgen für einen ganz anderen Rhythmus bei der Aussprache, an den man sich erst gewöhnen muss. Vier Tage waren dafür einfach zu wenig, also werde ich wohl noch einmal (bei besserem Wetter) zurückkommen müssen, zum Beispiel zum [Sächsilüüte](http://de.wikipedia.org/wiki/Sechseläuten) im Frühjahr.
 
 Andere Kirchturmbesteigungen:
-- [Wörlitzer Bibelturm](/blog/2005/11/28/kirchturmbesteigen-light/)
-- [Ulmer Münster](/blog/2005/10/05/in-ulm-um-ulm-und-um-ulm-herum/)
-- [Kölner Dom](/blog/2005/09/09/koln-im-september/)
+- [Wörlitzer Bibelturm](/2005/11/28/kirchturmbesteigen-light/)
+- [Ulmer Münster](/2005/10/05/in-ulm-um-ulm-und-um-ulm-herum/)
+- [Kölner Dom](/2005/09/09/koln-im-september/)

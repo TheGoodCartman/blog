@@ -7,7 +7,7 @@ abstract: " "
 
 ![Ergebnis Wahl-o-mat](wahl-o-mat.jpg)
 
-Derzeit sind die Server dank der medialen Werbung noch ausgelastet, aber [wie bei jeder Wahl](/blog/2006/02/26/wahlkampf-in-sachsen-anhalt/) habe ich auch diesmal den [Wahl-o-maten](http://www12.bpb.de/methodik/XQJYR3,0,WahlOMat_Bundestagswahl.html) ausprobiert. Nicht, um mir meine Meinung zu bilden, sondern um einen Überblick über einige Kernaussagen der Wahlprogramme der Parteien zu bekommen.
+Derzeit sind die Server dank der medialen Werbung noch ausgelastet, aber [wie bei jeder Wahl](/2006/02/26/wahlkampf-in-sachsen-anhalt/) habe ich auch diesmal den [Wahl-o-maten](http://www12.bpb.de/methodik/XQJYR3,0,WahlOMat_Bundestagswahl.html) ausprobiert. Nicht, um mir meine Meinung zu bilden, sondern um einen Überblick über einige Kernaussagen der Wahlprogramme der Parteien zu bekommen.
 
 Dabei ist diesmal ein interessantes Ergebnis herausgekommen. Die geringe Übereinstimmung mit CDU/FDP kenne ich bereits und ebenfalls die schlechte Auswahl an Fragen des Wahl-o-maten, aber dass die NPD sich so gut platzieren kann zeigt deutlich, wie stark sich die Parteiprogramme einander genähert haben.
 

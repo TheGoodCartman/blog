@@ -9,7 +9,7 @@ Regie: Bouli Lanners
 Darsteller: Bouli Lanners (Yvan), Fabrice Adde (Elie/Didier) und ein paar Amischlitten*
 [Offizielle Homepage](http://www.eldorado-derfilm.de/)
 
-[Belgien kann so schön sein](/blog/2008/07/09/brugge-sehen-und-sterben/). Aber es hat auch Schattenseiten, und ausgerechnet diese zeigt Regisseur und Hauptdarsteller Bouli Lanners dem Zuschauer ausgiebig. Man sieht verlassene Wohnwagenparks, heruntergekommene Dörfer, durch die schon seit Jahren kein Zug mehr fährt, nüchterne Betonbrücken und eine immer nur "die Stadt" genannte Industriemetropole, in der Penner parkende Autofahrer zu erpressen versuchen und Nutten und Drogendealer das Stadtbild domieren.
+[Belgien kann so schön sein](/2008/07/09/brugge-sehen-und-sterben/). Aber es hat auch Schattenseiten, und ausgerechnet diese zeigt Regisseur und Hauptdarsteller Bouli Lanners dem Zuschauer ausgiebig. Man sieht verlassene Wohnwagenparks, heruntergekommene Dörfer, durch die schon seit Jahren kein Zug mehr fährt, nüchterne Betonbrücken und eine immer nur "die Stadt" genannte Industriemetropole, in der Penner parkende Autofahrer zu erpressen versuchen und Nutten und Drogendealer das Stadtbild domieren.
 
 Schön ist der Film immer dann, wenn er während der Autofahrten oder Rasten die wallonische Landschaft mit weiten Feldern, grünen Hügeln und Wäldern und wilden Flüssen präsentiert. Nach einem reinigenden Regen sieht der schon genannte Wohnwagenpark gleich viel positiver aus, und dieses Bild der Säuberung durch Wasser wird ein ums andere Mal bemüht.
 

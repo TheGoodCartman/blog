@@ -6,7 +6,7 @@ categories: [gesehen]
 
 Diese Woche war die Blu-Ray von *Das Waisenhaus* im Amazon-Osternest günstig zu haben. Da ich den Film schon immer sehen wollte, habe ich nicht lange gefackelt und bestellt.
 
-Gruselfilme im Stil von [The Others](/blog/2002/02/20/the-others/) schaue ich mir aufgrund ihrer Atmosphäre sehr gerne an. Dann wird sämtliches Licht ausgeschaltet, die Anlage aufgedreht und sich ganz auf den Film eingelassen. Auf diesem Gebiet überzeugt auch *Das Waisenhaus*: Eine die Nerven strapazierende Soundkulisse bildet die Grundlage für diese Momente des Schauerns, bei denen es mir kalt den Rücken herunterläuft. Klar, alles ist sorgsam kalkuliert, aber ich gebe diesem klassischen Horror den Vorzug vor irgendwelchen Monster- oder Splatterfilmen.
+Gruselfilme im Stil von [The Others](/2002/02/20/the-others/) schaue ich mir aufgrund ihrer Atmosphäre sehr gerne an. Dann wird sämtliches Licht ausgeschaltet, die Anlage aufgedreht und sich ganz auf den Film eingelassen. Auf diesem Gebiet überzeugt auch *Das Waisenhaus*: Eine die Nerven strapazierende Soundkulisse bildet die Grundlage für diese Momente des Schauerns, bei denen es mir kalt den Rücken herunterläuft. Klar, alles ist sorgsam kalkuliert, aber ich gebe diesem klassischen Horror den Vorzug vor irgendwelchen Monster- oder Splatterfilmen.
 
 Inhaltlich bietet der Film anfangs Standardkost: Die Toten wollen nicht ruhen, ein tragisches Ereignis in der Vergangenheit will aufgedeckt werden, und Hauptdarstellerin Laura muss all dies herausfinden um am Schluss zu erfahren, was mit ihrem verschwundenen Sohn passiert ist. Allerdings ist dies die offensichtliche Lesart des Filmes, wenn man ihn nur in den Grenzen seines Genre wahrnimmt.
 

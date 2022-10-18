@@ -7,7 +7,7 @@ categories: [gelesen]
 *von Bastian Sick,
 erschienen bei Kiepenheuer & Witsch, ISBN 3-462-03606-8, 8,95€*
 
-Was einmal funktioniert, das klappt auch ein zweites Mal. Und wenn man wie Herr Sick [mit einer Deutschstunde die Kölnarena füllt](http://www.spiegel.de/unispiegel/schule/0,1518,405824,00.html), dann sollte sich doch eine Fortsetzung des Bestsellers [Der Dativ ist dem Genitiv sein Tod](/blog/2006/03/06/der-dativ-ist-dem-genitiv-sein-tod/) wie von alleine verkaufen.
+Was einmal funktioniert, das klappt auch ein zweites Mal. Und wenn man wie Herr Sick [mit einer Deutschstunde die Kölnarena füllt](http://www.spiegel.de/unispiegel/schule/0,1518,405824,00.html), dann sollte sich doch eine Fortsetzung des Bestsellers [Der Dativ ist dem Genitiv sein Tod](/2006/03/06/der-dativ-ist-dem-genitiv-sein-tod/) wie von alleine verkaufen.
 
 Damit die Preiserhöhung um 5 Cent auch gerechtfertigt erscheint, hat der Autor etwas am Aufbau des Buches gearbeitet und präsentiert jetzt zusätzlich zu seinen Kolumnen auch Antworten auf eingesandte Leserfragen. Diesen stehen meist im Zusammenhang mit der vorhergehenden Kolumne und erweitern deren Aussage um neue Aspekte oder andere Beispiele. Trotzdem gibt es gewisse Redundanzen - auch zum Vorgängerbuch, welches etwas mehr Abwechslung in den Themen bot.
 

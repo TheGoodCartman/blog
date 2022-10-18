@@ -9,7 +9,7 @@ Regie: Hans Weingartner
 Darsteller: Moritz Bleibtreu (Rainer), Elsa Sophie Gambard (Pegah), Milan Peschel (Phillip), Simone Hanselmann (Anna), Gregor Bloéb (Maiwald), Urs Conradi (Frau Arnim), Thomas Jahn (Bernd), Robert Viktor Minich (Harry), Ralf Knicker (Sebastian), Andreas Brandt (Karl-Heinz), Irshad Panjatan (Gopal) und andere Mediengestalter
 [Offizielle Homepage](http://www.freerainer.de/)*
 
-Drei Jahre nach [Die fetten Jahre sind vorbei](/blog/2004/12/20/die-fetten-jahre-sind-vorbei/) schickt Regisseur Hans Weingartner nun einen neuen Film in die Kinos. Wieder geht es um Gesellschaftskritik, doch während der Vorgänger von dem intelligenten Umgang mit der Thematik und der Diskussion darüber lebte, ist Free Rainer zu einer plakativen Utopie über die Macht des Mediums Fernsehen geworden.
+Drei Jahre nach [Die fetten Jahre sind vorbei](/2004/12/20/die-fetten-jahre-sind-vorbei/) schickt Regisseur Hans Weingartner nun einen neuen Film in die Kinos. Wieder geht es um Gesellschaftskritik, doch während der Vorgänger von dem intelligenten Umgang mit der Thematik und der Diskussion darüber lebte, ist Free Rainer zu einer plakativen Utopie über die Macht des Mediums Fernsehen geworden.
 
 Der TV-Produzent Rainer wird von der Schwimmerin Pegah in einen Unfall verwickelt, deren Großvater sich aufgrund eines Fernsehberichtes das Leben nahm. Dadurch ändert sich Rainers Sicht auf die Qualität der von ihm produzierten TV-Sendungen und er versucht, mit anspruchsvollen Sendungen auf Quotenjagd zu gehen. Als dies scheitert, sieht er das Problem in der Ermittlung der Einschaltquoten und macht sich mit Pegah und dem Einzelgänger Phillip daran, diese Wurzel des Übels anzugehen. Sie entwickeln einen Plan, um die Quoten zu manipulieren...
 

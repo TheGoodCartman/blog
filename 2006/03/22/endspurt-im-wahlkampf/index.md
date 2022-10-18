@@ -4,7 +4,7 @@ date: "2006-03-22T11:13:24"
 categories: [gefunden]
 ---
 
-Es sind nur noch vier Tage bis zur [Landtagswahl in Sachsen-Anhalt](/blog/2006/02/26/wahlkampf-in-sachsen-anhalt/), und die einzelnen Parteien versuchen mit möglichst prominenten Vertretern der Bundestagsfraktionen, die Spontanwähler noch auf ihre Seite zu ziehen bzw. die Wahlmuffel zu motivieren.
+Es sind nur noch vier Tage bis zur [Landtagswahl in Sachsen-Anhalt](/2006/02/26/wahlkampf-in-sachsen-anhalt/), und die einzelnen Parteien versuchen mit möglichst prominenten Vertretern der Bundestagsfraktionen, die Spontanwähler noch auf ihre Seite zu ziehen bzw. die Wahlmuffel zu motivieren.
 
 Klassisch ist dabei schon die [Party im Turm](http://www.sachsen-anhalt.gruene-partei.de/cms/default/dok/115/115831.wahlkampfhoehepunkt_in_halle_saale.htm) der Bündnis 90/Die Grünen. Diesen Donnerstag gibt es zwar kein Freibier wie vor vier Jahren, aber viel Unterhaltungsprogramm und die Auftritte von Claudia Roth, Renate Künast und Reinhard Bütikofer.
 

@@ -7,7 +7,7 @@ categories: [gelesen]
 *von Giwi Margwelaschwili,
 erschienen im Verbrecher Verlag, ISBN 978-3-940426-08-6, 11€*
 
-Nachdem in [Officer Pembry](/blog/2007/10/01/officer-pembry/), dem letzten Werk von Giwi Margwelaschwili, ein Buch Einfluss auf die Welt hatte, in der es geschrieben wurde, geht es in *Zuschauerräume* nun um eine mittelalterliche Theaterwelt, deren handelnde Personen sich ihrer szenischen Natur bewusst sind und zwei verschiedene Verhaltensmuster an den Tag legen.
+Nachdem in [Officer Pembry](/2007/10/01/officer-pembry/), dem letzten Werk von Giwi Margwelaschwili, ein Buch Einfluss auf die Welt hatte, in der es geschrieben wurde, geht es in *Zuschauerräume* nun um eine mittelalterliche Theaterwelt, deren handelnde Personen sich ihrer szenischen Natur bewusst sind und zwei verschiedene Verhaltensmuster an den Tag legen.
 
 Auf der einen Seite stehen der König und seine Gefolgsleute, die versuchen, sich der Beobachtung durch das Publikum zu entziehen, indem sie alle als Zuschauerräume identifizierten Handlungsschauplätze dem Boden gleichmachen. Als zweite Strategie strebt der König an, die Machtstrukturen der herrschenden Adelshäuser aufzulösen, um ein Fortschreiten der szenischen Geschichte zu verhindern. Ziel ist, dass die Zuschauer das Interesse verlieren und die Akteure unbeobachtet leben lassen. Der Adel auf der anderen Seite ist mit seiner Entmachtung natürlich ganz und gar nicht einverstanden, und so führt ein Herzog eine Gegenbewegung an, die gerade die Zuschauerräume und damit den Einfluss des Publikums für ihren Sturzversuch des Königs nutzen will.
 

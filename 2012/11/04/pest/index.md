@@ -4,7 +4,7 @@ date: "2012-11-04T23:16:38"
 categories: [gewesen]
 ---
 
-Mein Budapester Hotel lag auf der Pester Seite der Stadt im XIII. Bezirk. Dies hatte den Vorteil, dass die Fähre zum [Sziget](/blog/2012/09/04/sziget-2012/) ganz in der Nähe abfuhr, doch im Gegenzug war das Viertel touristisch wenig erschlossen - in den Cafés kam ich mit Englisch und Deutsch nicht weit.
+Mein Budapester Hotel lag auf der Pester Seite der Stadt im XIII. Bezirk. Dies hatte den Vorteil, dass die Fähre zum [Sziget](/2012/09/04/sziget-2012/) ganz in der Nähe abfuhr, doch im Gegenzug war das Viertel touristisch wenig erschlossen - in den Cafés kam ich mit Englisch und Deutsch nicht weit.
 
 So zog ich los, andere Bezirke auf der östlichen Donauseite zu erkunden. Mit der U-Bahn fuhr ich bis zur Station Deák Ferenc tér, die das Umsteigen zwischen allen drei Linien erlaubt und dank der zentralen Lage im Mittelpunkt vom kleinen und großen Straßenring ein idealer Startpunkt für die Erkundung von Budapest ist. Von da aus machte ich einen kurzen Abstecher zur Donau, schaute mir kurz die Kettenbrücke an (die älteste ihrer Art in Budapest) und schlenderte dann direkt zur St.-Stephans-Basilika, denn diese kann bestiegen werden. Und das habe ich mir natürlich nicht entgehen lassen.
 

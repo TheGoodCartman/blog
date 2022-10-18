@@ -4,7 +4,7 @@ date: "2010-12-31T16:43:29"
 categories: [gehört]
 ---
 
-Nachdem mein Filmjahr 2010 mit gerade einmal 15 Kinobesuchen (davon knapp die Hälfte allein auf der [Berlinale](/blog/tag/berlinale/)) eher bescheiden ausgefallen ist und ich so wenig Bücher wie lange nicht mehr gelesen habe, will ich mich [erneut](/blog/2005/12/30/meine-lieblingsalben-2005/) daran versuchen, das musikalische Jahr 2010 Revue passieren zu lassen.
+Nachdem mein Filmjahr 2010 mit gerade einmal 15 Kinobesuchen (davon knapp die Hälfte allein auf der [Berlinale](/blog/tag/berlinale/)) eher bescheiden ausgefallen ist und ich so wenig Bücher wie lange nicht mehr gelesen habe, will ich mich [erneut](/2005/12/30/meine-lieblingsalben-2005/) daran versuchen, das musikalische Jahr 2010 Revue passieren zu lassen.
 
 Etwas überraschend entwickelte sich 2010 zu einem Jahr der Comebacks. So schaffte es das *Korn*-Album *III - Remember who you are*, die letzten Werke der Band vergessen zu lassen und die Energie der Anfangsjahre mit dem durchaus gereiften Sound der Band zu einer Einigkeit zu verschmelzen, die mit sehr gut gefallen hat.
 

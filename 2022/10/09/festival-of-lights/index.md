@@ -4,7 +4,7 @@ date: "2022-10-09T00:14:00"
 categories: [gewesen]
 ---
 
-Ich bin ja schon seit über einem Jahrzehnt mit der Kamera auf dem  [Festival of Lights](/blog/2012/10/23/festival-of-lights/) unterwegs. Zuletzt mit deutlichen Ermüdungserscheinungen, da sich gefühlt alles wiederholte und die für Fotografen suboptimalen Videomappings von Gebäuden alles dominierten.
+Ich bin ja schon seit über einem Jahrzehnt mit der Kamera auf dem  [Festival of Lights](/2012/10/23/festival-of-lights/) unterwegs. Zuletzt mit deutlichen Ermüdungserscheinungen, da sich gefühlt alles wiederholte und die für Fotografen suboptimalen Videomappings von Gebäuden alles dominierten.
 
 Dieses Jahr ist, der Energiekrise zum Dank, alles etwas kleiner beim Festival. Weniger Locations, weniger Gebäude, dafür mehr Lichtskulpturen. Diese haben den Vorteil, weniger Strom zu verbrauchen - und lassen sich einfach besser fotografieren. Ich erinnere mich noch gerne an die [Wächter der Zeit](https://guardian-of-time.com/de/) und die [Hasen von parerstudio](https://parerstudio.com/).
 

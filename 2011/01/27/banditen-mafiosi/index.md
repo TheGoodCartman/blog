@@ -4,7 +4,7 @@ date: "2011-01-27T23:51:13"
 categories: [gespielt]
 ---
 
-Ein [Urlaub](/blog/2011/01/22/winterimpressionen-2011/) in großer Runde bietet [immer wieder](/blog/2009/01/13/karten-auf-den-tisch/) die Möglichkeit, neue Spiele auszuprobieren. Und dies im klassischen Sinn, d.h. mit Spielbrett, Figuren und komplett offline. Dieses Jahr habe ich so die Bekanntschaft von *El Paso* und der *Lemming-Mafia* gemacht, die ich kurz vorstellen möchte.
+Ein [Urlaub](/2011/01/22/winterimpressionen-2011/) in großer Runde bietet [immer wieder](/2009/01/13/karten-auf-den-tisch/) die Möglichkeit, neue Spiele auszuprobieren. Und dies im klassischen Sinn, d.h. mit Spielbrett, Figuren und komplett offline. Dieses Jahr habe ich so die Bekanntschaft von *El Paso* und der *Lemming-Mafia* gemacht, die ich kurz vorstellen möchte.
 
 **Lemming-Mafia**
 

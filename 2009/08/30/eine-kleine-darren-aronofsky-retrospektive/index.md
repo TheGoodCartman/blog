@@ -40,7 +40,7 @@ Tom begreift dies erst in der totalen Einsamkeit des toten Sterns. Seine erfolgr
 
 Das ein so bildgewaltiger Film mit einer reduzierten Geschichte überhaupt funktioniert, liegt zum einen an der kunstvollen Verschachtelung, so dass sich der Inhalt nicht sofort erschließt, und der erstaunlichen Leistung der Schauspieler, die sich der Optik nicht unterordnen. Allen voran Hugh Jackman hätte ich das nicht zugetraut, aber mit seiner Ausdrucksstärke hilft er dem Zuschauer, in der Bilderflut nicht unterzugehen.
 
-So kann man dem Film im Vergleich mit dem optisch ebenfalls herausragenden [The Fall](/blog/2009/08/03/the-fall/) eine mangelnde Eingängigkeit bzw eine fehlende oberflächige Ebene vorwerfen, die verglichen mit dem hohen Budget zu einem schlechten Einspielergebnis führte. Wer jedoch die Bilder auf sich wirken lässt und bereit ist, sich auch nach dem Ende des Films mit ihnen auseinander zu setzen, der bekommt ein paar Stunden Kopfkino geschenkt.
+So kann man dem Film im Vergleich mit dem optisch ebenfalls herausragenden [The Fall](/2009/08/03/the-fall/) eine mangelnde Eingängigkeit bzw eine fehlende oberflächige Ebene vorwerfen, die verglichen mit dem hohen Budget zu einem schlechten Einspielergebnis führte. Wer jedoch die Bilder auf sich wirken lässt und bereit ist, sich auch nach dem Ende des Films mit ihnen auseinander zu setzen, der bekommt ein paar Stunden Kopfkino geschenkt.
 
 **The Wrestler**
 

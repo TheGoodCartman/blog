@@ -4,7 +4,7 @@ date: "2009-09-27T18:40:45"
 categories: [gesehen]
 ---
 
-Viele interessante Filme, die [dieses Jahr auf der Berlinale](/blog/2009/02/15/der-vorhang-ist-gefallen/) liefen, konnte ich leider nicht sehen. Bei zweien davon kam nun die Gelegenheit mit etwas Verspätung.
+Viele interessante Filme, die [dieses Jahr auf der Berlinale](/2009/02/15/der-vorhang-ist-gefallen/) liefen, konnte ich leider nicht sehen. Bei zweien davon kam nun die Gelegenheit mit etwas Verspätung.
 
 **The Yes Men fix the world**
 
@@ -16,7 +16,7 @@ Eine interessante Idee also, ansprechend und witzig umgesetzt. Traurig, dass die
 
 **Der Knochenmann**
 
-ist die dritte Verfilmung eines Brenner-Romans nach [Komm, süßer Tod](/blog/2006/01/05/tv-woche-nummer-1/) und *Silentium* mit dem großartigen Josef Hader. Ex-Kommissar Brenner hat es diesmal aufs Land verschlagen, wo er in eine Geschichte rund um osteuropäische Prostituierte, slowakische Zuhälter und eine verstrittene Wirtshausfamilie gerät. Ein paar gute Absichten und einen Unfall später gerät die Situation außer Kontrolle und die wilde Ansammlung von Kreinkriminellen dezimiert sich zuksessiv, während Brenner mitten drin versucht, selber am Leben zu bleiben und Birgit, die Schwiegertochter des Wirts, näher kennen zu lernen.
+ist die dritte Verfilmung eines Brenner-Romans nach [Komm, süßer Tod](/2006/01/05/tv-woche-nummer-1/) und *Silentium* mit dem großartigen Josef Hader. Ex-Kommissar Brenner hat es diesmal aufs Land verschlagen, wo er in eine Geschichte rund um osteuropäische Prostituierte, slowakische Zuhälter und eine verstrittene Wirtshausfamilie gerät. Ein paar gute Absichten und einen Unfall später gerät die Situation außer Kontrolle und die wilde Ansammlung von Kreinkriminellen dezimiert sich zuksessiv, während Brenner mitten drin versucht, selber am Leben zu bleiben und Birgit, die Schwiegertochter des Wirts, näher kennen zu lernen.
 
 Wie alle Brenner-Filme ist auch *Der Knochenmann* schwarzhumorig, lebt jedoch stärker als die Vorgänger von seinen gut ausgearbeiteten Charakteren und ihren hervorragenden Darstellern. Allen voran Josef Bierbichler, der die vielen Seiten des Wirts Löschenkohl glaubwürdig auf die Leinwand bringt: Der leidenschaftliche Koch, der verliebte Mann, aber auch der resolute und eigenbrötlerische Vater; die Figur ist gleichzeitig Ruhepol und treibende Kraft des Films. Wie er versucht, aus eigener Kraft das Ruder rumzureißen, dabei in eine Spirale der Gewalt gerät und sein eigentliches Ziel in immer weitere Ferne verschwinden sehen muss, das ist großes Kino.
 

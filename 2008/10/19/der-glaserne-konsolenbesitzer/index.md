@@ -12,4 +12,4 @@ Heute kam nun eine E-Mail mit der Ankündigung, dass sich die oben genannten dre
 
 Zumindest gleich gläsern und identifizierbar: Der Link auf die Sony-Seite mit den Dokumenten aus der Ankündigungs-E-Mail heraus erfolgt nicht etwa im Klartext, sondern über eine codierte ID. Das wäre ja auch zu schön, wenn sich ein per PSN gebundener Kunde frei auf den Sony-Seiten bewegen könnte, ohne seine Identität preiszugeben.
 
-Dass es im selben Konzern auch anders gehen kann, zeigt mein [MP3-Player](/blog/2008/04/26/sony-hat-mich-wieder/). Aber in diesem Markt steht Sony auch im Wettbewerb und muss sich von seinen Konkurrenten abheben. Was lernen wir also daraus: Wettbewerb ist durch nichts zu ersetzen!
+Dass es im selben Konzern auch anders gehen kann, zeigt mein [MP3-Player](/2008/04/26/sony-hat-mich-wieder/). Aber in diesem Markt steht Sony auch im Wettbewerb und muss sich von seinen Konkurrenten abheben. Was lernen wir also daraus: Wettbewerb ist durch nichts zu ersetzen!

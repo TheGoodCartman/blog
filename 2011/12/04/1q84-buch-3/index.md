@@ -7,7 +7,7 @@ categories: [gelesen]
 *von Haruki Murakami,
 erschienen bei Dumont, ISBN 978-3-832-19588-5, 24,00€*
 
-Mein Jahr 2011 begann mit *1Q84* von Haruki Murakami, und nun endet es mit *1Q84* - dem dritten Buch. Wie schon [in meiner Besprechung der ersten beiden Teile](/blog/2011/02/04/1q84/) (in Deutschland in einem Band erschienen) erwähnt, war deren Handlung noch nicht abgeschlossen, und so war ich gespannt, wie es mit Aomane und Tengo weitergeht und ob meine Interpretationen des Gelesenen korrekt waren.
+Mein Jahr 2011 begann mit *1Q84* von Haruki Murakami, und nun endet es mit *1Q84* - dem dritten Buch. Wie schon [in meiner Besprechung der ersten beiden Teile](/2011/02/04/1q84/) (in Deutschland in einem Band erschienen) erwähnt, war deren Handlung noch nicht abgeschlossen, und so war ich gespannt, wie es mit Aomane und Tengo weitergeht und ob meine Interpretationen des Gelesenen korrekt waren.
 
 Buch 3 beginnt dort, wo der zweite Teil aufhörte: Aomane, die den Anführer der mit den *Little People* redenden Sekte getötet hat, wartet in ihrer als Zuflucht dienenden Wohnung darauf, dass Tengo auf den Spielplatz zurückkehrt, wo er den zweiten Mond entdeckt hat. Doch Tengo hat am Bett seines Vaters gesehen, wie eine kleine Aomane in einer Puppe aus Luft gewoben wurde, und besucht den im Koma liegenden Vater deshalb täglich im Pflegeheim in der Hoffnung auf eine Wiederholung dieses Wunders. Währenddessen hat der von der Sekte beauftragte Privatdetektiv Ushikawa die Verbindung zwischen Tengo und Aomane aufgedeckt und damit nicht nur die beiden, sondern auch sich selbst in große Gefahr gebracht...
 

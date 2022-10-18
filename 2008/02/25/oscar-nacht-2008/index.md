@@ -12,7 +12,7 @@ Diese [Zelte](http://images.eonline.com/eol_images/Entire_Site/20080224/425.tent
 
 Fazit: Irgendwie fehlte dieses Jahr der Pep in der Show. Es gab viele Einspieler mit zusammengeschnittenen Szenen aus alten Oscar-Veranstaltungen, aber keine Comedyfilmchen oder Showacts wie die Pantomimetruppe im letzten Jahr. Gastgeber Jon Stewart moderierte ausschließlich von der Bühne aus - da hat Ellen deGeneres 2007 eine deutlich aktivere Vorstellung geboten.
 
-Und dafür habe ich mir jetzt die Nacht um die Ohren geschlagen: Für eine langweilige Mischung aus SW-Filmchen und vorgelesenen Gewinnern ohne jede Emotion bei der Dankesrede. Sogar meine [Tipps](/blog/2008/02/19/oscar-2008-das-tippspiel/) sind fast komplett in die Hose gegangen; 5 von 24 ist eine unterirdische Quote. Zumindest haben die Coens richtig abgesahnt und scheinen wieder bei der alten Qualität ihrer Filme angelangt zu sein. Trotzdem schlafe ich nächstes Jahr lieber die Nacht durch; meine Träume sind im Schnitt viel unterhaltsamer.
+Und dafür habe ich mir jetzt die Nacht um die Ohren geschlagen: Für eine langweilige Mischung aus SW-Filmchen und vorgelesenen Gewinnern ohne jede Emotion bei der Dankesrede. Sogar meine [Tipps](/2008/02/19/oscar-2008-das-tippspiel/) sind fast komplett in die Hose gegangen; 5 von 24 ist eine unterirdische Quote. Zumindest haben die Coens richtig abgesahnt und scheinen wieder bei der alten Qualität ihrer Filme angelangt zu sein. Trotzdem schlafe ich nächstes Jahr lieber die Nacht durch; meine Träume sind im Schnitt viel unterhaltsamer.
 
 Auf folgenden Seiten aus meiner Blogroll wurde live gebloggt:
 

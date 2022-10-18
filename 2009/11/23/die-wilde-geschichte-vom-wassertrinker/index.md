@@ -7,7 +7,7 @@ categories: [gelesen]
 *von John Irving,
 erschienen im Diogenes Verlag, ISBN 3-257-22445-1, 12,90€*
 
-Wie [angekündigt](/blog/2009/04/20/owen-meany/) habe ich John Irving eine weitere Chance gegeben und bin, soviel kann ich vorweg nehmen, alles andere als enttäuscht worden.
+Wie [angekündigt](/2009/04/20/owen-meany/) habe ich John Irving eine weitere Chance gegeben und bin, soviel kann ich vorweg nehmen, alles andere als enttäuscht worden.
 
 In der Geschichte des Wassertrinkers geht es um Fred Trumper, einen Doktoranden der Literaturwissenschaften. Zu seinen vermögenden Eltern hat er kaum noch Kontakt, seit er im Ski-Urlaub in Kaprun eine Athletin des amerikanischen Alpinteams geschwängert hat, und mit seiner Abschlussarbeit - der Übersetzung einer altniedernordischen Ballade - kommt er nur schleppend voran. Zudem hat er Probleme mit seinem Harntrakt, weshalb ein Doktor ihm zur Linderung der wiederkehrenden Schmerzen die titelgebende Wassermethode empfohlen hat. Um wenigstens an etwas Geld heranzukommen arbeitet er nebenbei für einen Independentfilmer als Tonmischer - bis dieser auf die Idee kommt, seinen nächsten Film über das unstetige Leben von Trumper zu drehen...
 

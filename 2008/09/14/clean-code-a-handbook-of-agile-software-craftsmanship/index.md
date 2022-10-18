@@ -7,7 +7,7 @@ categories: [gelesen]
 *von den Object Mentors (Robert C. Martin Series),
 erschienen bei Prentice Hall Computer, ISBN 978-0-13-235088-4*
 
-Ich habe [mal wieder](/blog/2007/09/13/agile-retrospectives/) ein Buch für de Arbeit komplett gelesen und will deshalb kurz etwas darüber erzählen. Wer keine Software programmiert kann an dieser Stelle das Lesen dieses Artikels abbrechen, denn das gesamte Buch widmet sich nur einem Thema: Wie kann ich Quellcode schreiben, den andere Entwickler schnell verstehen können, der dementsprechend wartbar und trotzdem flexibel für schnelle Anpassungen ist?
+Ich habe [mal wieder](/2007/09/13/agile-retrospectives/) ein Buch für de Arbeit komplett gelesen und will deshalb kurz etwas darüber erzählen. Wer keine Software programmiert kann an dieser Stelle das Lesen dieses Artikels abbrechen, denn das gesamte Buch widmet sich nur einem Thema: Wie kann ich Quellcode schreiben, den andere Entwickler schnell verstehen können, der dementsprechend wartbar und trotzdem flexibel für schnelle Anpassungen ist?
 
 Dazu geben verschiedene Autoren Tipps aus ihrer langjährigen Erfahrung und untermalen dies mit Code-Beispielen. Leider fehlt es dem Buch durch die wechselnden Autoren auch etwas an Konsistenz: Der eine verwendet seitenweise Code (den ich dann einfach überblättere) und erfreut sich an seinen eigenen Refactoring-Künsten, der andere setzt nur dosiert ein paar Zeilen zur Verdeutlichung des Textes ein. Zudem gibt es einige Wiederholungen und sogar Widersprüche zwischen den Kapiteln. Aber als Evangelium sollte man dieses Buch nach Eigenaussage auch nicht verwenden, sondern sich nur Ideen holen und diese im eigenen, möglichst agilen und testgetriebenen Arbeitskreis festschreiben und danach programmieren.
 

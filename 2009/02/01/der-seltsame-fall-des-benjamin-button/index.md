@@ -9,7 +9,7 @@ Regie: David Fincher
 Darsteller: Brad Pitt (Benjamin Button), Cate Blanchett (Daisy), Julia Ormond (Caroline), Taraji P. Henson (Queenie), Tilda Swinton (Elizabeth Abbott), Jason Flemyng (Thomas Button) und andere Zeitzeugen*
 [Offizielle Homepage](http://wwws.warnerbros.de/benjaminbutton/)
 
-Was habe ich mich auf diesen Film gefreut. Eine interessante Geschichte, zwei tolle Schauspieler - das muss doch für David Fincher die Gelegenheit sein, nach dem enttäuschenden [Panic Room](/blog/2002/05/07/panic-room/) und dem besseren, aber viele Fragen offen lassenden *Zodiac* wieder zu alter Form zurückzufinden.
+Was habe ich mich auf diesen Film gefreut. Eine interessante Geschichte, zwei tolle Schauspieler - das muss doch für David Fincher die Gelegenheit sein, nach dem enttäuschenden [Panic Room](/2002/05/07/panic-room/) und dem besseren, aber viele Fragen offen lassenden *Zodiac* wieder zu alter Form zurückzufinden.
 
 Doch dann komme ich aus dem Film und weiß nicht was ich schreiben soll. Fast drei Stunden lang wurde mir in Episoden das Leben des Benjamin Button erzählt, der als alter Mann auf die Welt kommt und während seines Lebens immer jünger wird, bis er als Baby stirbt. Drei Stunden lang sah ich Nebencharaktere von [irvingschen](/blog/?s=john+irving&submit=+%3F+) Ausmaßen und eine nahezu perfekte tricktechnische Rekonstruktion der die Handlung umgebenden historischen Ereignisse des letzten Jahrhunderts. Doch in diesen drei Stunden habe ich mich des öfteren gefragt, warum die Erzählung denn so langatmig erfolgen muss, was mir der Film eigentlich sagen will und ob das umgekehrte Altern der Hauptfigur überhaupt Auswirkungen hat.
 

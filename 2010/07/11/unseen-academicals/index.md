@@ -7,7 +7,7 @@ categories: [gelesen]
 *von Terry Pratchett,
 veröffentlicht von Doubleday, ISBN 978-0-385-60934-0, 18.99£*
 
-Passend zur Fußball-WM [habe ich es endlich geschafft](/blog/2010/05/02/terry-pratchett-manhattan-eine-glucklose-verbindung/), Terry Pratchetts letzten Scheibenweltroman zu lesen, der sich um das Thema Fußball dreht. Oder um es mit den Worten des Autoren zu sagen:
+Passend zur Fußball-WM [habe ich es endlich geschafft](/2010/05/02/terry-pratchett-manhattan-eine-glucklose-verbindung/), Terry Pratchetts letzten Scheibenweltroman zu lesen, der sich um das Thema Fußball dreht. Oder um es mit den Worten des Autoren zu sagen:
 
 > [...] the important thing about football [...] is that it is not just about football.
 

@@ -7,7 +7,7 @@ categories: [gelesen]
 *von Stanislaw Lem,
 veröffentlicht von List, ISBN 978-3-548-60146-5, 8,95 €*
 
-Seit fast zwei Jahren ist Stanislaw Lem, polnischer Utopist und Philosoph, nun schon [tot](/blog/2006/03/27/stanislaw-lem/). Zeit für mich, endlich die wenigen Lücken in der Bibliothek meines Vaters aufzufüllen. Von den dreizehn utopischen Romanen fehlten nur zwei in der Sammlung, und so nahm ich mir zuerst die *Rückkehr von den Sternen* vor.
+Seit fast zwei Jahren ist Stanislaw Lem, polnischer Utopist und Philosoph, nun schon [tot](/2006/03/27/stanislaw-lem/). Zeit für mich, endlich die wenigen Lücken in der Bibliothek meines Vaters aufzufüllen. Von den dreizehn utopischen Romanen fehlten nur zwei in der Sammlung, und so nahm ich mir zuerst die *Rückkehr von den Sternen* vor.
 
 Der Held des Buches, Hal Bregg, war über 100 Jahre auf einer Weltraumexpedition, die ihn dank [Einsteins Theorie](http://de.wikipedia.org/wiki/Relativitätstheorie) nur 10 Jahre ältern ließ. In dieser Zeit hat sich die Erde grundlegend gewandelt. Mittels eines Eingriffs wird den Menschen schon als Kind die Aggressivität quasi herausoperiert, wodurch sich eine Gesellschaft ohne Kriege gebildet hat, der es aufgrund der technischen Entwicklung an scheinbar nichts fehlt. Hal Bregg versucht nun, sich in diese neue Welt einzufügen, die sich so stark von allem unterscheidet, was er gewohnt ist...
 

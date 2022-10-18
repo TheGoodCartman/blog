@@ -9,7 +9,7 @@ Regie: Niall Johnson
 Darsteller: Kristin Scott Thomas (Gloria Goodfellow), Maggie Smith (Grace Hawkins), Rowan Atkinson (Walter Goodfellow), Patrick Swayze (Lance), Tamsin Egerton (Holly Goodfellow), Toby Parkes (Petey Goodfellow), Liz Smith (Mrs. Parker), James Booth (Mr. Brown), Emilia Fox (Rosie Jones), uvm*
 [Offizielle Homepage](http://www.mordimpfarrhaus.film.de/)
 
-Dank des [FRIZZes](/blog/2006/03/13/t-oder-z/) durfte ich gestern die englische Komödie "Mord im Pfarrhaus" schon vor dem offiziellen Starttermin am 06.April im Kino sehen. Der deutsche Titel assoziiert dabei Gemeinsamkeiten mit englischen Krimis, während das Original "Keeping Mum" mit der Frage spielt, welche Mutter nun gemeint ist und ob diese behalten oder aufgehalten werden soll - alles Interpretationen, die der Film erlaubt.
+Dank des [FRIZZes](/2006/03/13/t-oder-z/) durfte ich gestern die englische Komödie "Mord im Pfarrhaus" schon vor dem offiziellen Starttermin am 06.April im Kino sehen. Der deutsche Titel assoziiert dabei Gemeinsamkeiten mit englischen Krimis, während das Original "Keeping Mum" mit der Frage spielt, welche Mutter nun gemeint ist und ob diese behalten oder aufgehalten werden soll - alles Interpretationen, die der Film erlaubt.
 
 Die Geschichte spielt in einem englischen Kaff auf dem Lande, wo der Vikar Walter Goodfellow weder seine Gemeinde noch seine Familie unter Kontrolle hat, geschweige denn sich selber. Seine Frau Gloria ist dementsprechend desillusioniert und vertreibt sich die Zeit mit dem amerikanischen Golf-Lehrer Lance, welcher ihr ein aufregendes Leben in Mexiko verspricht. Die vernachlässigten Kinder flüchten sich in eine Beziehung nach der anderen (Tochter Holly) oder sind der totale Außenseiter in der Schule (Sohn Petey).
 

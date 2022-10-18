@@ -7,7 +7,7 @@ categories: [gesehen,gelesen]
 *von Alice Bienk,
 erschienen bei Schüren, ISBN 978-3-89472-537-2, 24,90€*
 
-Es gibt verschiedene Wege, sich einem Film für die Interpretation zu nähern. Man kann das Kino wie die Fotographie auf seine optische Darstellung reduzieren, [kann nur die erzählte Geschichte analysieren](/blog/2008/05/28/bucher-kurzbesprechung/) oder den Soundtrack betrachten. Alice Bienk will ein Verstehen auf allen Ebenen des Mediums Films erreichen und liefert mit diesem Buch einen Überblick über die wichtigsten stilistischen Mittel der genannten Aspekte.
+Es gibt verschiedene Wege, sich einem Film für die Interpretation zu nähern. Man kann das Kino wie die Fotographie auf seine optische Darstellung reduzieren, [kann nur die erzählte Geschichte analysieren](/2008/05/28/bucher-kurzbesprechung/) oder den Soundtrack betrachten. Alice Bienk will ein Verstehen auf allen Ebenen des Mediums Films erreichen und liefert mit diesem Buch einen Überblick über die wichtigsten stilistischen Mittel der genannten Aspekte.
 
 Damit hat der *Filmanalyse*-Teil des Buchtitels seine Berechtigung, doch leider ist keine wirkliche *Einführung* daraus geworden. Auf nicht einmal 120 Seiten werden viele Begriffe wie Mis-en-Scène und Montage vorgestellt, aber leider meist nur angerissen. Das Buch liest sich wie eine Enzyklopädie, denn ständig stören Verweise auf andere Begriffe den Lesefluss, so dass man das Werk zum schnellen Nachschlagen verwenden kann, aber nicht zum Erlernen. Zudem sind die Beschreibungen recht kurzatmig und bestehen oft nur aus einer Aneinandereihung von Zitaten aus anderen Büchern oder Zeitschriften.
 

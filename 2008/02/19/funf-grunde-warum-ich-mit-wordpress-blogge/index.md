@@ -9,7 +9,7 @@ Bei [Wordpress Deutschland](http://blog.wordpress-deutschland.org/2008/02/19/fue
 <ol>
 <li>ich zu faul bin, Zeit in die Erlernung eines anderen Systems zu stecken</li>
 <li>ich gerne ständig (zwangs-) upgrade, weil alte Versionen nicht mehr mit Bugfixen versorgt werden</li>
-<li>ich es toll finde, dass sich mit jedem mittleren Versionssprung [das Datenbankschema und leider auch die API ändert](/blog/2007/09/30/lost-in-updates/), ...</li>
+<li>ich es toll finde, dass sich mit jedem mittleren Versionssprung [das Datenbankschema und leider auch die API ändert](/2007/09/30/lost-in-updates/), ...</li>
 <li>... so dass Themes und PlugIns aufgrund der schlechten API und der mittelalterlichen Mischung aus Logik, Darstellung und Datenbankzugriff oft angepasst werden müssen</li>
 <li>ich noch nichts besseres gefunden habe</li>
 </ol>

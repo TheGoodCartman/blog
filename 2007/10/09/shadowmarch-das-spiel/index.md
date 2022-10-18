@@ -7,7 +7,7 @@ categories: [gelesen]
 *von Tad Williams,
 erschienen bei Klett-Cotta, ISBN 978-3-608-93718-3, 26,50€*
 
-Zwei Jahre ist es nun her, dass ich [Teil Eins der geplanten Shadowmarch-Trilogie](/blog/2005/09/18/shadowmarch-die-grenze/) verschlungen habe, und nun habe ich die endlich erschienene Fortsetzung innerhalb einer Woche durchgelesen - immerhin 795 Seiten ohne Anhang. Viel hatte ich aus dem Vorgänger nicht mehr in Erinnerung, doch mein Blogeintrag und die vielen kleinen Informationsschnipsel im Text haben vollkommen ausgereicht, um der Handlung folgen zu können.
+Zwei Jahre ist es nun her, dass ich [Teil Eins der geplanten Shadowmarch-Trilogie](/2005/09/18/shadowmarch-die-grenze/) verschlungen habe, und nun habe ich die endlich erschienene Fortsetzung innerhalb einer Woche durchgelesen - immerhin 795 Seiten ohne Anhang. Viel hatte ich aus dem Vorgänger nicht mehr in Erinnerung, doch mein Blogeintrag und die vielen kleinen Informationsschnipsel im Text haben vollkommen ausgereicht, um der Handlung folgen zu können.
 
 Und diese hat es in sich. Als Mittelteil der Saga geplant ist das Lesen natürlich unbefriedigend - es werden mindestens ebenso so viele neue Fragen aufgeworfen wie Antworten gegeben. Der Mord an Kendrick Eddon bleibt ebenso ungeklärt wie die Verbindung zwischen den Tollys und dem Autarchen. Doch dafür hält Williams das Tempo hoch und springt in einer irrwitzigen Geschwindigkeit von einem Handlungsfaden zum nächsten. Durch die vielen kleinen Informationshappen, die von den wenigen Nebencharakteren mit Hintergrundwissen geäußert werden, erhält man als Leser so nach und nach eine Idee von einem Ziel, auf das die Handlung vielleicht zusteuert.
 

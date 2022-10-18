@@ -4,7 +4,7 @@ date: "2007-11-09T23:35:29"
 categories: [gesehen]
 ---
 
-Nicht nur die [Simpsonsfolge](http://www.thesimpsons.com/episode_guide/1811.htm) vom letzten Sonntag, auch Hollywood setzt sich mit dem Thema Rache immer wieder gerne auseinander - Scorseses Filme ([Gangs of New York](/blog/2003/03/03/gangs-of-new-york/), Departed) leben fast ausschließlich davon. *Lucky Number Slevin* und *Prestige - Meister der Magie* sind zwei weitere Ausprägungen dieses Genres.
+Nicht nur die [Simpsonsfolge](http://www.thesimpsons.com/episode_guide/1811.htm) vom letzten Sonntag, auch Hollywood setzt sich mit dem Thema Rache immer wieder gerne auseinander - Scorseses Filme ([Gangs of New York](/2003/03/03/gangs-of-new-york/), Departed) leben fast ausschließlich davon. *Lucky Number Slevin* und *Prestige - Meister der Magie* sind zwei weitere Ausprägungen dieses Genres.
 
 Ersterer Film lief leider nie in den deutschen Kinos, obwohl Bruce Willis wohl schon allein seine Gage wieder eingespielt und mich in den Kinosessel getrieben hätte. Als Profikiller mit ab und zu hervorblitzendem Mitleid unterstützt er seinen Findling dabei, zwei Bosse von Wettsyndikaten auszuschalten, die für den Tod von dessen Familie verantwortlich sind.
 
@@ -18,7 +18,7 @@ Mit dem Viergestirn Hugh Jackman, Christian Bale, Michael Caine und Scarlett Joh
 
 Was mir aber schwer auf den Magen geschlagen hat und erst zu diesem Blogeintrag führte war die offene Darstellung von Rache ohne jegliche Auseinandersetzung damit. In *Slevin* sterben mal eben 20 Menschen, um die Rache eines Einzelnen zu befriedigen und die beiden Killer zucken mit keiner Wimper - da haben die ersten beiden Batman-Filme von Tim Burton deutlich mehr Schattenseiten eines vergleichbaren Charakters offenbart und wie schwer es ist, als Racheengel zu leben.
 
-In *Prestige* wird zumindest über die Nebenfiguren eine ständige Kritik an der Obsession der Rache geübt, und doch fällt es mir als Zuschauer schwer, diese über Jahre anhaltende Feindseligkeit der beiden Magier zu akzeptieren. Aber Hollywood ist eben immer ein Spiegel seiner Zeit, und wenn die Regierenden dieser Welt ständig nur nach Vergeltung schreien - an den Terroristen, an den Aufrüstern, sogar an den "Sozialschmarotzern" - dann spiegelt sich dies auch in den Filmen wieder. Eine ähnliche Betrachtung habe ich bereits über die [Terminatortrilogie](/blog/2003/08/25/terminator-3-rebellion-der-maschinen/) geführt, deren Bild unserer Welt das jeweilige Jahrzehnt gut erkennen lässt.
+In *Prestige* wird zumindest über die Nebenfiguren eine ständige Kritik an der Obsession der Rache geübt, und doch fällt es mir als Zuschauer schwer, diese über Jahre anhaltende Feindseligkeit der beiden Magier zu akzeptieren. Aber Hollywood ist eben immer ein Spiegel seiner Zeit, und wenn die Regierenden dieser Welt ständig nur nach Vergeltung schreien - an den Terroristen, an den Aufrüstern, sogar an den "Sozialschmarotzern" - dann spiegelt sich dies auch in den Filmen wieder. Eine ähnliche Betrachtung habe ich bereits über die [Terminatortrilogie](/2003/08/25/terminator-3-rebellion-der-maschinen/) geführt, deren Bild unserer Welt das jeweilige Jahrzehnt gut erkennen lässt.
 
 Ich kann abschließend nur hoffen, dass diese Phase wie alle vor ihr zu Ende geht, sonst werde ich wahrscheinlich noch depressiver als ohnehin schon...
 

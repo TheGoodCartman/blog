@@ -4,7 +4,7 @@ date: "2009-05-25T18:24:29"
 categories: [gesehen]
 ---
 
-Nachdem ich vor kurzem den neuen [StarTrek](/blog/2009/05/16/star-trek/)-Film im Kino sah, bin ich auf die Blu-Ray-Veröffentlichung der Originalserie aufmerksam geworden und habe sie bei der Online-Videothek meiner Wahl gleich bestellt (zumindest die erste von sieben Scheiben, der auch dieser Artikel zugrunde liegt).
+Nachdem ich vor kurzem den neuen [StarTrek](/2009/05/16/star-trek/)-Film im Kino sah, bin ich auf die Blu-Ray-Veröffentlichung der Originalserie aufmerksam geworden und habe sie bei der Online-Videothek meiner Wahl gleich bestellt (zumindest die erste von sieben Scheiben, der auch dieser Artikel zugrunde liegt).
 
 Wie bitte mögen jetzt einige fragen. Eine über vierzig Jahre alte Fernsehserie wird auf einem HD-Medium veröffentlicht? Der glückliche Umstand, der dies ermöglicht, ist dass die fertig geschnittene Serie mit allen Spezialeffekten auf Filmband erhalten wurde und so mehr Details bewahrte als je im TV zu sehen waren.
 

@@ -13,7 +13,7 @@ Nach einer kurzen Zusammenfassung der vorherigen Bücher nimmt sich *Das Herz* e
 
 Die Hauptaufgabe von *Das Herz* ist, das war vorher klar, die unglaublich vielen parallelen Handlungsstränge endlich zusammen zu führen, nachdem ein Großteil der Verständnisfragen bereits im dritten Teil geklärt wurden. Wie viele Figuren Tad Williams bis dahin erschaffen hat, merkt der Leser erst, als ein erstaunlich großer Teil davon im Finale ein böses Ende nimmt. Alle anderen, denen der Leser im Laufe der Bücher in den Kopf schauen durfte, bekommen zumindest einen Abschiedsauftritt, womit am Ende tatsächlich alle Fäden entwirrt scheinen, die Tad Williams so kunstvoll verknotet hat.
 
-Es scheint mir jedoch, dass dieses letzte Buch einen eigenen, vorher nicht eingeplanten, Spannungsbogen spendiert bekam. Einige der anfänglichen Wendungen und Konflikte wirken aufgesetzt und unnötig - allein wie viele Parteien zeitweise durch die Höhlen unterhalb der Südmarksburg ziehen und sich (nicht) begegnen übersteigt jedwede Vorstellung. So wird die zwischenzeitliche Stärke der geografisch verteilten Handlung zum großen Nachteil des Buches, da gefühlt alle Charaktere auf dem selben Fleck Erde herumwandeln und sich - vollkommen unerklärlich - nicht treffen und die Kräfte bündeln. Als Folge springt die Handlung auf fast jeder Seite und verwirrt mit ihrer nicht immer gegebenen Chronologie. Weniger wäre hier eindeutig mehr gewesen; bei [Harry Potter](/blog/2008/11/23/harry-potter-and-the-deathly-hallows/) haben die Bücher nie unter dem hohen Detailgrad und der Figurendichte gelitten wie bei *Das Herz*.
+Es scheint mir jedoch, dass dieses letzte Buch einen eigenen, vorher nicht eingeplanten, Spannungsbogen spendiert bekam. Einige der anfänglichen Wendungen und Konflikte wirken aufgesetzt und unnötig - allein wie viele Parteien zeitweise durch die Höhlen unterhalb der Südmarksburg ziehen und sich (nicht) begegnen übersteigt jedwede Vorstellung. So wird die zwischenzeitliche Stärke der geografisch verteilten Handlung zum großen Nachteil des Buches, da gefühlt alle Charaktere auf dem selben Fleck Erde herumwandeln und sich - vollkommen unerklärlich - nicht treffen und die Kräfte bündeln. Als Folge springt die Handlung auf fast jeder Seite und verwirrt mit ihrer nicht immer gegebenen Chronologie. Weniger wäre hier eindeutig mehr gewesen; bei [Harry Potter](/2008/11/23/harry-potter-and-the-deathly-hallows/) haben die Bücher nie unter dem hohen Detailgrad und der Figurendichte gelitten wie bei *Das Herz*.
 
 Ganz krass ist dabei die Auflösung der Nebenhandlung um den reichen Obdachlosen, der durch die Schattenmark des dritten Bandes stolperte. Nachdem er im letzten Teil eingeführt wurde und Tad Williams mit einem weiteren Handlungsstrang den Verdacht auf Shaso (in die Irre) lenkt, darf er am Ende ganz kurz in einen Kampf eingreifen und eine latente Liebesgeschichte beenden und hat seine Bestimmung damit erfüllt. Für meinen Geschmack ist dabei eindeutig zu viel Zufall im Spiel und die lange Vorgeschichte erscheint aufgrund des Kurzauftritts als verschwendet. So viel Mühe für so wenig Wirkung - fast würde ich Tad Williams einen ironischen Humor unterstellen. Doch da der Rest des Buches humorfrei erzählt wird, ist dies wohl eher eine Schwäche in der Planung der Handlung, die ihm am Ende über den Kopf gewachsen zu sein scheint.
 
@@ -27,7 +27,7 @@ Fazit: Fast zerstört Tad Williams mit dem letzten Teil der *Shadowmarch*-Serie,
 
 *Vorhergehende Bücher:*
 <ol>
-<li>[Die Grenze](/blog/2005/09/18/shadowmarch-die-grenze/)</li>
-<li>[Das Spiel](/blog/2007/10/09/shadowmarch-das-spiel/)</li>
-<li>[Die Dämmerung](/blog/2010/10/04/shadowmarch-die-dammerung/)</li>
+<li>[Die Grenze](/2005/09/18/shadowmarch-die-grenze/)</li>
+<li>[Das Spiel](/2007/10/09/shadowmarch-das-spiel/)</li>
+<li>[Die Dämmerung](/2010/10/04/shadowmarch-die-dammerung/)</li>
 </ol>

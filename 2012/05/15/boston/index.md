@@ -4,7 +4,7 @@ date: "2012-05-15T22:23:45"
 categories: [gewesen]
 ---
 
-*Taxation without Representation* - dieser Spruch steht auf allen Washingtoner Autokennzeichen und bringt ironisch zum Ausdruck, dass die Bewohner von [D.C.](/blog/2011/12/11/washington-d-c/) über ihren Sonderstatus ohne eigene Vertretung im Kongress nicht gerade erfreut sind. Denn das Original, *No Taxation without Representation*, ist einer der Grundpfeiler der amerikanischen Demokratie. Frei übersetzt geben die Bürger damit zum Ausdruck, dass sie nur bereit sind Steuern zu zahlen, wenn sie dafür auch ein politisches Mitspracherecht erhalten. Zurück geht diese Aussage auf die Zeit des Unabhängigkeitskriegs und damit auf ein Ereignis, welches die gesamte Welt mit Boston verbindet - die [Boston Tea Party](http://de.wikipedia.org/wiki/Boston_Tea_Party).
+*Taxation without Representation* - dieser Spruch steht auf allen Washingtoner Autokennzeichen und bringt ironisch zum Ausdruck, dass die Bewohner von [D.C.](/2011/12/11/washington-d-c/) über ihren Sonderstatus ohne eigene Vertretung im Kongress nicht gerade erfreut sind. Denn das Original, *No Taxation without Representation*, ist einer der Grundpfeiler der amerikanischen Demokratie. Frei übersetzt geben die Bürger damit zum Ausdruck, dass sie nur bereit sind Steuern zu zahlen, wenn sie dafür auch ein politisches Mitspracherecht erhalten. Zurück geht diese Aussage auf die Zeit des Unabhängigkeitskriegs und damit auf ein Ereignis, welches die gesamte Welt mit Boston verbindet - die [Boston Tea Party](http://de.wikipedia.org/wiki/Boston_Tea_Party).
 
 1773 wurde ein mit Tee beladener Frachter im Hafen von Bosten von als Indianer verkleideten Bürgern der Stadt gestürmt und der Tee über Bord geworfen. Dies war ein Protest gegen die von England erhobenen Steuern, mit denen das Königreich die militärischen Kosten der Kolonien decken wollte. Die Bürger der Kolonien fühlten sich jedoch im englischen Parlament nicht vertreten und verschärften mit ihrer Aktion den Ton der Auseinandersetzung, was schließlich im Unabhängigkeitskrieg und damit in der Unabhängigkeit der Vereinigten Staaten münden sollte.
 
@@ -18,7 +18,7 @@ Gut geeignet für den Start in eine Tour auf dem *Freedom Trail* ist der [Boston
 
 Direkt neben den beiden Parks liegt mit Beacon Hill ein Viertel, welches sich durch seine schmalen, steilen Straßen und die roten Backsteinbauten auszeichnet. Etwas weiter im Norden der vom Charles River umschlossenen Halbinsel der Bostoner Innenstadt findet sich schließlich das North End. Dieser Stadtteil ist geprägt von den italienischen Einwanderern und ihren Lokalitäten. Wer auf der Suche nach einer Pizzeria oder einen guten Café ist, sollte sich hier umsehen; ich habe meine Pasta im herrlichen September-Sonnenschein genießen können.
 
-Leider währte mein Aufenthalt in der Stadt  nur einen einzigen, aber schönen Tag. In dieser kurzen Zeit konnte ich nicht viel erkunden; Boston hat sicherlich noch viel mehr zu bieten (zum Beispiel einen [Ausblick von oben](/blog/2011/09/25/usa-von-oben/)). Wer also mit einem Besuch liebäugelt, sollte sich mehr Zeit gönnen als mir blieb.
+Leider währte mein Aufenthalt in der Stadt  nur einen einzigen, aber schönen Tag. In dieser kurzen Zeit konnte ich nicht viel erkunden; Boston hat sicherlich noch viel mehr zu bieten (zum Beispiel einen [Ausblick von oben](/2011/09/25/usa-von-oben/)). Wer also mit einem Besuch liebäugelt, sollte sich mehr Zeit gönnen als mir blieb.
 
 ![boston_1.jpg](boston_1.jpg)
 ![boston_2.jpg](boston_2.jpg)

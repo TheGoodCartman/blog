@@ -18,7 +18,7 @@ Der ganze Film gibt dementsprechend ein sehr hohes Tempo vor und lässt die Zusc
 Deshalb ist Teil fünf für mich der schlechteste der bisherigen Filme und ich kann weder für Buchkundige noch für die in Sachen Harry Potter Unbelesenen eine Empfehlung aussprechen. Ob es daran liegt, dass diesmal ein Regisseur mit fast ausschließlich TV-Erfahrung engagiert wurde, kann ich nicht sagen - er wird jedoch auch den nächsten, vorletzten Teil der Serie umsetzen und dann hoffentlich mit der von der Komplexität her etwas leichter verdaulichen Buchvorlage besser zurecht kommen.
 
 Vorherige Kritiken: 
-[Harry Potter und der Feuerkelch](/blog/2005/11/24/harry-potter-und-der-feuerkelch/)
-[Harry Potter und der Gefangene von Askaban](/blog/2004/06/10/harry-potter-und-der-gefangene-von-askaban/)
-[Harry Potter und die Kammer des Schreckens](/blog/2002/11/25/harry-potter-und-die-kammer-des-schreckens/)
-[Harry Potter und der Stein der Weisen](/blog/2001/12/04/harry-potter-und-der-stein-der-weisen/)
+[Harry Potter und der Feuerkelch](/2005/11/24/harry-potter-und-der-feuerkelch/)
+[Harry Potter und der Gefangene von Askaban](/2004/06/10/harry-potter-und-der-gefangene-von-askaban/)
+[Harry Potter und die Kammer des Schreckens](/2002/11/25/harry-potter-und-die-kammer-des-schreckens/)
+[Harry Potter und der Stein der Weisen](/2001/12/04/harry-potter-und-der-stein-der-weisen/)

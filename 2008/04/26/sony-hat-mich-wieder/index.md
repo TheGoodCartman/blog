@@ -7,7 +7,7 @@ abstract: " "
 
 ![mp3player.jpg](mp3player.jpg)
 
-[Lange](/blog/2007/12/20/nicht-ohne-fernbedienung/) [habe ich nun](/blog/2008/01/21/stand-der-technik/) [um eine Entscheidung](/blog/2008/02/05/stand-der-technik-ii/) [gerungen](/blog/2008/02/13/stand-der-technik-iii/), [welcher MP3-Player](/blog/2008/03/02/stand-der-technik-iv/) meinen in die Jahre gekommenen iRiver H10 ersetzen soll. Schlussendlich habe ich mich für den Sony NWZ A829B entschieden und bin damit nach drei Jahren der Untreue wieder zu meiner [Stammmarke](/blog/2008/03/12/sackgasse-der-evolution/) zurückgekehrt.
+[Lange](/2007/12/20/nicht-ohne-fernbedienung/) [habe ich nun](/2008/01/21/stand-der-technik/) [um eine Entscheidung](/2008/02/05/stand-der-technik-ii/) [gerungen](/2008/02/13/stand-der-technik-iii/), [welcher MP3-Player](/2008/03/02/stand-der-technik-iv/) meinen in die Jahre gekommenen iRiver H10 ersetzen soll. Schlussendlich habe ich mich für den Sony NWZ A829B entschieden und bin damit nach drei Jahren der Untreue wieder zu meiner [Stammmarke](/2008/03/12/sackgasse-der-evolution/) zurückgekehrt.
 
 Ausschlaggebend neben den Standardkriterien (mindestens 16GB Flash-Speicher, [USB-Wechselmedium](http://m.kausl.net/nwz-a818-review.html), keine Extra-Software für die Bibliothek nötig) war der eingebaute Bluetooth-Sender und die vernünftige Bedienoberfläche, die andere Konkurrenten nicht aufweisen können. Durch die an den iPod Touch erinnernde flache Bauform und das ultraleichte Gewicht ist es auch gar kein Problem, den Player in der Tasche zu tragen (egal ob Hose oder Jacke).
 

@@ -4,7 +4,7 @@ date: "2009-12-31T16:10:53"
 categories: [gespielt]
 ---
 
-Das Lob schlug hoch für *Dragon Age* im weiten Netz. Ein neues *Baldur's Gate* soll Bioware geschaffen haben, das beste Rollenspiel seit Jahren heißt es allerortens. Doch [Blogeinträge](/blog/2009/12/08/dragon-age-origins/) sollten gezeigt haben, dass ich diese Einschätzung nicht teile.
+Das Lob schlug hoch für *Dragon Age* im weiten Netz. Ein neues *Baldur's Gate* soll Bioware geschaffen haben, das beste Rollenspiel seit Jahren heißt es allerortens. Doch [Blogeinträge](/2009/12/08/dragon-age-origins/) sollten gezeigt haben, dass ich diese Einschätzung nicht teile.
 
 Über eine andere Meinung als der Rest der Welt würde ich mir normalerweise keine Gedanken machen, aber auch im Freundeskreis ist das Spiel gut angekommen und wurde mit noch älteren Werken des Genres verglichen. Und als ich dies hörte wurde mir zweierlei klar: Zum Einen, dass *Dragon Age* wirklich wie ein Spiel aus weit zurückliegenden RPG-Tagen daher kommt und Zweitens meine Nörgeleien genau darin begründet sind.
 

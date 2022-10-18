@@ -4,7 +4,7 @@ date: "2009-06-26T21:24:13"
 categories: [gedacht]
 ---
 
-Manchmal gibt es ganz unerwartete Parallelen im Leben, die einen überraschen. So hat mein Chef bei meinem Bewerbungsgespräch gesagt, dass er die Softwareentwicklung als einen kreativen Prozess betrachtet. Ich habe dem nicht widersprochen, sehe die Schwerpunkte jedoch eher im Verständnisprozess und handwerklichen Fähigkeiten. Nun wurde mir beim Besuch der [Feininiger-Ausstellung](/blog/2009/06/26/lyonel-feininger-ausstellung-in-der-stiftung-moritzburg/) klar, dass auch Künstler nach diesem Schema arbeiten und man diese Vorgehensweise also durchaus als kreativ bezeichnen kann.
+Manchmal gibt es ganz unerwartete Parallelen im Leben, die einen überraschen. So hat mein Chef bei meinem Bewerbungsgespräch gesagt, dass er die Softwareentwicklung als einen kreativen Prozess betrachtet. Ich habe dem nicht widersprochen, sehe die Schwerpunkte jedoch eher im Verständnisprozess und handwerklichen Fähigkeiten. Nun wurde mir beim Besuch der [Feininiger-Ausstellung](/2009/06/26/lyonel-feininger-ausstellung-in-der-stiftung-moritzburg/) klar, dass auch Künstler nach diesem Schema arbeiten und man diese Vorgehensweise also durchaus als kreativ bezeichnen kann.
 
 Am Anfang stand bei Lyonel Feininger meist eine Skizze, mit Kohle oder Feder auf Papier festgehalten. Diese beinhaltete überraschend viele Details und vor allem auch verschiedene Ansichten seiner Motive. Während sein Bruder Bilder als Fotographien festhielt, lebte Lyonels Gedächtnis von seiner großen Anzahl an Skizzen, die ihm bis ins hohe Alter ermöglichten, die fernen thüringischen Dörfer zu malen.
 

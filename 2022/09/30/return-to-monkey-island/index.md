@@ -4,7 +4,7 @@ date: "2022-09-30T09:50:59"
 categories: [gespielt]
 ---
 
-Über 30 Jahre nach [meiner ersten Berührung mit Monkey Island](/blog/2010/09/11/me-monkey-island/) und 12 Jahre nach [dem letzten Spiel](/blog/2010/09/11/tales-of-monkey-island/) kommt mit *Return to Monkey Island* nun der je nach Zählweise dritte oder sechste Teil der Serie.
+Über 30 Jahre nach [meiner ersten Berührung mit Monkey Island](/2010/09/11/me-monkey-island/) und 12 Jahre nach [dem letzten Spiel](/2010/09/11/tales-of-monkey-island/) kommt mit *Return to Monkey Island* nun der je nach Zählweise dritte oder sechste Teil der Serie.
 
 Seit der Ankündigung vor nicht einmal einem halben Jahr gab es viel Buzz um das Spiel. Für viele Gamer ist die Serie der Inbegriff des Adventure-Genres und wie bei mir mit vielen Erinnerungen verbunden. Gleichzeitig hat sich eine internet-typische extreme Diskussion um den Art-Style entwickelt.
 

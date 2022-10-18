@@ -17,6 +17,6 @@ Nach fünf Büchern der Serie habe ich so langsam die Nase voll. Mich interessie
 
 *Vorhergehende Bücher:*
 <ul>
-<li>[Der Schatten erhebt sich](/blog/2008/07/15/der-schatten-erhebt-sich/)</li>
-<li>[Die Rückkehr des Drachens](/blog/2005/11/08/die-ruckkehr-des-drachens/)</li>
+<li>[Der Schatten erhebt sich](/2008/07/15/der-schatten-erhebt-sich/)</li>
+<li>[Die Rückkehr des Drachens](/2005/11/08/die-ruckkehr-des-drachens/)</li>
 </ul>

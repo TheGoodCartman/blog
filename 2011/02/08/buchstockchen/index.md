@@ -10,7 +10,7 @@ Ich habe seit langem mal wieder ein [Stöckchen](http://www.sabrina-kirnapci.com
 Eigentlich lese ich gerade nur einen Reiseführer über Japan von Christine Liew und die aktuelle Ausgabe der [Ray](http://ray-magazin.at/) - denn es ist Berlinale, und da habe ich nicht viel Zeit. In zwei Wochen geht es jedoch weiter mit entweder [Turing Test von Chris Beckett](http://www.elasticpress.com/turingtest.htm) oder der [London-Biographie von Peter Ackroyd](http://www.randomhouse.de/book/edition.jsp?edi=213235).
 
 **02) Welches Buch hat dich zuletzt stark beeindruckt?**
-Das ist wohl [1Q84 von Haruki Murakami](/blog/2011/02/04/1q84/).
+Das ist wohl [1Q84 von Haruki Murakami](/2011/02/04/1q84/).
 
 **03) Sammelst du irgendetwas?**
 Außer Büchern und meinen Kino-Eintrittskarten?
@@ -22,7 +22,7 @@ Nein, Bücher lasse ich gerne in dem Zustand, in dem ich sie gekauft habe. Dies 
 Aus o.g. Gründen nicht. Aber ich hinterlasse meist die Kassenzettel darin, wenn ich nicht gerade aus Faulheit bei Amazon bestellt habe - da sind die Rechnungen einfach zu groß.
 
 **06) Welches Buch hast du doppelt?**
-So richtig doppelt besitze ich kein Buch. Allerdings habe ich [Terry Pratchetts Nation](/blog/2009/05/08/eine-insel/) in dem Sinne doppelt, das ich mir die deutsche Hardcoverausgabe gekauft hatte und kurz danach von Freunden das englische Taschenbuch geschenkt bekam.
+So richtig doppelt besitze ich kein Buch. Allerdings habe ich [Terry Pratchetts Nation](/2009/05/08/eine-insel/) in dem Sinne doppelt, das ich mir die deutsche Hardcoverausgabe gekauft hatte und kurz danach von Freunden das englische Taschenbuch geschenkt bekam.
 
 **07) Von wem würdest du dir gern was vorlesen lassen?**
 Von niemandem. Ich bin kein Fan davon, Bücher aufbereitet zu bekommen, ob nun als Hörbuch oder sogar in optischer Form - ich liebe es einfach, mir eine eigene Vorstellung des Buches nur durch das Lesen zu machen, alles andere schränkt diese intensive Wahrnehmung ein.
@@ -69,13 +69,13 @@ In jüngster Zeit komme ich aus Zeitmangel nicht mehr dazu, ein Buch öfter als 
 **21) Welches Buch hast du beim Lesen vorzeitig weggelegt und nie wieder angefangen?**
 Keines. Dies ist so etwas wie ein selbstauferlegter Zwang, dass ich "Problembücher" zwar gerne für ein paar Wochen auf Eis lege, aber mich schließlich doch bis zum bitteren Ende durch sie hindurchquäle.
 
-Da fällt mir ein: Den [Faust in der Schule](/blog/2010/01/23/schullekture-eine-retrospektive/) habe ich nie durchgelesen - ich fand die Versform zu nervig.
+Da fällt mir ein: Den [Faust in der Schule](/2010/01/23/schullekture-eine-retrospektive/) habe ich nie durchgelesen - ich fand die Versform zu nervig.
 
 **22) Durch welches Buch musstest du dich durchquälen?**
 
-[John Irving - Owen Meany](/blog/2009/04/20/owen-meany/)
-[Douglas R. Hofstadter - Gödel, Escher, Bach - ein endlos geflochtenes Band](/blog/2009/11/05/godel-escher-bach-ein-endlos-geflochtenes-band/)
-[Uwe Tellkamp - Der Turm](/blog/2010/05/31/der-turm/)
+[John Irving - Owen Meany](/2009/04/20/owen-meany/)
+[Douglas R. Hofstadter - Gödel, Escher, Bach - ein endlos geflochtenes Band](/2009/11/05/godel-escher-bach-ein-endlos-geflochtenes-band/)
+[Uwe Tellkamp - Der Turm](/2010/05/31/der-turm/)
 
 **23) Bei welchem Buch stutzen die anderen, weil du es besitzt bzw. gelesen hast?**
 Ist mir noch nicht passiert.
@@ -84,7 +84,7 @@ Ist mir noch nicht passiert.
 Vielleicht die von Stieg Larsson. Generell kümmere ich mich hauptsächlich um das, was ich lesen will, und bekomme deshalb wenig von Büchern mit, die mich gar nicht interessieren.
 
 **25) Welches Buch brachte dich zuletzt zum Lachen?**
-Die [Wir-sind-Helden-Biografie](/blog/2008/07/26/informationen-zu-touren-und-anderen-einzelteilen-ein-wir-sind-helden-tagebuch/).
+Die [Wir-sind-Helden-Biografie](/2008/07/26/informationen-zu-touren-und-anderen-einzelteilen-ein-wir-sind-helden-tagebuch/).
 
 **26) Welches Buch brachte dich zuletzt unfreiwillig zum Lachen?**
 So ein schlechtes Buch habe ich zum Glück lange nicht lesen müssen.
@@ -97,7 +97,7 @@ Ganz klar Buchdruck (ich sage nur Bücherregal). Wobei es ja nur um den Untersch
 
 **29) Welches Buch würdest du gerne noch lesen?**
 Carlos Ruiz Zafón - Der Schatten des Windes
-~~[Robert Anton Wilson - Schrödingers Katze](/blog/2011/06/26/schrodingers-cat-trilogy/)~~
+~~[Robert Anton Wilson - Schrödingers Katze](/2011/06/26/schrodingers-cat-trilogy/)~~
 Dietmar Dath im Dialog mit Stephen Wolfram - Das Ende der Gleichungen?
 Sven Regener - Die Lehmann Trilogie
 
@@ -108,4 +108,4 @@ Da ich keine höre kann ich hierzu keine Antwort geben.
 siehe Antwort auf Frage 24)
 
 **32) Welches Buch hältst du für unverfilmbar?**
-Gerade gelesen - [Die Abschaffung der Arten](/blog/2011/05/08/die-abschaffung-der-arten/) von Dietmar Dath. Jeder Versuch, den multidimensionalen Keramikanern ein Bild zu geben, ist ebenso zum Scheitern verurteilt wie der Versuch, die von technischen Utopien und abstrakten Gesellschaftsfragen nur so triefenden Dialoge in einem Film verständlich zu machen.
+Gerade gelesen - [Die Abschaffung der Arten](/2011/05/08/die-abschaffung-der-arten/) von Dietmar Dath. Jeder Versuch, den multidimensionalen Keramikanern ein Bild zu geben, ist ebenso zum Scheitern verurteilt wie der Versuch, die von technischen Utopien und abstrakten Gesellschaftsfragen nur so triefenden Dialoge in einem Film verständlich zu machen.

@@ -6,7 +6,7 @@ categories: [gesehen]
 
 [Berlinale-Filmdatenblatt](http://www.berlinale.de/de/programm/berlinale_programm/datenblatt.php?film_id=20121786)
 
-Das asiatische Kino ist bekannt für seine Rachegeschichten; vor allem Hong Kong hat sich in dieser Disziplin hervorgetan. Nachdem ich 2011 eine [epische japanische Variation](/blog/2011/02/18/heavens-story/) des Themas sehen durfte, liefert dieses Jahr Thailand seinen Beitrag zum Genre ab. 
+Das asiatische Kino ist bekannt für seine Rachegeschichten; vor allem Hong Kong hat sich in dieser Disziplin hervorgetan. Nachdem ich 2011 eine [epische japanische Variation](/2011/02/18/heavens-story/) des Themas sehen durfte, liefert dieses Jahr Thailand seinen Beitrag zum Genre ab. 
 
 Doch leider fällt dem Film nicht viel Neues ein; schon die Geschichte ist altbekannt: Der Polizist Tul, der sich mit einflussreichen Kriminellen anlegt, landet wegen eines angeblichen Mordes im Gefängnis. Dort nimmt er Kontakt mit einem Doktor Demon auf, der die Menschheit retten will, indem er das Böse aus der Welt entfernt. Anfangs sind Tul die Mittel des Doktors noch zu extrem, doch als seine Freundin ermordet wird, lässt er sich von ihm als Auftragskiller engagieren. Das läuft ein paar Mal gut, bis er bei einem Auftrag in eine Schießerei gerät und eine Kugel sich in seinen Kopf verirrt. Als er nach ein paar Monaten aus dem Koma aufwacht, sieht er plötzlich alles auf dem Kopf stehend. Diesen Schicksalsschlag nimmt er zum Anlass, sein bisheriges Leben hinter sich zu lassen - doch schneller als gedacht fallen seine Taten wieder auf ihn zurück...
 

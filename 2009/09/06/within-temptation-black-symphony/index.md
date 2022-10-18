@@ -4,7 +4,7 @@ date: "2009-09-06T21:56:24"
 categories: [gesehen,gehört]
 ---
 
-Im Februar 2008 haben Within Temptation zusammen mit einem Orchester und einem klassischen Chor ein einmaliges Konzert in Rotterdam gegeben, welches u.a. für diese Bluray aufgezeichnet wurde. Im Gegensatz zu der folgenden [Tour](/blog/2008/07/22/rock-harz-2008/) hatte die Band so die Möglichkeit, den eigenen Sound komplett live auf der Bühne zu erzeugen. Dabei gehen die Gitarren total unter, aber zumindest Sängerin Sharon den Adel hatte einen guten Tag und trägt wie immer die Musik.
+Im Februar 2008 haben Within Temptation zusammen mit einem Orchester und einem klassischen Chor ein einmaliges Konzert in Rotterdam gegeben, welches u.a. für diese Bluray aufgezeichnet wurde. Im Gegensatz zu der folgenden [Tour](/2008/07/22/rock-harz-2008/) hatte die Band so die Möglichkeit, den eigenen Sound komplett live auf der Bühne zu erzeugen. Dabei gehen die Gitarren total unter, aber zumindest Sängerin Sharon den Adel hatte einen guten Tag und trägt wie immer die Musik.
 
 Unterstützt wird sie dabei von Keith Caputo, der seinen Teil von *What have you done* singt, und Anneke van Giersbergen, die wie schon auf dem letzten Agua-de-Annique-Album *Somewhere* im Duett begleitet. Als weiteres Highlight hat sich ein alter Song der Band in die Tracklist verirrt (*The other half of me*), bei dem noch Gegrunze die Musik der Band bereicherte.
 

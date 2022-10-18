@@ -11,7 +11,7 @@ An meiner Badezimmertür ist ein Aufkleber angebracht:
 
 > Aus hygienischen Gründen wird diese Toilette videoüberwacht.
 
-Dieser Aufkleber spielt ironisch mit dem aktuellen Trend, alles und jeden in dieser Gesellschaft zu überwachen. Dabei ist das Argument für eine Überwachung, die Hygiene, ein durchaus löbliches und von den meisten Menschen unterstütztes Ziel. Doch muss man für die Sicherstellung dieses Zieles unbedingt einen der intimsten Bereiche des privaten Lebens per Video überwachen, oder gibt es da nicht vielleicht noch andere Wege als [jeden Bürger erst einmal die Schuld zu unterstellen](/blog/2008/01/31/deutschland-europa-und-die-reisepasse/)?
+Dieser Aufkleber spielt ironisch mit dem aktuellen Trend, alles und jeden in dieser Gesellschaft zu überwachen. Dabei ist das Argument für eine Überwachung, die Hygiene, ein durchaus löbliches und von den meisten Menschen unterstütztes Ziel. Doch muss man für die Sicherstellung dieses Zieles unbedingt einen der intimsten Bereiche des privaten Lebens per Video überwachen, oder gibt es da nicht vielleicht noch andere Wege als [jeden Bürger erst einmal die Schuld zu unterstellen](/2008/01/31/deutschland-europa-und-die-reisepasse/)?
 
 Juli Zeh beschreibt in ihrem Buch *Corpus Delicti* eine zukünftige Gesellschaft, in der Hygiene zum Ziel und Zweck eines autoritären Staates erklärt wurde. Dies bedeutet, dass sich alle Bürger der Gesundheitsidee (genannt *Methode*) unterordnen müssen und der Staat dies überwacht: Jeder Mensch muss eine bestimmte Menge Sport treiben, darf sich keinen Schadstoffen (wie z.B. Alkohol oder Tabak) aussetzen und hat Protokoll über die Einhaltung der staatlichen Standards zu führen.
 

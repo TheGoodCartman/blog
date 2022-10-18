@@ -7,7 +7,7 @@ categories: [gelesen]
 *von Tad Williams,
 erschienen bei Heyne, ISBN 978-3-453-53274-8, 9,95€*
 
-Tad Williams hat mit der [Osten-Ard-Serie](http://de.wikipedia.org/wiki/Das_Geheimnis_der_Großen_Schwerter) und dem noch nicht beendeten [Schattenmark](/blog/2005/09/18/shadowmarch-die-grenze/)-[Zyklus](/blog/2007/10/09/shadowmarch-das-spiel/) zwei grandiose Fantasy-Werke weit über dem Niveau der meist ideenlosen zeitgenössischen fantastischen Literatur abgeliefert. Doch schon *Otherland* konnte nicht dieselbe Anziehungskraft erzeugen, und *Der Blumenkrieg* ist leider eine weitere Enttäuschung.
+Tad Williams hat mit der [Osten-Ard-Serie](http://de.wikipedia.org/wiki/Das_Geheimnis_der_Großen_Schwerter) und dem noch nicht beendeten [Schattenmark](/2005/09/18/shadowmarch-die-grenze/)-[Zyklus](/2007/10/09/shadowmarch-das-spiel/) zwei grandiose Fantasy-Werke weit über dem Niveau der meist ideenlosen zeitgenössischen fantastischen Literatur abgeliefert. Doch schon *Otherland* konnte nicht dieselbe Anziehungskraft erzeugen, und *Der Blumenkrieg* ist leider eine weitere Enttäuschung.
 
 Der Autor bewegt sich auf zu ausgetrampelten Pfaden, um mit seinen Stärken aufzufallen: Ein Mensch, den es dank einer kleinen Elfe in ein märchenhaftes Land Elfien verschlägt, der dort zum Helden wider Willen mutiert und am Ende sogar die Menschheit rettet und sein Glück mit einer hüschen Elfin findet - solche Geschichten gibt es tausendfach in diesem Genre, da heben sich auch die 944 Seiten des Wälzers nicht von der Konkurrenz ab. Dem Buch fehlen einfach die Ideen, auch wenn manche Details wie der musikalische Hintergrund des Helden und der sprichwörtliche Zwang der Elfenwelt, Versprechen und Verträge einzuhalten, sich positiv hervorheben.
 

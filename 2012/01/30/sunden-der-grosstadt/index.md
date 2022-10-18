@@ -4,7 +4,7 @@ date: "2012-01-30T22:34:26"
 categories: [gedacht,gefunden]
 ---
 
-Bis zum zweiten Weltkrieg war die [Berliner Mitte](/blog/2011/01/13/berlins-vergessene-mitte/) südöstlich des Alexanderplatzes vor allem eins: Eine Ansammlung von [Mietskasernen](http://de.wikipedia.org/wiki/Mietskaserne), die enge Straßen einfassten und ein Milieu wie in [Berlin Alexanderplatz](http://de.wikipedia.org/wiki/Berlin_Alexanderplatz_(Roman)) beschrieben beheimatete.
+Bis zum zweiten Weltkrieg war die [Berliner Mitte](/2011/01/13/berlins-vergessene-mitte/) südöstlich des Alexanderplatzes vor allem eins: Eine Ansammlung von [Mietskasernen](http://de.wikipedia.org/wiki/Mietskaserne), die enge Straßen einfassten und ein Milieu wie in [Berlin Alexanderplatz](http://de.wikipedia.org/wiki/Berlin_Alexanderplatz_(Roman)) beschrieben beheimatete.
 
 Der Krieg und der folgende großflächige Abriss durch die DDR hinterließen dann lange Zeit eine große Brachfläche, die schließlich durch eine für die kommunistische Führung repräsentative Achse vom Fernsehturm über das Marx-Engels-Forum bis zum Palast der Republik einer neuen Nutzung zugeführt wurde. Viel wichtiger für meine bisherige Wahrnehmung dieser Mitte waren aber nicht die genannten Protzbauten, sondern die sie einfassenden Baumstreifen, die leider von den beiden Plattenbauten an der Rathaus- und Karl-Liebknecht-Straße eingerahmt werden, diese jedoch etwas auffangen.
 

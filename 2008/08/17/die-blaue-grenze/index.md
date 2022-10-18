@@ -9,7 +9,7 @@ Regie: Till Franzen
 Darsteller: Antoine Monot, Jr. (Momme Bief), Beate Bille (Lene), Dominique Horwitz (Kommissar Poulsen), Hanna Schygulla (Frau Marx), Jost Siedhoff (der alte Bief), Sebastian Schultz (Morten), Jens Münchow (Teddy), Ole Hedegaard (Dänischer Grenzer) und andere Grenzgänger*
 [Offizielle Homepage](http://www.dieblauegrenze.de)
 
-So schnell kann es gehen: Nach [Auf der anderen Seite](/blog/2008/07/16/auf-der-anderen-seite/) gleich der nächste Film mit Hanna Schygulla, die sich ansonsten ja rar macht. Dabei ist mir diese Perle von Film erst jetzt bei der TV-Ausstrahlung aufgefallen. Aber besser spät als nie.
+So schnell kann es gehen: Nach [Auf der anderen Seite](/2008/07/16/auf-der-anderen-seite/) gleich der nächste Film mit Hanna Schygulla, die sich ansonsten ja rar macht. Dabei ist mir diese Perle von Film erst jetzt bei der TV-Ausstrahlung aufgefallen. Aber besser spät als nie.
 
 Die Handlung dreht sich rund um Momme, dessen Vater zu Beginn des Films stirbt. Dies bringt den jungen Mann dazu, nach Flensburg zu seinem Großvater zu fahren, wo er die Dänin Lene kennenlernt. Zusammen geraten sie in dier Nacht auf ein Polizeirevier und in ein Verhör mit Kommissar Poulsen, der eigentlich gerade beurlaubt wurde. Während sich die Wege von Momme und Lene nach dieser Nacht trennen, lernt der Kommissar seine neue Nachbarin Frau Marx kennen, die ihn sehr seltsam ansieht. Am Ende wird es alle in Dänemark wieder zusammenführen.
 

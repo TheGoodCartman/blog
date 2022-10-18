@@ -13,7 +13,7 @@ Llewyn Davies ist ein mittelloser Folk-Musiker im New York der 60er Jahre. Er be
 
 Llewyn Davies ist eine prototypische Coen-Figur: Ein gebrochener Verlierer und ein Stehaufmännchen, wie er im Buche steht. Bei dem "alles zu Scheiße wird, was er anfasst, als wäre er der idiotische Bruder von König Midas", wie es die von ihm schwangere Jean formuliert. Und so ist es kein Wunder, dass die Coen-Brüder ihn auf eine Reise schicken, an deren Ende er wieder am Anfang steht, also nur im Kreis gelaufen und keinen Schritt voran gekommen ist.
 
-Nur dass diese Reise im Gegensatz zu [A Serious Man](/blog/2010/01/31/a-serious-man/) sehr unterhaltsam ist. Die Coen-Brüder zeigen nämlich nicht nur die akribische Detailfreude und Genrevariation, die ich von ihnen gewohnt bin, sondern auch eine Liebe zur Folkmusik, die den Film trägt.
+Nur dass diese Reise im Gegensatz zu [A Serious Man](/2010/01/31/a-serious-man/) sehr unterhaltsam ist. Die Coen-Brüder zeigen nämlich nicht nur die akribische Detailfreude und Genrevariation, die ich von ihnen gewohnt bin, sondern auch eine Liebe zur Folkmusik, die den Film trägt.
 
 Dazu kommen die vielen gut gezeichneten Nebencharaktere: Von Carey Mulligan über einen fülligen Justin Timberlake bis hin zur Coen-Stammkraft John Goodman geben sich die Stars die Klinke in die Hand. Niemand von ihnen hat Einfluss auf Llewyn, doch sind die episodenhaften Auftritte alle sehr unterhaltsam. Allein schon der extreme Charakter der Jean, die Llewyn ausschließlich mit Schimpftiraden überzieht, auf der Bühne aber die brave Schwiegertochter gibt und trotzdem immer Mitleid mit ihm zeigt.
 

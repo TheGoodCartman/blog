@@ -18,15 +18,15 @@ Zuerst die schnöden Zahlen:
 Als nächstes folgt eine Liste der zehn besten Filme, die ich dieses Jahr gesehen habe (sehr Science-Fiction-lastig):
 
 <ol>
-	<li>[The Congress](/blog/2013/11/22/the-congress/)</li>
+	<li>[The Congress](/2013/11/22/the-congress/)</li>
 	<li>Frankenweenie</li>
-	<li>[Gravity](/blog/2013/11/19/gravity/)</li>
+	<li>[Gravity](/2013/11/19/gravity/)</li>
 	<li>Looper</li>
 	<li>Inside Llewyn Davis</li>
 	<li>Django Unchained</li>
-	<li>[Paulette](/blog/2013/07/22/paulette/)</li>
+	<li>[Paulette](/2013/07/22/paulette/)</li>
 	<li>The Place Beyond the Pines</li>
-	<li>[Sightseers](/blog/2013/04/20/sightseers/)</li>
+	<li>[Sightseers](/2013/04/20/sightseers/)</li>
 	<li>Zero Dark Thirty</li>
 </ol>
 

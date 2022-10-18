@@ -4,7 +4,7 @@ date: "2007-10-20T19:41:06"
 categories: [getan]
 ---
 
-Der [tapfere Gibbon](http://www.ubuntu.com/getubuntu/releasenotes/710tour) ist endlich da, und so habe ich versucht, [mein Linux](/blog/2007/06/25/ubuntu-704-oder-die-verwirrende-versionsnummer/) per Aktualisierung zu upgraden. Nach [einigen Problemen](https://bugs.launchpad.net/ubuntu/+source/update-manager/+bug/118862) ist mir dies heute schließlich geglückt und nach den [üblichen Konfigurationsorgien](/blog/2007/09/30/lost-in-updates/) an `xorg.conf` und `menu.lst` läuft das System jetzt auch stabil.
+Der [tapfere Gibbon](http://www.ubuntu.com/getubuntu/releasenotes/710tour) ist endlich da, und so habe ich versucht, [mein Linux](/2007/06/25/ubuntu-704-oder-die-verwirrende-versionsnummer/) per Aktualisierung zu upgraden. Nach [einigen Problemen](https://bugs.launchpad.net/ubuntu/+source/update-manager/+bug/118862) ist mir dies heute schließlich geglückt und nach den [üblichen Konfigurationsorgien](/2007/09/30/lost-in-updates/) an `xorg.conf` und `menu.lst` läuft das System jetzt auch stabil.
 
 Das beinhaltet einen funktionierenden [Compiz-Desktop](http://www.compiz-fusion.org/), wobei ich gerade verzweifelt versuche herauszufinden, welches PlugIn was macht - die nur halb übersetzte Konfgurationssoftware ist sehr verwirrend aufgebaut und nur dank Google weiß ich, dass die `super`-Taste eigentlich die `Windows`-Taste ist.
 

@@ -4,7 +4,7 @@ date: "2012-07-28T23:59:37"
 categories: [gesehen]
 ---
 
-Urlaubszeit ist Reisezeit. Und wer wie ich [um die halbe Welt fliegt](/blog/2012/07/07/australien/), hat sehr viel Zeit, im Flugzeug Filme anzusehen. Deshalb folgen nun ein paar Gedanken zu dem, was ich gesehen habe:
+Urlaubszeit ist Reisezeit. Und wer wie ich [um die halbe Welt fliegt](/2012/07/07/australien/), hat sehr viel Zeit, im Flugzeug Filme anzusehen. Deshalb folgen nun ein paar Gedanken zu dem, was ich gesehen habe:
 
 **A dangerous method**
 
@@ -57,7 +57,7 @@ Ein Happy End ist dabei nicht vorgesehen, und gerade das Ende mit den kaum 30 Ja
 
 **Sherlock Holmes - A game of shadows**
 
-Wo die geniale BBC-Serie [Sherlock](/blog/2011/08/08/sherlock/) die klassischen Geschichten originalgetreu in die Gegenwart übersetzt und dabei mit eigenen Akzenten anreichert, haben die Filme von Guy Ritchie nicht mehr als die Figurenkonstellation und den Zeitrahmen aufgegriffen. Die Lücke füllte dabei eine typische Ritchie-Inszenierung mit viel Action, was im ersten Teil ganz gut funktionierte. Von *A game of shadows* kann ich das leider ganz und gar nicht behaupten. Frei nach dem Motto "größer, schneller, weiter" wurde diesmal auf den Superschurken Moriarty und den gemeinsamen Tod von Sherlock und seines Nemesis in den Reichenbachfällen zurückgegriffen. Das ist dann aber auch schon die einzige Gemeinsamkeit mit der [BBC-Serie](/blog/2012/02/26/sherlock-staffel-2/) und dem Original, denn auf der Jagd nach Moriarty treibt es den Film über Paris und Heilbronn in die Schweiz, wo ein vorzeitiges Ausbrechen des ersten Weltkriegs verhindert wird.
+Wo die geniale BBC-Serie [Sherlock](/2011/08/08/sherlock/) die klassischen Geschichten originalgetreu in die Gegenwart übersetzt und dabei mit eigenen Akzenten anreichert, haben die Filme von Guy Ritchie nicht mehr als die Figurenkonstellation und den Zeitrahmen aufgegriffen. Die Lücke füllte dabei eine typische Ritchie-Inszenierung mit viel Action, was im ersten Teil ganz gut funktionierte. Von *A game of shadows* kann ich das leider ganz und gar nicht behaupten. Frei nach dem Motto "größer, schneller, weiter" wurde diesmal auf den Superschurken Moriarty und den gemeinsamen Tod von Sherlock und seines Nemesis in den Reichenbachfällen zurückgegriffen. Das ist dann aber auch schon die einzige Gemeinsamkeit mit der [BBC-Serie](/2012/02/26/sherlock-staffel-2/) und dem Original, denn auf der Jagd nach Moriarty treibt es den Film über Paris und Heilbronn in die Schweiz, wo ein vorzeitiges Ausbrechen des ersten Weltkriegs verhindert wird.
 
 In einer sehr hektischen und von Logiklöchern triefenden Inszenierung bleibt von den Detektivfähigkeiten Sherlock Holmes nicht viel übrig. Auch die Action des ersten Teils wird nur wiederholt; neue Ideen fehlen komplett. Noomi Rapace in der Rolle des weiblichen Nebendarstellerin verkommt so zur Mitläuferin auf der immerwährenden Jagd, selbst die Chemie zwischen Sherlock und Watson will diesmal nicht greifen und der Schauspieler vom Moriarty ist leider eine totale Fehlbesetzung und kann zu keinem Zeitpunkt den Superschurken glaubhaft darstellen. Einziger Lichtblick ist Stephen Fry, der als Sherlocks Bruder Mycraft eine denkwürdige Nacktszene hat.
 
