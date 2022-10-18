@@ -2,6 +2,7 @@
 title: "Drachen über Dubrovnik"
 date: "2012-06-16T22:21:44"
 categories: [gedacht,gesehen,gewesen]
+abstract: " "
 ---
 
 ![Dubrovnik](dubrovnik.jpg)

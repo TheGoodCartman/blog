@@ -2,6 +2,7 @@
 title: "Moderne Wahltaktik"
 date: "2009-09-04T21:20:33"
 categories: [gedacht,getan]
+abstract: " "
 ---
 
 ![Ergebnis Wahl-o-mat](wahl-o-mat.jpg)

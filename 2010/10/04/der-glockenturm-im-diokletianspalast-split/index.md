@@ -2,6 +2,7 @@
 title: "Der Glockenturm im Diokletianspalast Split"
 date: "2010-10-04T22:24:08"
 categories: [gewesen]
+abstract: " "
 ---
 
 ![Split](split.jpg)

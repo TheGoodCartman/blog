@@ -2,6 +2,7 @@
 title: "Festival of Lights"
 date: "2012-10-23T22:03:59"
 categories: [gewesen]
+abstract: " "
 ---
 
 [![Die Oberbaumbrücke](festival_of_lights_panorama.jpg)](http://gigapan.com/gigapans/117204)

@@ -2,6 +2,7 @@
 title: "Sony hat mich wieder"
 date: "2008-04-26T18:58:11"
 categories: [gehört,getan]
+abstract: " "
 ---
 
 ![mp3player.jpg](mp3player.jpg)

@@ -2,6 +2,7 @@
 title: "Biermeile 2009"
 date: "2009-08-11T22:39:22"
 categories: [gewesen]
+abstract: " "
 ---
 
 ![biermeile](biermeile.jpg)

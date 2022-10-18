@@ -2,6 +2,7 @@
 title: "Rock Harz 2011"
 date: "2011-07-11T23:35:11"
 categories: [gehört,gewesen]
+abstract: " "
 ---
 
 ![rockharz2011_buehnen.jpg](rockharz2011_buehnen.jpg)

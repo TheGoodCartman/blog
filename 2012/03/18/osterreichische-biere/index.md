@@ -2,6 +2,7 @@
 title: "Österreichische Biere"
 date: "2012-03-18T13:16:11"
 categories: [gedacht,gewesen]
+abstract: " "
 ---
 
 ![Österreichische Biere](austria_biere.jpg)

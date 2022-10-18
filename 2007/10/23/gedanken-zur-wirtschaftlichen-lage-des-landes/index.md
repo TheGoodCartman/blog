@@ -2,6 +2,7 @@
 title: "Gedanken zur wirtschaftlichen Lage des Landes"
 date: "2007-10-23T20:02:27"
 categories: [gedacht]
+abstract: " "
 ---
 
 ![plusundschlecker.gif](plusundschlecker.gif)

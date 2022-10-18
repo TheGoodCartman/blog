@@ -2,6 +2,7 @@
 title: "Neubau des Universitätscampus am Augustusplatz Leipzig - Stand 2012"
 date: "2012-12-31T20:07:47"
 categories: [gewesen]
+abstract: " "
 ---
 
 ![Der neue Universitätscampus am Augustusplatz](leipzig2012.jpg)

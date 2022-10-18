@@ -2,6 +2,7 @@
 title: "Linke Tasche, rechte Tasche"
 date: "2009-10-11T21:39:34"
 categories: [gedacht]
+abstract: " "
 ---
 
 ![Kompensation für das S-Bahn-Chaos](kompensation.jpg)

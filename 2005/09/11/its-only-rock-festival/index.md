@@ -2,6 +2,7 @@
 title: "It's Only Rock! Festival"
 date: "2005-09-11T02:00:28"
 categories: [gehört,gewesen]
+abstract: " "
 ---
 
 ![Festival-Plakat](rockpool.jpg)

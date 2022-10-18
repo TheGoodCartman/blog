@@ -2,6 +2,7 @@
 title: "Fellbüschel"
 date: "2008-05-28T20:53:59"
 categories: [gedacht,gefunden]
+abstract: " "
 ---
 
 ![squirrel1.jpg](squirrel1.jpg)

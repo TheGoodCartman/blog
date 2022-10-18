@@ -2,6 +2,7 @@
 title: "Rest in Pieces"
 date: "2009-07-12T21:43:05"
 categories: [getan]
+abstract: " "
 ---
 
 ![Mein Zelt ist tod](zelt1.jpg)

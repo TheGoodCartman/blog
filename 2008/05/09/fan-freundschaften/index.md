@@ -2,6 +2,7 @@
 title: "Fan-Freundschaften"
 date: "2008-05-09T21:55:49"
 categories: [gedacht,gewesen]
+abstract: " "
 ---
 
 ![olympiastadion.jpg](olympiastadion.jpg)

@@ -2,6 +2,7 @@
 title: "Baedeker vs Dumont vs Marco Polo - ein Reiseführervergleich am Beispiel der Toskana"
 date: "2013-10-06T18:15:54"
 categories: [gelesen,gewesen]
+abstract: " "
 ---
 
 ![Florenz Panorama](florenz_500.jpg)

@@ -2,6 +2,7 @@
 title: "Zu Gast auf 42195 Metern"
 date: "2009-08-22T22:19:18"
 categories: [gedacht,gewesen]
+abstract: " "
 ---
 
 ![Marathon WM 2009](marathon.jpg)

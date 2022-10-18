@@ -2,6 +2,7 @@
 title: "Solei - das unbekannte Wesen"
 date: "2010-03-31T18:54:06"
 categories: [gedacht]
+abstract: " "
 ---
 
 ![Soleier](soleier.jpg)

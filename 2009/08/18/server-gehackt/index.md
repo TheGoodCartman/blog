@@ -2,6 +2,7 @@
 title: "Server gehackt!"
 date: "2009-08-18T23:41:45"
 categories: [gedacht]
+abstract: " "
 ---
 
 ![hacked](hacked.jpg)

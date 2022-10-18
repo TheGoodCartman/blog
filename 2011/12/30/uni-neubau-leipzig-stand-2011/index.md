@@ -2,6 +2,7 @@
 title: "Uni-Neubau Leipzig Stand 2011"
 date: "2011-12-30T19:08:19"
 categories: [gewesen]
+abstract: " "
 ---
 
 ![Leipzig Augustusplatz 2011](leipzig2011.jpg)

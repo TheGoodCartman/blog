@@ -2,6 +2,7 @@
 title: "Rock Harz 2007"
 date: "2007-07-15T21:30:09"
 categories: [gehört,gewesen]
+abstract: " "
 ---
 
 ![Bühne des Rock-Harz-Festivals 2007](rockharz_buehne.jpg)

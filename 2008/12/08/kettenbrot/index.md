@@ -2,6 +2,7 @@
 title: "Kettenbrot"
 date: "2008-12-08T23:00:30"
 categories: [gedacht]
+abstract: " "
 ---
 
 ![Teig](teig.jpg)

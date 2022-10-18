@@ -2,6 +2,7 @@
 title: "Schrottwichteln 2010"
 date: "2010-12-17T21:48:14"
 categories: [getan]
+abstract: " "
 ---
 
 ![Schrottwichteln](schrottwichteln.jpg)

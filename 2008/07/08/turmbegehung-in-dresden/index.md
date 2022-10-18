@@ -2,6 +2,7 @@
 title: "Turmbegehung in Dresden"
 date: "2008-07-08T21:55:51"
 categories: [gewesen,getan]
+abstract: " "
 ---
 
 ![frauenkirche.jpg](frauenkirche.jpg)

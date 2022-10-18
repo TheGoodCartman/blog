@@ -2,6 +2,7 @@
 title: "Und ewig lockt das Einkaufszentrum"
 date: "2007-09-12T20:57:32"
 categories: [gewesen]
+abstract: " "
 ---
 
 ![alexa.jpg](alexa.jpg)

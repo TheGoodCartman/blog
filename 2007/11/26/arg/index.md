@@ -2,6 +2,7 @@
 title: "ARG"
 date: "2007-11-26T14:46:43"
 categories: [gedacht]
+abstract: " "
 ---
 
 ![arg.gif](arg.gif)

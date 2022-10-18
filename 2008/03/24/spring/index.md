@@ -2,6 +2,7 @@
 title: "Winter oder Frühling? Ostern!"
 date: "2008-03-24T18:04:47"
 categories: [gedacht]
+abstract: " "
 ---
 
 ![osterglocken.jpg](osterglocken.jpg)

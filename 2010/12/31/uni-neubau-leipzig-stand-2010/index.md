@@ -2,6 +2,7 @@
 title: "Uni-Neubau Leipzig Stand 2010"
 date: "2010-12-31T00:54:04"
 categories: [gewesen]
+abstract: " "
 ---
 
 ![Leipzig 2010](leipzig2010.jpg)

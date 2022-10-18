@@ -2,6 +2,7 @@
 title: "Washington D.C. und die Fallout-Brille"
 date: "2011-09-06T05:03:31"
 categories: [gedacht,gewesen,gespielt]
+abstract: " "
 ---
 
 ![Washington D.C. Metro Station](washington_metro.jpg)

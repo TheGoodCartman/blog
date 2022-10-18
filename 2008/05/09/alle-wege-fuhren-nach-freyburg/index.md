@@ -2,6 +2,7 @@
 title: "Alle Wege führen nach Freyburg"
 date: "2008-05-09T21:41:26"
 categories: [gedacht,gewesen]
+abstract: " "
 ---
 
 ![neuenburg.jpg](neuenburg.jpg)

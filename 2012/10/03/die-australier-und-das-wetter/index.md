@@ -2,6 +2,7 @@
 title: "Die Australier und das Wetter"
 date: "2012-10-03T22:27:02"
 categories: [gedacht,gewesen]
+abstract: " "
 ---
 
 ![Typisch australisches Wetter](australien_wetter.jpg)

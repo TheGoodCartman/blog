@@ -2,6 +2,7 @@
 title: "Highland Games Halle 2007"
 date: "2007-07-02T20:41:03"
 categories: [gewesen,getan]
+abstract: " "
 ---
 
 ![Feuershow bei den Highland Games](highlandgames2007.jpg)

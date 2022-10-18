@@ -2,6 +2,7 @@
 title: "Rock Harz 2009"
 date: "2009-07-12T22:48:16"
 categories: [gehört,gewesen]
+abstract: " "
 ---
 
 ![Bühnen des Rock Harz 2009](rockharz_buehnen.jpg)

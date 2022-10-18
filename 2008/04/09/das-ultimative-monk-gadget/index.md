@@ -2,6 +2,7 @@
 title: "Das ultimative Monk-Gadget"
 date: "2008-04-09T21:49:56"
 categories: [gefunden]
+abstract: " "
 ---
 
 ![untangler.jpg](untangler.jpg)

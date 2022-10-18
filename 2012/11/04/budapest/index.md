@@ -2,6 +2,7 @@
 title: "Budapest"
 date: "2012-11-04T23:00:38"
 categories: [gewesen]
+abstract: " "
 ---
 
 [![Budapest nächtliches Panorama](budapest_01_500.jpg)](http://gigapan.com/gigapans/115994)

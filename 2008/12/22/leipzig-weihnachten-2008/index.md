@@ -2,6 +2,7 @@
 title: "Leipzig Weihnachten 2008"
 date: "2008-12-22T17:43:51"
 categories: [gewesen]
+abstract: " "
 ---
 
 ![Uni Leipzig](unileipzig.jpg)

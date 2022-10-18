@@ -2,6 +2,7 @@
 title: "Rock Harz 2012"
 date: "2012-07-15T23:31:36"
 categories: [gehört,gewesen]
+abstract: " "
 ---
 
 ![Rock Harz 2012](rockharz2012.jpg)

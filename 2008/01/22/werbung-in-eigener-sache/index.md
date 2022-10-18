@@ -2,6 +2,7 @@
 title: "Werbung in eigener Sache"
 date: "2008-01-22T19:55:32"
 categories: [gedacht]
+abstract: " "
 ---
 
 ![winterharz.jpg](winterharz.jpg)

@@ -2,6 +2,7 @@
 title: "Winterimpressionen"
 date: "2012-01-22T15:25:28"
 categories: [gewesen]
+abstract: " "
 ---
 
 ![winter2012-1.jpg](winter2012-1.jpg)
