@@ -7,6 +7,7 @@ website:
   site-url: "https://kingoli.net/blog/"
   favicon: k-typewriter.png
   navbar:
+    logo: k-typewriter.png
     right:
       - icon: github
         href: https://github.com/TheGoodCartman
