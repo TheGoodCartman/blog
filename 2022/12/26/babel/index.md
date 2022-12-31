@@ -14,7 +14,13 @@ Es fängt an mit der Kritik an Kolonialismus, Kulturimperialismus und den Umgang
 
 Dabei ist die Kritik immer überaus eindeutig und die Rollen von Gut und Böse sind klar verteilt. Das Buch handelt sich ausschließlich an den Optionen ab, wie das System zu ändern ist und was dafür erlaubt ist. In Zeiten der _Letzten Generation_ ein tagesaktueller Diskurs.
 
-Das fantastische Setting und das gelungene Worldbuilding geraten dabei leider weitesgehend in den Hintergrund. Dabei mochte ich genau das am meisten an dem Buch: Die Beschreibung des anbrechenden Viktorianischen Zeitalters und die Integration des fantastischen Elements des Silver-Workings als Analogie für die industrielle Revolution finde ich sehr gelungen und rund, auch was den historischen Kontext angeht und die Integration in den sich anbahnenden Opiumkrieg mit China. Ebenso machte es mir Spaß zu lesen, wie die Autorin (vermutlich) ihre eigene Zeit an der Oxford University durch die Augen der vier Studenten 200 Jahre vorher verarbeitet und immer wieder in Fußnoten unterhaltsame Beispiele für die bunte Historie von Alltagswörtern liefert.
+Das fantastische Setting und das gelungene Worldbuilding geraten dabei leider weitesgehend in den Hintergrund. Dabei mochte ich genau das am meisten an dem Buch: Die Beschreibung des anbrechenden Viktorianischen Zeitalters und die Integration des fantastischen Elements des Silver-Workings als Analogie für die industrielle Revolution. Dies ist sehr gelungen und rund, auch was den historischen Kontext angeht und die Integration in den sich anbahnenden Opiumkrieg mit China. 
+
+>Traduttore, traditore: An act of translation is always an act of betrayal.
+
+Dieses Zitat ist im Buchumschlag angegeben und beschreibt sehr schön, wie das Buch den eigentlich nur künstlerischen "Verrat" auf die physische Ebene hebt: Die Unterschiede in anderen Sprachen werden ausgebeutet und mittels des Silver-Workings quasi in Stein bzw Metall gemeißelt, was zu weiterer - diesmal deutlich realerer, greifbarer - Ausbeutung führt.
+
+Ebenso machte es mir Spaß zu lesen, wie die Autorin (vermutlich) ihre eigene Zeit an der Oxford University durch die Augen der vier Studenten 200 Jahre vorher verarbeitet und immer wieder in Fußnoten unterhaltsame Beispiele für die bunte Historie von Alltagswörtern liefert.
 
 Doch irgendwann muss das Buch leider in Richtung _Necessity of Violence_ und _Oxford Translators’ Revolution_ abbiegen, und ab da wird es richtig wild. War die Geheimorganisation _Hermes_ vorher schon nicht sonderlich glaubhaft, wird es jetzt richtig abstrus und es müssen einige Figuren sterben und einige Handlungswendungen überstanden werden, bis aus vier Studenten am Institut für Übersetzung zwei Besetzer des titelgebenden Turms Babel werden, die die Welt aus den Angeln heben wollen und damit auch dem Buch den Zauber seiner Fantastik nehmen werden.
 
