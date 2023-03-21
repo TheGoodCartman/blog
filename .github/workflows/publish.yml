@@ -26,11 +26,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: Upload to kingoli.net
-        uses: socram8888/ftp-hash-sync@v1
+      - name: Set up Python3.9
+        uses: actions/setup-python@v3
         with:
-          protocol: sftp
-          host: w012899b.kasserver.com
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          source: ./docs/
+          python-version: '3.11'
+          architecture: 'x64'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pyftpsync==4.0.0
+      - name: 
+        run: pyftpsync --verbose --debug upload ./docs/ sftp://${{ secrets.FTP_USER }}:${{ secrets.FTP_PASSWORD }}@w012899b.kasserver.com --no-verify-host-keys
