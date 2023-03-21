@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.136">
+<meta name="generator" content="quarto-1.3.280">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -78,6 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">The KingOli Blog</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -89,7 +90,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -131,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
 <p>… heißt es für die Jubiläums-Berlinale, die zwar erneut mit einem Zuschauerrekord aufwarten konnte, aber für einen runden Geburtstag ein schwaches Programm besaß. Es hab keine Skandale, kaum diskussionswürdige oder aufwühlende Beiträge und bis auf <a href="../../../../2010/02/13/metropolis-2010/">Metropolis</a> auch kein echtes Highlight. Ein mäßiges Jahr also.</p>
 <p>Trotzdem habe ich es geschafft, in vier Tagen sieben überwiegend gute Filme zu sehen. Drei davon ermöglichten danach einen Dialog mit dem anwesenden Regisseur, was immer wieder interessante Einblicke in die Entstehungsprozesse der Film erlaubt. Zudem habe ich mit dem Urania ein neues Kino kennengelernt, das jedoch aufgrund des gestauchten Zuschauerraumes und dem fehlenden Centerlautsprecher keine Empfehlung erhält.</p>
 <p>In den nächsten Tagen werde ich nach und nach die Kritiken zu den gesehenen Beiträgen nachreichen - bis dahin heißt es, Schlaf nachzuholen!</p>
-<p><a href="../../../../2010/03/08/david-wants-to-fly/"><img src="ticket-david-wants-to-fly.jpg" class="img-fluid" alt="Ticket David wants to fly"></a> <a href="../../../../2010/02/20/kanikosen/"><img src="ticket-kanikosen.jpg" class="img-fluid" alt="Ticket Kanikosen"></a> <a href="../../../../2010/02/28/el-mal-ajeno-for-the-good-of-others/"><img src="ticket-el-mal-ajeno.jpg" class="img-fluid" alt="Ticket El mal ajeno"></a> <a href="../../../../2010/02/27/boxhagener-platz/"><img src="ticket-boxhagener-platz.jpg" class="img-fluid" alt="Ticket Boxhagener Platz"></a> <a href="../../../../2010/03/27/the-illusionist/"><img src="ticket-the-illusionist.jpg" class="img-fluid" alt="Ticket The Illusionist"></a> <a href="../../../../2010/03/28/phobidilia/"><img src="ticket-phobidilia.jpg" class="img-fluid" alt="Ticket Phobidilia"></a> <a href="../../../../2010/02/25/bibliotheque-pascal/"><img src="ticket-bibliotheque-pascal.jpg" class="img-fluid" alt="Ticket Bibliotheque Pascal"></a></p>
+<p><a href="../../../../2010/03/08/david-wants-to-fly/"><img src="ticket-david-wants-to-fly.jpg" class="quarto-discovered-preview-image img-fluid" alt="Ticket David wants to fly"></a> <a href="../../../../2010/02/20/kanikosen/"><img src="ticket-kanikosen.jpg" class="img-fluid" alt="Ticket Kanikosen"></a> <a href="../../../../2010/02/28/el-mal-ajeno-for-the-good-of-others/"><img src="ticket-el-mal-ajeno.jpg" class="img-fluid" alt="Ticket El mal ajeno"></a> <a href="../../../../2010/02/27/boxhagener-platz/"><img src="ticket-boxhagener-platz.jpg" class="img-fluid" alt="Ticket Boxhagener Platz"></a> <a href="../../../../2010/03/27/the-illusionist/"><img src="ticket-the-illusionist.jpg" class="img-fluid" alt="Ticket The Illusionist"></a> <a href="../../../../2010/03/28/phobidilia/"><img src="ticket-phobidilia.jpg" class="img-fluid" alt="Ticket Phobidilia"></a> <a href="../../../../2010/02/25/bibliotheque-pascal/"><img src="ticket-bibliotheque-pascal.jpg" class="img-fluid" alt="Ticket Bibliotheque Pascal"></a></p>
 
 
 
@@ -163,9 +165,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {

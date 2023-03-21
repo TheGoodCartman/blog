@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.136">
+<meta name="generator" content="quarto-1.3.280">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -78,6 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">The KingOli Blog</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -89,7 +90,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -131,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Ich bin ja schon seit über einem Jahrzehnt mit der Kamera auf dem <a href="../../../../2012/10/23/festival-of-lights/">Festival of Lights</a> unterwegs. Zuletzt mit deutlichen Ermüdungserscheinungen, da sich gefühlt alles wiederholte und die für Fotografen suboptimalen Videomappings von Gebäuden alles dominierten.</p>
 <p>Dieses Jahr ist, der Energiekrise zum Dank, alles etwas kleiner beim Festival. Weniger Locations, weniger Gebäude, dafür mehr Lichtskulpturen. Diese haben den Vorteil, weniger Strom zu verbrauchen - und lassen sich einfach besser fotografieren. Ich erinnere mich noch gerne an die <a href="https://guardian-of-time.com/de/">Wächter der Zeit</a> und die <a href="https://parerstudio.com/">Hasen von parerstudio</a>.</p>
 <p>Leider ist die Anzahl der Besucher nicht kleiner geworden, so dass z.B. das Nikolaiviertel total überlaufen ist. Etwas ruhiger war es dafür bei <a href="http://2022.festival-of-lights.de/2022/09/21/darth-fisher/">Darth Fisher</a> und <a href="http://2022.festival-of-lights.de/2022/09/21/les-lumineoles/">Les Luminéoles</a>. Gerade letztere überzeugen als Gesamtkunstwerk, da sie den Wind nutzen, um organische Bewegungen zu erzeugen, und dabei von einer mystischen Soundkulisse unterstützt werden.</p>
-<p><img src="DSC04086.jpg" class="img-fluid" alt="Darth Fisher"> <img src="DSC04088.jpg" class="img-fluid" alt="Darth Fisher"> <img src="PXL_20221008_181244045.jpg" class="img-fluid" alt="Ghostly Guests"> <img src="PXL_20221008_185323512.jpg" class="img-fluid" alt="Les Luminéoles"> <img src="PXL_20221008_185512902.jpg" class="img-fluid" alt="Les Luminéoles"></p>
+<p><img src="DSC04086.jpg" class="quarto-discovered-preview-image img-fluid" alt="Darth Fisher"> <img src="DSC04088.jpg" class="img-fluid" alt="Darth Fisher"> <img src="PXL_20221008_181244045.jpg" class="img-fluid" alt="Ghostly Guests"> <img src="PXL_20221008_185323512.jpg" class="img-fluid" alt="Les Luminéoles"> <img src="PXL_20221008_185512902.jpg" class="img-fluid" alt="Les Luminéoles"></p>
 
 
 
@@ -163,9 +165,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {

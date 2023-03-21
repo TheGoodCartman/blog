@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.136">
+<meta name="generator" content="quarto-1.3.280">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -78,6 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">The KingOli Blog</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -89,7 +90,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -136,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Zum Glück gibt es aber noch das <a href="http://www.esbnyc.com/">Empire State Building</a> in New York. Wenn dort <a href="http://www.3news.co.nz/Novak-Djokovic-conquers-the-Empire-State-Building/tabid/415/articleID/225703/Default.aspx">Novak Djokovic</a> seinen bei den <a href="http://www.usopen.org/en_US/index.html">US-Open</a> errungenen Siegerpokal präsentiert, dann dürfen die Touristen weiterhin die Aussichtsterrasse nutzen (leider konnte ich keinen Blick auf ihn erhaschen). Und die Aussicht von dort oben, immerhin 86 Etagen und 320 Meter über dem Boden, ist wirklich gigantisch. Da das Gebäude weitgehend frei steht stört nichts (bis auf den Smog) den Rundumblick über Manhattan.</p>
 <p>Ist der Anblick der Wolkenkratzer bei Tag schon beeindruckend, wenn auch aufgrund der Höhe sehr distanziert, so wirkt die Stadt bei Nacht viel lebendiger. Überall leuchten die Fenster der Wolkenkratzer, spiegeln sich die bunten Lichter im Hudson und East River und winden sich die schachbrettartig angeordneten Straßenzüge mit ihren winzigen Autos wie lebendige gelbe Schlangen duch die Häuserschluchten. Kaum ein Geräusch dringt hoch bis zu der Aussichtsplattform, der immer geschäftige Times Square war nur aufgrund seines Lichtkaleidoskops auszumachen. Aber ich war sofort gewillt zu glauben, dass diese Stadt niemals schläft oder vielmehr nachts erst richtig erwacht, wenn das geschäftige Tageswerk hinter den Bewohnern liegt.</p>
 <p>Das Empire State Building ist bis zwei Uhr in der Nacht für derartige Erfahrungen geöffnet. Von Donnerstag bis Sonntag sorgt ein Saxofonistin in der 86. Etage für eine jazzige Atmosphäre, jedoch sind dann die Schlangen am Eingang entsprechend lang. Wer jedoch gleich früh am Morgen vor 10Uhr dort ist, kann wie ich vollkommen ohne Anstehen durch Ticketverkauf, Security und die zwei Fahrstuhlabschnitte gelangen. Nur oben auf der Terrasse ist es wohl immer so voll, dass man für gute Plätze direkt an den weitmaschigen Gittern etwas Geduld mitbringen sollte. Ich habe die $22 Eintritt gleich zweimal investiert und kann einen Besuch jedem nur empfehlen - es lohnt sich!</p>
-<p><img src="esb_1.jpg" class="img-fluid" alt="esb_1.jpg"> <img src="esb_2.jpg" class="img-fluid" alt="esb_2.jpg"> <img src="esb_3.jpg" class="img-fluid" alt="esb_3.jpg"> <img src="esb_4.jpg" class="img-fluid" alt="esb_4.jpg"> <img src="esb_5.jpg" class="img-fluid" alt="esb_5.jpg"> <img src="esb_6.jpg" class="img-fluid" alt="esb_6.jpg"> <img src="esb_7.jpg" class="img-fluid" alt="esb_7.jpg"></p>
+<p><img src="esb_1.jpg" class="quarto-discovered-preview-image img-fluid" alt="esb_1.jpg"> <img src="esb_2.jpg" class="img-fluid" alt="esb_2.jpg"> <img src="esb_3.jpg" class="img-fluid" alt="esb_3.jpg"> <img src="esb_4.jpg" class="img-fluid" alt="esb_4.jpg"> <img src="esb_5.jpg" class="img-fluid" alt="esb_5.jpg"> <img src="esb_6.jpg" class="img-fluid" alt="esb_6.jpg"> <img src="esb_7.jpg" class="img-fluid" alt="esb_7.jpg"></p>
 
 
 
@@ -168,9 +170,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {

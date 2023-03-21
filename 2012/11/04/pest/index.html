@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.136">
+<meta name="generator" content="quarto-1.3.280">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -78,6 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">The KingOli Blog</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -89,7 +90,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -138,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Direkt an der großen Markthalle beginnt die Váci utca, die Haupteinkaufstraße von Budapest, die anfangs nur aus Restaurants besteht, dessen Kellner aufdringlich lautstark um die Touristen buhlen. Im Zweifel würde ich aber das Universitätsviertel für ein gutes Essen vorziehen.</p>
 <p>Da ich neben dem Festival jede freie Minute mit Sightseeing verbringen wollte und es leicht zu regnen begann, schnappte ich mir eine Straßenbahn und fuhr entlang der Donau vorbei am Parlamentsgebäude in Richtung Nordbahnhof. Dieser ist nach den Plänen des Architekturbüros von Gustav Eiffel enstanden, was sich vor allem in der markanten Fassade äußert. In einem wunderbar saniertem Seitenflügel des Gebäudes findet sich das wohl untypischste McDonals, das ich je gesehen habe. Südlich des Bahnhofsgebäudes schließlich ist ein Einkaufstempel entstanden, wie er inzwischen in jeder europäischen Metropole üblich ist; mit Boutiquen der immer gleichen Ketten.</p>
 <p>Für die Fahrten von und zum Sziget hatte ich mir den Budapest City Pass geholt. Dieser bot neben einer Flatrate für die Nutzung des ÖPNV einen freien Eintritt in ein Budapester Heilbad meiner Wahl. Ich habe mich für das weiter oben erwähnte Széchenyi-Bad entschieden. Das Bad besteht aus mehreren von warmen Quellen gespeisten Heilbädern und einem Freibad im Hof des <a href="https://de.wikipedia.org/wiki/Széchenyi-Heilbad#/media/Datei:Szechenyifurdo.jpg">beeindruckenden barocken Ensembles</a>, an dem leider an der einen oder anderen Stelle der Putz bröckelt. Das stört die vor allem älteren, wärmesuchenden Besucher aber nicht, die sogar im Wasser Schach spielen.</p>
-<p><img src="budapest_04.jpg" class="img-fluid" alt="St.-Stephans-Basilika"> <img src="budapest_05.jpg" class="img-fluid" alt="Heldenplatz"> <img src="budapest_06.jpg" class="img-fluid" alt="Burg Vajdahunyad"> <img src="budapest_09.jpg" class="img-fluid" alt="Große Markthalle"> <img src="budapest_11.jpg" class="img-fluid" alt="Das etwas andere McDonalds"> <img src="budapest_12.jpg" class="img-fluid" alt="Széchenyi-Bad Panorama"> <img src="budapest_13.jpg" class="img-fluid" alt="Széchenyi-Bad"> <img src="budapest_14.jpg" class="img-fluid" alt="Station der Földalatti"></p>
+<p><img src="budapest_04.jpg" class="quarto-discovered-preview-image img-fluid" alt="St.-Stephans-Basilika"> <img src="budapest_05.jpg" class="img-fluid" alt="Heldenplatz"> <img src="budapest_06.jpg" class="img-fluid" alt="Burg Vajdahunyad"> <img src="budapest_09.jpg" class="img-fluid" alt="Große Markthalle"> <img src="budapest_11.jpg" class="img-fluid" alt="Das etwas andere McDonalds"> <img src="budapest_12.jpg" class="img-fluid" alt="Széchenyi-Bad Panorama"> <img src="budapest_13.jpg" class="img-fluid" alt="Széchenyi-Bad"> <img src="budapest_14.jpg" class="img-fluid" alt="Station der Földalatti"></p>
 
 
 
@@ -170,9 +172,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {

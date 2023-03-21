@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.136">
+<meta name="generator" content="quarto-1.3.280">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -78,6 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">The KingOli Blog</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -89,7 +90,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -135,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Die Guides variieren während der geschätzt 10 Fahrten die Art und Weise, wie sich das Boot die Strecke hinabbewegt. Ein einfaches Geradeausfahren haben wir nur einmal gemacht, danach sollten wir ständig drehen und rotieren. Teilweise wurde das Boot so an Hindernisse manövriert, dass das Wasser mehr durch das Boot als darunter hindurch strömte. Ein Versuch, dass Boot sich überschlagen zu lassen, indem alle Insassen sich mit ihrem ganzen Gewicht nach hinten setzen und sich dann gleichzeitig ins Wasser stürzen, scheiterte jedoch. Ein anderes Mal spülte es mich aus dem Boot, als wir uns alle in dessen Mitte setzen sollten (ohne die Füße in den Schlaufen) und der Mitfahrer neben mir allen Platz für sich beanspruchte. Nach dem Schwimmen zum Rand der nur 8,70m breiten Strecke wurde ich jedoch gleich wieder aufgelesen und hatte danach den Spaß, die restliche Runde nicht mitpaddeln zu müssen, da mein Paddel mit über Bord gegangen war.</p>
 <p>Wir hatten mit dem Wetter richtig Glück; es war nicht zu warm und das Wasser mit knapp 19°C noch angenehm. Bei höheren Temperaturen kann es unter dem Helm sicherlich mächtig heiß werden, trotz der ständigen Abkühlung durch das Wasser. Dieses strömt übrigens nur während der Fahrten wildwasserartig den Kanal hinunter; den Rest der Zeit wird die <a href="http://de.wikipedia.org/wiki/Kanupark_Markkleeberg#Technische_Daten">Anlage</a> abgestellt und wir konnten schön begutachten, wie die Stromschnellen aufgebaut sind. Auf Terrassen unter der Wasseroberfläche können verschiedene Hindernisse angebracht werden, die dann zu den Verwirbelungen des Wassers führen, während es den Kurs hinunterschießt. So kann für die Kanuten immer wieder eine andere Strecke aufgebaut werden.</p>
 <p>Es folgen ein paar Impressionen in Bildern und Videos (in 720p), die ich vor Ort gemacht habe. Gefühlt waren mehr Zuschauer als Teilnehmer an der Strecke, wobei das Gebäude in der Mitte auch eine sehr schöne Terasse mit Blick auf den See hat und sich so Café-Trinken mit Schlendern um den See verbinden lässt. Während der Fahrt wurden von einem Fotografen ebenfalls Fotos geschossen, doch diese sind zum Einen mit 5€ das Stück recht teuer und zum Anderen sehen die Teilnehmer mit Einheitshelm, - anzug, -weste und -paddel alle fast gleich aus, so dass ich kein Bild gekauft habe.</p>
-<p><img src="rafting_1.jpg" class="img-fluid" alt="rafting_1.jpg"> <img src="rafting_2.jpg" class="img-fluid" alt="rafting_2.jpg"> <img src="rafting_3.jpg" class="img-fluid" alt="rafting_3.jpg"></p>
+<p><img src="rafting_1.jpg" class="quarto-discovered-preview-image img-fluid" alt="rafting_1.jpg"> <img src="rafting_2.jpg" class="img-fluid" alt="rafting_2.jpg"> <img src="rafting_3.jpg" class="img-fluid" alt="rafting_3.jpg"></p>
 <iframe width="560" height="349" src="http://www.youtube.com/embed/_xrCZ9ycEzY?rel=0" frameborder="0" allowfullscreen="">
 </iframe>
 <iframe width="560" height="349" src="http://www.youtube.com/embed/ujPMpFIn018?rel=0" frameborder="0" allowfullscreen="">
@@ -171,9 +173,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {

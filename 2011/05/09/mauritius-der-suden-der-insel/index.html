@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.136">
+<meta name="generator" content="quarto-1.3.280">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -78,6 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">The KingOli Blog</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -89,7 +90,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -135,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Wer wie ich jedoch eine Tour gebucht hat, wird entlang der Touristenpfade weiter nach Chamarel geführt. Der winzige Ort ist berühmt für sein Naturschauspiel der siebenfarbigen Erde, die dank des Auswaschens von Basalten die übriggebliebenen Eisen- und Aluminiummischungen in verschiedenen Rot- und Blautönen leuchten lässt. Je nach Sonneneinstrahlung ergibt sich so ein beeindruckender Anblick, bei dem man schnell vergisst, dass man eigentlich keine Erde mehr vor sich sieht, sondern eine Ansammlung lebensfeindlicher Metalle, die jegliches Pflanzenwachstum unterbinden. Für den Eintritt bekommt man zusätzlich noch den Zwillingswasserfall von Chamarel zu sehen, an den man allerdings nicht näher herangekommt als es die zwei schattigen Aussichtspunkte erlauben - mückengeplagten Menschen wie mir empfehle ich, hier nur mit Mückenspray bewaffnet anzureisen.</p>
 <p>Wie viele Attraktionen auf Mauritius ist auch das Gebiet der <em>Terres des Sept Couleurs</em> in privater Hand. Was die Franzosen einmal in ihren Besitz bekommen haben, geben sie so schnell nicht wieder her. Dies gilt für die Villen in Curepipe ebenso wie für die meisten Zuckerrohrplantagen. Umso erstaunlicher ist, dass die zur siebenfarbigen Erde führende Straße trotz der Einnahmen aus den Eintrittsgeldern in einem erbärmlichen Zustand ist verglichen mit dem öffentlichen Straßennetz. Letzteres verfügt sogar über eine Autobahn, die den Flughafen in Mahébourg mit der touristisch erschlossenen Westküste der Insel verbindet. Doch auch die Autobahn besitzt Ampeln und Kreisverkehre, die zur Rush Hour den Verkehr zum Erliegen bringen.</p>
 <p>Bei dem schon erwähnten exzessiven Zuckerrohranbau verwundert es nicht, dass es auch verschiedenste Rumbrennereien auf der Insel gibt und Mauritianischer Rum ein beliebtes Souvenir ist. Da während meines Besuches die Saison der Zuckerrohrernte noch anstand, konnte ich in der <a href="http://www.rhumeriedechamarel.com">Rhumerie de Chamarel</a> leider nicht live der Herstellung beiwohnen, sondern mir den Prozess nur erklären lassen. Kostproben der verschieden Mixturen (Rum versetzt mit verschiedenen Likören von Café über Vanille bis Kokos) ließen mich aber darüber hinwegtrösten.</p>
-<p><img src="tagesausflug_1.jpg" class="img-fluid" alt="tagesausflug_1.jpg"> <img src="tagesausflug_2.jpg" class="img-fluid" alt="tagesausflug_2.jpg"> <img src="tagesausflug_3.jpg" class="img-fluid" alt="tagesausflug_3.jpg"> <img src="tagesausflug_4.jpg" class="img-fluid" alt="tagesausflug_4.jpg"> <img src="tagesausflug_5.jpg" class="img-fluid" alt="tagesausflug_5.jpg"> <img src="tagesausflug_6.jpg" class="img-fluid" alt="tagesausflug_6.jpg"></p>
+<p><img src="tagesausflug_1.jpg" class="quarto-discovered-preview-image img-fluid" alt="tagesausflug_1.jpg"> <img src="tagesausflug_2.jpg" class="img-fluid" alt="tagesausflug_2.jpg"> <img src="tagesausflug_3.jpg" class="img-fluid" alt="tagesausflug_3.jpg"> <img src="tagesausflug_4.jpg" class="img-fluid" alt="tagesausflug_4.jpg"> <img src="tagesausflug_5.jpg" class="img-fluid" alt="tagesausflug_5.jpg"> <img src="tagesausflug_6.jpg" class="img-fluid" alt="tagesausflug_6.jpg"></p>
 
 
 
@@ -167,9 +169,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.136">
+<meta name="generator" content="quarto-1.3.280">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -78,6 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">The KingOli Blog</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -89,7 +90,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -133,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Die freistehenden Türme mit kreisförmiger Grundfläche haben alle ein markantes Merkmal, welches heute noch über ihren Zweck rätseln lässt: Ihr einziger Eingang ist eine drei Meter über dem Boden befindliche Türöffnung. Weit verbreitet ist die Interpretation, dass die Mönche diese Türme zum Schutz vor den Wikingern bauten. Wurde ihre Siedlung angegriffen, so versteckten sie sich darin und zogen die Leitern, welche hoch zum Eingang führten, einfach nach innen. Wie aber ein <a href="http://gotireland.com/2012/09/04/round-towers-the-medieval-mysterious-marvels-of-ireland/">Blogger</a> überzeugend argumentiert, wäre dies kein wirklicher Schutz gewesen. Mit einem Brandpfeil oder einer eigenen Leiter sind drei Meter schnell überwunden, und ausgeräuchert werden wollten die Mönche bestimmt nicht. Weit überzeugender ist die Vermutung, dass die vormittelalterliche Statik keine hohen Türme ohne entsprechendes Fundament erlaubte. So entstand die erste Öffnung erst oberhalb der sicheren Grundmauern in 3 Metern Höhe.</p>
 <p>Von den 65 noch erhaltenen Türmen Irlands sind genau zwei auch besteigbar. Ich habe mir die Gelegenheit nicht entgehen lassen, und den näher an Dublin gelegenen <a href="http://www.voicesfromthedawn.com/kildare-round-tower/">Kildare Round Tower</a> erklommen. Die massiven Mauern lassen im Inneren der Türme keinen Platz für Treppen, so dass Leitern die einzelnen Zwischenböden miteinander verbinden. Wer den Aufstieg wagt, sollte deshalb Taschen und Rucksäcke am Boden lassen, sie behindern nur das Klettern in dem engen Zwischenraum zwischen Mauer und Leiter. Aus demselben Grund dürfen sich maximal sechs Personen gleichzeitig im Turm befinden - ein Ausweichen und Aneinandervorbeigehen ist schlicht nicht möglich. Auf der Turmspitze steht eine Art Käfig, um ein Herabstürzen aufgrund der starken Winde und dem teilweise fehlenden Mauerwerk zu verhindern.</p>
 <p>Die Aussicht vom Turm, der die nebenan stehende St.&nbsp;Brigid’s Cathedral mühelos überragt, ist typisch irisch: Kildare hat eine Hauptstraße mit Geschäften, Wohngebiete mit schmalen Einfamilienhäusern und liegt inmitten von grünen Hügeln. Stellt sich also immer noch die Frage, weshalb hier vor über tausend Jahren ein Turm hingebaut wurde. Ich vermute eine Mischung aus weithin sichtbarem Statussymbol (sieh’ her, wozu die Kirche in der Lage ist!) und dem Wunsch, dem eigenen Gott so nah wie möglich zu sein - die Gründe für den Bau fast jedes kirchlichen Glockenturms. Beeindruckend ist auf jeden Fall, dass die Türme die Zeiten überstanden haben und ich mir diese Fragen von deren Spitze aus stellen kann!</p>
-<p><img src="kildare1.jpg" class="img-fluid" alt="kildare1.jpg"> <img src="kildare2.jpg" class="img-fluid" alt="kildare2.jpg"> <img src="kildare3.jpg" class="img-fluid" alt="kildare3.jpg"> <img src="kildare4.jpg" class="img-fluid" alt="kildare4.jpg"> <img src="kildare5.jpg" class="img-fluid" alt="kildare5.jpg"></p>
+<p><img src="kildare1.jpg" class="quarto-discovered-preview-image img-fluid" alt="kildare1.jpg"> <img src="kildare2.jpg" class="img-fluid" alt="kildare2.jpg"> <img src="kildare3.jpg" class="img-fluid" alt="kildare3.jpg"> <img src="kildare4.jpg" class="img-fluid" alt="kildare4.jpg"> <img src="kildare5.jpg" class="img-fluid" alt="kildare5.jpg"></p>
 
 
 
@@ -165,9 +167,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {

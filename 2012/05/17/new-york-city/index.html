@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.136">
+<meta name="generator" content="quarto-1.3.280">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -78,6 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">The KingOli Blog</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -89,7 +90,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -145,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Auf Coney Island wurde ich <a href="../../../../2011/10/04/portsmouth-new-hampshire/">ein weiteres Mal von der amerikanischen Küche enttäuscht</a>. <a href="http://nathansfamous.com/">Nathan’s Hot Dog</a> soll weit über die Grenzen der Stadt hinaus bekannt sein, was seinen unverschämten Preis erklärt. Den Ruhm kann ich jedoch nicht nachvollziehen, denn die knallrote Wurst hat einfach nicht geschmeckt.</p>
 <p><strong>Und sonst so</strong></p>
 <p>Am Ende eines schlauchenden New-York-Trips gibt es immer noch Ecken, die ich nicht gesehen habe - als Beispiel sei die <a href="http://www.thehighline.org/">Highline</a> genannt, eine ehemalige oberirdische U-Bahn-Strecke, die in einen Erholungspark umgewandelt wird. Oder Pier 17, einem Einkaufszentrum mit Cafés und Restaurants in einem alten Hafenanleger. Oder der <a href="http://neunzehn72.de/230-5th-rooftop-garden/">Rooftop Garden</a> mit seiner tollen Sicht auf das <a href="../../../../2011/09/25/usa-von-oben/">Empire State Building</a>. Aber da ich ohnehin noch einmal zu den US Open zurückkommen <del>will</del> muss, kann ich das ja später nachholen.</p>
-<p><img src="nyc1.jpg" class="img-fluid" alt="nyc1.jpg"> <img src="nyc2.jpg" class="img-fluid" alt="nyc2.jpg"> <img src="nyc3.jpg" class="img-fluid" alt="nyc3.jpg"> <img src="nyc4.jpg" class="img-fluid" alt="nyc4.jpg"> <img src="nyc5.jpg" class="img-fluid" alt="nyc5.jpg"> <img src="nyc6.jpg" class="img-fluid" alt="nyc6.jpg"> <img src="nyc7.jpg" class="img-fluid" alt="nyc7.jpg"> <img src="nyc8.jpg" class="img-fluid" alt="nyc8.jpg"> <img src="nyc9_0.jpg" class="img-fluid" alt="nyc9_0.jpg"> <img src="nyc10.jpg" class="img-fluid" alt="nyc10.jpg"> <img src="nyc11.jpg" class="img-fluid" alt="nyc11.jpg"> <img src="nyc12.jpg" class="img-fluid" alt="nyc12.jpg"></p>
+<p><img src="nyc1.jpg" class="quarto-discovered-preview-image img-fluid" alt="nyc1.jpg"> <img src="nyc2.jpg" class="img-fluid" alt="nyc2.jpg"> <img src="nyc3.jpg" class="img-fluid" alt="nyc3.jpg"> <img src="nyc4.jpg" class="img-fluid" alt="nyc4.jpg"> <img src="nyc5.jpg" class="img-fluid" alt="nyc5.jpg"> <img src="nyc6.jpg" class="img-fluid" alt="nyc6.jpg"> <img src="nyc7.jpg" class="img-fluid" alt="nyc7.jpg"> <img src="nyc8.jpg" class="img-fluid" alt="nyc8.jpg"> <img src="nyc9_0.jpg" class="img-fluid" alt="nyc9_0.jpg"> <img src="nyc10.jpg" class="img-fluid" alt="nyc10.jpg"> <img src="nyc11.jpg" class="img-fluid" alt="nyc11.jpg"> <img src="nyc12.jpg" class="img-fluid" alt="nyc12.jpg"></p>
 
 
 
@@ -177,9 +179,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.136">
+<meta name="generator" content="quarto-1.3.280">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -78,6 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">The KingOli Blog</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -89,7 +90,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -131,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Ich denke, ich habe meinen Lieblingsort in New York gefunden - der Platz, an dem mir die Stadt am Besten gefällt. Und dies ist nicht etwa ein Touristenmekka wie der Times Square, sondern der <a href="http://www.brooklynbridgeparknyc.org/">Brooklyn Bridge Park</a>. Dieser zieht sich am Brooklyner Ufer des East River von der Manhattan Bridge über 2km bis zum Pier 6. Und es ist einfach unbeschreiblich, von dort die Sonne hinter Downtown Manhattan untergehen zu sehen und danach das langsame Erwachen der Wolkenkratzer zu beobachten, bis deren Lichter die Nacht erleuchten.</p>
 <p>An der Manhattan Bridge ist leider die Lärmkulisse durch den Auto- und Metroverkehr auf der Brücke enorm, aber südlich der beeindruckenden Pfeiler der Brooklyn Bridge lässt es sich auf den Bänken gut aushalten. Ich habe dort mein Abendbrot zu mir genommen und ein wenig gelesen - am Ufer des East Rivers ist auch das smoggetränkte, schwüle Klima der Großstadt ertragbar. Im Hochsommer wird auf der dortigen Liegewiese ein <a href="http://www.brooklynbridgepark.org/go/programs-/-events/syfy-movies-with-a-view">Freiluftkino</a> angeboten, welches dieses Jahr mit <em>Manhattan</em> von Woody Allen in die Saison startete. Diese Liebeserklärung des Regisseurs an seine Heimatstadt vor deren eigener Kulisse im Hintergrund - da wäre ich gern dabei gewesen.</p>
 <p>Der Park ist, genau wie das umliegende Viertel, noch <a href="http://de.wikipedia.org/wiki/Brooklyn_Bridge_Park">im Wandel begriffen</a>. Die von Lagerhallen und Fabriken geprägte einstige Hafengegend mit dem schönen Namen <a href="http://en.wikipedia.org/wiki/Dumbo,_Brooklyn">DUMBO (Down Under the Manhattan Bridge Overpass)</a> zieht aber schon jetzt trotz der schlechten Verkehrsanbindung viele Menschen an, die den Park zur Erholung oder zum Sport nutzen. Die Stadt New York soll mir aber bitte erklären, wieso sie <a href="http://www.brooklynbridgeparknyc.org/events/sports/volleyball">Volleyballfelder auf Sand</a> anlegt und keine Beachvolleyballfelder…</p>
-<p><img src="dumbo_1.jpg" class="img-fluid" alt="dumbo_1.jpg"> <img src="dumbo_2.jpg" class="img-fluid" alt="dumbo_2.jpg"> <img src="dumbo_3.jpg" class="img-fluid" alt="dumbo_3.jpg"> <img src="dumbo_4.jpg" class="img-fluid" alt="dumbo_4.jpg"> <img src="dumbo_5.jpg" class="img-fluid" alt="dumbo_5.jpg"> <img src="dumbo_6.jpg" class="img-fluid" alt="dumbo_6.jpg"></p>
+<p><img src="dumbo_1.jpg" class="quarto-discovered-preview-image img-fluid" alt="dumbo_1.jpg"> <img src="dumbo_2.jpg" class="img-fluid" alt="dumbo_2.jpg"> <img src="dumbo_3.jpg" class="img-fluid" alt="dumbo_3.jpg"> <img src="dumbo_4.jpg" class="img-fluid" alt="dumbo_4.jpg"> <img src="dumbo_5.jpg" class="img-fluid" alt="dumbo_5.jpg"> <img src="dumbo_6.jpg" class="img-fluid" alt="dumbo_6.jpg"></p>
 
 
 
@@ -163,9 +165,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {

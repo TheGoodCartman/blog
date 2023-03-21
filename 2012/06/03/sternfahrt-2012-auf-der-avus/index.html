@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.136">
+<meta name="generator" content="quarto-1.3.280">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -78,6 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">The KingOli Blog</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -89,7 +90,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -134,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Nachdem ich im <a href="../../../../2011/06/05/sternfahrt/">Vorjahr</a> die südliche A100 mit meinem Fahrrad unsicher gemacht habe, sollte dieses Jahr nun die AVUS folgen. Also bin ich heute morgen trotz der mäßigen Wetteraussichten in die S-Bahn eingestiegen und zum Treffpunkt Wannsee gefahren, wo ich mich pünktlich 12:20 Uhr der <a href="http://www.adfc-berlin.de/aktionenprojekte/sternfahrt/sternfahrt-2012/1159-sternfahrt-2012.html">Sternfahrt</a> anschloss.</p>
 <p>Nach nur zwei Kilometern war jedoch schon wieder Schluss mit dem Fahren, denn die Sperrung der Autobahn zog sich wie vor einem Jahr etwas hin. 12:45 Uhr war es dann aber so weit, und die Fahrradfahrer durften auf die A115 auffahren. Trotz beidseitiger Sperrung durfte nur die neue Fahrbahn in Richtung Berlin genutzt werden, die aufgrund der Baustelle zeitweise ganz schön eng wurde. Am Ende waren die knapp 9km jedoch ebenso schnell vorbei wie der Rest der Strecke durch Charlottenburg.</p>
 <p>Zusammen mit der Heimfahrt kam ich dieses Jahr mit knapp 28km aus und war rechtzeitig zum einsetzenden Regen wieder zu Hause. Nachdem ich jetzt beide Zubringer zum Ziel am Großen Stern ausprobiert habe werde ich mir nächstes Jahr wohl eine längere Strecke zumuten, so ab Werder vielleicht.</p>
-<p><img src="sternfahrt2012_1.jpg" class="img-fluid" alt="sternfahrt2012_1.jpg"> <img src="sternfahrt2012_2.jpg" class="img-fluid" alt="sternfahrt2012_2.jpg"> <img src="sternfahrt2012_3.jpg" class="img-fluid" alt="sternfahrt2012_3.jpg"> <img src="sternfahrt2012_4.jpg" class="img-fluid" alt="sternfahrt2012_4.jpg"> <img src="sternfahrt2012_5.jpg" class="img-fluid" alt="sternfahrt2012_5.jpg"> <img src="sternfahrt2012_6.jpg" class="img-fluid" alt="sternfahrt2012_6.jpg"></p>
+<p><img src="sternfahrt2012_1.jpg" class="quarto-discovered-preview-image img-fluid" alt="sternfahrt2012_1.jpg"> <img src="sternfahrt2012_2.jpg" class="img-fluid" alt="sternfahrt2012_2.jpg"> <img src="sternfahrt2012_3.jpg" class="img-fluid" alt="sternfahrt2012_3.jpg"> <img src="sternfahrt2012_4.jpg" class="img-fluid" alt="sternfahrt2012_4.jpg"> <img src="sternfahrt2012_5.jpg" class="img-fluid" alt="sternfahrt2012_5.jpg"> <img src="sternfahrt2012_6.jpg" class="img-fluid" alt="sternfahrt2012_6.jpg"></p>
 
 
 
@@ -166,9 +168,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {

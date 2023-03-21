@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.136">
+<meta name="generator" content="quarto-1.3.280">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -78,6 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">The KingOli Blog</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -89,7 +90,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -133,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Passend zu der Schiffsreise der kleinen Riesin (es wurde sogar ein Geysir vor dem Lustgarten angelegt) und dem Taucheroutfit ihres Onkels präsentiert sich das Berliner Wetter, sowohl gestern als auch heute bin ich ordentlich nass geworden. Doch es hat sich gelohnt, die Vermischung aus Puppen- und Straßentheater hat mich begeistert. Da ist zum Einen die Technik, mit der beiden zwischen sieben und zehn Meter großen “Puppen” bewegt werden: Die beteiligten Darsteller müssen sowohl Kraft als auch Timing besitzen, um die Bewegungen realistisch erscheinen zu lassen. An jeder Figur sind dabei bis zu zwanzig Künstler direkt an den Seilen und dem Kran beteiligt; nicht eingerechnet die Helfer rund um die Riesen und die auf einem Wagen hinterher fahrende Band.</p>
 <p>Diese begleitet die Aufführung mit passender Live-Musik, während sich der Korso durch Berlin bewegt. Das Publikum zieht dabei immer mit; die Polizei hatte keine Probleme, den Weg direkt vor den Figuren frei zu machen. Ich stand mehrere Male direkt unterhalb der vorbeiziehenden Riesen - ein beeindruckender Anblick. Sind die Puppen vorbeigezogen, kann man sich als Zuschauer entscheiden, ihnen zu folgen oder sie zu überholen und erneut vorbei ziehen zu lassen. Auf ihren Wegen gibt es genügend Pausen, an denen die Suche aufgelockert wird. So wurde gestern das Schiff der Riesin vor dem Opernpalais geputzt und heute dem Riesen der Taucherhelm abgenommen.</p>
 <p>Diese kreative Vereinigung so vieler Elemente und der freie Zugang dazu haben mich beeindruckt. Wer die Aufführung in Berlin nicht sehen konnte, hat heute abend auf <a href="http://www.arte.tv/royaldeluxe/?lang=de">Arte</a> noch die Chance, eine Reportage über das Event ansehen. Da sehe ich dann hoffentlich auch die Teile der Suche, die ich verpasst habe.</p>
-<p><img src="riesen4.jpg" class="img-fluid" alt="riesen4"> <img src="riesen5.jpg" class="img-fluid" alt="riesen5"></p>
+<p><img src="riesen4.jpg" class="quarto-discovered-preview-image img-fluid" alt="riesen4"> <img src="riesen5.jpg" class="img-fluid" alt="riesen5"></p>
 
 
 
@@ -165,9 +167,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {

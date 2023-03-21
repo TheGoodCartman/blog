@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.136">
+<meta name="generator" content="quarto-1.3.280">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -78,6 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">The KingOli Blog</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -89,7 +90,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -129,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><img src="rockharz2011_buehnen.jpg" class="img-fluid" alt="rockharz2011_buehnen.jpg"> <img src="rockharz2011_hirsche.jpg" class="img-fluid" alt="rockharz2011_hirsche.jpg"> <img src="rockharz2011_teufelsmauer.jpg" class="img-fluid" alt="rockharz2011_teufelsmauer.jpg"></p>
+<p><img src="rockharz2011_buehnen.jpg" class="quarto-discovered-preview-image img-fluid" alt="rockharz2011_buehnen.jpg"> <img src="rockharz2011_hirsche.jpg" class="img-fluid" alt="rockharz2011_hirsche.jpg"> <img src="rockharz2011_teufelsmauer.jpg" class="img-fluid" alt="rockharz2011_teufelsmauer.jpg"></p>
 <p>Nachdem ich letztes Jahr ausgerechnet das zur Abwechslung vom Hochsommer heimgesuchte Rock Harz verpasst habe, gab es 2011 nun die Rückkehr zum Festival an der Teufelsmauer. Und zum allerersten Mal bei <a href="../../../../2007/07/15/rock-harz-2007/">einem</a> <a href="../../../../2008/07/22/rock-harz-2008/">meiner</a> <a href="../../../../2009/07/12/rock-harz-2009/">Besuche</a> hat auch das Wetter mitgespielt: Regen fiel nur in der ersten Nacht, der Wind hielt sich angenehm zurück und ansonsten dominierte Sonnenschein mit vereinzelten Wolken. Ebenfalls zurückgefunden zum Rock Harz haben zur Freude vor allem der weiblichen Besucher die gespülten Toiletten, wenngleich für diesen Luxus in (natürlich schwarzen) Wertmarken im Wert von einem Euro bezahlt werden muss.</p>
 <p>Nachdem vor zwei Jahren noch Hexen auf den Festival-Shirts zu sehen waren, ist das Rock Harz 2011 mit seinen tollwütig blickenden Hirschen auf dem Logo optisch deutlich näher an die größere Konkurrenz herangerückt. Die Zeichen stehen also auf Wachstum. Trotzdem - oder zum Glück - ist die Anzahl der Besucher gefühlt nicht größer geworden, so dass zum Einen die Wege auf Campingplatz und Festivalgelände angenehm kurz blieben und auch bei den Headliner immer die Chance bestand, sich bis ganz nach vorne vor die Bühne zu kämpfen. Diese angenehme Größe ist der Hauptgrund, weshalb es mich immer wieder zum Rock Harz zieht.</p>
 <p>Denn musikalisch war wieder eher kennenlernen als mitsingen angesagt. Der Donnerstag war gleich ein Totalausfall. <strong>Stratovarius</strong>, <strong>Hypocrisy</strong>, <strong>Frei.Wild</strong> - alles nicht meine Musik. Am Besten gefielen mir noch die Hardcorer von <strong>Pro-Pain</strong>, doch ansonsten konnte ich weder mit den Nachmittagsband noch mit den Headlinern etwas anfangen.</p>
@@ -170,9 +172,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {

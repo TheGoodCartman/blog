@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.136">
+<meta name="generator" content="quarto-1.3.280">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -78,6 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">The KingOli Blog</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -89,7 +90,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -136,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Doch ich habe eine Regenpause gefunden, um mir den Skulpturengarten des <a href="http://hirshhorn.si.edu/">Hirshhorn Museums</a> anzusehen - eine Erfahrung, die ich unbedingt weiterempfehlen kann. Die trotz ihrer Exquisität recht umfangreiche Sammlung des auf moderne Kunst spezialisierten Museums enthält neben den in den angehängten Fotos zu sehenden Werken von Miró und Yoko Ono auch mehrere Installationen und hat mir durch die Bank weg gefallen. Da ich bisher Skulpturen nur in ihrer klassischen Form wahrgenommen hatte war ich erstaunt, welche Bandbreite an Formen moderne Exemplare dieser Kunstrichtung einnehmen. Verglichen damit ist der Garten des MOMA (dazu später mehr) geradezu ein Witz.</p>
 <p>Für den Besuch von mehr Museen fehlte mir leider die Zeit, da ich auch einen Ausflug auf die andere Seite des Potomac Rivers unternommen habe, um mir das Pentagon von Nahem anzusehen. Mit der <a href="../../../../2011/09/06/washington-d-c-und-die-fallout-brille/">U-Bahn</a> konnte ich direkt bis an das Gebäude fahren, um dort aber festzustellen, dass es sich nicht gelohnt hat. Denn das Pentagon ist einfach nur ein hässlicher Bürobunker mit so unglaublichen Ausmaßen, dass von ebener Erde aus nie mehr als zwei Seiten gleichzeitig zu sehen sind und so der fünfeckige Grundriss nicht erlebbar wird. Zudem sind die Sicherheitsmaßnahmen rund um das wie ein Militärstützpunkt abgeriegelte Gebäude nervig (“No photos allowed”), wobei sie die Gefahr von Flugzeugabstürzen gar nicht senken können - die Einflugsschneise des Washingtoner Flughafens liegt genau über dem Pentagon und die Flugzeuge haben beim Landeanflug eine so geringe Höhe, dass der Lärm unbeschreiblich ist.</p>
 <p>Zum Schluss möchte ich noch einen Tipp für die Hotelsuche geben: Umgeben von Büro- und Verwaltungsgebäuden, ist im Zentrum der Hauptstadt außerhalb der Arbeitszeiten (also abends und an Wochenenden/Feiertagen) nicht viel los. Erst im Bereich der George-Washington-Universität werden die Straßen belebter und finden sich mehr Bars &amp; Kneipen; in Georgetown schließlich wandelt sich Washington zu einer normalen Stadt mit Supermärkten, Wohnungen und einem Nachtleben. Durch die U-Bahn erreicht man das Zentrum problemlos, so dass man dort nicht auch übernachten muss.</p>
-<p><img src="washington_1.jpg" class="img-fluid" alt="washington_1.jpg"> <img src="washington_2.jpg" class="img-fluid" alt="washington_2.jpg"> <img src="washington_3.jpg" class="img-fluid" alt="washington_3.jpg"> <img src="washington_4.jpg" class="img-fluid" alt="washington_4.jpg"> <img src="washington_5.jpg" class="img-fluid" alt="washington_5.jpg"> <img src="washington_6.jpg" class="img-fluid" alt="washington_6.jpg"> <img src="washington_7.jpg" class="img-fluid" alt="washington_7.jpg"> <img src="washington_8.jpg" class="img-fluid" alt="washington_8.jpg"> <img src="washington_9.jpg" class="img-fluid" alt="washington_9.jpg"></p>
+<p><img src="washington_1.jpg" class="quarto-discovered-preview-image img-fluid" alt="washington_1.jpg"> <img src="washington_2.jpg" class="img-fluid" alt="washington_2.jpg"> <img src="washington_3.jpg" class="img-fluid" alt="washington_3.jpg"> <img src="washington_4.jpg" class="img-fluid" alt="washington_4.jpg"> <img src="washington_5.jpg" class="img-fluid" alt="washington_5.jpg"> <img src="washington_6.jpg" class="img-fluid" alt="washington_6.jpg"> <img src="washington_7.jpg" class="img-fluid" alt="washington_7.jpg"> <img src="washington_8.jpg" class="img-fluid" alt="washington_8.jpg"> <img src="washington_9.jpg" class="img-fluid" alt="washington_9.jpg"></p>
 
 
 
@@ -168,9 +170,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {

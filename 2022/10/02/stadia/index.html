@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.136">
+<meta name="generator" content="quarto-1.3.280">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -78,6 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">The KingOli Blog</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -89,7 +90,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -131,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="https://blog.google/products/stadia/message-on-stadia-streaming-strategy/">Seit Donnerstag ist es offiziell</a> - Google Stadia schaltet Anfang 2023 seine Server ab. Nachdem das eigene Spielestudio geschlossen wurde und es seit <em>Cyberpunk 2077</em> kein wirklich relevantes Spiel mehr für die Plattform gab, ist dies nun der Schlussstrich unter ein Projekt, an das schon lange niemand mehr geglaubt hat.</p>
 <p>Dabei trauere ich dem Service schon etwas nach, denn technisch hat mich Stadia überzeugt: Ein Controller, ein Google Chromecast Stick, und schon konnte ich am Fernseher spielen, als stände eine Konsole im Wohnzimmer. Nur mit dem Unterschied, dass ich keine teure Hardware kaufen musste, die danach 150W pro Stunde verbraucht und rumlärmt, um die Leistung zu kühlen.</p>
 <p>Aber klar, die Spiele mussten irgendwo berechnet werden, d.h. der Lärm und der Verbrauch fielen in Googles Rechenzentren an. Deshalb habe ich das Geschäftsmodell von Stadia auch nicht verstanden: Ich habe <a href="../../../../2021/03/16/red-dead-redemption-2/">zwei</a> <a href="../../../../2021/05/07/cyberpunk-2077/">Spiele</a> für gerade einmal 100€ gekauft, bekam als Bundle auch noch die Hardware dazu und musste für die laufenden Kosten nichts zahlen. Zumindest für die mir ausreichenden FullHD-Auflösung - erst für 4K-Streaming wurde ein Monats-Abo über 10€ verlangt. Keine Ahnung, wie sich dies jemals rechnen sollte.</p>
-<p>Nun muss es das auch nicht mehr, und ich werde <em>Baldur’s Gate 3</em> auf einem anderen System spielen wüssen - dabei war es eines der Highlights bei der Vorstellung von Stadia vor drei Jahren, hat es in der Zeit aber nicht aus dem Early Access herausgeschafft. Und was hätte ich mich über Ports von <em>The Witcher III</em> oder <em>Stray</em> gefreut.</p>
+<p>Nun muss es das auch nicht mehr, und ich werde <em>Baldur’s Gate 3</em> auf einem anderen System spielen müssen - dabei war es eines der Highlights bei der Vorstellung von Stadia vor drei Jahren, hat es in der Zeit aber nicht aus dem Early Access herausgeschafft. Und was hätte ich mich über Ports von <em>The Witcher III</em> oder <em>Stray</em> gefreut.</p>
 <p>Zum Abschied hätte ich aber noch einen Wunsch an Google: <a href="https://9to5google.com/2022/09/29/stadia-controller-bluetooth/">Bitte schaltet Blutooth in den Controllern frei</a>. Aktuell kann ich am PC nur mit einem USB-C-Kabel und einer im Hintergrund den XBox-Controller emulierenden Software zocken, was doch recht umständlich ist. Den Controller nicht zu Elektroschrott zu machen wäre mir persönlich wichtiger als die Rückerstattung.</p>
 
 
@@ -164,9 +166,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {

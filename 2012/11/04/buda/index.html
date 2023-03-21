@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.136">
+<meta name="generator" content="quarto-1.3.280">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -78,6 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">The KingOli Blog</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -89,7 +90,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -136,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Zwei Tage nach dem Burgberg habe ich noch den Gellért-Berg bestiegen. Gestartet bin ich dabei an der Freiheitsbrücke mit ihrem markanten grünen Stahlgerüst. Ihren Namen trägt die Brücke erst seit 1946, als sie als erste von den von der Wehrmacht gesprengten Donaubrücken wieder eröffnet wurde. Direkt am Ende der Brücke steht das Gellért-Hotel mit dem gleichnamigen Bad, an dem eine lange Schlange auf den Einlass wartete. Wie in so vielen anderen Städte auch haben zuerst die Römer die heißen Quellen entdeckt und genutzt (<a href="http://de.wikipedia.org/wiki/Aquincum">Aquincum</a>); heute gibt es in Budapest 10 Heilbäder, von denen das Gellért-Bad eines der bekanntesten ist.</p>
 <p>Nebem dem Gellért-Hotel erhebt sich der Gellért-Berg immerhin 235m über die Donau. So hoch hatte ich ihn gar nicht eingeschätzt, und so kam ich beim Aufstieg unerwartet ins Schwitzen. Der ganze Berg ist als große Parkanlage mit einem weit verzweigten Wegenetz angelegt, von dem allerdings nur Teile nachts von Lampen beleuchtet werden. Als ich am späten Abend zum zweiten Mal Richtung Freiheitsstatue unterwegs war, um Nachtfotos zu schießen, lief ich teilweise auf stockdusteren Pfaden. Weniger unheimlich, aber auch länger, ist der Weg über die Straße, die von Westen zum Berg hinaufführt.</p>
 <p>Neben der Freiheitsstatue gibt es noch eine als Militärmuseum genutzte Zitadelle auf dem Berg, doch deren Besuch habe ich mir gespart. Denn von hier oben kann ein beeindruckendes Panorama von Budapest genossen werden. Der Gellért-Berg ist höher als alle umliegenden Stadtteile und so kann das Auge dem Verlauf der Donau folgen, die Ausmaße des Burgpalastes bestaunen und sogar das Riesenrad auf dem <a href="../../../../2012/09/04/sziget-2012/">Sziget</a> erblicken. Der Aufstieg lohnt sich also auf jeden Fall!</p>
-<p><img src="budapest_01.jpg" class="img-fluid" alt="budapest_01.jpg"> <img src="budapest_02.jpg" class="img-fluid" alt="budapest_02.jpg"> <img src="budapest_03.jpg" class="img-fluid" alt="budapest_03.jpg"> <img src="budapest_07.jpg" class="img-fluid" alt="budapest_07.jpg"> <img src="budapest_08.jpg" class="img-fluid" alt="budapest_08.jpg"> <img src="budapest_10.jpg" class="img-fluid" alt="budapest_10.jpg"> <img src="budapest_17.jpg" class="img-fluid" alt="budapest_17.jpg"> <img src="budapest_18.jpg" class="img-fluid" alt="budapest_18.jpg"> <img src="budapest_20.jpg" class="img-fluid" alt="budapest_20.jpg"> <img src="budapest_21.jpg" class="img-fluid" alt="budapest_21.jpg"></p>
+<p><img src="budapest_01.jpg" class="quarto-discovered-preview-image img-fluid" alt="budapest_01.jpg"> <img src="budapest_02.jpg" class="img-fluid" alt="budapest_02.jpg"> <img src="budapest_03.jpg" class="img-fluid" alt="budapest_03.jpg"> <img src="budapest_07.jpg" class="img-fluid" alt="budapest_07.jpg"> <img src="budapest_08.jpg" class="img-fluid" alt="budapest_08.jpg"> <img src="budapest_10.jpg" class="img-fluid" alt="budapest_10.jpg"> <img src="budapest_17.jpg" class="img-fluid" alt="budapest_17.jpg"> <img src="budapest_18.jpg" class="img-fluid" alt="budapest_18.jpg"> <img src="budapest_20.jpg" class="img-fluid" alt="budapest_20.jpg"> <img src="budapest_21.jpg" class="img-fluid" alt="budapest_21.jpg"></p>
 
 
 
@@ -168,9 +170,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {

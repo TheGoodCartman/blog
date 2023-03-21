@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.136">
+<meta name="generator" content="quarto-1.3.280">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -78,6 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">The KingOli Blog</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -89,7 +90,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -137,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Die anwesenden Regisseur und Drehbuchautor konnten den Film nach der Vorführung in den richtigen Kontext rücken: Auf den Philippinen gibt es kein Geld für Filme abseits des Mainstreams, und so musste <em>The Woman in the Septic Tank</em>, der sich genau mit der Abhängigkeitssituation zwischen den Erwartungen des Publikums und den auf breite Vermarktung abzielenden Produzenten beschäftigt, aufgrund von mangelnder Finanzierung in nur 10 Drehtagen abgedreht werden. Dank der auch im realen Leben bekannten Schauspielerin Eugene Domingo wurde jedoch ein Zuschauerrekord auf den Philippinen erzielt und ich traue dem Film zu, das weltweit zu toppen.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="septic.jpg" class="img-fluid figure-img"></p>
+<p><img src="septic.jpg" class="quarto-discovered-preview-image img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">Regisseur, Drehbuchautor und Produzentin von Ang Babae sa Septic Tank</figcaption><p></p>
 </figure>
 </div>
@@ -172,9 +174,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
