@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.283">
+<meta name="generator" content="quarto-1.4.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -134,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Dies sollte diesmal anders sein. Denn ich habe nicht nur die auf einer Insel gelegene Innenstadt komplett erwandert, sondern auch eine Menge Fotos geschossen, die zusammen mit diesem Blogbeitrag hoffentlich mein schlechtes Gedächtnis ausreichend ersetzen. Dabei habe ich Lübeck wirklich liebgewonnen, was vor allem an der wunderbaren Stimmung liegt, die die von kleinen Backsteinhäusern und schmalen, schlecht beleuchteten Gassen geprägte Altstadt nachts ausströmt. Hier kann man noch echte, mittelalterliche Atmosphäre erleben, wenn man durch die kopfsteingepflasterten und abends oft menschenleeren Straßen wandert, die noch aussehen wie vor 500 Jahren. Links und rechts öffnen sich dunkle Durchgänge in die nur von den Innenhöfen erreichbaren Häuser und Wohnungen, während zur Straße hin die Backsteinfassaden mit ihren Giebeln den Reichtum der früheren Eigentümer repräsentieren.</p>
 <p>Geprägt wird die Innenstadt zudem von den markanten, alle anderen Gebäude überragenden sieben Türmen, die zu 5 Kirchen gehören (Dom und Marienkirche sind jeweils mit zwei Türmen vertreten). Alle haben eine beeindruckende Höhe aufzuweisen, die einen förmlich erschlägt, wenn man vor ihnen steht und nach oben schaut - leider sind nur der Turm der Kirche St.&nbsp;Petri und bei samstäglichen Führungen die Türme von St.&nbsp;Marien zu besichtigen, die dem Besucher einen tollen Ausblick über die Innenstadt ermöglichen.</p>
 <p>Ich hatte nur die Zeit, den Turm von St.&nbsp;Petri zu besichtigen. Ich sage bewusst nicht besteigen, denn die Treppe des Kirchturms dient nur als Fluchtweg und mit den 3€ Eintritt erkauft sich der Besucher zwei Fahrten mit dem Fahrstuhl auf die in 50m Höhe gelegene Aussichtsplattform und wieder hinunter. Dort oben wehte im frühen März 2011 noch ein eisiger Wind, doch die Perspektive auf die Hansestadt ließ mich das winterliche Wetter ertragen. Wen es also einmal nach Lübeck verschlägt, der sollte diese Gelegenheit nicht ungenutzt verstreichen lassen - ich würde mich dagegen über eine freigegebene Treppe freuen.</p>
-<p><img src="luebeck_1.jpg" class="quarto-discovered-preview-image img-fluid" alt="luebeck_1.jpg"> <img src="luebeck_2.jpg" class="img-fluid" alt="luebeck_2.jpg"> <img src="luebeck_3.jpg" class="img-fluid" alt="luebeck_3.jpg"> <img src="luebeck_4.jpg" class="img-fluid" alt="luebeck_4.jpg"> <img src="luebeck_5.jpg" class="img-fluid" alt="luebeck_5.jpg"></p>
+<p><img src="luebeck_1.jpg" class="img-fluid" alt="luebeck_1.jpg"> <img src="luebeck_2.jpg" class="img-fluid" alt="luebeck_2.jpg"> <img src="luebeck_3.jpg" class="img-fluid" alt="luebeck_3.jpg"> <img src="luebeck_4.jpg" class="img-fluid" alt="luebeck_4.jpg"> <img src="luebeck_5.jpg" class="img-fluid" alt="luebeck_5.jpg"></p>
 
 
 
@@ -245,6 +245,30 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children.length > 2) {
+          for (let i = 0; i < 2; i++) {
+            container.appendChild(note.children[i].cloneNode(true));
+          }
+          return container.innerHTML
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return note.innerHTML;
+      }
     });
   }
       let selectedAnnoteEl;

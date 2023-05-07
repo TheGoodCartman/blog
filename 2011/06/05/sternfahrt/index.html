@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.283">
+<meta name="generator" content="quarto-1.4.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Heute waren die Fahrradfahrer nun diejenigen, die überall Vorfahrt hatten. Es gab keine Ampeln zu beachten und die Avus und der Britzer Tunnel auf der A100 durften befahren werden. Es musste nur das vorfahrende Polizeifahrzeug beachtet werden. Um die Sperrungen der wichtigen Verkehrsadern möglichst kurz zu halten, werden die Straßen nur während der Durchfahrt des Fahrradfeldes gesperrt und danach sofort freigegeben. Ein paar Probleme gab es am Kottbusser Tor - dort wurden Autofahrer zwischen zwei sich treffenden Korsos eingeschlossen - und an der Auffahrt zur A100 am U-Bahnhof Grenzallee. Die Sperrung der Autobahn dauerte etwas, doch nach einer halben Stunde Wartezeit in der brütenden Mittagshitze durfte ich endlich auf den Innenstadtring und durch den Britzer Tunnel mit seiner Schwarzlichtblitzanlage heizen.</p>
 <p>Von da an gab es keine Unterbrechungen mehr und so rollte die Demo ungestört bis zu ihrem Ziel, dem großen Stern und dem auf der Straße des 17. Juli stattfindenden <a href="http://www.umweltfestival.de/">Umweltfest</a>. Für mich war es spannend, ein paar neue Seiten von Berlin kennenzulernen (v.a. von Kreuzberg &amp; Neukölln) und in einem so großen Feld zu fahren. Teilweise musste ich an die Pelotons bei der Tour de France denken, bei denen es eine Kunst ist, sich an der richtigen Position zu halten - man wird schnell abgedrängt und findet sich etliche Reihen weiter hinten wieder. So habe ich fast die <a href="http://www.gpsies.com/map.do?fileId=pemyidlxsioroqwj">gesamte Strecke</a> von der A100 bis zum Ernst-Reuter-Platz benötigt, um mich nach vorne bis kurz hinter die Polizeiwagen vorzukämpfen. Ironie der Situation: Ich bin oft auf die Fahrradwege ausgewichen, um weiter nach vorne zu gelangen. Doch im Gegensatz zu den 300 Fahrern der Tour de France fuhr ich in einem Feld von insgesamt 150’000 Radlern, die ich leider nie alle komplett gesehen habe - die Demo muss am Ende eine Gesamtlänge von mehreren Kilometern gehabt haben!</p>
 <p>Am Ende hatte ich 30km inklusive der Heimfahrt auf dem Rad zurückgelegt und war ob die ungewohnten Belastung ganz schön geschafft - aber auch glücklich, an so einem Ereignis teilgenommen zu haben. Nächstes Jahr werde ich wohl einmal die Strecke über die Avus ausprobieren, die landschaftlich etwas schöner als die A100 in Tempelhof ist.</p>
-<p><img src="sternfahrt_1.jpg" class="quarto-discovered-preview-image img-fluid" alt="sternfahrt_1.jpg"> <img src="sternfahrt_2.jpg" class="img-fluid" alt="sternfahrt_2.jpg"> <img src="sternfahrt_3.jpg" class="img-fluid" alt="sternfahrt_3.jpg"> <img src="sternfahrt_4.jpg" class="img-fluid" alt="sternfahrt_4.jpg"></p>
+<p><img src="sternfahrt_1.jpg" class="img-fluid" alt="sternfahrt_1.jpg"> <img src="sternfahrt_2.jpg" class="img-fluid" alt="sternfahrt_2.jpg"> <img src="sternfahrt_3.jpg" class="img-fluid" alt="sternfahrt_3.jpg"> <img src="sternfahrt_4.jpg" class="img-fluid" alt="sternfahrt_4.jpg"></p>
 
 
 
@@ -246,6 +246,30 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children.length > 2) {
+          for (let i = 0; i < 2; i++) {
+            container.appendChild(note.children[i].cloneNode(true));
+          }
+          return container.innerHTML
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return note.innerHTML;
+      }
     });
   }
       let selectedAnnoteEl;

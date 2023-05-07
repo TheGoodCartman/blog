@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.283">
+<meta name="generator" content="quarto-1.4.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -133,8 +133,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Unsere ortsansässige Zeitung MZ <a href="http://www.mz-web.de/servlet/ContentServer?pagename=ksta/page&amp;atype=ksArtikel&amp;aid=1137318373425">berichtet in der heutigen Ausgabe</a> über die Verleihung der Golden Globes. Dabei ist dem Reporter aber ein Fehler unterlaufen, welcher in der Online-Version des Artikels schon korrigiert ist:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="mz_phoenix.png" class="quarto-discovered-preview-image img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Ausschnitt aus dem Artikel "«Brokeback Mountain» gewinnt vier Golden Globes" der heutigen Printausgabe der Mitteldeutschen Zeitung</figcaption><p></p>
+<p><img src="mz_phoenix.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Ausschnitt aus dem Artikel "«Brokeback Mountain» gewinnt vier Golden Globes" der heutigen Printausgabe der Mitteldeutschen Zeitung</figcaption>
 </figure>
 </div>
 <p>Da wird sich Joaquin Phoenix aber über seinen zweiten Globus gefreut haben - den <del>Ersten</del> Einzigen bekam er als männliche Musical-Hauptrolle in der Johnny-Cash-Biografie “Walk the Line”, die ich mir trotz Blondie Reese Witherspoon bestimmt ansehen werde. Die beste weibliche Hauptrolle ging übrigens an Felicity Huffman für ihre Rolle in “Transamerica”.</p>
@@ -249,6 +249,30 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children.length > 2) {
+          for (let i = 0; i < 2; i++) {
+            container.appendChild(note.children[i].cloneNode(true));
+          }
+          return container.innerHTML
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return note.innerHTML;
+      }
     });
   }
       let selectedAnnoteEl;

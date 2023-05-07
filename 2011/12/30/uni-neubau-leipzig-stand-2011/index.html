@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.283">
+<meta name="generator" content="quarto-1.4.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -132,8 +132,8 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="leipzig2011.jpg" class="quarto-discovered-preview-image img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Leipzig Augustusplatz 2011</figcaption><p></p>
+<p><img src="leipzig2011.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Leipzig Augustusplatz 2011</figcaption>
 </figure>
 </div>
 <p>Selbst wenn das Foto einen anderen Eindruck hinterlässt - auch 2011 ist der Neubau des Campus am Augustusplatz in Leipzig noch nicht abgeschlossen. Die Bauzäune verstecken sich nur hinter der Einfahrt zur Tiefgarage, sind aber genau wie die Baucontainer noch vorhanden. Zumindest die Fassade hat ihren finalen Zustand erreicht und der Innenausbau wurde begonnen, so dass ich guter Hoffnung bin, im nächsten Jahr endlich die Fertigstellung des Bauprojektes berichten zu dürfen. Dann werde ich mir als Alumni das Gebäude auch einmal von innen ansehen.</p>
@@ -247,6 +247,30 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children.length > 2) {
+          for (let i = 0; i < 2; i++) {
+            container.appendChild(note.children[i].cloneNode(true));
+          }
+          return container.innerHTML
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return note.innerHTML;
+      }
     });
   }
       let selectedAnnoteEl;

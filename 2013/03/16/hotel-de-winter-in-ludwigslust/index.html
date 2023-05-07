@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.283">
+<meta name="generator" content="quarto-1.4.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Das <a href="../../../../blog/?s=milestone">Handy</a> ist, was die Bildqualität angeht, das komplette Gegenstück zu meiner DSLR. Kleiner Sensor, viel Rauschen, und eigentlich nur bei Sonnenlicht zu gebrauchen. Die gemachten Bilder sind, selbst wenn optimale Bedingungen herrschen, höchstens in kleineren Aufösungen (um 1000 Pixel Breite) zu gebrauchen. Für mein Blog ist dies jedoch gerade ausreichend.</p>
 <p>Zudem habe ich die Handykamera nicht auf das Standard-3:2-Format eingestellt, sondern auf das bildschirmfüllende 16:9-Seitenverhältnis - als Fan der Panorama-Fotographie bin ich den breiten Bildformaten von Natur aus zugeneigt. So hatte ich die letzten Tage richtig Spaß, mit dieser ungewohnten Bildkomposition und der Festbrennweite zu experimentieren und herumzuspielen. Gerade das säulenartige Hochformat ist dabei sehr herausfordernd.</p>
 <p>Mit meiner DSLR hätte ich ganz andere Bilder gemacht - u.a. von der Nachtwanderung durch Ludwigslust. Aber es hat mich überrascht, wieviel Freude ich an der Entdeckung meines Handy für die Fotographie hatte. Dies werden wohl nicht die letzten Bilder aus dieser Kamera sein!</p>
-<p><img src="IMG_20130314_165120-3.jpg" class="quarto-discovered-preview-image img-fluid" alt="IMG_20130314_165120-3.jpg"> <img src="IMG_20130314_170126-3.jpg" class="img-fluid" alt="IMG_20130314_170126-3.jpg"> <img src="IMG_20130314_170820-3.jpg" class="img-fluid" alt="IMG_20130314_170820-3.jpg"> <img src="IMG_20130314_173445-3.jpg" class="img-fluid" alt="IMG_20130314_173445-3.jpg"> <img src="IMG_20130314_173501-3.jpg" class="img-fluid" alt="IMG_20130314_173501-3.jpg"> <img src="IMG_20130314_173526-3.jpg" class="img-fluid" alt="IMG_20130314_173526-3.jpg"> <img src="IMG_20130314_173547-3.jpg" class="img-fluid" alt="IMG_20130314_173547-3.jpg"> <img src="IMG_20130315_134307-3.jpg" class="img-fluid" alt="IMG_20130315_134307-3.jpg"> <img src="IMG_20130315_154430-3.jpg" class="img-fluid" alt="IMG_20130315_154430-3.jpg"></p>
+<p><img src="IMG_20130314_165120-3.jpg" class="img-fluid" alt="IMG_20130314_165120-3.jpg"> <img src="IMG_20130314_170126-3.jpg" class="img-fluid" alt="IMG_20130314_170126-3.jpg"> <img src="IMG_20130314_170820-3.jpg" class="img-fluid" alt="IMG_20130314_170820-3.jpg"> <img src="IMG_20130314_173445-3.jpg" class="img-fluid" alt="IMG_20130314_173445-3.jpg"> <img src="IMG_20130314_173501-3.jpg" class="img-fluid" alt="IMG_20130314_173501-3.jpg"> <img src="IMG_20130314_173526-3.jpg" class="img-fluid" alt="IMG_20130314_173526-3.jpg"> <img src="IMG_20130314_173547-3.jpg" class="img-fluid" alt="IMG_20130314_173547-3.jpg"> <img src="IMG_20130315_134307-3.jpg" class="img-fluid" alt="IMG_20130315_134307-3.jpg"> <img src="IMG_20130315_154430-3.jpg" class="img-fluid" alt="IMG_20130315_154430-3.jpg"></p>
 
 
 
@@ -246,6 +246,30 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children.length > 2) {
+          for (let i = 0; i < 2; i++) {
+            container.appendChild(note.children[i].cloneNode(true));
+          }
+          return container.innerHTML
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return note.innerHTML;
+      }
     });
   }
       let selectedAnnoteEl;

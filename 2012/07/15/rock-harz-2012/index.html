@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.283">
+<meta name="generator" content="quarto-1.4.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -133,8 +133,8 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="rockharz2012.jpg" class="quarto-discovered-preview-image img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Rock Harz 2012</figcaption><p></p>
+<p><img src="rockharz2012.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Rock Harz 2012</figcaption>
 </figure>
 </div>
 <p>Im letzten Jahr habe ich noch <a href="../../../../2011/07/11/rock-harz-2011/">orakelt</a>, dass das <a href="http://www.rockharz-festival.com/">Rock Harz</a> weiter auf Wachstum setzt - und schon ist das Festival dieses Jahr zum ersten Mal ausverkauft. Fast 10000 Besucher bevölkerten von Mittwoch bis zum verkaterten Sonntag Morgen einen erneut gewachsenen Campingground. Wenn diese Expansion so weiter geht, dann müssen in ein paar Jahren die letzten Zelte hinter der Teufelsmauer aufgebaut werden.</p>
@@ -256,6 +256,30 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children.length > 2) {
+          for (let i = 0; i < 2; i++) {
+            container.appendChild(note.children[i].cloneNode(true));
+          }
+          return container.innerHTML
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return note.innerHTML;
+      }
     });
   }
       let selectedAnnoteEl;

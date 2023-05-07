@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.283">
+<meta name="generator" content="quarto-1.4.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -134,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
 <p>1620 landeten dort mit den heute als Pilgerväter bezeichneten Puritanern die ersten englischen Siedler. Diese waren vorher schon von England nach Holland geflüchtet, um ihre Relegion frei leben zu können, und sahen in der Kolonialisierung der neuen Welt die Chance, endlich Herr über eigenen Boden zu sein - der Ursprung des amerikanischen Geistes. Also charterten sie ein Schiff, die legendäre Mayflower, und setzten über mit 100 Siedlern, von denen nur die Hälfte den ersten Winter überlebte.</p>
 <p>Das heutige Plymouth rühmt sich für diese Historie, doch ist diese Besinnung auf die eigene Geschichte eher jüngerer Natur. So steht im Hafen ein <a href="http://www.plimoth.org/what-see-do/mayflower-ii">Nachbau der Mayflower</a>, der besichtigt werden kann und als eine Art Freilichtmuseum einen interessanten Einblick in die Schifffahrt um das Jahr 1600 herum bietet. Sehr überrascht war ich über die geringe Größe des Schiffes, da ich mir bei besten Willen nicht vorstellen kann, wie dort 100 Passagiere und 30 Mann Besatzung 60 Tage lang gelebt haben sollen. Gleich neben der Mayflower II hat die Stadt einen Portikus aufgebaut für den <em>Plymouth Rock</em>, einen großen Stein, an dem laut Legende die Siedler bei ihrer Ankunft angelegt haben. In den Stein ist deshalb das Jahr 1620 eingraviert, doch von dem örtlichen Touristenführer wurde freimütig zugegeben, dass der Stein schon oft die Lage gewechselt hat und sein Ursprung alles andere als bis in das Jahr 1620 zurückverfolgt werden kann.</p>
 <p>Ebenfalls nicht so alt wie die Siedlung ist der Friedhof auf dem Hügel hinter der Kirche. Obwohl hier angeblich William Bradford, der zweite Governor der Kolonie Plymouth, begraben liegt, stand an dieser Stelle das erste Fort der Siedler; erst später wurde das Gebiet als Friedhof genutzt. Viel Originales gibt also nicht zu sehen in der Stadt, aber wer möchte den Pilgervätern verübeln, dass sie in den ersten entbehrungsreichen Jahren noch nicht an die Zeit 400 Jahre später dachten. Die heutigen Bewohner leben dafür ganz gut von den Touristen und trotz einer großen Auswahl an Museen hat ein halber Tag ausgereicht, um alles wichtige in Plymouth zu sehen.</p>
-<p><img src="plymouth-1.jpg" class="quarto-discovered-preview-image img-fluid" alt="plymouth-1.jpg"> <img src="plymouth-2.jpg" class="img-fluid" alt="plymouth-2.jpg"> <img src="plymouth-3.jpg" class="img-fluid" alt="plymouth-3.jpg"></p>
+<p><img src="plymouth-1.jpg" class="img-fluid" alt="plymouth-1.jpg"> <img src="plymouth-2.jpg" class="img-fluid" alt="plymouth-2.jpg"> <img src="plymouth-3.jpg" class="img-fluid" alt="plymouth-3.jpg"></p>
 
 
 
@@ -245,6 +245,30 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children.length > 2) {
+          for (let i = 0; i < 2; i++) {
+            container.appendChild(note.children[i].cloneNode(true));
+          }
+          return container.innerHTML
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return note.innerHTML;
+      }
     });
   }
       let selectedAnnoteEl;

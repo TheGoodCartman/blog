@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.283">
+<meta name="generator" content="quarto-1.4.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -134,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Am Ende sind es leider keine <a href="../../../../2012/01/31/trash-auf-der-berlinale/">Nazis auf dem Mond</a> geworden, sondern “nur” fünf Filme aus Wettbewerb, Panorama und Forum aus fünf nicht gerade typischen Filmländern, unter ihnen auch der Gewinner des großen Preises der Jury, <em>Csak a szél</em>.</p>
 <p>Mehr als die teilweise unerwarteten Juryentscheidungen und meine durchwachsene Auswahl an Filmen wird mir von der Berlinale 2012 allerdings die Jagd nach Karten in Erinnerung bleiben, die dieses Jahr gefühlt so schwer war wie nie zuvor. Wenig Verständnis habe ich dabei für den Online-Verkauf von Eventim, der pünktlich jeden Morgen zum Verkaufsstart um 10Uhr überlastet war. Aber auch an den Kassen im Kino International und am Potsdamer Platz waren schon zum Mittag die begehrtesten Filme ausverkauft und an den Tageskassen habe ich noch nie so lange Schlangen gesehen - Montag standen geschätzte 60 Kartenhungrige um 12h im Cubix an, so dass ich mich gar nicht erst eingereiht habe.</p>
 <p>Doch das gehört zur Berlinale wie der jedes Mal rechtzeitig einsetzende Winter, und so werde ich auch nächstes Jahr mein Glück versuchen - so einfach ist Cineasmus nicht heilbar.</p>
-<p><a href="../../../../2012/03/02/ang-babae-sa-septic-tank/"><img src="ticket-septic-tank.jpg" class="quarto-discovered-preview-image img-fluid" alt="The woman in the septic tank"></a> <a href="../../../../2012/02/18/the-convoy/"><img src="ticket-convoy.jpg" class="img-fluid" alt="The Convoy"></a> <a href="../../../../2012/03/20/rentaneko/"><img src="ticket-rentaneko.jpg" class="img-fluid" alt="Rentaneko"></a> <a href="../../../../2012/02/27/fon-tok-kuen-fah/"><img src="ticket-headshot.jpg" class="img-fluid" alt="Headshot"></a> <a href="../../../../2012/03/01/csak-a-szel/"><img src="ticket-csak-a-szel.jpg" class="img-fluid" alt="Csak a szél"></a></p>
+<p><a href="../../../../2012/03/02/ang-babae-sa-septic-tank/"><img src="ticket-septic-tank.jpg" class="img-fluid" alt="The woman in the septic tank"></a> <a href="../../../../2012/02/18/the-convoy/"><img src="ticket-convoy.jpg" class="img-fluid" alt="The Convoy"></a> <a href="../../../../2012/03/20/rentaneko/"><img src="ticket-rentaneko.jpg" class="img-fluid" alt="Rentaneko"></a> <a href="../../../../2012/02/27/fon-tok-kuen-fah/"><img src="ticket-headshot.jpg" class="img-fluid" alt="Headshot"></a> <a href="../../../../2012/03/01/csak-a-szel/"><img src="ticket-csak-a-szel.jpg" class="img-fluid" alt="Csak a szél"></a></p>
 
 
 
@@ -245,6 +245,30 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children.length > 2) {
+          for (let i = 0; i < 2; i++) {
+            container.appendChild(note.children[i].cloneNode(true));
+          }
+          return container.innerHTML
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return note.innerHTML;
+      }
     });
   }
       let selectedAnnoteEl;

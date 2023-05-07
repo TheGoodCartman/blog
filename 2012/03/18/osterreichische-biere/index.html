@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.283">
+<meta name="generator" content="quarto-1.4.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -133,8 +133,8 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="austria_biere.jpg" class="quarto-discovered-preview-image img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Österreichische Biere</figcaption><p></p>
+<p><img src="austria_biere.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Österreichische Biere</figcaption>
 </figure>
 </div>
 <p>Auch in Österreich wird Bier gebraut, selbst wenn die Alpenregion nicht mit ihren tschechischen Nachbarn mithalten kann. Ein kurzer Besuch im SPAR während meines Wochenendtrips in das Zillertal hat mir eine Auswahl von zehn Bieren beschehrt, unter denen sich erstaunlich viele Märzen befanden. Doch bis auf die Variante von <a href="http://www.egger-bier.at/">Egger</a> konnten die anderen Märzen nicht überzeugen; bei der <a href="http://www.zillertal-bier.at/">Zillertal</a>-Brauerei ist das Pils aus Flasche wie Fass die bessere Alternative - und die <a href="http://www.markenglas.de/products/de/GLAeSER/ZILLERTAL-BIER/ZILLERTAL-BRAUEREI-BIER-TULPE-GLAeSER.html">Gläser</a> haben eine wirklich schöne Form.</p>
@@ -249,6 +249,30 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children.length > 2) {
+          for (let i = 0; i < 2; i++) {
+            container.appendChild(note.children[i].cloneNode(true));
+          }
+          return container.innerHTML
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return note.innerHTML;
+      }
     });
   }
       let selectedAnnoteEl;

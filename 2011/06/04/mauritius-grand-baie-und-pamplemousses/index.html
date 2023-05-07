@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.283">
+<meta name="generator" content="quarto-1.4.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Wer die unbewohnten Inseln nördlich von Mauritius besuchen will, kann von der Bucht aus eine Katamaran- oder Segeltour starten. Ein paar Kilometer weiter entlang der Küste folgt schließlich mit dem Cap Malheureux einer der nördlichsten Punkte der Insel. Das Kap verdankt seinen Namen der erfolgreichen Invasion der Engländer, die dort landend schließlich Port Louis und die gesamte Insel einnahmen - aus französischer Sicht natürlich ein Unglück. Dass das Kap trotz der folgenden englischen Kolonialzeit so heißt, zeigt wieder einmal, welchen Einfluss die Franzosen auf Mauritius hatten und haben. Eine kleine weiße Holzkirche mit rotem Dach ist das Wahrzeichen des Kaps - doch bis dorthin habe ich es bei meinem Besuch nicht geschafft.</p>
 <p>Dafür hat es mich noch nach Pamplemousses verschlagen. Dort gibt es den nach dem ersten Premierminister Sir Seewoosagur Ramgoolam benannten Botanischen Garten. Dieser wurde einst von Gouverneur Mahé de Labourdonnais (seinen Namen trägt die Stadt Mahébourg mit dem internationalen Flughafen) als Gemüsegarten angelegt, doch die stetigen Erweiterungen durch seine Nachfolger mit dem Fokus auf exportierbare Gewürze und tropische Pflanzen machten den Garten zu dem, was er heute ist.</p>
 <p>Neben unglaublich vielen Palmenarten und je einem Rotwild- und Riesenschildkrötengehege ist mir vor allem das Becken mit den Amazonas-Wasserlilien aufgefallen. Diese Riesenseerosenart besitzt Blätter mit einem Durchmesser von anderthalb Metern und einem gezackten, nach oben geknickten Rand ähnlich einer Lochsäge. Trotz der Warnung, keine Gegenstände auf die Seerosen zu werfen, lagen doch etliche der großen 1-Rupien-Stücke auf den Blättern, die so kräftig aussahen, dass ich versucht war auszutesten, ob sie auch mein Gewicht tragen. Doch dank der stehenden Gewässer und dem vielen Schatten im Botanischen Garten muss ich auch hier eine Mückenwarnung aussprechen.</p>
-<p><img src="grand_baie.jpg" class="quarto-discovered-preview-image img-fluid" alt="grand_baie.jpg"> <img src="pamplemousses_1.jpg" class="img-fluid" alt="pamplemousses_1.jpg"> <img src="pamplemousses_2.jpg" class="img-fluid" alt="pamplemousses_2.jpg"> <img src="pamplemousses_3.jpg" class="img-fluid" alt="pamplemousses_3.jpg"> <img src="pamplemousses_4.jpg" class="img-fluid" alt="pamplemousses_4.jpg"></p>
+<p><img src="grand_baie.jpg" class="img-fluid" alt="grand_baie.jpg"> <img src="pamplemousses_1.jpg" class="img-fluid" alt="pamplemousses_1.jpg"> <img src="pamplemousses_2.jpg" class="img-fluid" alt="pamplemousses_2.jpg"> <img src="pamplemousses_3.jpg" class="img-fluid" alt="pamplemousses_3.jpg"> <img src="pamplemousses_4.jpg" class="img-fluid" alt="pamplemousses_4.jpg"></p>
 
 
 
@@ -246,6 +246,30 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children.length > 2) {
+          for (let i = 0; i < 2; i++) {
+            container.appendChild(note.children[i].cloneNode(true));
+          }
+          return container.innerHTML
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return note.innerHTML;
+      }
     });
   }
       let selectedAnnoteEl;

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.283">
+<meta name="generator" content="quarto-1.4.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -136,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Ein Schiff mit fast 100 Schnorchlern und Tauchern ist leider auch eine Belastung für die Natur. So sehr sich die Tierwelt an die täglichen Besucher gewöhnt hat und so gut die Guides auf den Aspekt des Umweltschutzes eingingen - ich habe nicht wenige Kollisionen mit den Korallen beobachtet. Mit einer Taucherflosse kann dem Riff schon Schaden zugefügt werden, der mehrere Jahren zur Regenerierung benötigt. Deshalb sind nur ausgewählte Teile des Great Barrier Reef überhaupt zur öffentlichen Nutzung freigegeben. Ein fader Beigeschmack beim Anblick dieses Naturwunders bleibt trotzdem.</p>
 <p>Wer jetzt Lust auf das Schnorcheln im Great Barrier Reef bekommen hat, dem muss ich noch vor zwei Dingen warnen. Zum Einen ist so ein Tagesausflug ins Riff mit 180AUD für Schnorchler (Taucher zahlen mehr) nicht gerade preiswert, zum Anderen fliegt das Boot mit knapp 60km/h über den Ozean. Bei solchen Geschwindigkeiten kann es natürlich keine Rücksicht auf Wellen nehmen und so gab es bei dem einen oder anderen Taucher den Griff zur Kotztüte.</p>
 <p>Die Bilder stammen übrigens von Freunden, die im Gegensatz zu mir begeisterte Taucher sind und sich eine Unterwasserkamera angeschafft haben, um dieses Erlebnis dauerhaft festzuhalten.</p>
-<p><img src="great_barrier_reef_1.jpg" class="quarto-discovered-preview-image img-fluid" alt="great_barrier_reef_1.jpg"> <img src="great_barrier_reef_2.jpg" class="img-fluid" alt="great_barrier_reef_2.jpg"> <img src="great_barrier_reef_3.jpg" class="img-fluid" alt="great_barrier_reef_3.jpg"> <img src="great_barrier_reef_4.jpg" class="img-fluid" alt="great_barrier_reef_4.jpg"> <img src="great_barrier_reef_5.jpg" class="img-fluid" alt="great_barrier_reef_5.jpg"> <img src="great_barrier_reef_6.jpg" class="img-fluid" alt="great_barrier_reef_6.jpg"></p>
+<p><img src="great_barrier_reef_1.jpg" class="img-fluid" alt="great_barrier_reef_1.jpg"> <img src="great_barrier_reef_2.jpg" class="img-fluid" alt="great_barrier_reef_2.jpg"> <img src="great_barrier_reef_3.jpg" class="img-fluid" alt="great_barrier_reef_3.jpg"> <img src="great_barrier_reef_4.jpg" class="img-fluid" alt="great_barrier_reef_4.jpg"> <img src="great_barrier_reef_5.jpg" class="img-fluid" alt="great_barrier_reef_5.jpg"> <img src="great_barrier_reef_6.jpg" class="img-fluid" alt="great_barrier_reef_6.jpg"></p>
 
 
 
@@ -247,6 +247,30 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children.length > 2) {
+          for (let i = 0; i < 2; i++) {
+            container.appendChild(note.children[i].cloneNode(true));
+          }
+          return container.innerHTML
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return note.innerHTML;
+      }
     });
   }
       let selectedAnnoteEl;

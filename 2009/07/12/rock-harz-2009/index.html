@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.283">
+<meta name="generator" content="quarto-1.4.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -133,8 +133,8 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="rockharz_buehnen.jpg" class="quarto-discovered-preview-image img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Bühnen des Rock Harz 2009</figcaption><p></p>
+<p><img src="rockharz_buehnen.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Bühnen des Rock Harz 2009</figcaption>
 </figure>
 </div>
 <p>Da unternehmen die Veranstalter des <a href="http://www.rockharz.com/">Rock Harz</a> schon ihr Möglichstes, um endlich besseres Festivalwetter zu bekommen, und verlegen ihr Event auf <a href="http://www.flugplatz-ballenstedt.de/">die andere Harzseite</a> und zwei Wochen nach vorne - doch genützt hat es nichts. Die Temperaturen hatten mit Sommer nichts gemein, der Regen trat bevorzugt während der Spielzeiten auf und die gesamte Zeit wehte ein unangenehm heftiger Wind über das Gelände, <a href="../../../../2009/07/12/rest-in-pieces/">dem schließlich mein Zelt zum Opfer fiel</a>. Aber gut, das bin ich mittlerweile gewöhnt, und entgegen den Vorjahren hielten Festivalgelände und Campingground den Strapazen stand.</p>
@@ -253,6 +253,30 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children.length > 2) {
+          for (let i = 0; i < 2; i++) {
+            container.appendChild(note.children[i].cloneNode(true));
+          }
+          return container.innerHTML
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return note.innerHTML;
+      }
     });
   }
       let selectedAnnoteEl;

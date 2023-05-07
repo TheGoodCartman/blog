@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.283">
+<meta name="generator" content="quarto-1.4.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -136,8 +136,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Der Regisseur hat nach der Aufführung noch Rede und Antwort gestanden und die Figuren als Mittelpunkt seines Filmes herausgestellt. Mir blieben deren Aktionen bzw das weitgehende Fehlen derselben aber unverständlich. Das Herausstellen einzelner Szenen und die oft handlungsferne Symbolik lässt die Charaktere plakativ wirken, Entwicklungen kommen immer sprunghaft und nicht ausreichend motiviert - so hinterließ der Film einen zwiespältigen Eindruck. Dies liegt vielleicht daran, dass der Regisseur seinen Film als postmodernes Kunstwerk präsentiert. Er spielt mit Verweisen auf das Buch, die erste Verfilmung und den Comic, aber auch auf Bilder der Filmgeschichte und zieht eine zeitgemäße Ästhetik klassischen Handlungsmustern vor. Dies funktioniert im asiatischen Kulturraum mit seiner Vorgeschichte des Buches wohl recht gut, doch da dieses Wissen hier im Westen fehlt fällt das Verständnis ungleich schwerer. Mir hat die Recherche nach einem Rezeptionsansatz jedenfalls mehr gebracht als der Film selber.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="kanikosen.jpg" class="quarto-discovered-preview-image img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Regisseur Sabu</figcaption><p></p>
+<p><img src="kanikosen.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Regisseur Sabu</figcaption>
 </figure>
 </div>
 
@@ -250,6 +250,30 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children.length > 2) {
+          for (let i = 0; i < 2; i++) {
+            container.appendChild(note.children[i].cloneNode(true));
+          }
+          return container.innerHTML
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return note.innerHTML;
+      }
     });
   }
       let selectedAnnoteEl;

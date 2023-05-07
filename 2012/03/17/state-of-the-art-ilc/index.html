@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.283">
+<meta name="generator" content="quarto-1.4.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -136,15 +136,15 @@ ul.task-list li input[type="checkbox"] {
 <p>Doch warum schreibe ich das Ganze? Der Grund dafür ist, dass ich mich seit ein paar Wochen frage, was Olympus und Pentax geritten hat, so selten hässliche Kameras auf den Markt zu bringen, wie deren neue Modelle. Olympus hat bereits mit der <a href="http://en.wikipedia.org/wiki/Olympus_Pen">PEN-Serie</a> die Form ihrer klassischen Kameras aufgegriffen, diese allerdings merklich aufgefrischt. Nun ist die Firma einen weiteren Schritt zurück gegangen und hat das Prime-Segment mit der Kamera OM-D besetzt, die aufgrund ihrer harten Kanten wohl nur Fans, die wehmütig an ihre Original-<a href="http://en.wikipedia.org/wiki/Olympus_OM_system">OM-Modelle</a> zurückdenken, ansprechen wird:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="http://olympusamerica.com/corporate/corp_presscenter_headline.asp?pressNo=909"><img src="olympus_omd.jpg" class="quarto-discovered-preview-image img-fluid figure-img"></a></p>
-<p></p><figcaption class="figure-caption">Olympus OM-D</figcaption><p></p>
+<p><a href="http://olympusamerica.com/corporate/corp_presscenter_headline.asp?pressNo=909"><img src="olympus_omd.jpg" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Olympus OM-D</figcaption>
 </figure>
 </div>
 <p>Pentax dagegen hat ein Ohr für den Käufer und hat mit der neuen K-01 eine Kamera entwickelt, die einen Spiegelreflexsensor (APS-C) in einem kleineren Gehäuse mit dem hauseigenen K-Mount-Bajonett kombiniert und so zum Verkaufsstart eine große Auswahl an Objektiven im Angebot hat. Doch gehörten schon die Spiegelreflexkameras von Pentax zu den hässlichen Entlein auf dem Markt, so ist die K-01 eine ganz eigene Kategorie. Von <a href="http://www.marc-newson.com/AboutBiography.aspx?GroupSelected=2&amp;Category=Biography">Mark Newson</a> entwickelt, erinnert mich das Design mehr an ein LEGO-Spielzeug als ein ernstgemeintes Produkt. Das extrem dünne 40mm/2.8-Objektiv ist zwar ein Highlight, aber die pummelige und billig wirkende Kamera will mir nicht so recht gefallen:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="http://www.pentaximaging.com/about/press/263/PENTAX_RICOH_IMAGING_AMERICAS_CORPORATION_INTRODUCES_PENTAX_K-01_DESIGNED_BY_MARC_NEWSON"><img src="pentax_k01.jpg" class="img-fluid figure-img"></a></p>
-<p></p><figcaption class="figure-caption">Pentax K-01</figcaption><p></p>
+<figcaption class="figure-caption">Pentax K-01</figcaption>
 </figure>
 </div>
 <p>Mich beschleicht das Gefühl, dass die Hersteller immer noch mit dem neuen, erstaunlich erfolgreichen Marktsegement experimentieren. Die einen (Sony, Nikon) halten ihre Kameras für Lifestyleprodukte, die ein entsprechendes Design aufweisen müssen. Features sind dabei wichtig (Sony hat mit der NEX-7 eine Highend-Variante im Angebot), aber das Aussehen mindestens ebenso. Pentax denkt vermutlich ähnlich, hat aber eine andere Vorstellung von Design. Olympus schließlich sieht ihre Käufer vermutlich eher als Aussteiger aus dem DSLR-Format und will ihnen deshalb eine vollwertige Alternative im kleinen Paket bieten. Ob sie mit dem mittelalterlichen Design aber neue Kundengruppen erschließt oder nur den eigenen DSLR-Markt kannibalisiert, muss die Zeit zeigen.</p>
@@ -258,6 +258,30 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children.length > 2) {
+          for (let i = 0; i < 2; i++) {
+            container.appendChild(note.children[i].cloneNode(true));
+          }
+          return container.innerHTML
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return note.innerHTML;
+      }
     });
   }
       let selectedAnnoteEl;

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.283">
+<meta name="generator" content="quarto-1.4.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -132,8 +132,8 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="http://www.southparkstudios.com/fans/avatar/"><img src="kingoli_south_park.jpg" class="quarto-discovered-preview-image img-fluid figure-img"></a></p>
-<p></p><figcaption class="figure-caption">kingoli_south_park.jpg</figcaption><p></p>
+<p><a href="http://www.southparkstudios.com/fans/avatar/"><img src="kingoli_south_park.jpg" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">kingoli_south_park.jpg</figcaption>
 </figure>
 </div>
 <p>Das Internet wird erwachsen und die Welt wächst zusammen, so wie es sich alle Utopisten immer vorgestellt haben. Oder zumindest so ähnlich. Auf jeden Fall kann sich jetzt jeder auf diesem Planeten mit einer ausreichend schnellen Internetverbindung und einer gegenüber Zensur eher kritischen Regierung <a href="http://www.southparkstudios.com/news/3405"><strong>alle</strong> South-Park-Folgen</a> im Browser anschauen - nicht nur die seltsame Auswahl von <a href="http://www.mtv.de/article/15580046">MTV</a>. Und dazu noch in einer überraschend guten Qualität, die alle bisherigen YouTube-Schnipsel der Serie weit in den Schatten stellt.</p>
@@ -251,6 +251,30 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children.length > 2) {
+          for (let i = 0; i < 2; i++) {
+            container.appendChild(note.children[i].cloneNode(true));
+          }
+          return container.innerHTML
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return note.innerHTML;
+      }
     });
   }
       let selectedAnnoteEl;

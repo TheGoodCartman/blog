@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.283">
+<meta name="generator" content="quarto-1.4.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -133,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Halle mausert sich langsam aber sicher zur Sportstadt. Der HFC ist zwar gerade erst in die dritte Liga aufgestiegen, hat jedoch <a href="http://www.erdgas-sportpark.de/">ein schönes neues Stadion</a>. Im Damen-Basketball sind die SV Halle Lions nationale Spitze und im Schwimmen ist Paul Biedermann trotz des schlechten Abschneidens bei Olympia das Aushängeschild. Da passt eine Veranstaltung gut ins Bild, die 2012 schon zum vierten Mal stattfindet: Das <a href="http://www.halle-beach.de/">City Beach auf dem Marktplatz</a>.</p>
 <p>Vor der Kulisse von Marktschlösschen, Marktkirche, Roter Turn, Stadthaus, Rathaus und unter den wachsamen Augen von Georg Friedrich Händel wurden drei Beachvolleyball-Felder aufgeschüttet und zwei Tribünen aufgebaut, um neben dem City Beach Cup auch die Landesmeisterschaften auszutragen. Dafür wurde die Veranstaltung von einem Wochenende auf zehn Tage ausgedehnt und mit einem breiten <a href="http://www.vvsa-volleyball.de/images/2012_ablaufplan_city%20beach.pdf">Rahmenprogramm</a> versehen.</p>
 <p>Ich konnte am Samstag kurz beim Mixed-Wettbewerb vorbeischauen. Das Niveau auf den Plätzen war durchwachsen, aber das Wetter war super und die Stimmung auf den Tribünen (hauptsächlich durch Aktive des Turniers) ebenso - da hätte ich gerne selber mitgewirkt. Ich finde es super, dass es in Halle eine solche Veranstaltung meiner Lieblingssportart gibt, und hoffe, dass dieses Beispiel Schule macht!</p>
-<p><img src="citybeach2012_1.jpg" class="quarto-discovered-preview-image img-fluid" alt="citybeach2012_1.jpg"> <img src="citybeach2012_2.jpg" class="img-fluid" alt="citybeach2012_2.jpg"> <img src="citybeach2012_3.jpg" class="img-fluid" alt="citybeach2012_3.jpg"> <img src="citybeach2012_4.jpg" class="img-fluid" alt="citybeach2012_4.jpg"> <img src="citybeach2012_5.jpg" class="img-fluid" alt="citybeach2012_5.jpg"> <img src="citybeach2012_6.jpg" class="img-fluid" alt="citybeach2012_6.jpg"></p>
+<p><img src="citybeach2012_1.jpg" class="img-fluid" alt="citybeach2012_1.jpg"> <img src="citybeach2012_2.jpg" class="img-fluid" alt="citybeach2012_2.jpg"> <img src="citybeach2012_3.jpg" class="img-fluid" alt="citybeach2012_3.jpg"> <img src="citybeach2012_4.jpg" class="img-fluid" alt="citybeach2012_4.jpg"> <img src="citybeach2012_5.jpg" class="img-fluid" alt="citybeach2012_5.jpg"> <img src="citybeach2012_6.jpg" class="img-fluid" alt="citybeach2012_6.jpg"></p>
 
 
 
@@ -244,6 +244,30 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children.length > 2) {
+          for (let i = 0; i < 2; i++) {
+            container.appendChild(note.children[i].cloneNode(true));
+          }
+          return container.innerHTML
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return note.innerHTML;
+      }
     });
   }
       let selectedAnnoteEl;

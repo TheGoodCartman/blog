@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.283">
+<meta name="generator" content="quarto-1.4.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -134,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
 <p>In der Woche ist der Eintritt wieder kostenlos, am Wochenende muss jedoch für ein Ticket bezahlt werden. Am Samstag steigt dabei der große <a href="http://www.grandslamberlin.de/news/92-world-record-day-sport-musik-models-und-ein-smart-fortwo.html">Weltrekordversuch</a>, bei dem so viele Zuschauer anwesend sein sollen wie bei keinem Beachvolleyballspiel vorher. Dazu wird ein Rahmenprogramm mit Castingshow und Konzert von Culcha Candela aufgefahren und das Herrenfinale als Night Session ausgetragen. Da das Wetter ab morgen aber fast ausschließlich Regen verspricht wird es schwierig werden, die erforderlichen 18000 Zuschauer in die Waldbühne zu locken.</p>
 <p>Mein Wochenende ist mit dem Rock Harz leider schon verplant und so habe ich heute die Gelegenheit genutzt, die beiden letzten Spiele auf dem Centre Court anzusehen. Die Stimmung war aufgrund der wenigen Zuschauer leider nicht so gut wie bei der EM, was auch daran liegt, dass die langsam ansteigenden Zuschauerränge den Schall nicht so bündeln wie das vor zwei Jahren eigens vor der O2 World aufgebaute Stadion. Trotzdem konnte ich zwei deutsche Siege bejubeln, wobei das knappe Ergebnis von Brink und Reckermann Zweifel in mir aufkommen lässt, ob Deutschlands bestes Duo nach den langen Verletzungspausen ausreichend in Form ist, um bei Olympia eine Medaille zu gewinnen. Erdmann/Matysik sahen deutlich souveräner aus, werden in dem hochklassigen Feld aber bald auf Gegner treffen, die nicht so leicht zu knacken sind wie die Russen Prokopiev/Semenov heute.</p>
 <p>Wer den Regen nicht scheut sollte auf jeden Fall diese Woche noch zur Waldbühne schauen - wer weiß wann in Berlin wieder Beachvolleyball auf diesem Niveau geboten wird.</p>
-<p><img src="swatch_1.jpg" class="quarto-discovered-preview-image img-fluid" alt="swatch_1.jpg"> <img src="swatch_2.jpg" class="img-fluid" alt="swatch_2.jpg"> <img src="swatch_3.jpg" class="img-fluid" alt="swatch_3.jpg"> <img src="swatch_4.jpg" class="img-fluid" alt="swatch_4.jpg"> <img src="swatch_5.jpg" class="img-fluid" alt="swatch_5.jpg"></p>
+<p><img src="swatch_1.jpg" class="img-fluid" alt="swatch_1.jpg"> <img src="swatch_2.jpg" class="img-fluid" alt="swatch_2.jpg"> <img src="swatch_3.jpg" class="img-fluid" alt="swatch_3.jpg"> <img src="swatch_4.jpg" class="img-fluid" alt="swatch_4.jpg"> <img src="swatch_5.jpg" class="img-fluid" alt="swatch_5.jpg"></p>
 <p>(bessere Fotos als von meiner Hosentaschenknipse finden sich auf der <a href="http://www.flickr.com/photos/74565448@N04/">Flickr-Seite der Veranstalter</a>)</p>
 
 
@@ -246,6 +246,30 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children.length > 2) {
+          for (let i = 0; i < 2; i++) {
+            container.appendChild(note.children[i].cloneNode(true));
+          }
+          return container.innerHTML
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return note.innerHTML;
+      }
     });
   }
       let selectedAnnoteEl;
