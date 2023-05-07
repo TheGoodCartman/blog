@@ -27,7 +27,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Upload to kingoli.net
-        uses: TheGoodCartman/ftp-hash-sync@97f030d70baf0b3859829be76091dbb0ad547c95
+        uses: TheGoodCartman/ftp-hash-sync@v1
         with:
           protocol: sftp
           host: w012899b.kasserver.com
