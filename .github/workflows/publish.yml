@@ -26,11 +26,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: Set up Python3.9
-        uses: actions/setup-python@v4
+      - name: Upload to kingoli.net
+        uses: TheGoodCartman/ftp-hash-sync@97f030d70baf0b3859829be76091dbb0ad547c95
         with:
-          python-version: '3.10'
-      - name: Install dependencies
-        run: pip install paramiko==2.12.0 pyftpsync==4.0.0
-      - name: pyftpsync
-        run: pyftpsync -vv upload --dry-run --no-verify-host-keys ./docs/ ftps://${{ secrets.FTP_USER }}:${{ secrets.FTP_PASSWORD }}@w012899b.kasserver.com
+          protocol: sftp
+          host: w012899b.kasserver.com
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          source: ./docs/
