@@ -1,6 +1,6 @@
 ---
 title: "Edinburgh"
-date: "2023-07-18T012:14:00"
+date: "2023-07-18T12:14:00"
 categories: [gewesen]
 ---
 
