@@ -6,7 +6,7 @@ categories: [gespielt]
 
 #### Steuerung
 
-Der Umstieg von RDR2 auf Cyberpunk fiel gar nicht schwer - viele Tasten sind gleich belegt (Zielen, Angriff, Schnellzugriff auf die Karte) und die Belegung folgt - mit Ausnahmen - einem logischen Muster und es gibt kaum Doppelbelegungen. Gestört hat mich nur, dass Ducken/Verstecken mit derselben Taste ausgelöst wird wie das Abbrechen des aktuellen Dialogs - denn es gibt Missionen, wo ein Dialog direkt in die Action mündet und ich aus Versehen die Mitteilungen von Johnny abbrach, obwohl ich mich nur verstecken wollte.
+Der Umstieg von [RDR2](/2021/03/16/red-dead-redemption-2/) auf *Cyberpunk 2077* fiel gar nicht schwer - viele Tasten sind gleich belegt (Zielen, Angriff, Schnellzugriff auf die Karte) und die Belegung folgt - mit Ausnahmen - einem logischen Muster und es gibt kaum Doppelbelegungen. Gestört hat mich nur, dass Ducken/Verstecken mit derselben Taste ausgelöst wird wie das Abbrechen des aktuellen Dialogs - denn es gibt Missionen, wo ein Dialog direkt in die Action mündet und ich aus Versehen die Mitteilungen von Johnny abbrach, obwohl ich mich nur verstecken wollte.
 
 Generell kein Freund bin ich von der First-Person-Perspektive. Zwar ist es nur konsequent, dass in einer so die drei Dimensionen ausnutzenden Spielewelt auch der Blick total frei ist, aber es gibt kein Snapping für Gegenstände, mit denen man interagieren kann, d.h. man ist eigentlich ständig am Suchen, auf welcher Höhe der Blick sein muss, um etwas auszulösen (und in einigen Situationen schafft man es gar nicht, die fokussierten Gegenstände aufzuheben). Auch die (wenigen) Jump-and-Run-Passagen fallen durch die Perspektive unnötig schwer.
 
