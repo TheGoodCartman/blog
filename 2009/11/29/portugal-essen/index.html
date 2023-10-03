@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.367">
+<meta name="generator" content="quarto-1.4.398">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -137,6 +137,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 </header>
+
 
 <p>Portugal mit seinen weiten Atlantikküsten hat vor allem eine Ressource zur Verfügung: Fisch (<em>peixe</em>). Da man privat so viel fischen darf, wie man will, tun dies die Portugiesen auch ausgiebig. Oft sieht man Angelleinen, die von Klippen dreißig Meter weit in den Atlantik geworfen wurden, und ich bin einem Taucher begegnet, der mit Harpunen und sicherlich 10kg Fisch aus dem Wasser stieg.</p>
 <p>Dementsprechend steht frischer Fisch weit oben auf den Speisekarten. Dieser wird nur gegrillt und mit wenigen Beilagen - meist Kartoffeln - serviert, und man sucht sich den eigenen Fisch vorher an einer eisgekühlten Theke aus. Sehr beliebt sind auch gegrillte Spieße, wo der Fisch mit weiteren Meeresfrüchten wie Garnelen kombiniert wird. Wo es keine Fischtheke gibt, sollte man sich den Fisch vor der Zubereitung zeigen und wiegen lassen. Dies ist üblich in Portugal und so kann man den Preis abschätzen (Fischpreise sind meist pro kg angegeben) und beurteilen, ob man wirklich frisches Meeresgetier vorgesetzt bekommt oder an einen Touristenfänger geraten ist.</p>
@@ -279,15 +280,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id.startsWith('sec-')) {
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
         for (let i = 0; i < 2; i++) {
           container.appendChild(note.children[i].cloneNode(true));
         }
+        typesetMath(container);
         return container.innerHTML
       } else {
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -296,6 +320,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
+      typesetMath(note);
       return note.innerHTML;
     }
   }
@@ -338,6 +363,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });
@@ -413,7 +461,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener(
       "resize",
       throttle(() => {
-        console.log("RESIZE");
         elRect = undefined;
         if (selectedAnnoteEl) {
           selectCodeLines(selectedAnnoteEl);

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.367">
+<meta name="generator" content="quarto-1.4.398">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -137,6 +137,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 </header>
+
 
 <p>Man nehme aus einer Fülle von Details der Vorlage ein paar wenige, so dass sie aus dem Kontext gerissen nur noch skuril wirken. Man nehme alle wichtigen Elemente einer Geiselnahme - die ermittelnden Kommissare, die Absperrung der Polizei, die Verhandlungen um Essen und Fluchtwagen, das Anrücken eines Sondereinsatzkommandos - und präsentiere sie als bloße Staffette, als abgehackte, unpassende Enden eines Handlungsrahmens, der eigentlich keine Bedeutung für den Film hat. Man stülpe dem Ganzen noch einen extremen Kontrast über, um die vielen Wechsel zwischen digitalen Handkameras und klassischen Filmkameras zu überdecken. Und heraus kommt: Ein ganz schlechter Film.</p>
 <p>Werner Herzog mag es offensichtlich noch immer, zu experimentieren und Sehgewohnheiten hinter sich zu lassen. So lässt er seinen Charakter statt in Pakistan in Peru zum Muslimen werden und dreht eine dazu gehörende Einstellung sogar in China. Manchmal lässt er seine Figuren einfach in der Szene still stehen und filmt dies für einige lange Sekunden. Während in dem Remake von <em>Bad Lieutenant</em> die surrealen Szenen mit den Echsen die Auswirkungen der Drogen auf den Hauptcharakter symbolisieren, ist die bloße Häufung solcher Fremdkörper in <em>My son, my son, what have ye done</em>, so sie doch zusammen mit der Musik eine dem Muttermord angemessene düstere Atmosphäre schaffen, einfach nur anstrengend.</p>
@@ -273,15 +274,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id.startsWith('sec-')) {
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
         for (let i = 0; i < 2; i++) {
           container.appendChild(note.children[i].cloneNode(true));
         }
+        typesetMath(container);
         return container.innerHTML
       } else {
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -290,6 +314,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
+      typesetMath(note);
       return note.innerHTML;
     }
   }
@@ -332,6 +357,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });
@@ -407,7 +455,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener(
       "resize",
       throttle(() => {
-        console.log("RESIZE");
         elRect = undefined;
         if (selectedAnnoteEl) {
           selectCodeLines(selectedAnnoteEl);

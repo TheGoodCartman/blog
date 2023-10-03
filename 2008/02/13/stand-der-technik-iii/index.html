@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.367">
+<meta name="generator" content="quarto-1.4.398">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -138,6 +138,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 </header>
+
 
 <p>Heute habe ich auf der Suche nach einem neuen MP3-Player im MediaMarkt einmal meine beiden aktuellen Favoriten in der Hand gehalten und bin nach wie vor unentschlossen. Der bereits beschriebene <a href="../../../../2008/01/21/stand-der-technik/">Sony NWZ-A818</a> ist natürlich ein Goldstück mit einer unglaublichen Geschwindigkeit in Menüs und bei der Bildbetrachtung, doch das kleine Display ist nicht auf der Höhe der Zeit. Der Samsung <a href="http://av.samsung.de/produkte/detail12_specs.aspx?guid=95d3dfc5-9ec0-4a87-9899-309af30dc421">YP-P2</a> dagegen zeigt seine 480 x 272 Pixel auf einem 3-Zoll-Touch-Display, das sich zwar nicht so intuitiv wie bei Apples iPhone/IPod Touch bedienen lässt, aber schon ein nettes Feature ist und auch <a href="http://www.slashgear.com/samsung-yp-p2-firmware-update-again-0410064.php">ständig verbessert wird</a>. Und Bluetooth mit einer angeblichen Laufzeit von 12 Stunden ist schon ab Werk mit an Bord.</p>
 <p>16GB gibt es bei keinem der beiden in der aktuellen Generation. Doch lohnt sich ein weiteres Warten, z.B. auf den <a href="http://www.gizmodo.de/2008/01/14/iriver_spinn_nur_gefuhlt_analog.html">iRiver Spinn</a>?</p>
@@ -273,15 +274,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id.startsWith('sec-')) {
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
         for (let i = 0; i < 2; i++) {
           container.appendChild(note.children[i].cloneNode(true));
         }
+        typesetMath(container);
         return container.innerHTML
       } else {
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -290,6 +314,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
+      typesetMath(note);
       return note.innerHTML;
     }
   }
@@ -332,6 +357,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });
@@ -407,7 +455,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener(
       "resize",
       throttle(() => {
-        console.log("RESIZE");
         elRect = undefined;
         if (selectedAnnoteEl) {
           selectCodeLines(selectedAnnoteEl);

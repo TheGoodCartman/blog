@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.367">
+<meta name="generator" content="quarto-1.4.398">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -138,6 +138,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 </header>
+
 
 <p>Ein kürzlich erschienener Artikel zum Thema <a href="http://www.manager-magazin.de/it/artikel/0,2828,539888-3,00.html">Historische Formatflops</a> bringt mich nun dazu, eine Lanze für die <a href="http://de.wikipedia.org/wiki/MiniDisc">MiniDisc</a> zu brechen. Entgegen der Meinung der Autoren sehe ich das Sony-Format nämlich nicht als Flop, sondern als wichtigen Zwischenschritt zwischen der CD und den heutigen Platzhirschen, den MP3-Playern - mit ihrer <a href="http://de.wikipedia.org/wiki/ATRAC">ATRAC</a>-Kodierung war Sony sogar deutlich früher am Markt als das vergleichbare MP3-Format, und die magneto-optischen MiniDisc-Medien boten von Anfang an digitale Informationen über die Musik vergleichbar mit den <a href="http://de.wikipedia.org/wiki/ID3-Tag">ID3-Tags</a>.</p>
 <p>Als ich Anfang 2000 mein erstes MD-Gerät erwarb, einen tragbaren <a href="http://www.minidisc.org/part_Sony_MZ-R70.html">MZ-R70</a>, war vor allem das Format der MiniDisc ausschlaggebend. Ich wollte kein so großes und schweres Gerät wie einen CD-Player mit mir herumschleppen und erst Recht nicht unzählige CD-Medien, die nicht ausreichend robust für den täglichen Transport in einem Rucksack waren. MiniDisc-Player stellten zu diesem Zeitpunkt das kleinstmögliche Stück audiophiler Hardware dar, das man erwerben konnte, und die schmalen MD-Medien hielten nicht nur einem Rucksack stand, sondern theoretisch auch Nässe, Hitze und Druck - ich habe dies nie überprüft.</p>
@@ -276,15 +277,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id.startsWith('sec-')) {
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
         for (let i = 0; i < 2; i++) {
           container.appendChild(note.children[i].cloneNode(true));
         }
+        typesetMath(container);
         return container.innerHTML
       } else {
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -293,6 +317,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
+      typesetMath(note);
       return note.innerHTML;
     }
   }
@@ -335,6 +360,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });
@@ -410,7 +458,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener(
       "resize",
       throttle(() => {
-        console.log("RESIZE");
         elRect = undefined;
         if (selectedAnnoteEl) {
           selectCodeLines(selectedAnnoteEl);

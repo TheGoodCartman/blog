@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.367">
+<meta name="generator" content="quarto-1.4.398">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -137,6 +137,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 </header>
+
 
 <p>Eine Hauptstadt für die neugegründeten Vereinigten Staaten von Amerika zu finden war keine leichte Aufgabe. Der erste Präsident der USA und spätere Namensgeber der Stadt, George Washington, wurde noch in New York vereidigt; danach tagte der Kongress in <a href="../../../../2011/10/09/philadelphia/">Philadelphia</a> bis zur sogenannten <a href="http://en.wikipedia.org/wiki/Pennsylvania_Mutiny_of_1783">Pennsylvania-Meuterei</a>, die den Kongress zur Flucht nötigte. Auf der Suche nach einer Stadt mit eigener Hoheit und außerhalb des direkten Einflusses der Bundesstaaten wurde schließlich ein sumpfiges Gebiet am Potomac River symbolisch von Maryland und Virginia an den Kongress abgetreten. Dort begann 1792 mit der Grundsteinlegung für das Weiße Haus der Bau der Hauptstadt im gerade modernen Schachbrettmuster. Als Name wurde District of Columbia (D.C.) gewählt um zu zeigen, dass diese Stadt den gesamten Vereinigten Staaten und nicht einem einzelnen Staat untersteht - Columbia ist eine aus der Mode gekommene Personifizierung der USA.</p>
 <p>Viel Glück war der neuen Hauptstadt am Anfang nicht beschieden, denn schon 1812 - gerade einmal 12 Jahre nach dem Einzug der Regierung - griffen die Engländer die Stadt an und <a href="http://en.wikipedia.org/wiki/Burning_of_Washington">brannten sie nieder</a>. Das Weiße Haus und das Capitol mussten aufwendig repariert werden und die <a href="http://visualizingdc.com/">Bilder von damals</a> machen es schwer, sich dort das moderne Washington D.C. vorzustellen. Viele wichtige Bauwerke, die heute die Stadt prägen, gab es damals noch nicht und das Ufer des Potomac River wurde in den letzten zwei Jahrhunderten mehrmals umgestaltet. Vor kurzem erst wurde mit dem <a href="http://de.wikipedia.org/wiki/Martin_Luther_King,_Jr._National_Memorial">Martin Luther King Memorial</a> ein weiteres Denkmal der beeindruckenden Sammlung von Gedenkstätten und Museen hinzugefügt, die das Zentrum von D.C. ausmachen.</p>
@@ -279,15 +280,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id.startsWith('sec-')) {
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
         for (let i = 0; i < 2; i++) {
           container.appendChild(note.children[i].cloneNode(true));
         }
+        typesetMath(container);
         return container.innerHTML
       } else {
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -296,6 +320,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
+      typesetMath(note);
       return note.innerHTML;
     }
   }
@@ -338,6 +363,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });
@@ -413,7 +461,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener(
       "resize",
       throttle(() => {
-        console.log("RESIZE");
         elRect = undefined;
         if (selectedAnnoteEl) {
           selectCodeLines(selectedAnnoteEl);

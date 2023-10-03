@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.367">
+<meta name="generator" content="quarto-1.4.398">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -137,6 +137,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 </header>
+
 
 <p><em>USA (2009) Regie: Joel und Ethan Coen Darsteller: Michael Stuhlbarg (Larry Gopnik), Sari Lennick (Judith Gopnik), Aaron Wolff (Danny Gopnik), Richard Kind (Onkel Arthur), Fred Melamed (Sy Ableman), Jessica McManus (Sarah Gopnik), Adam Arkin (Scheidungsanwalt), Simon Helberg (Rabbi I), George Wyner (Rabbi II), Alan Mandell (Rabbi III) und andere Dybbuks</em> <a href="http://www.seriousman.de/">Offizielle Homepage</a></p>
 <p>Der Film beginnt mit einer Szene, die in einem mittelalterlichen, jüdischen Dorf im heutigen Polen spielt. Ein Mann kommt nach Hause und berichtet seiner Frau, dass sein Karren eine Panne hatte und ihm von einem zufällig vorbeikommenden, entfernten Verwandten geholfen wurde. Er hat den Helfer daraufhin auf eine Suppe eingeladen, doch seine Frau erklärt ihm, dass sie sicher sei, dass der Verwandte vor drei Jahren gestorben ist und er einem Dybbuk, einem bösen Geist, begegnet ist. Als dieser kurz darauf die Hütte betritt, rammt sie ihm als Beweis einen Eispickel in die Brust. Der Verwandte ist zuerst amüsiert, doch dann fängt die Wunde an zu bluten - dennoch richtet er sich auf, verabschiedet sich und verlässt das Haus.</p>
@@ -281,15 +282,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id.startsWith('sec-')) {
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
         for (let i = 0; i < 2; i++) {
           container.appendChild(note.children[i].cloneNode(true));
         }
+        typesetMath(container);
         return container.innerHTML
       } else {
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -298,6 +322,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
+      typesetMath(note);
       return note.innerHTML;
     }
   }
@@ -340,6 +365,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });
@@ -415,7 +463,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener(
       "resize",
       throttle(() => {
-        console.log("RESIZE");
         elRect = undefined;
         if (selectedAnnoteEl) {
           selectCodeLines(selectedAnnoteEl);

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.367">
+<meta name="generator" content="quarto-1.4.398">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -138,9 +138,10 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+
 <section id="steuerung" class="level4">
 <h4 class="anchored" data-anchor-id="steuerung">Steuerung</h4>
-<p>Der Umstieg von RDR2 auf Cyberpunk fiel gar nicht schwer - viele Tasten sind gleich belegt (Zielen, Angriff, Schnellzugriff auf die Karte) und die Belegung folgt - mit Ausnahmen - einem logischen Muster und es gibt kaum Doppelbelegungen. Gestört hat mich nur, dass Ducken/Verstecken mit derselben Taste ausgelöst wird wie das Abbrechen des aktuellen Dialogs - denn es gibt Missionen, wo ein Dialog direkt in die Action mündet und ich aus Versehen die Mitteilungen von Johnny abbrach, obwohl ich mich nur verstecken wollte.</p>
+<p>Der Umstieg von <a href="../../../../2021/03/16/red-dead-redemption-2/">RDR2</a> auf <em>Cyberpunk 2077</em> fiel gar nicht schwer - viele Tasten sind gleich belegt (Zielen, Angriff, Schnellzugriff auf die Karte) und die Belegung folgt - mit Ausnahmen - einem logischen Muster und es gibt kaum Doppelbelegungen. Gestört hat mich nur, dass Ducken/Verstecken mit derselben Taste ausgelöst wird wie das Abbrechen des aktuellen Dialogs - denn es gibt Missionen, wo ein Dialog direkt in die Action mündet und ich aus Versehen die Mitteilungen von Johnny abbrach, obwohl ich mich nur verstecken wollte.</p>
 <p>Generell kein Freund bin ich von der First-Person-Perspektive. Zwar ist es nur konsequent, dass in einer so die drei Dimensionen ausnutzenden Spielewelt auch der Blick total frei ist, aber es gibt kein Snapping für Gegenstände, mit denen man interagieren kann, d.h. man ist eigentlich ständig am Suchen, auf welcher Höhe der Blick sein muss, um etwas auszulösen (und in einigen Situationen schafft man es gar nicht, die fokussierten Gegenstände aufzuheben). Auch die (wenigen) Jump-and-Run-Passagen fallen durch die Perspektive unnötig schwer.</p>
 <p>Die Bewegungen des Charakters V fühlen sich auch zu sehr nach Strafing als einer natürlichen Bewegung an, obwohl es leichte Ab-/Aufwärtsbewegungen wie bei Schritten gibt. Ganz schlimm ist es aber mit den Autos, deren Bewegung aus der Innenperspektive das Gefühl von Hovercrafts erzeugt - wer einmal in einem echten Auto gesessen hat kann darüber nur lachen. Die Autosteuerung ist zudem ordentlich misslungen (Motorräder lassen sich deutlich besser steuern), was vermutlich an dem verfrühten Release liegt, denn in andere Teile des Spiels wurde sichtbar mehr Zeit und Liebe investiert. Zum Glück darf beim Fahren aber auf eine Schulterkamera gewechselt werden.</p>
 <p>Nervig an der First-Person-Perspektive ist auch die Augmented Reality. Missionsziele und andere Points-of-Interest wie Shops werden direkt im Sichtfeld eingeblendet. Das nervt vor allem beim Autofahren, da diese Marker gerne die vor einem liegende Straße überblenden.</p>
@@ -300,15 +301,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id.startsWith('sec-')) {
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
         for (let i = 0; i < 2; i++) {
           container.appendChild(note.children[i].cloneNode(true));
         }
+        typesetMath(container);
         return container.innerHTML
       } else {
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -317,6 +341,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
+      typesetMath(note);
       return note.innerHTML;
     }
   }
@@ -359,6 +384,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });
@@ -434,7 +482,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener(
       "resize",
       throttle(() => {
-        console.log("RESIZE");
         elRect = undefined;
         if (selectedAnnoteEl) {
           selectCodeLines(selectedAnnoteEl);

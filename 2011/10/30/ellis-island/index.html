@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.367">
+<meta name="generator" content="quarto-1.4.398">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -137,6 +137,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 </header>
+
 
 <p>Wer ein <a href="http://www.statuecruises.com/choose_tickets.aspx">Ticket für die Fähre zur Freiheitsstatue</a> nach Liberty Island kauft, der hat auf dem Rückweg die Chance, auf <em>Ellis Island</em> Station zu machen. Die Insel im Hudson war von 1892 bis 1954 das zentrale Einwanderungszentrum der USA und ist seit 1990 ein Museum, in welchem diese spannende Phase der amerikanischen Geschichte dokumentiert wird. Insgesamt über 12 Millionen Einwanderer durchliefen hier verschiedene mit der Zeit verschärfte Kontrollen. Ein Drittel der heutigen Bevölkerung der Vereinigten Staaten geht auf Vorfahren zurück, für die das Durchlaufen der großen Halle des Hauptgebäudes von <em>Ellis Island</em> der erste Schritt in ein neues Leben wurde. Dieser Registrierraum ist deshalb neben der Freiheitsstatue zu dem Sinnbild für die Einwanderung geworden; allein die Referenzen bei den Simpsons sind unzählig ([<a href="http://simpsons.shoutwiki.com/wiki/Mick_Ellis_Island">1</a>], [<a href="http://forum.dvdtalk.com/9226206-post28.html">2</a>], [<a href="http://simpsonsscreenshots.wordpress.com/2011/06/16/hey-immigrants/">3</a>], …).</p>
 <p>Nachdem das Hauptgebäude über dreißig Jahre lang dem Verfall preisgegeben war, wurde es bis 1990 aufwendig restauriert und mit Anbauten versehen, um Platz für ein Museum zu schaffen. Der erste Weg innerhalb des Museums führt meist direkt in den Registrierraum im ersten Geschoss, in welchem die Daten der Einwanderer aufgenommen wurden. Direkt dahinter wurden einige der Räume wiederhergestellt, in denen die Immigranten Tests auf Gesundheit, Vermögen bis hin zu Intelligenz absolvieren mussten - immer mit dem Damoklesschwert der Abweisung über ihnen hängend. Dass dennoch nur 2% aller Anwärter die Einwanderung versagt wurde liegt vermutlich daran, dass um in diese Halle zu kommen jeder Immigrant bereits eine Ozeanüberquerung finanziert und überstanden haben musste. Die Einwanderer waren also meist die qualifizierteren und vermögenderen Flüchtlinge bzw später die nachgeholten Familienmitglieder.</p>
@@ -278,15 +279,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id.startsWith('sec-')) {
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
         for (let i = 0; i < 2; i++) {
           container.appendChild(note.children[i].cloneNode(true));
         }
+        typesetMath(container);
         return container.innerHTML
       } else {
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -295,6 +319,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
+      typesetMath(note);
       return note.innerHTML;
     }
   }
@@ -337,6 +362,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });
@@ -412,7 +460,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener(
       "resize",
       throttle(() => {
-        console.log("RESIZE");
         elRect = undefined;
         if (selectedAnnoteEl) {
           selectCodeLines(selectedAnnoteEl);

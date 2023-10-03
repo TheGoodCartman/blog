@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.367">
+<meta name="generator" content="quarto-1.4.398">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -138,6 +138,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 </header>
+
 
 <p>Mit so viel medialen Echo hat die <a href="http://www.stiftung-warentest.de">Stiftung Warentest</a> bestimmt nicht gerechnet, als sie in einer Pressemitteilung das schlecht ausgefallene <a href="http://www.stiftung-warentest.de/online/freizeit_reise/test/1335490/1335490/1336832.html">Ergebnis</a> aus den Tests der deutschen WM-Stadien ankündigte. Sofort sprang die gut geölte Maschinerie aus Organisationskomitee und Stadionbetreiber an, welche ihre wirtschaftlichen Interessen zu schützen versuchten, indem sie die Glaubwürdigkeit der Stiftung Warentest zu untergraben begannen anstatt sich mit der Studie genauer auseinander zu setzen. Den Vogel schoss dabei wieder einmal OK-Chef Franz Beckenbauer in einem Interview mit der <a href="http://www.bild.t-online.de/BTO/sport/aktuell/2006/01/10/beckenbauer-wm-noergler/beckenbauer-wm-noergler.html">Zeitung mit den vier großen Buchstaben</a> ab.</p>
 <p>Hier holt er zu einem Rundumschlag aus gegen das “Heer der Besserwisser und Wichtigtuer, die sich über die WM profilieren wollen”. Der Stiftung Warentest, seit Jahrzehnten eine Institution im Verbraucherjournalismus, unterstellt er niedere Interessen und hält die Stiftung für nicht wichtig. Geichzeitig zeigt er deutlich, dass er die Fans nicht versteht:</p>
@@ -283,15 +284,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id.startsWith('sec-')) {
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
         for (let i = 0; i < 2; i++) {
           container.appendChild(note.children[i].cloneNode(true));
         }
+        typesetMath(container);
         return container.innerHTML
       } else {
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -300,6 +324,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
+      typesetMath(note);
       return note.innerHTML;
     }
   }
@@ -342,6 +367,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });
@@ -417,7 +465,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener(
       "resize",
       throttle(() => {
-        console.log("RESIZE");
         elRect = undefined;
         if (selectedAnnoteEl) {
           selectCodeLines(selectedAnnoteEl);

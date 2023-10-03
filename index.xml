@@ -6,15 +6,40 @@
       version="2.0">
 <channel>
 <title>The KingOli Blog</title>
-<link>https://kingoli.net/blog/index.html</link>
+<link>https://kingoli.net/blog/</link>
 <atom:link href="https://kingoli.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.367</generator>
-<lastBuildDate>Wed, 19 Jul 2023 23:44:00 GMT</lastBuildDate>
+<generator>quarto-1.4.398</generator>
+<lastBuildDate>Tue, 03 Oct 2023 22:30:59 GMT</lastBuildDate>
+<item>
+  <title>Baldur’s Gate 3 - Ein Zwischenfazit</title>
+  <link>https://kingoli.net/blog/2023/10/03/baldurs-gate-3-ein-zwischenfazit/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>50 Stunden Spielzeit habe ich inzwischen in <em>Baldur’s Gate 3</em> gesteckt. Ich stecke irgendwo in der Mitte des Spiels, bin schon unzählige Tode gestorben, bin vom Windows-Laptop auf das MacBook Pro gewechselt - Zeit also für ein Zwischenfazit, bevor der Artikel zu lang wird.</p>
+<p>Das Erste, was mir an <em>BG3</em> auffiel, war wie stark es vom darunterliegenden Regelwerk Dungeons &amp; Dragons (in Version 5E) geprägt wird und wie stark dies auch dem Spieler gezeigt wird. Den zwanzigseitigen Würfel kannte ich bereits, aber kein Spiel hat mir vorher explizit die Würfe gezeigt; höchstens einmal das Ergebnis. Fast jeder Dialog und jede Entscheidung, ja sogar Wahrnehmungen wie das Entdecken von Fallen wird als Skillcheck durch den Würfel entschieden (vergleichbar vielleicht mit <em>Disco Elysium</em>), und diese Interaktionen in der Spielwelt nehmen viel mehr Raum im Spiel ein als die Kämpfe. Dafür können letztere umso länger dauern, da sie rundenbasiert ablaufen und viel Zeit in die Auswahl der bestmöglichen nächsten Aktion fließen kann.</p>
+<p>Der D&amp;D-Unterbau ist zugleich Fluch und Segen von <em>BG3</em>. Er bringt eine tolle, vielfältige Fantasy-Welt mit; überfordert den Spieler anfangs aber gleichzeitig mit einer (imho teilweise unnötigen) Komplexität. Nur ein paar Beispiele: * Es gibt 18 Skills für die Würfelchecks, die von sechs Fertigkeiten abhängen. Dazu kommen Sonderboni durch Eigenschaften (Features) der gewählten Klasse, Rasse, Kleidung und eingenommenen Tränke. * Zaubern ist je nach Klasse von anderen Fertigkeiten abhängig. Zauberer benötigen Intelligence, Kleriker aber Wisdom. * Für Zauber gibt es Slots, die bestimmen, wieviele Zauber eines Levels in einem Kampf gewirkt werden können. Darüber hinaus gibt es aber auch Cantrips, die sich nicht verbrauchen. * Es gibt sage und schreibe 18 Waffenklassen, die sich aber theoretisch nur unterscheiden, ob sie zweihändig, vielseitig (ein- oder zweihändig) oder finesse (basierend auf Geschicklichkeit statt Kraft) sind. Auch bei den Fernwaffen gibt es eine ähnliche Vielfalt, wobei es aber bestimmter Features benötigt, um mit einer Waffe Schaden anzurichten.</p>
+<p>Es ist auf jeden Fall sinnvoll, sich mit den Zusammenhängen auseinander zu setzen. Ich empfehle zur Lektüre: * https://www.digitaltrends.com/gaming/baldurs-gate-3-dungeons-and-dragons-basics/ * https://blackcitadelrpg.com/ability-scores-5e/ * https://baldursgate3.wiki.fextralife.com/Baldur’s+Gate+3+Wiki</p>
+<p>Auf der positiven Seite heißt dies aber auch, dass es unglaublich viele Optionen gibt, in der Handlung voranzukommen. Viele Kämpfe können durch geschickte Dialoge und die richtigen Skills umgangen werden, und selbst in den Kämpfen gibt es neben Angriffen viele Optionen, mit der Umwelt zu interagieren oder diese zu den eigenen Gunsten zu manipulieren.</p>
+<p>Die Handlung und ihre Spielwelt ist generell das Highlight von <em>BG3</em>. Nach und nach schälen sich aus einem anfänglichen Mysterium die handelnden Bösewichter heraus, deren Handeln sehr gut durch die Geschichte ihrer Umwelt motiviert ist. Die Party-Mitglieder passen dazu wie die Faust aufs Auge, und ihre Dialoge sind nicht nur gut geschrieben, sondern auch ausgezeichnet vertont. Die Rassen und Klassen von D&amp;D sind dabei nicht nur schmückendes Beiwerk, sondern tief in den NPCs verankert, und wenn ich als Spieler den eigenen Charakter oder durch Manipulation die Party-Mitglieder zu Verhalten außerhalb ihres Backgrounds zwinge, dann hat dies immer Konsequenzen, mit denen ich leben muss.</p>
+<p>Einige Questgeber traf ich mehrmals im Spiel und konnte so direkt die Auswirkungen meiner vorherigen Entscheidungen sehen. Dabei sagt das Spiel gar nicht, ob etwas richtig oder falsch ist - viele Wege führen nach Rom. Vielmehr ist es wichtig, sich an den Rahmen von Rasse und Klasse zu halten, denn dies wird durch Inspirationspunkte belohnt, die erneute Würfelchecks nach gescheiterten Versuchen ermöglichen. Außerdem ist eine passende Party wichtig - wenn die Party-Mitglieder das eigene Verhalten missbilligen, kommt es früher oder später zu Konflikten oder sogar zum Split.</p>
+<p>So spielt jedes Zahnrad geschmeidig in das andere und ruft mich aktuell regelmäßig zurück an den Bildschirm. Natürlich gibt es auch ein paar Kleinigkeiten, die das Spielvergnügen trüben - dazu mehr in einem späteren Post. Doch als Gesamtpaket wird <em>BG3</em> den Vorschusslobeeren durchaus gerecht und ist das beste Rollenspiel seit langem - die vier Jahre Early Access (und mein Warten) haben sich definitiv gelohnt.</p>
+
+
+
+ ]]></description>
+  <category>gespielt</category>
+  <guid>https://kingoli.net/blog/2023/10/03/baldurs-gate-3-ein-zwischenfazit/</guid>
+  <pubDate>Tue, 03 Oct 2023 22:30:59 GMT</pubDate>
+</item>
 <item>
   <title>A Comic Summer</title>
-  <link>https://kingoli.net/blog/2023/07/19/a-comic-summer/index.html</link>
+  <link>https://kingoli.net/blog/2023/07/19/a-comic-summer/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -53,13 +78,14 @@
 
  ]]></description>
   <category>gelesen</category>
-  <guid>https://kingoli.net/blog/2023/07/19/a-comic-summer/index.html</guid>
+  <guid>https://kingoli.net/blog/2023/07/19/a-comic-summer/</guid>
   <pubDate>Wed, 19 Jul 2023 23:44:00 GMT</pubDate>
 </item>
 <item>
   <title>Edinburgh</title>
-  <link>https://kingoli.net/blog/2023/07/18/edinburgh/index.html</link>
+  <link>https://kingoli.net/blog/2023/07/18/edinburgh/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -87,13 +113,14 @@
 
  ]]></description>
   <category>gewesen</category>
-  <guid>https://kingoli.net/blog/2023/07/18/edinburgh/index.html</guid>
+  <guid>https://kingoli.net/blog/2023/07/18/edinburgh/</guid>
   <pubDate>Tue, 18 Jul 2023 12:14:00 GMT</pubDate>
 </item>
 <item>
   <title>Promising young woman / She said</title>
-  <link>https://kingoli.net/blog/2023/05/06/promising-young-woman-she-said/index.html</link>
+  <link>https://kingoli.net/blog/2023/05/06/promising-young-woman-she-said/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -112,13 +139,14 @@
 
  ]]></description>
   <category>gesehen</category>
-  <guid>https://kingoli.net/blog/2023/05/06/promising-young-woman-she-said/index.html</guid>
+  <guid>https://kingoli.net/blog/2023/05/06/promising-young-woman-she-said/</guid>
   <pubDate>Sat, 06 May 2023 21:05:00 GMT</pubDate>
 </item>
 <item>
   <title>Die Quendel-Trilogie</title>
-  <link>https://kingoli.net/blog/2023/04/13/quendel/index.html</link>
+  <link>https://kingoli.net/blog/2023/04/13/quendel/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -148,13 +176,14 @@
 
  ]]></description>
   <category>gelesen</category>
-  <guid>https://kingoli.net/blog/2023/04/13/quendel/index.html</guid>
+  <guid>https://kingoli.net/blog/2023/04/13/quendel/</guid>
   <pubDate>Thu, 13 Apr 2023 14:44:00 GMT</pubDate>
 </item>
 <item>
   <title>Ring Fit Adventure</title>
-  <link>https://kingoli.net/blog/2023/03/21/ring-fit-adventure/index.html</link>
+  <link>https://kingoli.net/blog/2023/03/21/ring-fit-adventure/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -177,13 +206,14 @@
 
  ]]></description>
   <category>gespielt</category>
-  <guid>https://kingoli.net/blog/2023/03/21/ring-fit-adventure/index.html</guid>
+  <guid>https://kingoli.net/blog/2023/03/21/ring-fit-adventure/</guid>
   <pubDate>Tue, 21 Mar 2023 15:30:59 GMT</pubDate>
 </item>
 <item>
   <title>42 x Popkultur</title>
-  <link>https://kingoli.net/blog/2023/03/09/42x-popkultur/index.html</link>
+  <link>https://kingoli.net/blog/2023/03/09/42x-popkultur/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -367,13 +397,14 @@
 
  ]]></description>
   <category>gedacht</category>
-  <guid>https://kingoli.net/blog/2023/03/09/42x-popkultur/index.html</guid>
+  <guid>https://kingoli.net/blog/2023/03/09/42x-popkultur/</guid>
   <pubDate>Thu, 09 Mar 2023 21:48:00 GMT</pubDate>
 </item>
 <item>
   <title>Shining Girls</title>
-  <link>https://kingoli.net/blog/2022/12/31/shining_girls/index.html</link>
+  <link>https://kingoli.net/blog/2022/12/31/shining_girls/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -392,13 +423,14 @@
 
  ]]></description>
   <category>gesehen</category>
-  <guid>https://kingoli.net/blog/2022/12/31/shining_girls/index.html</guid>
+  <guid>https://kingoli.net/blog/2022/12/31/shining_girls/</guid>
   <pubDate>Sat, 31 Dec 2022 10:05:00 GMT</pubDate>
 </item>
 <item>
   <title>Babel, Or the Necessity of Violence - An Arcane History of the Oxford Translators’ Revolution</title>
-  <link>https://kingoli.net/blog/2022/12/26/babel/index.html</link>
+  <link>https://kingoli.net/blog/2022/12/26/babel/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -421,13 +453,14 @@
 
  ]]></description>
   <category>gelesen</category>
-  <guid>https://kingoli.net/blog/2022/12/26/babel/index.html</guid>
+  <guid>https://kingoli.net/blog/2022/12/26/babel/</guid>
   <pubDate>Mon, 26 Dec 2022 14:44:00 GMT</pubDate>
 </item>
 <item>
   <title>Der Räuber Hotzenplotz</title>
-  <link>https://kingoli.net/blog/2022/12/11/raueber-hotzenplotz/index.html</link>
+  <link>https://kingoli.net/blog/2022/12/11/raueber-hotzenplotz/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -441,13 +474,14 @@
 
  ]]></description>
   <category>gesehen</category>
-  <guid>https://kingoli.net/blog/2022/12/11/raueber-hotzenplotz/index.html</guid>
+  <guid>https://kingoli.net/blog/2022/12/11/raueber-hotzenplotz/</guid>
   <pubDate>Sun, 11 Dec 2022 21:48:00 GMT</pubDate>
 </item>
 <item>
   <title>Markdown rules the world</title>
-  <link>https://kingoli.net/blog/2022/11/01/markdown-rules-the-world/index.html</link>
+  <link>https://kingoli.net/blog/2022/11/01/markdown-rules-the-world/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -464,13 +498,14 @@
  ]]></description>
   <category>gedacht</category>
   <category>getan</category>
-  <guid>https://kingoli.net/blog/2022/11/01/markdown-rules-the-world/index.html</guid>
+  <guid>https://kingoli.net/blog/2022/11/01/markdown-rules-the-world/</guid>
   <pubDate>Tue, 01 Nov 2022 21:48:00 GMT</pubDate>
 </item>
 <item>
   <title>Danke Robbie</title>
-  <link>https://kingoli.net/blog/2022/10/15/danke-robbie/index.html</link>
+  <link>https://kingoli.net/blog/2022/10/15/danke-robbie/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -485,13 +520,14 @@
  ]]></description>
   <category>gesehen</category>
   <category>gedacht</category>
-  <guid>https://kingoli.net/blog/2022/10/15/danke-robbie/index.html</guid>
+  <guid>https://kingoli.net/blog/2022/10/15/danke-robbie/</guid>
   <pubDate>Sat, 15 Oct 2022 23:48:00 GMT</pubDate>
 </item>
 <item>
   <title>Festival of Lights</title>
-  <link>https://kingoli.net/blog/2022/10/09/festival-of-lights/index.html</link>
+  <link>https://kingoli.net/blog/2022/10/09/festival-of-lights/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -504,13 +540,14 @@
 
  ]]></description>
   <category>gewesen</category>
-  <guid>https://kingoli.net/blog/2022/10/09/festival-of-lights/index.html</guid>
+  <guid>https://kingoli.net/blog/2022/10/09/festival-of-lights/</guid>
   <pubDate>Sun, 09 Oct 2022 00:14:00 GMT</pubDate>
 </item>
 <item>
   <title>Stadia - ein Nachruf</title>
-  <link>https://kingoli.net/blog/2022/10/02/stadia/index.html</link>
+  <link>https://kingoli.net/blog/2022/10/02/stadia/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -524,13 +561,14 @@
 
  ]]></description>
   <category>gespielt</category>
-  <guid>https://kingoli.net/blog/2022/10/02/stadia/index.html</guid>
+  <guid>https://kingoli.net/blog/2022/10/02/stadia/</guid>
   <pubDate>Sun, 02 Oct 2022 23:59:59 GMT</pubDate>
 </item>
 <item>
   <title>The French Dispatch</title>
-  <link>https://kingoli.net/blog/2022/10/02/the-french-dispatch/index.html</link>
+  <link>https://kingoli.net/blog/2022/10/02/the-french-dispatch/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -541,13 +579,14 @@
 
  ]]></description>
   <category>gesehen</category>
-  <guid>https://kingoli.net/blog/2022/10/02/the-french-dispatch/index.html</guid>
+  <guid>https://kingoli.net/blog/2022/10/02/the-french-dispatch/</guid>
   <pubDate>Sun, 02 Oct 2022 11:06:00 GMT</pubDate>
 </item>
 <item>
   <title>Return to Monkey Island</title>
-  <link>https://kingoli.net/blog/2022/09/30/return-to-monkey-island/index.html</link>
+  <link>https://kingoli.net/blog/2022/09/30/return-to-monkey-island/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -564,13 +603,14 @@
 
  ]]></description>
   <category>gespielt</category>
-  <guid>https://kingoli.net/blog/2022/09/30/return-to-monkey-island/index.html</guid>
+  <guid>https://kingoli.net/blog/2022/09/30/return-to-monkey-island/</guid>
   <pubDate>Fri, 30 Sep 2022 09:50:59 GMT</pubDate>
 </item>
 <item>
   <title>Tatort: Murot und das Gesetz des Karma</title>
-  <link>https://kingoli.net/blog/2022/09/25/murot-karma/index.html</link>
+  <link>https://kingoli.net/blog/2022/09/25/murot-karma/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -580,13 +620,14 @@
 
  ]]></description>
   <category>gesehen</category>
-  <guid>https://kingoli.net/blog/2022/09/25/murot-karma/index.html</guid>
+  <guid>https://kingoli.net/blog/2022/09/25/murot-karma/</guid>
   <pubDate>Sun, 25 Sep 2022 22:35:00 GMT</pubDate>
 </item>
 <item>
   <title>Phantastische Tierwesen: Dumbledores Geheimnisse</title>
-  <link>https://kingoli.net/blog/2022/09/24/dumbledores-geheimnisse/index.html</link>
+  <link>https://kingoli.net/blog/2022/09/24/dumbledores-geheimnisse/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -596,13 +637,14 @@
 
  ]]></description>
   <category>gesehen</category>
-  <guid>https://kingoli.net/blog/2022/09/24/dumbledores-geheimnisse/index.html</guid>
+  <guid>https://kingoli.net/blog/2022/09/24/dumbledores-geheimnisse/</guid>
   <pubDate>Sat, 24 Sep 2022 23:36:00 GMT</pubDate>
 </item>
 <item>
   <title>The Handmaid’s Tale - Staffel 4</title>
-  <link>https://kingoli.net/blog/2022/09/18/handmaids-tale-season-4/index.html</link>
+  <link>https://kingoli.net/blog/2022/09/18/handmaids-tale-season-4/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -615,13 +657,14 @@
 
  ]]></description>
   <category>gesehen</category>
-  <guid>https://kingoli.net/blog/2022/09/18/handmaids-tale-season-4/index.html</guid>
+  <guid>https://kingoli.net/blog/2022/09/18/handmaids-tale-season-4/</guid>
   <pubDate>Sun, 18 Sep 2022 09:04:00 GMT</pubDate>
 </item>
 <item>
   <title>Das Humboldt-Tier: Ein Marsupilami-Abenteuer</title>
-  <link>https://kingoli.net/blog/2022/09/16/das-humboldt-tier/index.html</link>
+  <link>https://kingoli.net/blog/2022/09/16/das-humboldt-tier/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -635,26 +678,8 @@
 
  ]]></description>
   <category>gelesen</category>
-  <guid>https://kingoli.net/blog/2022/09/16/das-humboldt-tier/index.html</guid>
+  <guid>https://kingoli.net/blog/2022/09/16/das-humboldt-tier/</guid>
   <pubDate>Fri, 16 Sep 2022 19:24:00 GMT</pubDate>
-</item>
-<item>
-  <title>The Batman</title>
-  <link>https://kingoli.net/blog/2022/09/06/batman/index.html</link>
-  <description><![CDATA[ 
-
-
-
-<p>Dunkel ist er, der neue Batman-Film, wie zuletzt bei Tim Burton. Die Fledermaus ist ein nachtaktives Tier, aber selbst in den Innenräumen (Wohnung des Opfers, Polizeirevier) wird nie ein Licht eingeschaltet, was auf die Dauer ebenso wie der Soundtrack auf die Stimmung drückt. Das spiegelt gut das Innenleben des hart an der Grenze zur Depression dargestellten Bruce Wayne wieder, den nur noch die nächtlichen Einsätze als Vergelter am Leben halten.</p>
-<p>Dem altbekannten Figurenensemble (Catwoman, Pinguin, Riddler) stellt der Film einen Realismus entgegen, der zwar nicht so weit wie der Joker-Film geht, aber sich dennoch deutlich vom comichaften abwendet. Das fängt beim “Kostüm” von Catwoman an, geht weiter bei der scheinbar selbstgehämmerten Batmanmaske und den sich nah an Serienmodellen orientierenden Motorrad, Batmobil und Wingsuit. Selbst der Riddler in seinem Sado-Maso-Ducktape-Outfit wirkt sehr ungewohnt.</p>
-<p>Aber das sind künstlerische Entscheidungen, über die man streiten könnte, wenn der Film sich nicht drei Stunden Zeit lassen würde, um sich in einem schlecht inszenierten und nicht nachvollziehbaren Finale zu verirren.</p>
-
-
-
- ]]></description>
-  <category>gesehen</category>
-  <guid>https://kingoli.net/blog/2022/09/06/batman/index.html</guid>
-  <pubDate>Tue, 06 Sep 2022 21:05:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

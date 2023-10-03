@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.367">
+<meta name="generator" content="quarto-1.4.398">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -137,6 +137,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 </header>
+
 
 <p>Terry Gilliams Filme stehen selten unter einem guten Stern. Wer <em>Lost in La Mancha</em> gesehen hat, weiß was ich meine. Darum glaube ich auch nicht, dass nach dem <a href="http://www.fuenf-filmfreunde.de/2009/01/17/terry-gilliam-is-back-for-don-quixote/">Rückkauf des Skriptes</a> irgendwer das Geld investiert, einen zweiten Anlauf für das <a href="http://de.wikipedia.org/wiki/Terry_Gilliam#The_Man_Who_Killed_Don_Quixote_und_andere_nicht_vollendete_Filmprojekte">Don Quixote</a>-Projekt zu unternehmen. Doch bitter erscheint es, dass der fast fertig produzierte <a href="http://www.doctorparnassus.com/">The Imaginarium of Doctor Parnassus</a> trotz seiner beeindruckenden Darstellerriege inklusive des verstorbenen und posthum Oscar-ausgezeichneten <a href="../../../../2008/01/23/too-young-to-die/">Heath Ledgers</a> momentan Schwierigkeiten hat, <a href="http://www.riskybusinessblog.com/2009/02/heath-ledgers-next-movie.html">einen Verleiher in den USA zu finden</a>. Ich hoffe aber darauf, dass es der Film im Gegensatz zu <a href="../../../../2007/08/01/tideland/">Tideland</a> in die deutschen Kinos schafft, und das nicht erst mit mehrjähriger Verspätung.</p>
 <p>Wahrscheinlicher erscheint jedoch eine <a href="http://www.fuenf-filmfreunde.de/2009/02/26/futurama-season-6-maybe-baby/">Fortsetzung von Futurama</a>…</p>
@@ -272,15 +273,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id.startsWith('sec-')) {
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
         for (let i = 0; i < 2; i++) {
           container.appendChild(note.children[i].cloneNode(true));
         }
+        typesetMath(container);
         return container.innerHTML
       } else {
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -289,6 +313,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
+      typesetMath(note);
       return note.innerHTML;
     }
   }
@@ -331,6 +356,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });
@@ -406,7 +454,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener(
       "resize",
       throttle(() => {
-        console.log("RESIZE");
         elRect = undefined;
         if (selectedAnnoteEl) {
           selectCodeLines(selectedAnnoteEl);

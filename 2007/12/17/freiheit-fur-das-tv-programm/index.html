@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.367">
+<meta name="generator" content="quarto-1.4.398">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -137,6 +137,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 </header>
+
 
 <p>Als vor zwei Jahren der Wikipedia-Gründer Jimmy Wales <a href="http://www.heise.de/newsticker/meldung/62516">eine Liste von 10 Dingen aufstellte, die frei sein sollten</a>, staunte man nicht schlecht, als sich darunter auch die Forderung nach freien TV-Listings befand. Hier in Deutschland ist dies so gut wie kein Problem; fast jeder bekommt mit seiner Tageszeitung einmal die Woche auch eine kostenfreie TV-Zeitschrift zugesandt und Dienste wie <a href="http://www.tvinfo.de">TVinfo</a> bieten einen schnellen Überblick über das aktuelle Tagesprogramm. Für alle darüber hinausgehenden Wünsche bietet der Markt eine breite Palette an Zeitschriften mit Zusatzinformationen an.</p>
 <p>Dennoch hatte ich schon früh mit einem TV-Programm-Programm für den PC experimentiert, als <a href="http://www.tvgenial.com/">dieses</a> noch komplett kostenlos war. Als ich dann von <a href="http://www.tvbrowser.org">TV-Browser</a> hörte, war ich schnell überzeugt und nutze seitdem die Software. OpenSource, kostenfrei, flexibel, aktuell und auch für Linux verfügbar - was will ich mehr? Zugegeben, aus einem Printmedium kann ich alle nötigen Informationen mit einem Blick erfassen, aber dafür ist TV-Browser genauso flexibel wie ich. Ich reise viel, habe den Laptop immer dabei und damit auch mein individualisiertes TV-Programm inklusive Terminen. Einmal die Woche aktualisiere ich den Datenbestand und bin somit nicht an den Freitag/Samstag-Wechsel der Zeitungsausgabe gebunden - vor die Tür muss ich erst Recht nicht und Müll produziere ich ebenfalls nicht.</p>
@@ -276,15 +277,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id.startsWith('sec-')) {
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
         for (let i = 0; i < 2; i++) {
           container.appendChild(note.children[i].cloneNode(true));
         }
+        typesetMath(container);
         return container.innerHTML
       } else {
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -293,6 +317,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
+      typesetMath(note);
       return note.innerHTML;
     }
   }
@@ -335,6 +360,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });
@@ -410,7 +458,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener(
       "resize",
       throttle(() => {
-        console.log("RESIZE");
         elRect = undefined;
         if (selectedAnnoteEl) {
           selectCodeLines(selectedAnnoteEl);

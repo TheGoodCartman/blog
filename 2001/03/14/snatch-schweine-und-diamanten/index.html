@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.367">
+<meta name="generator" content="quarto-1.4.398">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -137,6 +137,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 </header>
+
 
 <p><em>UK/USA (2000) Regie: Guy Ritchie Darsteller: Brad Pitt (Mickey O´Neil), Benicio Del Toro (Franky Vier Finger), Dennis Farina (Avi), Adam Fogerty (George), Alan Ford (Brick Top), Robbie Gee (Vincent), Stephen Graham (Tommy), Ade (Tyrone), Lennie James (Sol), Vinnie Jones (Bullet Tooth Tony), Mike Reid (Doug der Kopf), Rade Sherbedgia (Boris die Klinge), Jason Statham (Turkish), Sam Douglas (Rosebud), Austin Drage (Gypsy Kind), Andy Beckwith (Errol), Ewen Bremner (Mullet), Nikki &amp; Teena Collins (Alex &amp; Susi), Sorcha Cusack (Mum O´Neil), Jason Flemying (Darren), GOLDIE (Bad Boy Lincoln) und andere Zigeuner</em> <a href="http://www.snatch-der-film.de/">Offizielle Homepage</a></p>
 <p>Diamantendieb und -kurier Franky “Vier Finger”, der im Auftrag des New Yorker Gangsters Avi in Antwerpen einen großen Edelstein geraubt hat, macht auf seinem Weg zurück nach Manhattan in London halt. Er soll kleinere Steine bei Avis Cousin Doug “Der Kopf” und anderen Juwelieren in Hatton Garden abliefern. Doch leider ist er ein Spieler, und bei dem Versuch, eine Wette abzuschließen, ergattern 2 Kleinganoven, die zu dämlich waren, das Wettbüro zu überfallen, die Steine, die Avi jedoch um jeden Preis zurückhaben muss.</p>
@@ -275,15 +276,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id.startsWith('sec-')) {
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
         for (let i = 0; i < 2; i++) {
           container.appendChild(note.children[i].cloneNode(true));
         }
+        typesetMath(container);
         return container.innerHTML
       } else {
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -292,6 +316,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
+      typesetMath(note);
       return note.innerHTML;
     }
   }
@@ -334,6 +359,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });
@@ -409,7 +457,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener(
       "resize",
       throttle(() => {
-        console.log("RESIZE");
         elRect = undefined;
         if (selectedAnnoteEl) {
           selectCodeLines(selectedAnnoteEl);

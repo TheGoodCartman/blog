@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.367">
+<meta name="generator" content="quarto-1.4.398">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -138,6 +138,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 </header>
+
 
 <p><a href="../../../../2010/03/29/linux-ausgesperrt/">Weiter</a> <a href="../../../../2010/04/08/gedanken-zum-thema-firmwareupdates/">geht</a> es mit der Berichterstattung über Sonys Featurebeschneidung per Firmwareupdate. Denn es hat, <a href="http://www.playstationuniversity.com/ps3-owner-refunded-without-return-for-missing-other-os-3555/">so wird berichtet</a>, eine erste Händlerreaktion auf die Entfernung der Möglichkeit gegeben, alternative Betriebssysteme auf der PS3 zu installieren. Amazon UK soll einem Kunden 20% des Verkaufspreises zurückerstattet haben, als dieser auf ein EU-Gesetz verwies. Diese Nachricht führte zu breiten <a href="http://www.heise.de/newsticker/meldung/Amazon-zahlt-fuer-Wegfall-der-Linux-Funktion-bei-der-PS3-975486.html">Diskussionen</a>, ob dies nur ein Einzelfall war oder alle Besitzer der alten PS3-Versionen von Amazon für Sonys Kastrierung entschädigt werden - vielleicht sollte ich auch einmal mein Glück versuchen. Sony selber soll jedoch nicht für die Entschädigung einstehen.</p>
 <p>Interessant ist noch <a href="http://www.thinq.co.uk/news/2010/4/9/sony-says-sorry-for-other-os-take-down/">ein entschuldigendes Statement seitens Sony</a> über die Hintergründe der Entfernung des <em>OtherOs</em>-Features. Demnach soll die Integrität der Playstation bewahrt werden und man sieht sich im Interesse der Mehrheit der PS3-User handeln - eine Argumentation, der ich nicht folgen kann. Denn zum Einen hat man den Privatkrieg mit dem Hacker <a href="http://geohotps3.blogspot.com/">George Hotz</a> durch das Aussperren von Linux erst eröffnet und damit sich selber einen Bärendienst erwiesen, zum Anderen versteift sich Sony auf die Implikation, dass eine gehackte Playstation einen Nachteil für die Nutzer bedeutet. Dass dies für Sony der Fall ist bleibt unbestritten, aber nicht jeder PS3-Besitzer wird dieser Meinung sein.</p>
@@ -274,15 +275,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id.startsWith('sec-')) {
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
         for (let i = 0; i < 2; i++) {
           container.appendChild(note.children[i].cloneNode(true));
         }
+        typesetMath(container);
         return container.innerHTML
       } else {
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -291,6 +315,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
+      typesetMath(note);
       return note.innerHTML;
     }
   }
@@ -333,6 +358,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });
@@ -408,7 +456,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener(
       "resize",
       throttle(() => {
-        console.log("RESIZE");
         elRect = undefined;
         if (selectedAnnoteEl) {
           selectCodeLines(selectedAnnoteEl);

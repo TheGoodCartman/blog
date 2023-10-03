@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.367">
+<meta name="generator" content="quarto-1.4.398">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -138,6 +138,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 </header>
+
 
 <p>So ganz sicher bin ich mir noch nicht, ob dies nicht ein vorweggenommener schlechter Aprilscherz ist. Doch überall im Netz wird davon berichtet, dass Sony mit dem nächsten Systemupdate 3.21 für die Playstation 3 <a href="http://blog.us.playstation.com/2010/03/28/ps3-firmware-v3-21-update/">die Unterstützung für die Installation alternativer Betriebssysteme entfernen will</a>. Bisher konnte man ein <a href="../../../../2008/09/21/kubuntu-runs-my-playstation/">Linux</a> parallel zu der Sony-Oberfläche installieren, was oft als wichtigster Grund gewertet wird, dass sich die Hacker nicht auf die PS3 gestürzt haben und bis heute ihr Kopierschutz im Gegensatz zur XBox und Wii nicht geknackt ist.</p>
 <p>Zieht Sony die Ankündigung durch, könnte dieses Alleinstellungsmerkmal schnell fallen. Für mich wird sich erst einmal nicht viel ändern; bisher habe ich aufgrund der schwachen Systemleistung mein PS3-Ubuntu nur zum Ziehen von Blu-Ray-Sicherheitskopien verwendet und etwas mit der <a href="../../../../2009/07/19/videocodierung-mit-der-ps3/">Videokodierung</a> herumexperimentiert. Andererseits war die Installationsmöglichkeit eines Linux durchaus ein Grund, mir die Playstation zuzulegen und nicht die XBox von Microsoft. Und die Firma hinter Yellow Dog Linux und dem CodecSys-Videoencoder, Fixstars, hat ein ganzes Geschäftsmodell auf der Linux-Fähigkeit der Playstation aufgebaut. Die Akzeptanz dieser Maßnahme ist also fraglich.</p>
@@ -275,15 +276,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id.startsWith('sec-')) {
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
         for (let i = 0; i < 2; i++) {
           container.appendChild(note.children[i].cloneNode(true));
         }
+        typesetMath(container);
         return container.innerHTML
       } else {
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -292,6 +316,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
+      typesetMath(note);
       return note.innerHTML;
     }
   }
@@ -334,6 +359,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });
@@ -409,7 +457,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener(
       "resize",
       throttle(() => {
-        console.log("RESIZE");
         elRect = undefined;
         if (selectedAnnoteEl) {
           selectCodeLines(selectedAnnoteEl);

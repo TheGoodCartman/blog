@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.367">
+<meta name="generator" content="quarto-1.4.398">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -137,6 +137,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 </header>
+
 
 <iframe width="500" height="345" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.de/maps?f=d&amp;source=s_d&amp;saddr=John+F.+Kennedy+International+Airport,+New+York,+USA&amp;daddr=Philadelphia,+Pennsylvania,+USA+to:Washington,+District+of+Columbia,+USA+to:Niagara+Falls,+New+York,+USA+to:Albany,+New+York,+USA+to:Portsmouth,+New+Hampshire,+USA+to:Boston,+MA,+United+States+to:Plymouth,+Massachusetts,+USA+to:764+4th+Avenue,+Brooklyn,+NY,+USA&amp;geocode=FZ0tbAIdQyua-yllI1GpVmbCiTGZe5ylI7gLqw%3BFc-fYQIdcxeF-ynrS7XU2LfGiTHBWD6M2BT1iQ%3BFQh-UQIdsoRo-ylb5PZa3sa3iTEqXYjUIkVSwg%3BFdWBkQId5D1J-ym5TYLsXkTTiTGIor1WYcXSRg%3BFaPTigIduJGa-ylL-0_MNAreiTHEKOegEmOh4Q%3BFQs5kQIdxz_I-ykppNRKdb_iiTHOTjxIabRLZQ%3BFZ9WhgIdw7bD-ykbMT0NLWXjiTGg6GIBJL98eA%3BFZALfwIdHwnK-ylxLbLh77nkiTEjLuq2ynCQ6Q%3BFVJtbAIdwd6W-yn9ENKk6VrCiTGJl9-ryoNsAQ&amp;aq=0&amp;sll=40.984538,-74.841081&amp;sspn=5.456269,12.711182&amp;vpsrc=0&amp;hl=de&amp;mra=ls&amp;ie=UTF8&amp;t=p&amp;ll=40.996484,-74.838867&amp;spn=5.720129,11.008301&amp;z=6&amp;output=embed">
 </iframe>
@@ -311,15 +312,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id.startsWith('sec-')) {
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
         for (let i = 0; i < 2; i++) {
           container.appendChild(note.children[i].cloneNode(true));
         }
+        typesetMath(container);
         return container.innerHTML
       } else {
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -328,6 +352,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
+      typesetMath(note);
       return note.innerHTML;
     }
   }
@@ -370,6 +395,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });
@@ -445,7 +493,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener(
       "resize",
       throttle(() => {
-        console.log("RESIZE");
         elRect = undefined;
         if (selectedAnnoteEl) {
           selectCodeLines(selectedAnnoteEl);

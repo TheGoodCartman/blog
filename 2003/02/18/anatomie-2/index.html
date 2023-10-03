@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.367">
+<meta name="generator" content="quarto-1.4.398">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -137,6 +137,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 </header>
+
 
 <p><em>Deutschland (2003) Regie: Stefan Ruzowitzky Darsteller: Barnaby Metschurat (Jo Hauser), Herbert Knaup (Professor Müller-LaRousse), Heike Makatsch (Viktoria), Roman Knizka (Hagen), Wotan Wilke Möhring (Gregor), Frank Giering (Sven), Rosie Alvarez (Lee), Felix Kramer (Kurt), Sebastian Nakajew (Wulf), Joachim Bissmeier (Dr.&nbsp;Schinder), Hanno Koffler (Willi Hauser), Boris Pietsch (Manni/Fred), Franka Potente (Paula Henning), Rosel Zech (Dr.&nbsp;Bamberg), August Diehl (Benny) und andere Antihippokraten</em> <a href="http://www.anatomie-2.de/">Offizielle Homepage</a></p>
 <p>Der junge Arzt Jo Hauser hat seinen Vater durch eine seltene Muskelkrankheit verloren und hat deshalb eine sehr idealisierte Vorstellung von seiner Zukunft als Arzt. So nimmt er gerne die Gelegenheit war, mit dem anerkannten Professor Müller-LaRousse an Muskelimplantaten zu forschen. Doch bald muss er feststellen, dass der Professor und seine “Jünger” dabei nicht ganz ethisch vorgehen und der sogenannten Loge der Antihippokraten angehören. Doch in Anbetracht einer Heilung für seinen kranken Bruder lässt auch Jo sich von der Ausstrahlung des Professors blenden und tritt ebenfalls in die Loge ein. Zu spät erkennt er, dass er damit einen Pakt mit dem Teufel abgeschlossen hat, denn die Anhänger von Müller-LaRousse sind auch zugleich seine Testobjekte und der Professor verlangt immer schneller Ergebnisse. Zudem droht ein Mitglied der Loge mit dem Ausstieg und dem Gang an die Öffentlichkeit, wodurch die Situation langsam aus dem Ruder zu laufen scheint…</p>
@@ -276,15 +277,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id.startsWith('sec-')) {
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
         for (let i = 0; i < 2; i++) {
           container.appendChild(note.children[i].cloneNode(true));
         }
+        typesetMath(container);
         return container.innerHTML
       } else {
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -293,6 +317,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
+      typesetMath(note);
       return note.innerHTML;
     }
   }
@@ -335,6 +360,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });
@@ -410,7 +458,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener(
       "resize",
       throttle(() => {
-        console.log("RESIZE");
         elRect = undefined;
         if (selectedAnnoteEl) {
           selectCodeLines(selectedAnnoteEl);

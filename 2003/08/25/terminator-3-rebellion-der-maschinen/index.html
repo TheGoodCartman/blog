@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.367">
+<meta name="generator" content="quarto-1.4.398">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -137,6 +137,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 </header>
+
 
 <p><em>USA (2003) Regie: Jonathan Mostow Darsteller: Arnold Schwarzenegger (T-850), Nick Stahl (John Connor), Claire Danes (Kate Brewster), Kristanna Loken (T-X), David Andrews (Robert Brewster), Mark Famiglietti (Scott Petersen), Earl Boen (Dr.&nbsp;Peter Silberman) und andere Opfer der Apokalypse</em> <a href="http://www.terminator-3.de/">Offizielle Homepage</a></p>
 <p>John Connor muss mit einer schweren Bürde leben: Zweimal schon haben Killerroboter aus der Zukunft, genannt Terminatoren, versucht ihn und seine Mutter zu töten. Und dies nur, weil John angeblich nach der atomaren Apokalypse der Anführer der Widerstandsbewegung gegen die Herrschaft der Maschinen wird. Doch obwohl der prophezeite Tag des jüngsten Gerichts nie eingetroffen ist, lebt John allein und von alptraumhaften Visionen geplagt im Untergrund. Dummerweise läuft er bei der Beschaffung von Drogen genau der neusten Killermaschine über den Weg, die mal wieder versuchen soll die Führungskräfte der späteren Maschinengegner zu eliminieren. Aber auch dieser Widerstand der Zukunft sendet erneut einen Beschützer für John: Den Terminator T-850, der sich durch einen erfolgreichen Mord im Jahre 2035 für diesen Job “beworben” hat und nun umprogrammiert John und seine spätere Frau Kate Brewster an einen sicheren Ort eskortieren soll. Was John nicht weiß ist, dass Kates Vater der Chefentwickler von “Skynet” ist, jener Maschine welche bald die Kontrolle über die atomaren Waffen der USA übernimmt und den Weltuntergang einleiten wird…</p>
@@ -279,15 +280,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id.startsWith('sec-')) {
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
         for (let i = 0; i < 2; i++) {
           container.appendChild(note.children[i].cloneNode(true));
         }
+        typesetMath(container);
         return container.innerHTML
       } else {
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -296,6 +320,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
+      typesetMath(note);
       return note.innerHTML;
     }
   }
@@ -338,6 +363,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });
@@ -413,7 +461,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener(
       "resize",
       throttle(() => {
-        console.log("RESIZE");
         elRect = undefined;
         if (selectedAnnoteEl) {
           selectCodeLines(selectedAnnoteEl);
