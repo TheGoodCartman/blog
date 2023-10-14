@@ -9,12 +9,14 @@ categories: [gespielt]
 Das Erste, was mir an *BG3* auffiel, war wie stark es vom darunterliegenden Regelwerk Dungeons & Dragons (in Version 5E) geprägt wird und wie stark dies auch dem Spieler gezeigt wird. Den zwanzigseitigen Würfel kannte ich bereits, aber kein Spiel hat mir vorher explizit die Würfe gezeigt; höchstens einmal das Ergebnis. Fast jeder Dialog und jede Entscheidung, ja sogar Wahrnehmungen wie das Entdecken von Fallen wird als Skillcheck durch den Würfel entschieden (vergleichbar vielleicht mit *Disco Elysium*), und diese Interaktionen in der Spielwelt nehmen viel mehr Raum im Spiel ein als die Kämpfe. Dafür können letztere umso länger dauern, da sie rundenbasiert ablaufen und viel Zeit in die Auswahl der bestmöglichen nächsten Aktion fließen kann.
 
 Der D&D-Unterbau ist zugleich Fluch und Segen von *BG3*. Er bringt eine tolle, vielfältige Fantasy-Welt mit; überfordert den Spieler anfangs aber gleichzeitig mit einer (imho teilweise unnötigen) Komplexität. Nur ein paar Beispiele:
+
 * Es gibt 18 Skills für die Würfelchecks, die von sechs Fertigkeiten abhängen. Dazu kommen Sonderboni durch Eigenschaften (Features) der gewählten Klasse, Rasse, Kleidung und eingenommenen Tränke.
 * Zaubern ist je nach Klasse von anderen Fertigkeiten abhängig. Zauberer benötigen Intelligence, Kleriker aber Wisdom.
 * Für Zauber gibt es Slots, die bestimmen, wieviele Zauber eines Levels in einem Kampf gewirkt werden können. Darüber hinaus gibt es aber auch Cantrips, die sich nicht verbrauchen.
 * Es gibt sage und schreibe 18 Waffenklassen, die sich aber theoretisch nur unterscheiden, ob sie zweihändig, vielseitig (ein- oder zweihändig) oder finesse (basierend auf Geschicklichkeit statt Kraft) sind. Auch bei den Fernwaffen gibt es eine ähnliche Vielfalt, wobei es aber bestimmter Features benötigt, um mit einer Waffe Schaden anzurichten.
 
 Es ist auf jeden Fall sinnvoll, sich mit den Zusammenhängen auseinander zu setzen. Ich empfehle zur Lektüre:
+
 * https://www.digitaltrends.com/gaming/baldurs-gate-3-dungeons-and-dragons-basics/
 * https://blackcitadelrpg.com/ability-scores-5e/
 * https://baldursgate3.wiki.fextralife.com/Baldur's+Gate+3+Wiki
