@@ -17,9 +17,9 @@ Der D&D-Unterbau ist zugleich Fluch und Segen von *BG3*. Er bringt eine tolle, v
 
 Es ist auf jeden Fall sinnvoll, sich mit den Zusammenhängen auseinander zu setzen. Ich empfehle zur Lektüre:
 
-* https://www.digitaltrends.com/gaming/baldurs-gate-3-dungeons-and-dragons-basics/
-* https://blackcitadelrpg.com/ability-scores-5e/
-* https://baldursgate3.wiki.fextralife.com/Baldur's+Gate+3+Wiki
+* [https://www.digitaltrends.com/gaming/baldurs-gate-3-dungeons-and-dragons-basics/](https://www.digitaltrends.com/gaming/baldurs-gate-3-dungeons-and-dragons-basics/)
+* [https://blackcitadelrpg.com/ability-scores-5e/](https://blackcitadelrpg.com/ability-scores-5e/)
+* [https://baldursgate3.wiki.fextralife.com/Baldur's+Gate+3+Wiki](https://baldursgate3.wiki.fextralife.com/Baldur's+Gate+3+Wiki)
 
 Auf der positiven Seite heißt dies aber auch, dass es unglaublich viele Optionen gibt, in der Handlung voranzukommen. Viele Kämpfe können durch geschickte Dialoge und die richtigen Skills umgangen werden, und selbst in den Kämpfen gibt es neben Angriffen viele Optionen, mit der Umwelt zu interagieren oder diese zu den eigenen Gunsten zu manipulieren.
 
