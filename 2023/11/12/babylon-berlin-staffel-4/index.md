@@ -1,5 +1,5 @@
 ---
-title: "Babylin Berlin - Staffel 4"
+title: "Babylon Berlin - Staffel 4"
 date: "2023-11-12T23:55:00"
 categories: [gesehen]
 ---
