@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.489">
+<meta name="generator" content="quarto-1.4.533">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -61,6 +61,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -139,7 +140,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="http://gigapan.com/gigapans/115994"><img src="budapest_01_500.jpg" class="img-fluid" alt="Budapest nächtliches Panorama"></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="http://gigapan.com/gigapans/115994"><img src="budapest_01_500.jpg" class="img-fluid figure-img" alt="Budapest nächtliches Panorama"></a></p>
+<figcaption>Budapest nächtliches Panorama</figcaption>
+</figure>
+</div>
 <p>Mein erster Eindruck von der Stadt an der Donau war noch geprägt von der Suche nach der nicht ausgeschilderten U-Bahn an der Baustelle des Ostbahnhofs (<em>Keleti pályaudvar</em>). Doch am Abend, als ich auf der Margaretenbrücke (<em>Margit híd</em>) stand und sich die grandios angeleuchteten Sehenswürdigkeiten vor mir ausbreiteten, hatte die Stadt mich für sich eingenommen. Das <a href="http://gigapan.com/gigapans/115994">Panorama</a> wird auf der östlichen Donauseite, dem flachen Pest, von der neogotischen Fassade des Parlamentgebäudes (<em>Országház</em>) bestimmt. Die Ketten- und die Elisabethenbrücke (<em>Széchenyi Lánchíd</em> &amp; <em>Erzsébet híd</em>) liegen am Fuße des Gellertberges (<em>Gellért-hegy</em>) mit seiner Zitadelle und der ungarischen Freiheitsstatue (<em>Szabadság-szobor</em>). Am westlichen Buda-Ufer prägen der Burgberg (<em>Várnegyed</em>) mit dem Burgpalast (<em>Budavári palota</em>) und die Fischerbastei (<em>Halászbástya</em>) das Bild - allesamt in das warme Licht von unzähligen Scheinwerfern getaucht. Wenn die Ungarn eines können, dann ihre Bauwerke effektiv in Szene zu setzen.</p>
 <p>Doch auch am Tag zeigte sich Budapest von seiner besten Seite. Das trocken-warme Kontinentalklima tat das Seine, um mir das Schlendern durch die Stadt in der wenigen Zeit, die mir neben dem <a href="../../../../2012/09/04/sziget-2012/">Sziget</a> blieb, angenehm zu machen. So habe ich Ungarns Hauptstadt an fünf Vormittagen erkundet und dabei einiges gesehen. Da ich beim Schreiben über das Gesehene feststellte, dass der Artikel immer länger und länger wurde, habe ich ihn nun so geteilt, wie es die Stadt vor 1873 war - nämlich in <a href="../../../../2012/11/04/buda/">Buda</a> und <a href="../../../../2012/11/04/pest/">Pest</a>.</p>
 
@@ -274,38 +280,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        for (let i = 0; i < 2; i++) {
-          container.appendChild(note.children[i].cloneNode(true));
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
         }
-        typesetMath(container);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
         return container.innerHTML
       } else {
-        typesetMath(note);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -314,7 +310,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      typesetMath(note);
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
       return note.innerHTML;
     }
   }
