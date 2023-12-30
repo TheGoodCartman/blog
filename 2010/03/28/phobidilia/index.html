@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.533">
+<meta name="generator" content="quarto-1.4.515">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -61,7 +61,6 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -144,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Regev Wainblum war einst ein erfolgreicher Programmierer, ein Yuppie und Lebemann. Doch dann führte ein nicht näher erläutertes Ereignis dazu, dass er sich der Außenwelt verschloss und fortan nicht mehr die Wohnung verlässt. Arbeiten kann er über das Internet, Entspannung findet er in dem zur Wohnung gehörenden Garten, doch die meiste Zeit verbringt er vor dem Fernsehgerät. Da kommt es ihm gelegen, dass er von der Vertreterin Daniela mit dem Vermieter seiner Wohnung verwechselt wird und ein kostenloses Pay-TV-Abonnement erhält. Nun hat er Zugriff auf noch mehr mediale Berieselung, während sich gleichzeitig Daniela für ihn interessiert. Doch der Hausverwalter, von Wainblum nur Grumps genannt, hat es sich zur Aufgabe gemacht, Wainblum zum Verlassen der Wohnung zu bewegen und beginnt einen Kleinkrieg mit ihm.</p>
 <p>Damit sind auch schon alle Figuren genannt, die in dieser kammerspielartigen Abrechnung mit einer mediengetriebenen Erziehung auftreten. Wainblum ist ein Mensch, der durch seine selbstgewählte Abgeschiedenheit die Außenwelt nur noch gefiltert durch Computer, Telefon und Fernseher wahrnimmt. Er hat keine weiteren Kontakte nach außen mehr und die Bilder und Worte der Mattscheibe so aufgesogen, dass er die Fähigkeit verloren hat, Inszenierung und Wirklichkeit zu differenzieren, und schließlich die Fernsehinhalte zu imitieren beginnt. Auf Konflikte reagiert er entweder, indem er sich weiter zurückzieht oder, wenn er in der Enge seiner Zuflicht gestellt wird, mit dem aus dem Fernsehen erlernten Verhalten. Doch die zwei gleichzeitig, wenn auch mit unterschiedlichenen Mitteln, an seiner Isolation rüttelnden Eindringlinge bringen das sorgsam geordnete Leben von Regev so durcheinander, dass dieses nach und nach zusammenbricht. Am Ende gibt es nur noch zwei Auswege - den totalen Zusammenbruch oder die Rückkehr ins Leben.</p>
 <p>Inszeniert von zwei israelischen Regisseuren, überzeugt der Film neben seinen Hauptdarstellern und der gelungenen Kamera vor allem durch den Soundtrack. Als Videoregisseure haben die Brüder Yoav and Doron Paz genügend Erfahrung für Einsatz und Timing der elektronisch-rockigen Songs, wissen dies aber auch auf Spielfilmlänge umzusetzen. Ein sehr gelungener Film wie ich finde.</p>
-<div class="img-fluid quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Phobidilia.jpg" class="img-fluid figure-img"></p>
 <figcaption>Regisseur Paz</figcaption>
@@ -282,6 +281,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
@@ -296,14 +316,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             break;
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
+        typesetMath(container);
         return container.innerHTML
       } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -312,9 +328,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
+      typesetMath(note);
       return note.innerHTML;
     }
   }

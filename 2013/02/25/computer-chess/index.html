@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.533">
+<meta name="generator" content="quarto-1.4.515">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -61,7 +61,6 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -149,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Autor und Regisseur Andrew Bujalski, der Vorreiter des Mumblecore, bleibt mit <em>Computer chess</em> seinem Genre treu. Mit geringstem Budget und fast ausschließlich in einer Hotelanlage gedreht, lebt der Film von seinen Dialogen, die zwischen Humor und nerdigem Detailreichtum vor allem eines schaffen - den Anfang der 80er Jahre auf der Leinwand erneut zum Leben zu erwecken.</p>
 <p>Da reiht sich neben den Kostümen und Frisuren auch die Kamera mit ein. Während in selbstreferentieller Manier ein Kameramann den Schachsoftwarekongress mit seiner Videokamera festhält (und gleich am Anfang dafür gescholten wird, die Kamera in die Sonne zu halten - daraufhin folgt nur noch eine einzige Außenszene), ist der ganze Film selber mit solchen Kameras in schwarz-weißem 4:3 gedreht und hat mit allen Problemen dieser Wahl zu kämpfen: Unschärfen aufgrund des prähistorischen Autofokus, fehlende Details und künstliche Artefakte wie Staub auf der Linse machen in kürzester Zeit aus dem Effekt, sich 30 Jahre zurückversetzt zu fühlen, ein Ärgernis für die Augen (die offizielle Homepage gibt einen guten Einblick in die “Qualität” der Aufnahmen).</p>
 <p>Trotz vieler interessanter Ansätze (u.a. die Running Gags um die Katzenplage und die andauernde Zimmersuche von Papageorge) dümpelt <em>Computer chess</em> schließlich unentschlossen und ohne richtigen Handlungsfaden vor sich hin, so dass ich hin- und hergerissen bin: Eine grauenvolle Kamera trifft auf eine detailverliebte Homage an die ersten Programmierer von Schachsoftware; am Ende war ich jedoch froh, den Film hinter mich gebracht zu haben!</p>
-<div class="img-fluid quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="berlinale_computer_chess_bujalski.jpg" class="img-fluid figure-img"></p>
 <figcaption>Andrew Bujalski, Autor und Regisseur von Computer chess</figcaption>
@@ -287,6 +286,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
@@ -301,14 +321,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             break;
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
+        typesetMath(container);
         return container.innerHTML
       } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -317,9 +333,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
+      typesetMath(note);
       return note.innerHTML;
     }
   }

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.533">
+<meta name="generator" content="quarto-1.4.515">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -61,7 +61,6 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -143,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Stadt aus Stein - das beschreibt den <em>Old town</em> von Edinburgh für mich am Besten. Weil im Spätmittelalter die Anzahl der Einwohner ständig zunahm, die Fläche innerhalb der Stadtmauern aber begrenzt war, wurde jeder freie Platz zu- und zudem in die Höhe gebaut. Was in ähnlicher Konstellation in <a href="../../../../2012/06/16/drachen-uber-dubrovnik/">Dubrovnik</a> mit den hübschen roten Dächern und dem immerblauen Hintergrund aus Meer und Himmel wunderbar anzuschauen ist, hat mich in Edinburgh deprimiert.</p>
 <p>Zum Einen ist wirklich kaum Grün zu sehen, dafür überall der dank des feuchten Klimas dunkel angelaufene Kalkstein. Zum Anderen ist nur ein kleiner Teil der Straßen verkehrsberuhigt, so dass ich nicht entspannt über die <em>Royal Mile</em> flanieren konnte sondern als Fußgänger auf engen Fußwegen balancieren musste, während Reisebusse neben mir langrauschten.</p>
 <p>Spannend an diesem mittelalterlichen Hochhausbau fand ich aber, dass die Schotten auf die Idee kamen, Brücken durch die Häuserschluchten zu bauen. Dadurch bildeten sich abgeschlossene Räume unter den Brückenbögen, die als <a href="https://en.wikipedia.org/wiki/Edinburgh_Vaults">Vaults</a> eine unrühmliche Bekanntheit erlangten, da sich neben Obdachlosen auch die verschiedensten Schmuggler und Verbrecher in den Kellern ohne Tageslicht tummelten - und heute Touristen auf Gruseltouren.</p>
-<div class="img-fluid quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="PXL_20230718_104916682.NIGHT.jpg" class="img-fluid figure-img"></p>
 <figcaption>South Bridge Vaults</figcaption>
@@ -151,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>Generell hat sich die Stadt voll auf Tourismus eingestellt, so dass sich in der Innenstadt ein Giftshop an den anderen reiht und auch die Pubs deutlich machen, dass hier kein Einheimischer vorbeischaut. Diese sind vollkommen aus der Innenstadt vertrieben worden, so dass die steinernen Mauern das einzig verbliebene authentische sind. Hier lebt Schottland nicht, hier wird es ausgestellt und vor allem verkauft, und besteht nur aus Whisky, Tweed, Highland Cows und Nessie.</p>
 <p>Wer Edinburgh von einer besseren Seite erleben will, kann beruhigt einen Bogen um die <em>Royal Mile</em> machen und sich gleich den Parks widmen - z.B. <em>The Meadows</em> mit den schön integrierten Neubauten in der Nähe der Universität oder <em>Calton Hill</em> mit seiner seltsamen Ansammlung von teilweise nicht fertiggestellten Monumenten.</p>
-<div class="img-fluid quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="DJI_0029.jpg" class="img-fluid figure-img"></p>
 <figcaption>Holyrood Park</figcaption>
@@ -291,6 +290,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
@@ -305,14 +325,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             break;
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
+        typesetMath(container);
         return container.innerHTML
       } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -321,9 +337,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
+      typesetMath(note);
       return note.innerHTML;
     }
   }

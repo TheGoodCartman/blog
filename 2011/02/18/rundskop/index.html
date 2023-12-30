@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.533">
+<meta name="generator" content="quarto-1.4.515">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -61,7 +61,6 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -145,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Als er anfängt, mit wallonischen Viehhändlern Geschäfte zu machen, tritt er damit eine Reihe von Ereignissen in Gang. So kommt er wieder in Kontakt mit Lucia, seinem Schwarm aus Kindertagen, deren Bruder ihn einst verstümmelte, und mit seinem damaligen besten Kumpel, Jeroen, der nun als Spion der Polizei für die wallonische Hormonmafia arbeitet. Da diese einen Veterinärkontrolleur ermorden ließ, ermittelt die Polizei bald auch in Richtung Jacky.</p>
 <p>Und damit gilt weiterhin die Prämisse: Aus <a href="../../../../blog/?s=belgien">Belgien</a> kommen keine optimistischen Filme, sondern meist bedrückende Werke. <em>Rundskop</em> macht da keine Ausnahme. Das Leben von Jacky Vanmarsenille wird von klein auf von den Hormomen bestimmt. Sein Vater war in den Handel damit verwickelt, und der Sohn eines Handelspartners verstümmelte seine Geschlechtsorgane. Doch der Angreifer kommt unbehelligt davon, weil das Geschäft zu wichtig ist. Jackys Vater verzweifelt an diesem Unglück, und so bleibt es an seinem Sohn hängen, den Familienbetrieb weiterzuführen und sich gleichzeitig selber mit Hormomen zu dopen. So ein Charakter läuft natürlich nicht in ein Happy End hinein, sondern nimmt geradeaus Fahrt auf sein tragisches Ende.</p>
 <p>Leider ist damit schon fast alles über <em>Rundskop</em> erzählt. Nur selten, wie etwa bei der übertriebenen, teilweise lächerlichen Darstellung der Wallonen, verlässt der Film seinen deprimierenden Pfad. Ansonsten sind alle Charaktere tragische Figuren, deren Suche nach ein wenig persönlichem Glück unerfüllt bleibt. Damit ist es für den Zuschauer schwierig, Sympathien für den Film aufzubauen. Ich hatte mir jedenfalls mehr erwartet…</p>
-<div class="img-fluid quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="rundskop.jpg" class="img-fluid figure-img"></p>
 <figcaption>Rundskop</figcaption>
@@ -283,6 +282,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
@@ -297,14 +317,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             break;
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
+        typesetMath(container);
         return container.innerHTML
       } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -313,9 +329,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
+      typesetMath(note);
       return note.innerHTML;
     }
   }
