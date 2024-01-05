@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.515">
+<meta name="generator" content="quarto-1.4.534">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -61,6 +61,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -142,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
 <p>… kann das Wetter auch mies sein - jedenfalls solange ich dort weile. Seit heute zeigt Zürich wieder blauen Himmel, was meine Fotos jedoch nicht rettet. Trotzdem konnte ich mich davon überzeugen, dass die Stadt ein angenehmer Ort zum Leben und vor allem zum Studieren ist. Teile von <a href="http://www.unizh.ch/">Uni</a> und <a href="http://www.ethz.ch/">ETH</a> liegen direkt im Zentrum, wodurch man als Student gut zu Fuß sein sollte. Denn links und rechts des Zürich-Sees und seines Abflusses Limmat geht es schnell steil bergauf.</p>
 <p>Die vielen kleinen Gassen im mittelalterlichen Stadtkern haben mich dann auch am meisten beeindruckt. Keine Straße gleicht der nächsten, überall gibt es kleine Geschäfte und viele Details zu sehen. In einem Haus startet eine kleine <a href="http://de.wikipedia.org/wiki/UBS_Polybahn">Standseilbahn</a>, in einem anderen kann man die Überreste einer römischen Bäderanlage bewundern.</p>
 <p>Und natürlich habe ich mir die Gelegenheit nicht entgehen lassen, wieder einen Kirchturm zu besteigen. In Zürich bietet sich dazu der <a href="http://www.grossmuenster.ch/content/e10547/index_ger.html">Karlsturm des Großmünster</a> an, der zwar nicht allzu hoch ist (62m, 187 Stufen), aber trotzdem einen guten Ausblick über die Altstadt und den Zürichsee bietet. Bei gutem Wetter wohlgemerkt. Zumindest bietet eine Website die <a href="http://www.swisspanoramas.ch/kirchen/zuerich/zuerich/grossmuenster/034.html">Panoramen</a> an, die mir verwehrt blieben.</p>
-<div class="quarto-figure quarto-figure-center">
+<div class="img-fluid quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="grossmuenster.jpg" class="img-fluid figure-img"></p>
 <figcaption>grossmuenster.jpg</figcaption>
@@ -283,27 +284,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
@@ -318,10 +298,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             break;
           }
         }
-        typesetMath(container);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
         return container.innerHTML
       } else {
-        typesetMath(note);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -330,7 +314,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      typesetMath(note);
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
       return note.innerHTML;
     }
   }

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.515">
+<meta name="generator" content="quarto-1.4.534">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -61,6 +61,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -146,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Es besteht also eine gut sichtbare Diskrepanz zwischen der Wahrnehmung des Ortes als Kulisse durch den Regisseur im Film und seiner bitteren realen Bedeutung als Zentrum der Armut. Diese dient den Filmemachern ohnehin nur als Vehikel, schließlich sind sie selber niemals damit in Berührung gekommen, was ihren Bemühungen um die Darstellung eines international akzeptiertes Bild des Slums lächerlich erscheinen lässt. Auf der anderen Seite hat <em>The Woman in the Septic Tank</em> natürlich selber dieses Problem, da es den Slum innerhalb eines bewusst übertriebenen Filmes darstellt - wie real ist also, was der Zuschauer auf der Leinwand als Kulisse zu sehen bekommt?</p>
 <p>Bis kurz vor dem Ende macht dieses Spiel mit den Erwartungen der Zuschauer <em>The Woman in the Septic Tank</em> zu einem sehr unterhaltsamen Film. Leider greift der Film-im-Film am Ende aber auf den äußeren Film über und befriedigt mit einem Sturz der Diva in die titelgebende Klärgrube genau die Erwartungen, die man vorher noch satirisch kritisiert hat.</p>
 <p>Die anwesenden Regisseur und Drehbuchautor konnten den Film nach der Vorführung in den richtigen Kontext rücken: Auf den Philippinen gibt es kein Geld für Filme abseits des Mainstreams, und so musste <em>The Woman in the Septic Tank</em>, der sich genau mit der Abhängigkeitssituation zwischen den Erwartungen des Publikums und den auf breite Vermarktung abzielenden Produzenten beschäftigt, aufgrund von mangelnder Finanzierung in nur 10 Drehtagen abgedreht werden. Dank der auch im realen Leben bekannten Schauspielerin Eugene Domingo wurde jedoch ein Zuschauerrekord auf den Philippinen erzielt und ich traue dem Film zu, das weltweit zu toppen.</p>
-<div class="quarto-figure quarto-figure-center">
+<div class="img-fluid quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="septic.jpg" class="img-fluid figure-img"></p>
 <figcaption>Regisseur, Drehbuchautor und Produzentin von Ang Babae sa Septic Tank</figcaption>
@@ -284,27 +285,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
@@ -319,10 +299,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             break;
           }
         }
-        typesetMath(container);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
         return container.innerHTML
       } else {
-        typesetMath(note);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -331,7 +315,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      typesetMath(note);
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
       return note.innerHTML;
     }
   }

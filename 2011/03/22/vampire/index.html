@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.515">
+<meta name="generator" content="quarto-1.4.534">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -61,6 +61,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -147,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Die eigentlichen Blutabnahmesequenzen sind dafür sehr melancholisch inszeniert mit einer anfangs sehr passend empfundenen Streicher- und Pianomusik. Dieser fehlt es jedoch an Variationen und so langweilt sie schließlich bei der x-ten Wiederholung. Es dauert eine ganze Weil, bis <em>Vampire</em> dem Zuschauer endlich eine Option anbietet, wie diese verquere Geschichte zu deuten ist. Kurz vor Schluss wird Simon nämlich gezeigt, wie er seiner Schülerin im Krankenhaus Blut spendet. In ebensolchen Aufnahmen wie bei der Blutentnahme seiner Suizidverabredungen sieht man das Blut aus seinem Arm entfließen, und zusammen mit den folgenden traumartigen Sequenzen (u.a. eine Flucht vor der Polizei, bei der Simon plötzlich in der Luft schwebt) kann ich nur schließen, dass bis auf den Selbstmordversuch der Austauschschülerin sich die gesamte Handlung nur im Kopf von Simon abspielt als Folge des Blutverlustes.</p>
 <p>Festgehalten wurden die oft sehr schönen Bildkompositionen übrigens von einer Spiegelreflexkamera (der Canon EOS 5D). Dies merkt man in einigen Szenen, wenn ihre Schwächen wie vermatschte Farben im Dämmerlicht, geringe Auflösung und dadurch entstandenes Aliasing sichtbar werden. Über die gesamte Spielzeit des Films überrascht jedoch die Qualität der Bilder; durch die Kompaktheit der Kamera werden einige interessante Perspektiven ermöglicht.</p>
 <p><em>Vampire</em> ist sicherlich nicht der künstlerisch anspruchsvollste Film auf der diesjährigen Berlinale. Iwai Shunji verliert sich einfach zu oft in verträumt schwermütigen, aber nichtssagenden Bildern und übertreibt es mit dem selbstgeschriebenen Score. Dennoch ist genau diese Stimmung gut bei mir angekommen und der Film hat seine Momente, an denen er mehr ist als der leicht ironisch angehauchte Versuch, ein eigentlich ernstes Thema (die hohe Suizidquote in Japan) romantisierend zu verarbeiten.</p>
-<div class="quarto-figure quarto-figure-center">
+<div class="img-fluid quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="vampire.jpg" class="img-fluid figure-img"></p>
 <figcaption>Vampire</figcaption>
@@ -285,27 +286,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
@@ -320,10 +300,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             break;
           }
         }
-        typesetMath(container);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
         return container.innerHTML
       } else {
-        typesetMath(note);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -332,7 +316,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      typesetMath(note);
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
       return note.innerHTML;
     }
   }
