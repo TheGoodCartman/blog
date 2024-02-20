@@ -1,6 +1,6 @@
 ---
 title: "Stray"
-date: "2024-01-29T22:30:59"
+date: "2024-01-04T22:30:59"
 categories: [gespielt]
 ---
 
