@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.537">
+<meta name="generator" content="quarto-1.5.16">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The KingOli Blog - Chihiros Reise ins Zauberland</title>
+<title>The KingOli Blog – Chihiros Reise ins Zauberland</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -146,7 +146,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Doch eins kann ich vorwegnehmen - niemand im Saal hatte das falsche Alter für diesen Film, denn das Wunderbare an ihm ist, dass er jede Altersgruppe anspricht und viele Dinge nicht explizit sagt, sondern viel mehr andeutet, so dass man hinterher seinen Kindern keine unangenehmen Fragen beantworten muss und trotzdem mehr mitnimmt als die Kleinen. Chihiros Reise versteckt sich ein bisschen hinter der alles umfassenden Fantasie, mit der diese Welt der Götterbadeanstalt dargestellt wird. Am Anfang stürzen alle diese seltsamen Figuren auf den Zuschauer genauso wie auf die Hauptdarstellerin ein, doch im Gegensatz zur Chihiro bekommt man vom Kinosessel aus die Welt nicht unter Kontrolle. Kaum denkt man dass man weiß wie es nun weitergeht, folgt eine neue Wendung in der Handlung und lässt alles ganz anders aussehen. Nichts ist wirklich gut oder böse, schön oder hässlich, sondern jede Figur hat viele verschieden Seiten, die man erst nach und nach kennen und verstehen lernt.</p>
 <p>Doch während die Kinder sich in der vollkommen gewalt- und sexfreien Welt verlieren, werden Erwachsene die vielen Bilder des Films interpretieren. Da treffen sozialkritische Themen (alleine das Badehaus mit den mit Knebelverträgen (Wegnahme des Namens) ausgestatteten Dienern, reichen und reicheren Gästen und der im Keller versteckten Energieanlage) auf ökologische Themen (der Flussgott, der zum Matschgott mutiert und Haku, der als Fluss einbetoniert wurde), und mittendrin total verloren die kleine Chihiro, die ohne Vorbereitung in diese Welt geworfen eine ganze Weile und viel Unterstützung benötigt, um sich darin zurecht zu finden.</p>
 <p>Die Bilder sind überaus realistisch verglichen mit anderen Animes; mit Chihiro lernt auch der Zuschauer nach und nach die Badeanstalt kennen und könnte sich problemlos darin zurechtfinden - und genauso wie das Mädchen stellt man sich auch die Frage, wohin der Zug nun eigentlich fährt oder was es mit der Stadt am Horizont auf sich hat. Der Regisseur / Drehbuchautor / Zeichner Hayao Miyazaki folgt dabei nicht den aktuellen Einflüssen des Animes, die mit scharfen Kontrasten und eingebundenen Computeranimationen arbeiten, sondern bleibt seinem seit Jahrzehnten etablierten Stil (z.B. die Zeichentrickversion von “Heidi” stammt von ihm) treu, die Bilder alle per Hand zu zeichnen und aquarellartig zu kolorieren. Dies wirkt sich vor allem positiv auf die Landschaft aus und verhindert, dass die Charaktere getrennt von der Umgebung betrachtet werden - denn diese hat immer einen Einfluss auf die aktuelle Handlung der Personen (oder Götter). Trotzdem wirkt der Stil etwas veraltet, passt sich aber somit dem Gesamteindruck an: Vordergründig ein fantasievoller Kinderfilm, aber mit vielen Details die zum Nachdenken anregen. Nur manchmal wünschte ich mir ich könnte japanisch lesen - außer den Stimmen und dem Titel läuft der Film in der Originalversion, d.h. es wurden keine der Schriftzeichen oder Schilder übersetzt (wobei z.B. das Spiel der Hexe mit dem Namen Sen und Chihiro garantiert auch unübersetzbar ist!).</p>
-<p>Fazit: Ein Film für jede Altersgruppe, der hinter der fantastischen Geschichte viele Details und Anregungen für das ältere Publikum bietet - aber man muss sich auch auf den Film einlassen, der trotz eines Audi ein japanischer Anime, also ein Zeichntrickfilm, bleibt!</p>
+<p>Fazit: Ein Film für jede Altersgruppe, der hinter der fantastischen Geschichte viele Details und Anregungen für das ältere Publikum bietet - aber man muss sich auch auf den Film einlassen, der trotz eines Audi ein japanischer Anime, also ein Zeichentrickfilm, bleibt!</p>
 
 
 
@@ -312,7 +312,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      return note.innerHTML;
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {
