@@ -9,8 +9,30 @@
 <link>https://kingoli.net/blog/</link>
 <atom:link href="https://kingoli.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.5.45</generator>
-<lastBuildDate>Sat, 15 Jun 2024 15:55:00 GMT</lastBuildDate>
+<generator>quarto-1.6.4</generator>
+<lastBuildDate>Fri, 09 Aug 2024 20:44:00 GMT</lastBuildDate>
+<item>
+  <title>Maniac</title>
+  <link>https://kingoli.net/blog/2024/08/09/maniac/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><em>von Benjamin Labatut, erschienen im Suhrkamp Verlag</em></p>
+<p><em>Maniac</em> ist in Buchform das, was <a href="../../../../2011/09/16/midnight-in-paris/">Midnight in Paris</a> als Film war: Ein fiktionales Spiel mit einigen der berühmtesten Köpfe des 20. Jahrhunderts; ein Nostalgie-Trip für Bildungsbürger. Nur dass sich bei <em>Maniac</em> die wichtigsten Mathematiker und Physiker die Klinke in die Hand geben: Gödel, Hilbert, Oppenheimer, Feynman.</p>
+<p>Sie kommen jeweils in kurzen Kapiteln zu Wort und jeder erzählt eine persönliche Episode über John von Neumann; seien es private Erinnerungen oder Anekdoten aus der Zusammenarbeit an dessen wichtigsten Projekten. Nach und nach entsteht so eine Biografie als Kaleidoskop von Geschichten, auch ohne dass von Neumann eine eigene Perspektive beiträgt. Da es sich bei <em>Maniac</em> aber trotz der gut belegten historischen Sachlage um ein fiktionales Werk handelt, ist die Frage einer ausgewogenen Darstellung eher akademisch; wobei trotz der deutlich mitschwingenden Bewunderung für das Lebenswerk von Neumanns die menschlichen Schwächen niemals ausgeblendet werden.</p>
+<p>Benjamin Labatut variiert stark die Sprache seiner ErzählerInnen. Das wirkt sehr authentisch bis auf zwei Kapitel, in denen der Ingenieur des ersten Computers auf Basis der von-Neumann-Architektur, dem MANIAC, zu Wort kommt. Denn dort verwendet der Autor eine sehr einfache, fast slang-artige Ausdrucksweise, die ich einem Ingenieur einfach nicht abnehme. Vielmehr wurde ich an das ständige Nörgeln von Sheldon Cooper an diesem Berufszweig erinnert - keine Ahnung ob das witzig gemeint ist oder sich Labatut das Herabschauen der Physiker auf die praktischen Disziplinen eigen gemacht hat.</p>
+<p>Doch das Buch beschränkt sich nicht nur auf das Leben von von Neumann. Kurz vor seinem Tod beschäftigte sich das Genie, konfrontiert mit der eigenen Sterblichkeit, noch mit der Theorie selbstreproduzierenden Automaten. Labatut sieht darin den Vorläufer der heutigen KIs und schiebt als “Beweis” dafür, wie von Neumanns Ideen unser Leben selbst heute noch beeinflussen, zwei längere Kapitel nach, in denen erst der weltbeste Schachspieler und später der dominierende Go-Spieler durch Niederlagen gegen Computerprogramme in Sinnkrisen gestürzt werden. Die Beschreibung, dass selbst ihre Schöpfer nicht nachvollziehen können, warum die Programme bestimmte Züge wählen, interpretiere ich als Labatuts narrative Implikation, dass von Neumann Jahrzehnte nach seinem Tod sein letztes Ziel erreicht hat, künstliches Leben zu erzeugen.</p>
+<p>So weit würde ich persönlich nicht gehen in der Beurteilung der zugegeben beeindruckenden Fortschritte im machinellen Lernen und den LLMs. Aber auch stilistisch wollen die letzten Kapitel nicht zu den ersten drei Vierteln des Buches passen. Denn nun liest sich <em>Maniac</em> eher wie ein populärwissenschaftliches Sachbuch (z.B. in der Kurzbiografie von Demis Hassabis oder der Erklärung des Go-Spiels). Das hat auch seinen Reiz, ist gut geschrieben und zeigt wie Labatut sehr technische Themen verständlich erklären kann, aber für mich stellte dies einen zu starken Bruch mit dem Rest dar. Und weil es nunmal das Ende des Buches ist, wirft es leider einen Schatten auf alles Gute, was davor kam.</p>
+
+
+
+ ]]></description>
+  <category>gelesen</category>
+  <guid>https://kingoli.net/blog/2024/08/09/maniac/</guid>
+  <pubDate>Fri, 09 Aug 2024 20:44:00 GMT</pubDate>
+</item>
 <item>
   <title>Die Fanmeile als Gefahr</title>
   <link>https://kingoli.net/blog/2024/06/15/fanmeile/</link>
@@ -723,36 +745,6 @@
   <category>gesehen</category>
   <guid>https://kingoli.net/blog/2022/12/31/shining_girls/</guid>
   <pubDate>Sat, 31 Dec 2022 10:05:00 GMT</pubDate>
-</item>
-<item>
-  <title>Babel, Or the Necessity of Violence - An Arcane History of the Oxford Translators’ Revolution</title>
-  <link>https://kingoli.net/blog/2022/12/26/babel/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><em>von Rebecca F. Kuang, erschienen bei HarperVoyager, ISBN 9780008501815, 16,99€</em></p>
-<p>Bis ca Seite 100 dachte ich, ich hätte das Buch verstanden. Es sah alles nach dem Schema <em>John Grisham</em> aus, welches er in <em>Die Firma</em> so perfektioniert hatte: Ein Hochbegabter aus einfachen Verhältnissen erhält dank seiner Begabung die Chance, in die höchsten Etagen seiner Zunft aufzusteigen. Doch dann muss er erfahren, wie es hinter den Kulissen aussieht, und wird schließlich zum Spitzel, um gegen das verbrecherische System zu arbeiten.</p>
-<p>Ab da war meine Motivation weiterzulesen merklich gedämpft, doch zumindest lag ich falsch. Das Buch ändert auf den folgenden vierhundert Seiten noch mehrmals seinen Stil, schält dabei aber immer deutlicher seine Themen hervor, die ich zuvor als plakativen Subtext missverstanden hatte (und im Nachhinein muss ich gestehen, dass der Buchtitel die Aussage eigentlich vorwegnimmt).</p>
-<p>Es fängt an mit der Kritik an Kolonialismus, Kulturimperialismus und den Umgang mit Einwanderern, steigert sich dann aber zum Rundumschlag gegen das vorherrschende kapitalistische System: Monopole; die vielen kleinen Rädchen mit begrenztem Einfluss, die im Zusammenspiel aber eine gewaltige Wirkung erzielen; Oligarchen, die den Kurs der Regierung jenseits jeglicher Ethik bestimmen (und damit auch über Krieg und Frieden), Ausbeutung der Arbeiterklasse, Massenentlassungen und (sehr idealisiert und solidarisch) Organisation von Streiks dagegen.</p>
-<p>Dabei ist die Kritik immer überaus eindeutig und die Rollen von Gut und Böse sind klar verteilt. Das Buch handelt sich ausschließlich an den Optionen ab, wie das System zu ändern ist und was dafür erlaubt ist. In Zeiten der <em>Letzten Generation</em> ein tagesaktueller Diskurs.</p>
-<p>Das fantastische Setting und das gelungene Worldbuilding geraten dabei leider weitesgehend in den Hintergrund. Dabei mochte ich genau das am meisten an dem Buch: Die Beschreibung des anbrechenden Viktorianischen Zeitalters und die Integration des fantastischen Elements des Silver-Workings als Analogie für die industrielle Revolution. Dies ist sehr gelungen und rund, auch was den historischen Kontext angeht und die Integration in den sich anbahnenden Opiumkrieg mit China.</p>
-<blockquote class="blockquote">
-<p>Traduttore, traditore: An act of translation is always an act of betrayal.</p>
-</blockquote>
-<p>Dieses Zitat ist im Buchumschlag angegeben und beschreibt sehr schön, wie das Buch den eigentlich nur künstlerischen “Verrat” auf die physische Ebene hebt: Die Unterschiede in anderen Sprachen werden ausgebeutet und mittels des Silver-Workings quasi in Stein bzw Metall gemeißelt, was zu weiterer - diesmal deutlich realerer, greifbarer - Ausbeutung führt.</p>
-<p>Ebenso machte es mir Spaß zu lesen, wie die Autorin (vermutlich) ihre eigene Zeit an der Oxford University durch die Augen der vier Studenten 200 Jahre vorher verarbeitet und immer wieder in Fußnoten unterhaltsame Beispiele für die bunte Historie von Alltagswörtern liefert.</p>
-<p>Doch irgendwann muss das Buch leider in Richtung <em>Necessity of Violence</em> und <em>Oxford Translators’ Revolution</em> abbiegen, und ab da wird es richtig wild. War die Geheimorganisation <em>Hermes</em> vorher schon nicht sonderlich glaubhaft, wird es jetzt richtig abstrus und es müssen einige Figuren sterben und einige Handlungswendungen überstanden werden, bis aus vier Studenten am Institut für Übersetzung zwei Besetzer des titelgebenden Turms Babel werden, die die Welt aus den Angeln heben wollen und damit auch dem Buch den Zauber seiner Fantastik nehmen werden.</p>
-<hr>
-<p>Am Ende möchte ich noch kurz ein paar Worte zum Buchsatz verlieren. Ich habe mich aufgrund des schöneren Covers für UK-Edition des Buches entschieden. Leider nervt diese aber mit Sternchen für die Fußnoten, die im Fließtext nicht von Anführungszeichen zu unterscheiden sind. So habe ich bei fast jeder Fußnote suchen müssen, zu welcher Textstelle sie gehört. Ich kann mich nicht erinnern, so etwas schon einmal erlebt zu haben. Ich hoffe, das wird in zukünftigen Auflagen korrigiert.</p>
-
-
-
- ]]></description>
-  <category>gelesen</category>
-  <guid>https://kingoli.net/blog/2022/12/26/babel/</guid>
-  <pubDate>Mon, 26 Dec 2022 14:44:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
