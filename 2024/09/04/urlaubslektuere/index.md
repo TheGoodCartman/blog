@@ -8,9 +8,9 @@ categories: [gelesen]
 
 Was wäre, wenn alle Vorstellungen, die man sich von möglichen Unfällen macht, Realität werden? Wenn all die seltsamen Bräuche, mit denen man aufgewachsen ist, eigentlich einen schrecklichen Hintergrund haben? Barbi Marković treibt dieses Spiel mit dem Horror in 28 teils ultrakurzen Geschichten auf die Spitze: Vom Man-eater bis zum Kitzelmonster nimmt sie bewusst alles wörtlich, was eigentlich nur ein geflügeltes Wort ist.
 
-Die ~~Helden~~ Opfer des Büchleins heißen Miki und Mini. Im Anhang finden sich Illustrationen welche zeigen, dass die beiden den Comicvorbildern von Disney angelehnt sind, was aber vor allem die diesem Genre übliche Überzeichnung betont. Mini ist dabei das leicht autobiografische Alter Ego der Autorin, welches mit ihren Migrationshintergrund von Serbien nach Österreich einen interessanten Culture-Clash-Blick auf hiesige Gewohnheiten wirft.
+Die ~~Helden~~ Opfer des Büchleins heißen Miki und Mini. Im Anhang finden sich Illustrationen welche zeigen, dass die beiden den Comicvorbildern von Disney angelehnt sind, was aber vor allem die diesem Genre übliche Überzeichnung betont. Mini ist dabei das leicht autobiografische Alter Ego der Autorin, welches mit ihrem Migrationshintergrund von Serbien nach Österreich einen interessanten Culture-Clash-Blick auf hiesige Gewohnheiten wirft.
 
-Das ist anfangs recht witzig und wenn dann gesellschaftskritische Themen wie Fremdenhass angesprochen werden, bleibt mir als Leser auch durchaus der eine oder andere Lacher im Halse stecken. Schön fand ich auch die Kapitel, die sich um das Schriftsteller-Dasein drehen und wie wenig Einfluss der Urheber auf die Wirkung seiner Werke hat.
+Das ist anfangs recht witzig und wenn gesellschaftskritische Themen wie Fremdenhass angesprochen werden, bleibt mir als Leser durchaus der eine oder andere Lacher im Halse stecken. Schön fand ich auch die Kapitel, die sich um das Schriftsteller-Dasein drehen und wie wenig Einfluss der Urheber auf die Wirkung seiner Werke hat.
 
 Doch leider fehlt es den Geschichten an Länge/Details und vor allem an Variation. Die Dramen des Alltags folgen alle einem ähnlichen Schema, und sind oft nicht mehr als die Ängste der Mittelschicht - und damit langweilig und in ihrer ständigen Wiederholung des Schockmoments auch ermüdend.
 
@@ -50,4 +50,4 @@ Der zweite Handlungsstrang um Nakata setzt all den Seltsamkeiten noch die Krone 
 
 Doch während ich einen Ansatz fand, Kafkas Reise für mich zu entschlüsseln, gelang mir das bei Nakata nicht. Viele Elemente scheinen mir reiner Selbstzweck zu sein, der Einfluss auf die Haupthandlung beschränkt sich auf drei Ereignisse, und einige Aspekte wie das Sprechen mit Katzen, das dann verloren geht, werden zu keinem mich zufriedenstellenden Ende gebracht - vom Ende Nakatas ganz zu schweigen. 
 
-So bleibe ich mit einigen Fragezeichen zurück. Das Füllhorn an Ideen, das Murakami über seinen Roman ausgeschüttet hat, macht ihn sehr spannend und anregend zu lesen. Aber nicht alle Puzzleteile wollen zusammenpassen, so dass er für mich hinter [1Q84](/blog/2011/02/04/1q84/) und [Hardboiled wonderland](/2011/07/12/hard-boiled-wonderland-und-das-ende-der-welt/) zurückbleibt.
+So bleibe ich mit einigen Fragezeichen zurück. Das Füllhorn an Ideen, das Murakami über seinen Roman ausgeschüttet hat, macht ihn sehr spannend und anregend zu lesen. Aber nicht alle Puzzleteile wollen zusammenpassen, so dass er für mich hinter [1Q84](/2011/02/04/1q84/) und [Hardboiled wonderland](/2011/07/12/hard-boiled-wonderland-und-das-ende-der-welt/) zurückbleibt.
