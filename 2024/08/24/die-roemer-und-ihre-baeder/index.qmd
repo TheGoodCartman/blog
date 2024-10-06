@@ -1,0 +1,58 @@
+---
+title: "Die Römer und ihre Bäder"
+date: "2024-08-24T22:55:00"
+categories: [gewesen, gedacht]
+lightbox: true
+---
+
+In _Das Leben des Brian_ gibt es eine Szene, wo der Führer der Volksfront von Judäa seine Widerstandsgruppe fragt: 
+
+> Was haben die Römer je für uns getan?
+
+Unter den vielen Antworten finden sich u.a. das Aquädukt, die sanitären Einrichtungen und die öffentlichen Bäder. Und tatsächlich ist es schon erstaunlich, dass von den vielen Bauwerken, die die Römer der Nachwelt hinterlassen haben, ausgerechnet die Bäderkultur in fast 30 Jahren des Reisens ständig meine Wege kreuzt.
+
+Es fing an mit dem einwöchigen Schulausflug nach Bath, England. Damals lernte ich, das die Römer überall dort, wo sie in ihrem riesigen Reich Thermalquellen fanden, Thermen errichteten. In Bath wurde das erst wiederentdeckt, als im 19.Jahrhundert ein Hausbesitzer den Keller seiner Immobilie erweitern wollte. Inzwischen gibt es dort ein Museum, das ein gutes Gefühl vermittelt, wie die Römer damals Wellness betrieben (und mit welchem Aufwand, u.a. mit einer Unterbodenheizung).
+
+Die Fotos damals sind übrigens noch analog entstanden:
+
+::: {layout-ncol=5}
+![Bath I](19961001.jpg){group="bath"}
+
+![Bath II](19961002.jpg){group="bath"}
+
+![Bath III](19961003.jpg){group="bath"}
+
+![Bath IV](19961004.jpg){group="bath"}
+
+![Bath V](19961005.jpg){group="bath"}
+:::
+
+[Sehr viele Jahre später](/2007/11/26/in-der-schweiz-in-der-schweiz-in-der-schweiz/) stolperte ich beim Schlendern durch Zürich buchstäblich über die [Thermengasse](https://www.stadt-zuerich.ch/hbd/de/index/staedtebau/archaeo_denkmal/archaeo/geschichte/a_fenster/thermen.html). Dass die Römer an der Furt über den Limmat ein kleines Kastell errichtet hatten, wusste ich bereits, aber noch vorm Lesen der Informationstafeln erkannte ich die markanten, mich an Bath erinnernden Reste der Unterbodenheizung.
+
+::: {.column-margin}
+![Thermengasse Zürich](20071124.jpg)
+:::
+
+Ein Jahr vorher hatte es mich nach Tarragona verschlagen. Die spanische Stadt war einst römische Provinzhauptstadt und ähnlich wie in Bath stehen heute noch viele der Gebäude im Zentrum auf römischen Grundmauern. Sehr gut erhalten ist auch die antike Stadtmauer und das Amphitheater, die ganze Stadt atmet quasi römische Geschichte. Und weil die Bäder der Stadt Wasser benötigten, gab es ein langes Aquädukt außerhalb der Stadt, das die Jahrtausende gut überstanden hat.
+
+::: {.column-margin}
+![Amphitheater Tarragona](20060918.jpg)
+:::
+
+Was mich nun nach Südfrankreich bringt. Nimes und Arles waren bedeutende römische Städte und in beiden sind die Arenen erstaunlich gut erhalten. Doch am Meisten hat mich die _Pont du Gard_ beeindruckt - das Aquädukt ist nicht nur die höchste erhaltene römische Brücke, sondern auch Teil einer aberwitzig langen Wasserleitung (50km!), welche die 20000 nach Bädern schreienden Einwohner der Stadt Nemausus (Nimes) mit Frischwasser versorgte.
+
+Die Genauigkeit der damaligen Ingenieurskunst beeindruckt noch heute. Die speisende Quelle nahe Uzès ist eigentlich keine 20km entfernt, doch der direkte Weg ist durch Täler und Hügel versperrt. Also suchten sich die römischen Konstrukteure einen Weg um die Hügel herum, mit dem Wissen, dass sie maximal 17 Höhenmeter zur Verfügung haben und das Wasser eine Mindestneigung benötigt, um zu fließen. Aufgrund dieser Limitierungen wurden auch Tunnel in die Hügel getrieben, die bei Sernhac noch besichtigt werden können.
+
+Die Wasserleitung war auf der gesamten Strecke überdacht, um die Reinheit und Temperatur des Wassers zu erhalten. So auch auf der _Pont du Gard_, dem wohl aufwendigsten Teil der Leitung. Sie verläuft dort fast 50m über dem Flüsschen Gardon auf doppelten Brückenpfeilern. Diese Konstruktion war so stabil, dass selbst nach Aufgabe der Wasserleitung die Brücke noch durch Fußgänger genutzt wurde und erst nach über 1500 Jahren Nutzung die ersten Reparaturen nötig waren.
+
+Es ist wohl diese Mischung aus dem Können der römischen Ingenieure und der Nützlichkeit ihrer Bauwerke weit über die Dauer ihres Reiches hinaus (z.B. der [Diokletianspalast von Split](/2010/10/04/der-glockenturm-im-diokletianspalast-split/)), die dazu führt, dass ich kaum eine Reise unternehmen kann, ohne darüber zu stolpern. Und ich bin gespannt, wo ich das nächste Aquädukt oder römische Bad finde.
+
+::: {layout="[[1], [1,1,1]]"}
+![Pont du Gard](20240823.jpg){group="2024"}
+
+![Arena Nimes](20240813.jpg){group="2024"}
+
+![Arena Arles](20240814.jpg){group="2024"}
+
+![Römische Tunnel bei Sernhac](20240817.jpg){group="2024"}
+:::
