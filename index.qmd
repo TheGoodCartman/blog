@@ -1,6 +1,8 @@
 ---
 listing:
-  contents: "**/*.md"
+  contents: 
+    - "**/*.md"
+    - "**/*.qmd"
   fields: [date, title, description, categories]
   feed: true
   sort: "date desc"
