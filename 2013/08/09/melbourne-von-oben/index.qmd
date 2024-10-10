@@ -2,6 +2,7 @@
 title: "Melbourne von oben"
 date: "2013-08-09T19:24:00"
 categories: [gewesen]
+lightbox: true
 ---
 
 Melbourne gilt als eine der Städte mit der höchsten Lebensqualität. Davon konnte ich mir vom Skydeck im 88. Stock des Eureka Towers einen guten Eindruck verschaffen. Der Wolkenkratzer erhebt sich als höchstes Gebäude der Stadt 297m über dem Yarra River. Gleich auf der gegenüberliegenden Flussseite im Norden liegt der [Federation Square](http://www.fedsquare.com/), eine Art modernes Forum für die Bewohner Melbournes. Hier finden Versammlungen, aber auch Veranstaltungen wie Feste und Konzerte statt. An drei Seiten eingeschlossen wird er von Museen und die Haupteinkaufsstraße ist ebenso wie Konzerthäuser und Theater schnell erreicht. Im Gegensatz zu den anderen Großstädten Australiens wirkt Melbournes CBD dadurch nachts nicht wie ausgestorben.
@@ -14,12 +15,22 @@ Die Aussichtsetage des Eureka Towers selber ist mir mit zwiespältigen Eindrück
 
 Nach Einbruch der Dunkelheit ist das Fotografieren noch einmal doppelt so schwer. Lichter in allen unmöglichen Farben und aus allen denkbaren Winkeln spiegeln sich in den Glasscheiben, so dass ich als Fazit nur sagen kann: Um einen Eindruck zu gewinnen, wie nah in der Stadt Melbourne alles Lebenswerte beeinander liegt, sollte man ruhig einen Blick von oben wagen - Fotografieren kann man aber besser auf Straßenlevel.
 
-![eureka1.jpg](eureka1.jpg)
-![eureka2.jpg](eureka2.jpg)
-![eureka3.jpg](eureka3.jpg)
-![eureka4.jpg](eureka4.jpg)
-![eureka5.jpg](eureka5.jpg)
-![eureka6.jpg](eureka6.jpg)
-![eureka7.jpg](eureka7.jpg)
-![eureka8.jpg](eureka8.jpg)
-![eureka9.jpg](eureka9.jpg)
+::: {layout="[[1,1,1],[1,1,1],[1,1,1]]"}
+![](eureka1.jpg)
+
+![](eureka5.jpg)
+
+![](eureka6.jpg)
+
+![](eureka2.jpg)
+
+![](eureka3.jpg)
+
+![](eureka4.jpg)
+
+![](eureka7.jpg)
+
+![](eureka8.jpg)
+
+![](eureka9.jpg)
+:::

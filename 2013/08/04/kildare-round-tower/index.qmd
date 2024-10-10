@@ -2,6 +2,7 @@
 title: "Kildare Round Tower"
 date: "2013-08-04T23:12:09"
 categories: [gewesen]
+lightbox: true
 ---
 
 Die abgeschiedene Lage von Irland als Insel am Ende der damals bekannten Welt hat sicherlich ihren Anteil am Fehlen von repräsentativen Kirchengebäuden, wie sie z.B. [Deutschland](/2005/09/09/koln-im-september/) [aufweisen](/2005/10/05/in-ulm-um-ulm-und-um-ulm-herum/) [kann](/2011/04/27/backsteingotik-mit-turmbefahrung/). Keine wichtige Handelsstraße führt über die Insel, keine Mäzene drückten ihren Reichtum und Einfluss mit der Förderung von Künstlern umd Architekten aus. Hinzu kommt, dass die Iren, anfangs wichtige Exporteure des katholischen Glaubens, über viele Jahrhunderte von Besatzern in ihrer Religion unterdrückt wurden. Dabei sind sie ein kleines Volk geblieben, welches keinen Bedarf an riesigen Gotteshäusern hat - eine schlechte Voraussetzung für einen Turmkletterer wie mich.
@@ -14,8 +15,14 @@ Von den 65 noch erhaltenen Türmen Irlands sind genau zwei auch besteigbar. Ich 
 
 Die Aussicht vom Turm, der die nebenan stehende St. Brigid’s Cathedral mühelos überragt, ist typisch irisch: Kildare hat eine Hauptstraße mit Geschäften, Wohngebiete mit schmalen Einfamilienhäusern und liegt inmitten von grünen Hügeln. Stellt sich also immer noch die Frage, weshalb hier vor über tausend Jahren ein Turm hingebaut wurde. Ich vermute eine Mischung aus weithin sichtbarem Statussymbol (sieh' her, wozu die Kirche in der Lage ist!) und dem Wunsch, dem eigenen Gott so nah wie möglich zu sein - die Gründe für den Bau fast jedes kirchlichen Glockenturms. Beeindruckend ist auf jeden Fall, dass die Türme die Zeiten überstanden haben und ich mir diese Fragen von deren Spitze aus stellen kann!
 
-![kildare1.jpg](kildare1.jpg)
-![kildare2.jpg](kildare2.jpg)
-![kildare3.jpg](kildare3.jpg)
-![kildare4.jpg](kildare4.jpg)
-![kildare5.jpg](kildare5.jpg)
+::: {layout="[[1],[1,1,1],[1]]"}
+![](kildare1.jpg)
+
+![](kildare3.jpg)
+
+![](kildare4.jpg)
+
+![](kildare2.jpg)
+
+![](kildare5.jpg)
+:::
