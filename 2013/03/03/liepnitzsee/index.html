@@ -40,6 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../../../site_libs/bootstrap/bootstrap-ca39c5f18ac0e7c24689a67fe4150f41.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -141,7 +144,33 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Der März erfreut mit den ersten kräftigen Sonnenstrahlen des nahenden Frühlings, doch der Liepnitzsee bei Wandlitz trägt noch sein winterliches Eiskleid. Zusammen ergibt dies eine reizvolle Stimmung, die ich in ein paar Fotos konserviert habe.</p>
-<p><img src="leipnitzsee1.jpg" class="img-fluid" alt="leipnitzsee1.jpg"> <img src="leipnitzsee2.jpg" class="img-fluid" alt="leipnitzsee2.jpg"> <img src="leipnitzsee3.jpg" class="img-fluid" alt="leipnitzsee3.jpg"> <img src="leipnitzsee4.jpg" class="img-fluid" alt="leipnitzsee4.jpg"> <img src="leipnitzsee5.jpg" class="img-fluid" alt="leipnitzsee5.jpg"> <img src="leipnitzsee6.jpg" class="img-fluid" alt="leipnitzsee6.jpg"></p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[[1],[1,1,1,1,1]]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<p><a href="leipnitzsee1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="leipnitzsee1.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: center;">
+<p><a href="leipnitzsee2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="leipnitzsee2.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: center;">
+<p><a href="leipnitzsee3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="leipnitzsee3.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: center;">
+<p><a href="leipnitzsee4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="leipnitzsee4.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: center;">
+<p><a href="leipnitzsee5.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="leipnitzsee5.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: center;">
+<p><a href="leipnitzsee6.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="leipnitzsee6.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+</div>
 
 
 
@@ -567,6 +596,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","loop":false,"closeEffect":"zoom","openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

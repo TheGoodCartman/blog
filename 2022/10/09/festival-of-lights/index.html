@@ -40,6 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../../../site_libs/bootstrap/bootstrap-ca39c5f18ac0e7c24689a67fe4150f41.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -143,7 +146,53 @@ ul.task-list li input[type="checkbox"] {
 <p>Ich bin ja schon seit über einem Jahrzehnt mit der Kamera auf dem <a href="../../../../2012/10/23/festival-of-lights/">Festival of Lights</a> unterwegs. Zuletzt mit deutlichen Ermüdungserscheinungen, da sich gefühlt alles wiederholte und die für Fotografen suboptimalen Videomappings von Gebäuden alles dominierten.</p>
 <p>Dieses Jahr ist, der Energiekrise zum Dank, alles etwas kleiner beim Festival. Weniger Locations, weniger Gebäude, dafür mehr Lichtskulpturen. Diese haben den Vorteil, weniger Strom zu verbrauchen - und lassen sich einfach besser fotografieren. Ich erinnere mich noch gerne an die <a href="https://guardian-of-time.com/de/">Wächter der Zeit</a> und die <a href="https://parerstudio.com/">Hasen von parerstudio</a>.</p>
 <p>Leider ist die Anzahl der Besucher nicht kleiner geworden, so dass z.B. das Nikolaiviertel total überlaufen ist. Etwas ruhiger war es dafür bei <a href="http://2022.festival-of-lights.de/2022/09/21/darth-fisher/">Darth Fisher</a> und <a href="http://2022.festival-of-lights.de/2022/09/21/les-lumineoles/">Les Luminéoles</a>. Gerade letztere überzeugen als Gesamtkunstwerk, da sie den Wind nutzen, um organische Bewegungen zu erzeugen, und dabei von einer mystischen Soundkulisse unterstützt werden.</p>
-<p><img src="DSC04086.jpg" class="img-fluid" alt="Darth Fisher"> <img src="DSC04088.jpg" class="img-fluid" alt="Darth Fisher"> <img src="PXL_20221008_181244045.jpg" class="img-fluid" alt="Ghostly Guests"> <img src="PXL_20221008_185323512.jpg" class="img-fluid" alt="Les Luminéoles"> <img src="PXL_20221008_185512902.jpg" class="img-fluid" alt="Les Luminéoles"></p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="5">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="DSC04086.jpg" class="lightbox" data-gallery="lights" title="Darth Fisher"><img src="DSC04086.jpg" class="img-fluid figure-img" alt="Darth Fisher"></a></p>
+<figcaption>Darth Fisher</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="DSC04088.jpg" class="lightbox" data-gallery="lights" title="Darth Fisher"><img src="DSC04088.jpg" class="img-fluid figure-img" alt="Darth Fisher"></a></p>
+<figcaption>Darth Fisher</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="PXL_20221008_181244045.jpg" class="lightbox" data-gallery="lights" title="Ghostly Guests"><img src="PXL_20221008_181244045.jpg" class="img-fluid figure-img" alt="Ghostly Guests"></a></p>
+<figcaption>Ghostly Guests</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="PXL_20221008_185323512.jpg" class="lightbox" data-gallery="lights" title="Les Luminéoles"><img src="PXL_20221008_185323512.jpg" class="img-fluid figure-img" alt="Les Luminéoles"></a></p>
+<figcaption>Les Luminéoles</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="PXL_20221008_185512902.jpg" class="lightbox" data-gallery="lights" title="Les Luminéoles"><img src="PXL_20221008_185512902.jpg" class="img-fluid figure-img" alt="Les Luminéoles"></a></p>
+<figcaption>Les Luminéoles</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
 
 
 
@@ -569,6 +618,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","descPosition":"bottom","selector":".lightbox","openEffect":"zoom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

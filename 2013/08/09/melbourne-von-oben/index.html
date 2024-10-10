@@ -40,6 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../../../site_libs/bootstrap/bootstrap-ca39c5f18ac0e7c24689a67fe4150f41.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -145,7 +148,44 @@ ul.task-list li input[type="checkbox"] {
 <p>Zurück am südlichen Ufer des Yarra Rivers liegt das Government House (der Amtssitz des Gouverneurs vom Bundesstaat Victoria) inmitten des Royal Botanic Garden. Weiter im Süden lädt die Port Phillip Bucht mit ihren Stränden zum Baden ein - wenn sich nicht gerade das Wetter herbstlich wie bei meinem Besuch zeigt. Im Westen schließlich sind die neugestalteten Docklands, das Melbourne Convention &amp; Exhibition Centre und das Melbourne Aquarium zu sehen, welches in den Fluss hinein gebaut wurde.</p>
 <p>Die Aussichtsetage des Eureka Towers selber ist mir mit zwiespältigen Eindrücken im Gedächtnis geblieben. Als Fotograph habe ich mich über die getönten Scheiben geärgert, die unter dem Ozonloch aber vermutlich sinnvoll sind, und dass ein engmaschiger Drahtkäfig die einzige Möglichkeit ist, ohne Glasfilter von oben auf die Stadt zu schauen. Und das auch nur in Richtung Westen. Dafür bietet das Skydeck aber viele Fernrohre in zwei verschiedenen Höhen (gut also für die kleineren Besucher) und den höchstgelegenen Briefkasten Australiens.</p>
 <p>Nach Einbruch der Dunkelheit ist das Fotografieren noch einmal doppelt so schwer. Lichter in allen unmöglichen Farben und aus allen denkbaren Winkeln spiegeln sich in den Glasscheiben, so dass ich als Fazit nur sagen kann: Um einen Eindruck zu gewinnen, wie nah in der Stadt Melbourne alles Lebenswerte beeinander liegt, sollte man ruhig einen Blick von oben wagen - Fotografieren kann man aber besser auf Straßenlevel.</p>
-<p><img src="eureka1.jpg" class="img-fluid" alt="eureka1.jpg"> <img src="eureka2.jpg" class="img-fluid" alt="eureka2.jpg"> <img src="eureka3.jpg" class="img-fluid" alt="eureka3.jpg"> <img src="eureka4.jpg" class="img-fluid" alt="eureka4.jpg"> <img src="eureka5.jpg" class="img-fluid" alt="eureka5.jpg"> <img src="eureka6.jpg" class="img-fluid" alt="eureka6.jpg"> <img src="eureka7.jpg" class="img-fluid" alt="eureka7.jpg"> <img src="eureka8.jpg" class="img-fluid" alt="eureka8.jpg"> <img src="eureka9.jpg" class="img-fluid" alt="eureka9.jpg"></p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[[1,1,1],[1,1,1],[1,1,1]]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="eureka1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="eureka1.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="eureka5.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="eureka5.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="eureka6.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="eureka6.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="eureka2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="eureka2.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="eureka3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="eureka3.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="eureka4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="eureka4.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="eureka7.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="eureka7.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="eureka8.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="eureka8.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="eureka9.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="eureka9.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+</div>
 
 
 
@@ -571,6 +611,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","loop":false});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
