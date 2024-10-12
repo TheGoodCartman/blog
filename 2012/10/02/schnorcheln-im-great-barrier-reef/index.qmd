@@ -2,6 +2,7 @@
 title: "Schnorcheln im Great Barrier Reef"
 date: "2012-10-02T23:40:59"
 categories: [gewesen]
+lightbox: true
 ---
 
 Die wohl beeindruckendste Erfahrung, die ich in zweieinhalb Wochen Australien machen durfte, war das Schnorcheln im Great Barrier Reef. Vor einem Jahr auf [Mauritius](/2011/04/28/mauritius/) hatte ich noch feststellen müssen, dass mir als Schnorchler (ich bekomme Atemprobleme beim Tauchen) die besten Teile des Riffs entgingen, weil sie zu tief unter Wasser lagen.
@@ -16,9 +17,16 @@ Wer jetzt Lust auf das Schnorcheln im Great Barrier Reef bekommen hat, dem muss 
 
 Die Bilder stammen übrigens von Freunden, die im Gegensatz zu mir begeisterte Taucher sind und sich eine Unterwasserkamera angeschafft haben, um dieses Erlebnis dauerhaft festzuhalten.
 
-![great_barrier_reef_1.jpg](great_barrier_reef_1.jpg)
-![great_barrier_reef_2.jpg](great_barrier_reef_2.jpg)
-![great_barrier_reef_3.jpg](great_barrier_reef_3.jpg)
-![great_barrier_reef_4.jpg](great_barrier_reef_4.jpg)
-![great_barrier_reef_5.jpg](great_barrier_reef_5.jpg)
-![great_barrier_reef_6.jpg](great_barrier_reef_6.jpg)
+::: {layout-ncol=3}
+![](great_barrier_reef_1.jpg){group="reef"}
+
+![](great_barrier_reef_2.jpg){group="reef"}
+
+![](great_barrier_reef_3.jpg){group="reef"}
+
+![](great_barrier_reef_4.jpg){group="reef"}
+
+![](great_barrier_reef_5.jpg){group="reef"}
+
+![](great_barrier_reef_6.jpg){group="reef"}
+:::

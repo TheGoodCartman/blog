@@ -16,21 +16,21 @@ Die Aussichtsetage des Eureka Towers selber ist mir mit zwiespältigen Eindrück
 Nach Einbruch der Dunkelheit ist das Fotografieren noch einmal doppelt so schwer. Lichter in allen unmöglichen Farben und aus allen denkbaren Winkeln spiegeln sich in den Glasscheiben, so dass ich als Fazit nur sagen kann: Um einen Eindruck zu gewinnen, wie nah in der Stadt Melbourne alles Lebenswerte beeinander liegt, sollte man ruhig einen Blick von oben wagen - Fotografieren kann man aber besser auf Straßenlevel.
 
 ::: {layout="[[1,1,1],[1,1,1],[1,1,1]]"}
-![](eureka1.jpg)
+![](eureka1.jpg){group="melbourne"}
 
-![](eureka5.jpg)
+![](eureka5.jpg){group="melbourne"}
 
-![](eureka6.jpg)
+![](eureka6.jpg){group="melbourne"}
 
-![](eureka2.jpg)
+![](eureka2.jpg){group="melbourne"}
 
-![](eureka3.jpg)
+![](eureka3.jpg){group="melbourne"}
 
-![](eureka4.jpg)
+![](eureka4.jpg){group="melbourne"}
 
-![](eureka7.jpg)
+![](eureka7.jpg){group="melbourne"}
 
-![](eureka8.jpg)
+![](eureka8.jpg){group="melbourne"}
 
-![](eureka9.jpg)
+![](eureka9.jpg){group="melbourne"}
 :::

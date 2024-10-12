@@ -2,6 +2,7 @@
 title: "Pest"
 date: "2012-11-04T23:16:38"
 categories: [gewesen]
+lightbox: true
 ---
 
 Mein Budapester Hotel lag auf der Pester Seite der Stadt im XIII. Bezirk. Dies hatte den Vorteil, dass die Fähre zum [Sziget](/2012/09/04/sziget-2012/) ganz in der Nähe abfuhr, doch im Gegenzug war das Viertel touristisch wenig erschlossen - in den Cafés kam ich mit Englisch und Deutsch nicht weit.
@@ -24,11 +25,20 @@ Da ich neben dem Festival jede freie Minute mit Sightseeing verbringen wollte un
 
 Für die Fahrten von und zum Sziget hatte ich mir den Budapest City Pass geholt. Dieser bot neben einer Flatrate für die Nutzung des ÖPNV einen freien Eintritt in ein Budapester Heilbad meiner Wahl. Ich habe mich für das weiter oben erwähnte Széchenyi-Bad entschieden. Das Bad besteht aus mehreren von warmen Quellen gespeisten Heilbädern und einem Freibad im Hof des [beeindruckenden barocken Ensembles](https://de.wikipedia.org/wiki/Széchenyi-Heilbad#/media/Datei:Szechenyifurdo.jpg), an dem leider an der einen oder anderen Stelle der Putz bröckelt. Das stört die vor allem älteren, wärmesuchenden Besucher aber nicht, die sogar im Wasser Schach spielen.
 
-![St.-Stephans-Basilika](budapest_04.jpg)
-![Heldenplatz](budapest_05.jpg)
-![Burg Vajdahunyad](budapest_06.jpg)
-![Große Markthalle](budapest_09.jpg)
-![Das etwas andere McDonalds](budapest_11.jpg)
-![Széchenyi-Bad Panorama](budapest_12.jpg)
-![Széchenyi-Bad](budapest_13.jpg)
-![Station der Földalatti](budapest_14.jpg)
+::: {layout-ncol=4}
+![St.-Stephans-Basilika](budapest_04.jpg){group="pest"}
+
+![Heldenplatz](budapest_05.jpg){group="pest"}
+
+![Burg Vajdahunyad](budapest_06.jpg){group="pest"}
+
+![Station der Földalatti](budapest_14.jpg){group="pest"}
+
+![Große Markthalle](budapest_09.jpg){group="pest"}
+
+![Das etwas andere McDonalds](budapest_11.jpg){group="pest"}
+
+![Széchenyi-Bad Panorama](budapest_12.jpg){group="pest"}
+
+![Széchenyi-Bad](budapest_13.jpg){group="pest"}
+:::

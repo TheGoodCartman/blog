@@ -2,6 +2,7 @@
 title: "Buda"
 date: "2012-11-04T23:08:26"
 categories: [gewesen]
+lightbox: true
 ---
 
 Am zweiten Tag meines Aufenthalts in Budapest habe ich die Donau über die Kettenbrücke in Richtung Buda überquert. Von dort, am Fuß des Burgberges, fährt eine Standseilbahn mit schönen alten Holzwagen (*Budavári Sikló*) hinauf zum Burgpalast, doch die lange Schlange von Touristen bewog mich dazu, den Aufstieg zu Fuß in Angriff zu nehmen - ein recht kurzer Weg von nicht einmal 10 Minuten, den niemand scheuen muss. Oben erwartete mich das weitläufige Ensemble der ehemaligen königlichen Burg, deren Palastbauten heute mehrere Museen beherbergen. Von den vorgelagerten Maueranlagen gibt es einen tollen Blick auf die Donau und die Pester Seite von Budapest. Dabei lohnt es sich, bis zum Vorsprung ganz im Süden vorzulaufen, da dort keine Bäume den Blick einschränken.
@@ -20,13 +21,24 @@ Nebem dem Gellért-Hotel erhebt sich der Gellért-Berg immerhin 235m über die D
 
 Neben der Freiheitsstatue gibt es noch eine als Militärmuseum genutzte Zitadelle auf dem Berg, doch deren Besuch habe ich mir gespart. Denn von hier oben kann ein beeindruckendes Panorama von Budapest genossen werden. Der Gellért-Berg ist höher als alle umliegenden Stadtteile und so kann das Auge dem Verlauf der Donau folgen, die Ausmaße des Burgpalastes bestaunen und sogar das Riesenrad auf dem [Sziget](/2012/09/04/sziget-2012/) erblicken. Der Aufstieg lohnt sich also auf jeden Fall!
 
-![budapest_01.jpg](budapest_01.jpg)
-![budapest_02.jpg](budapest_02.jpg)
-![budapest_03.jpg](budapest_03.jpg)
-![budapest_07.jpg](budapest_07.jpg)
-![budapest_08.jpg](budapest_08.jpg)
-![budapest_10.jpg](budapest_10.jpg)
-![budapest_17.jpg](budapest_17.jpg)
-![budapest_18.jpg](budapest_18.jpg)
-![budapest_20.jpg](budapest_20.jpg)
-![budapest_21.jpg](budapest_21.jpg)
+::: {layout="[[1,1,1],[1,1,1],[1,1],[1,1]]"}
+![](budapest_01.jpg){group="buda"}
+
+![](budapest_02.jpg){group="buda"}
+
+![](budapest_03.jpg){group="buda"}
+
+![](budapest_08.jpg){group="buda"}
+
+![](budapest_10.jpg){group="buda"}
+
+![](budapest_17.jpg){group="buda"}
+
+![](budapest_18.jpg){group="buda"}
+
+![](budapest_07.jpg){group="buda"}
+
+![](budapest_20.jpg){group="buda"}
+
+![](budapest_21.jpg){group="buda"}
+:::
