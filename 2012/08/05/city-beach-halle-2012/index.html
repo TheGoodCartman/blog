@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.24">
+<meta name="generator" content="quarto-1.6.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -40,6 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../../../site_libs/bootstrap/bootstrap-ca39c5f18ac0e7c24689a67fe4150f41.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -142,8 +145,33 @@ ul.task-list li input[type="checkbox"] {
 
 <p>Halle mausert sich langsam aber sicher zur Sportstadt. Der HFC ist zwar gerade erst in die dritte Liga aufgestiegen, hat jedoch <a href="http://www.erdgas-sportpark.de/">ein schönes neues Stadion</a>. Im Damen-Basketball sind die SV Halle Lions nationale Spitze und im Schwimmen ist Paul Biedermann trotz des schlechten Abschneidens bei Olympia das Aushängeschild. Da passt eine Veranstaltung gut ins Bild, die 2012 schon zum vierten Mal stattfindet: Das <a href="http://www.halle-beach.de/">City Beach auf dem Marktplatz</a>.</p>
 <p>Vor der Kulisse von Marktschlösschen, Marktkirche, Roter Turn, Stadthaus, Rathaus und unter den wachsamen Augen von Georg Friedrich Händel wurden drei Beachvolleyball-Felder aufgeschüttet und zwei Tribünen aufgebaut, um neben dem City Beach Cup auch die Landesmeisterschaften auszutragen. Dafür wurde die Veranstaltung von einem Wochenende auf zehn Tage ausgedehnt und mit einem breiten <a href="http://www.vvsa-volleyball.de/images/2012_ablaufplan_city%20beach.pdf">Rahmenprogramm</a> versehen.</p>
-<p>Ich konnte am Samstag kurz beim Mixed-Wettbewerb vorbeischauen. Das Niveau auf den Plätzen war durchwachsen, aber das Wetter war super und die Stimmung auf den Tribünen (hauptsächlich durch Aktive des Turniers) ebenso - da hätte ich gerne selber mitgewirkt. Ich finde es super, dass es in Halle eine solche Veranstaltung meiner Lieblingssportart gibt, und hoffe, dass dieses Beispiel Schule macht!</p>
-<p><img src="citybeach2012_1.jpg" class="img-fluid" alt="citybeach2012_1.jpg"> <img src="citybeach2012_2.jpg" class="img-fluid" alt="citybeach2012_2.jpg"> <img src="citybeach2012_3.jpg" class="img-fluid" alt="citybeach2012_3.jpg"> <img src="citybeach2012_4.jpg" class="img-fluid" alt="citybeach2012_4.jpg"> <img src="citybeach2012_5.jpg" class="img-fluid" alt="citybeach2012_5.jpg"> <img src="citybeach2012_6.jpg" class="img-fluid" alt="citybeach2012_6.jpg"></p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="citybeach2012_1.jpg" class="lightbox" data-gallery="citybeach"><img src="citybeach2012_1.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="citybeach2012_3.jpg" class="lightbox" data-gallery="citybeach"><img src="citybeach2012_3.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="citybeach2012_5.jpg" class="lightbox" data-gallery="citybeach"><img src="citybeach2012_5.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="citybeach2012_2.jpg" class="lightbox" data-gallery="citybeach"><img src="citybeach2012_2.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="citybeach2012_4.jpg" class="lightbox" data-gallery="citybeach"><img src="citybeach2012_4.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="citybeach2012_6.jpg" class="lightbox" data-gallery="citybeach"><img src="citybeach2012_6.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+</div>
 
 
 
@@ -569,6 +597,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","loop":false,"openEffect":"zoom","descPosition":"bottom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
