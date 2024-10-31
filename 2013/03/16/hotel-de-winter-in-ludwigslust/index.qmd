@@ -18,19 +18,19 @@ Mit meiner DSLR hätte ich ganz andere Bilder gemacht - u.a. von der Nachtwander
 ::: {layout="[[1,1,1],[1,1,1],[1,1,1]]"}
 ![](IMG_20130314_170126-3.jpg){group="winter"}
 
-![](IMG_20130314_170820-3.jpg)){group="winter"}
+![](IMG_20130314_170820-3.jpg){group="winter"}
 
-![](IMG_20130314_173501-3.jpg)){group="winter"}
+![](IMG_20130314_173501-3.jpg){group="winter"}
 
-![](IMG_20130314_165120-3.jpg)){group="winter"}
+![](IMG_20130314_165120-3.jpg){group="winter"}
 
-![](IMG_20130314_173445-3.jpg)){group="winter"}
+![](IMG_20130314_173526-3.jpg){group="winter"}
 
-![](IMG_20130314_173526-3.jpg)){group="winter"}
+![](IMG_20130314_173445-3.jpg){group="winter"}
 
-![](IMG_20130314_173547-3.jpg)){group="winter"}
+![](IMG_20130315_154430-3.jpg){group="winter"}
 
-![](IMG_20130315_134307-3.jpg)){group="winter"}
+![](IMG_20130315_134307-3.jpg){group="winter"}
 
-![](IMG_20130315_154430-3.jpg)){group="winter"}
+![](IMG_20130314_173547-3.jpg){group="winter"}
 :::

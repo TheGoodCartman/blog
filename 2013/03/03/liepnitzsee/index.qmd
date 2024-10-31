@@ -8,15 +8,15 @@ lightbox: true
 Der März erfreut mit den ersten kräftigen Sonnenstrahlen des nahenden Frühlings, doch der Liepnitzsee bei Wandlitz trägt noch sein winterliches Eiskleid. Zusammen ergibt dies eine reizvolle Stimmung, die ich in ein paar Fotos konserviert habe.
 
 ::: {layout="[[1],[1,1,1,1,1]]"}
-![](leipnitzsee1.jpg)){group="Liepnitzsee"}
+![](leipnitzsee1.jpg){group="Liepnitzsee"}
 
-![](leipnitzsee2.jpg))){group="Liepnitzsee"}
+![](leipnitzsee2.jpg){group="Liepnitzsee"}
 
-![](leipnitzsee3.jpg))){group="Liepnitzsee"}
+![](leipnitzsee3.jpg){group="Liepnitzsee"}
 
-![](leipnitzsee4.jpg))){group="Liepnitzsee"}
+![](leipnitzsee4.jpg){group="Liepnitzsee"}
 
-![](leipnitzsee5.jpg))){group="Liepnitzsee"}
+![](leipnitzsee5.jpg){group="Liepnitzsee"}
 
-![](leipnitzsee6.jpg))){group="Liepnitzsee"}
+![](leipnitzsee6.jpg){group="Liepnitzsee"}
 :::
