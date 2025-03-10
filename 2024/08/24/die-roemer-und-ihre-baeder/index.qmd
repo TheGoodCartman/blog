@@ -5,7 +5,7 @@ categories: [gewesen, gedacht]
 lightbox: true
 ---
 
-In _Das Leben des Brian_ gibt es eine Szene, wo der Führer der Volksfront von Judäa seine Widerstandsgruppe fragt: 
+In _Das Leben des Brian_ gibt es eine Szene, in welcher der Führer der Volksfront von Judäa seine Widerstandsgruppe fragt: 
 
 > Was haben die Römer je für uns getan?
 
@@ -13,7 +13,7 @@ Unter den vielen Antworten finden sich u.a. das Aquädukt, die sanitären Einric
 
 Es fing an mit dem einwöchigen Schulausflug nach Bath, England. Damals lernte ich, das die Römer überall dort, wo sie in ihrem riesigen Reich Thermalquellen fanden, Thermen errichteten. In Bath wurde das erst wiederentdeckt, als im 19.Jahrhundert ein Hausbesitzer den Keller seiner Immobilie erweitern wollte. Inzwischen gibt es dort ein Museum, das ein gutes Gefühl vermittelt, wie die Römer damals Wellness betrieben (und mit welchem Aufwand, u.a. mit einer Unterbodenheizung).
 
-Die Fotos damals sind übrigens noch analog entstanden:
+Die Fotos sind anno 1996 übrigens noch analog entstanden:
 
 ::: {layout-ncol=5}
 ![Bath I](19961001.jpg){group="bath"}
@@ -33,7 +33,7 @@ Die Fotos damals sind übrigens noch analog entstanden:
 ![Thermengasse Zürich](20071124.jpg)
 :::
 
-Ein Jahr vorher hatte es mich nach Tarragona verschlagen. Die spanische Stadt war einst römische Provinzhauptstadt und ähnlich wie in Bath stehen heute noch viele der Gebäude im Zentrum auf römischen Grundmauern. Sehr gut erhalten ist auch die antike Stadtmauer und das Amphitheater, die ganze Stadt atmet quasi römische Geschichte. Und weil die Bäder der Stadt Wasser benötigten, gab es ein langes Aquädukt außerhalb der Stadt, das die Jahrtausende gut überstanden hat.
+Ein Jahr vorher hatte es mich nach Tarragona verschlagen. Die spanische Stadt war einst römische Provinzhauptstadt und ähnlich wie in Bath stehen heute noch viele der Gebäude im Zentrum auf römischen Grundmauern. Sehr gut erhalten sind die antike Stadtmauer und das Amphitheater; die ganze Stadt atmet quasi römische Geschichte. Und weil die Bäder der Stadt Wasser benötigten, gab es ein langes Aquädukt außerhalb der Stadt, das die Jahrtausende gut überstanden hat.
 
 ::: {.column-margin}
 ![Amphitheater Tarragona](20060918.jpg)
