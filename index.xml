@@ -9,8 +9,36 @@
 <link>https://kingoli.net/blog/</link>
 <atom:link href="https://kingoli.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.7.21</generator>
-<lastBuildDate>Sat, 05 Apr 2025 19:44:00 GMT</lastBuildDate>
+<generator>quarto-1.7.29</generator>
+<lastBuildDate>Sun, 27 Apr 2025 15:55:00 GMT</lastBuildDate>
+<item>
+  <title>Der Weg vom Foto zum Panorama im Web</title>
+  <link>https://kingoli.net/blog/2025/04/27/panoramen/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Schon einige Zeit vor meinem Wechsel von der Hosentaschenknipse zur Systemkamera (ca ab 2008) habe ich mich vorsichtig am Thema Panoramafotografie versucht. Denn immer wieder stand ich vor dem Problem, dass ich mit einem Bild - egal wie weitwinklig es auch war - nicht das einfangen konnte, was mein Auge wahrnahm.</p>
+<p>Alle meine Kameras und Handys brachten zwar eine Panorama-Funktion mit, aber selbst heute sind diese Automatiken nicht wirklich zu gebrauchen. Also musste ich selbst Hand anlegen und teilweise auf die harte Tour lernen, was ein Nodalpunkt ist und mit welchen Einstellungen ich die beste und konsistenteste Qualität aus der Kamera herausbekomme.</p>
+<p>Schließlich war die Software um diese Zeit noch nicht ausgereift. Microsoft hatte mit ICE zwar ein kostenloses One-Click-Tool entwickelt, doch ich stieß zu oft an dessen Limitierungen. Also wechselte ich zu PTGui, das deutlich mehr Möglichkeiten bot, aber auch viel Handarbeit erforderte. Ich erinnere mich an viele Stunden des manuellen Maskierens der Bildgrenzen, damit die Übergänge nicht sichtbar waren.</p>
+<p>Ich habe mir deshalb sogar einen Nodalpunktadapter zugelegt, um es der Software so leicht wie möglich zu machen. Aber da ich auf Reisen meist mit Zoom-Objektiven arbeite, war die Einstellung immer sehr aufwendig. Spätestens seit ich Lightroom die Panorama-Zusammensetzung überlasse, ist es zum Glück ausreichend, den Nodalpunkt ungefähr zu treffen und so komme ich inzwischen mit aus der Hand geschossenen Bildserien zu guten Ergebnissen.</p>
+<p>Zuletzt habe ich meinen Hardware-Zoo um eine Drohne erweitert. Dort ist das Thema Panorama-Fotos noch einmal ein ganzes Stück schwieriger, weshalb ich mich sehr über die Panorama-Automatik der DJI Mini 3 Pro gefreut habe. Doch auch die Software der Drohne kann nicht zaubern und so reichen schon schwache Winde aus, damit die Drohne ihre Position im Raum verlässt und es dementsprechend zu Bildfehlern kommt.</p>
+<p>Als mit etwas Übung meine ersten Panoramen so gut wurden, dass man wirklich hineinzommen und Details entdecken konnte, stellte sich natürlich die Frage, wie ich sie am besten präsentieren kann. So bin ich 2012 auf Gigapan gestoßen. Diese stellen selber Hardware/Software für das automatisierte Erstellen von riesigen Panoramen her (deshalb auch der Name; <a href="https://www.gigapan.com/profiles/KingOli/gigapans">meine eigenen</a> sind weit entfernt von Gigapixeln) und haben parallel dazu eine Plattform entwickelt, um die Fotos zugänglich zu machen. Der Vorteil für mich war, dass die Nutzung kostenlos und sehr simpel war: Einfach das Panorama mit der Windows-Software hochladen; etwas taggen und beschriften - fertig!</p>
+<p>Doch spätestens als mein damaliger Fotospace-Anbieter Smugmug 2020 entschied, dass es bestimmte von mir benötigte Funktionen nicht mehr anbietet, wurde mir klar, dass jede zentrale Plattform im Netz nur eine begrenzte Lebensdauer hat und ich gerne selber die Kontrolle über meine Panoramen und ihre Darstellung hätte - heute nennt man das digitale Souveränität ;)</p>
+<p>Also machte ich mich auf die Suche nach einer Lösung zum Selberhosten - und fand in <a href="https://openseadragon.github.io/">OpenSeadragon</a> einen OpenSource-Viewer für das <a href="https://iiif.io/api/image/">IIIF-Format</a>. Als passenden IIIF-Server bot sich <a href="https://omeka.org/s/modules/IiifServer/">Omeka</a> an.</p>
+<p>Doch leider kam ich mit beiden nicht klar. Omeka ist vieles und das merkt man der Oberfläche auch an. Nur zum Ausliefern von Panoramen ist das Tool einfach zu komplex, auch wenn das IIIF-Modul selbständig die Tiles generiert. Zudem scheiterte ich kontinuierlich, OpenSeadragon mit Omeka IIIF oder selbstgenerierten Tiles zum Laufen zu bekommen.</p>
+<p>Durch Zufall stolperte ich schließlich über <a href="https://openlayers.org/">OpenLayers</a>, einer Software zur Darstellung von Geodaten (hauptsächlich Karten). Meine Freude war groß als ich feststellte, dass OpenLayers auch IIIF-Panoramen darstellen kann und ich in kürzester Zeit einen Proof of concept implementieren konnte. Im Zusammenspiel mit <a href="https://github.com/glenrobson/iiif-tiler">IIIF-tiler</a> war es mir sogar möglich, die Tiles vorab lokal zu generieren und einfach als statische Dateien von meinem Server ausliefern zu lassen.</p>
+<p>Damit haben nun meine Panoramas endlich eine neue Heimat gefunden: <a href="https://kingoli.net/panoramas/">https://kingoli.net/panoramas/</a>. Entgegen aller Erwartungen ist Gigapan zwar immer noch online, aber es scheint in den letzten zehn Jahren keinerlei Weiterentwicklung gegeben zu haben, so dass ich dankend Tschüss sage und mich darüber freue, dass mein digitaler Garten um weiteren Content angewachsen ist.</p>
+
+
+
+ ]]></description>
+  <category>gedacht</category>
+  <category>getan</category>
+  <guid>https://kingoli.net/blog/2025/04/27/panoramen/</guid>
+  <pubDate>Sun, 27 Apr 2025 15:55:00 GMT</pubDate>
+</item>
 <item>
   <title>St Patrick Red Ale</title>
   <link>https://kingoli.net/blog/2025/04/05/st-patrick-red-ale/</link>
@@ -887,45 +915,6 @@ Die Biersteuerverordnung vom 5. Oktober 2009 (BGBl. I S. 3262, 3319), die zuletz
   <category>gesehen</category>
   <guid>https://kingoli.net/blog/2024/04/20/fallout/</guid>
   <pubDate>Sat, 20 Apr 2024 23:55:00 GMT</pubDate>
-</item>
-<item>
-  <title>Spätwerke</title>
-  <link>https://kingoli.net/blog/2024/02/11/spaetwerke/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Zwei meiner meistgelesenen Autoren, John Irving und Haruki Murakami, sind inzwischen 81 respektive 75 Jahre alt. Da ist es wohl angebracht, bei den zwei neuen Büchern der Beiden von Spätwerk zu sprechen. Spannenderweise weisen sie ähnliche Eigenheiten auf, weshalb ich sie hier zusammen besprechen möchte.</p>
-<section id="john-irving---der-letzte-sessesllift" class="level2">
-<h2 class="anchored" data-anchor-id="john-irving---der-letzte-sessesllift"><em>John Irving - Der letzte Sessesllift</em></h2>
-<p>Stolze 1088 Seiten in der deutschen Übersetzung nimmt sich Irving diesmal Zeit, um das Leben seines Alter Egos Adam und seiner Familie in aller Breite und über 70 Jahre hinweg zu erzählen. Und wenig überraschend finden sich viele altbekannte Elemente wieder: Nordengland, Exeter, Ibsen, der unbekannte Vater, die reifere Cousine, das Ringen, ein leicht naiver Hauptcharakter umgeben von starken Frauen. Das Motiv der Geister, das schon in <em>Avenue of Mysteries</em> vorkam, wird diesmal vertieft und ist so etwas wie der Handlungsfaden, denn Irving erzählt zwar linear, springt jedoch gerne einmal vor und zurück.</p>
-<p>Neben den buntesten Spielarten von Beziehungen setzt sich <em>Der letzte Sessesllift</em> mit seinen verschiedenen Figuren auch mit dem Künstlertum an sich auseinander: Woher kommt die Inspiration, wie wird sie durch den Künstler verarbeitet, wie ändert sich dies über ein Leben hinweg? Da Adam und sein Vater Drehbuchautoren sind, führt dies zu zwei Kapiteln, die in Drehbuchform geschrieben sind, und einigen Beschreibungen von imaginären Filmen. Das hat mich etwas genervt, denn so gut Irving selber als Drehbuchautor sein mag, die Form und das Beschreiben eines visuellen Mediums in schriftlicher Form haben meinen Lesefluss doch merklich gestört.</p>
-<p>Generell hat mir diesmal die Sprache missfallen. Die Sätze sind oft sehr einfach, mit simplen Satzbau und vielen Aufzählungen - ich kann mich nicht erinnern, dass sich vorherige Bücher Irvings so holprig gelesen haben (weder in deutsch noch in englisch, aber vielleicht liegt es an der Übersetzung). Das größte Problem sind jedoch die ständigen Wiederholungen. Das Buch quillt über von Details, die wieder und wieder verarbeitet und durchgekaut werden - eine stringentere Erzählweise hätte mir bestimmt 200 der 1100 Seiten erspart; bestimmte Aussagen nervten mich nach der fünften Wiederholung nur noch. Vertraut Irving dem Gedächtnis seiner Leser nicht mehr, oder ist es sein eigenes nachlassendes Gedächtnis, das zu so vielen Wiederholungen führt?</p>
-<p>Am Ende kann <em>Der letzte Sessesllift</em> gut und gerne als Best-of aller Irving-Bücher bezeichnet werden; eine Art Meta-Autobiografie von über 50 Jahren schriftstellerischem Schaffen. Viele neue Ideen haben sich leider nicht zu den altbekannten Themen gesellt. Aufgrund der unnötigen Länge und der handwerklichen Mängel fällt es mir deshalb schwer, das Buch weiter zu empfehlen.</p>
-</section>
-<section id="haruki-murakami---die-stadt-und-ihre-ungewisse-mauer" class="level2">
-<h2 class="anchored" data-anchor-id="haruki-murakami---die-stadt-und-ihre-ungewisse-mauer"><em>Haruki Murakami - Die Stadt und ihre ungewisse Mauer</em></h2>
-<p>Zwei junge Menschen, beide literatur-begeistert, lernen sich auf der Preisverleihung eines Kurzgeschichtenwettbewerbs kennen - und verlieben sich ineinander. In ein paar wenigen Treffen und vielen Briefen entwerfen sie zusammen das Gedankenspiel einer Stadt, die durch eine unüberwindbare Mauer geschützt ist. Ein Besucher kann die Stadt nur betreten, wenn er dafür beim Torwächter für immer seinen Schatten abgibt. Und hat er die Stadt einmal betreten, gibt es kein Zurück mehr in die “normale” Welt. Die einzigen Lebewesen, die die Mauer in beide Richtungen passieren dürfen, sind Einhörner, die auf einer Weide außerhalb der Stadt übernachten und zum Fressen jeden Morgen vom Torwächter in die Stadt hinein- und am Abend wieder hinausgelassen werden.</p>
-<p>Wem das jetzt bekannt vorkommt, der hat vermutlich so wie ich bereits <a href="../../../../2011/07/12/hard-boiled-wonderland-und-das-ende-der-welt/">Hardboiled Wonderland und das Ende der Welt</a> gelesen. Dieses Buch handelt von einer albtraumhaften Variante unserer eigenen Welt, aus die sich der Hauptprotagonist in eine Fantasiewelt flüchtet (eben jene Stadt), in der alles einem geregelten und wenig aufregenden Lauf folgt und die Zeit keine Rolle spielt. In Murakamis Nachwort erfährt der Leser, dass dies bereits seine zweite Bearbeitung der Idee dieser Stadt war, er aber trotzdem das Gefühl hatte, sie noch nicht auserzählt zu haben.</p>
-<p>Also hat er sich erneut hingesetzt und das Thema leicht variiert. Die Erzählstruktur ist ganz ähnlich (Ich-Erzähler, alternierende Kapitel inner- und außerhalb der Stadt), doch diesmal steht eine (murakami-typisch melchanolische) unglückliche Liebe im Mittelpunkt. “Das Mädchen” bringt die Idee der Stadt auf, und über Fragen des Erzählers wird die Stadt immer genauer ausgearbeitet. Doch schnell wird klar, dass es dem Mädchen nicht gut geht, und an <em>Vertigo</em> erinnernde Aussagen wie “Ich lebe eigentlich in der Stadt und das hier ist nur mein Schatten” erweckten in mir den Eindruck, dass sie unter Depressionen leidet. In der wirklichen Welt zu leben scheint sie so sehr anzustrengen, dass sie sich in ihre Traumwelt der Stadt wünscht, deren Reiz für sie die Einfachheit und Stabilität ausmacht, garantiert durch die Mauern.</p>
-<p>Als das Mädchen nicht mehr auf die Briefe antwortet, schafft es der Erzähler nach Jahren der Suche irgendwie in die Stadt und findet sie dort schließlich wieder. Aber zum Einen ist er inzwischen deutlich älter als sie, zum Anderen hat sie keine Erinnerungen an ihre jugendliche Liebe, so dass von der Intensität ihrer früheren Beziehung nichts übrig bleibt. Hin- und hergerissen von der Aussicht, ihr trotzdem nahe zu sein, aber dafür den Einschränkungen der Stadt zu unterliegen, ermöglich der Erzähler seinem Schatten die Flucht zurück in die reale Welt und bleibt selber in der Stadt.</p>
-<p>Hier endet nach gerade einmal 189 Seiten der erste Teil des Buchs. Laut Nachwort Murakamis hatte er auch mit dieser dritten Variation nicht das Gefühl, die richtige Form für das Thema gefunden zu haben. Gleichzeitig ereilte ihn der Corona-Lockdown, und so begann er den nun zweiten Teil des Buches, der stilistisch und inhaltlich von den ersten Kapiteln abweicht. Aus ihm unbekannten Gründen ist der Erzähler zurück in die reale Welt gelangt, mit der er jedoch nicht mehr viel anfangen kann. So schmeißt er seinen Job und lässt sich von einem Traum leiten, in einer abgeschiedenen Stadt die Leitung einer Bibliothek zu übernehmen. Dort wird er von seinem älteren und etwas seltsamen Vorgänger eingearbeitet und lernt einen jugendlichen Leser kennen, der ihn schließlich anspricht und um Hilfe bittet, in die Stadt zu gelangen…</p>
-<p>Während der Erzähler des ersten Buchteils jung und unerfahren ist, steht der Protagonist im zweiten Teil mitten im Leben, wenn auch etwas orientierungslos. So reflektiert er ausführlich all die Seltsamkeiten seines Lebens und was die Stadt und seine erste Liebe eigentlich für ihn bedeuten - das kann durchaus als Corona-Blues gelesen werden. Der leicht autistische Jugendliche, der Zuflucht in den Büchern findet, stände in dieser Lesart stellvertretend für uns alle, die wir während des Lockdowns eingesperrt wurden. Und die Stadt, entworfen durch die beiden jungen Geschichtenerzähler, als Kunstwerk und Ausdruck der Freiheit, aus der Beschränktheit unserer Welt auszubrechen - und sei es es nur in Gedanken - und von den Träumen der anderen zu kosten.</p>
-<p>Welche Welt nun der Schatten der anderen ist, bleibt dabei offen, aber zumindest muss sich jeder von seinem Schatten lösen, um in die andere Welt hinüber zu wechseln und dort sein Glück zu finden.</p>
-</section>
-<section id="fazit" class="level2">
-<h2 class="anchored" data-anchor-id="fazit">Fazit</h2>
-<p>Ähnlich wie John Irving bewegt sich Murakami auf gewohntem Gebiet. Es finden sich die bekannten Beschreibungen von Jazzsongs, Essenszubereitungen und die - vorsichtig ausgedrückt - altmodischen Frauenbilder. Geister und Fragen zur Kunst bewegen sich durch beide Werke und da sowohl Murakami als auch Irving “nur” alte Motive neu variieren, möchte ich fast davon ausgehen, dass ich keine neuen Ideen mehr von ihnen erwarten kann - dass sie sich quasi auserzählt haben. Das wäre auf der einen Seite schade, mit dem Blick auf ihr jeweiliges Lebenswerk aber durchaus eine Leistung, auf die sie stolz sein können. Und während Irving sich etwas verläuft, liefert Murakami zumindest neue Interpretationen alter Ideen. Wer also nur eines der beiden Bücher lesen will, sollte sich definitiv der Stadt und ihrer Mauer widmen.</p>
-<p>(Ein kleiner letzter Gedanke noch zu den Buchpreisen: Mit 36€ bzw 34€ sind die Bücher alles andere als günstig. Ich hoffe nicht, dass gebundene Bücher bald nur noch ein Luxusgut sind, das sich nur noch wenige leisten können. Das wäre nicht gut für unsere Gesellschaft.)</p>
-
-
-</section>
-
- ]]></description>
-  <category>gelesen</category>
-  <guid>https://kingoli.net/blog/2024/02/11/spaetwerke/</guid>
-  <pubDate>Sun, 11 Feb 2024 23:44:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
