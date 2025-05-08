@@ -9,8 +9,111 @@
 <link>https://kingoli.net/blog/</link>
 <atom:link href="https://kingoli.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.7.29</generator>
-<lastBuildDate>Sun, 27 Apr 2025 15:55:00 GMT</lastBuildDate>
+<generator>quarto-1.8.3</generator>
+<lastBuildDate>Thu, 08 May 2025 22:24:00 GMT</lastBuildDate>
+<item>
+  <title>Martian Milkshake IPA III</title>
+  <link>https://kingoli.net/blog/2025/05/08/martian-milkshake/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Ich habe den heutigen Feiertag in Berlin genutzt, meine Herrentags-Brau-Trilogie abzuschließen. Und auch für dieses Bier gibt es eine Vorlage: Brewdogs <a href="https://untappd.com/b/brewdog-mail-order-martian/3145661">Mail Order Martian</a> war für mich der Einstieg in die Welt der cremigen IPAs; eine Steigerung der dank der Haferflocken schon sehr weichen und trüben NEIPAs. Dabei ist der Name <em>Milkshake</em> eigentlich irreführend, denn an die Milch erinnert nur die samtige Textur, während die Süße ein gutes Bett für die Hopfenaromen bildet.</p>
+<p>Die III in der Überschrift deutet schon darauf hin - dies ist bereits mein dritter Versuch an diesem Klon. Die NEIPA-Malzmischung, der etwas komplexere Maischverlauf und die Hefe sind dabei gleich geblieben, aber ich experimentiere mit den Hopfensorten und der Menge des Milchzuckers. Im ersten Versuch war er zu dominant, im letzten Jahr war die Kombination aus <em>HBC 630</em> und <em>Eclipse</em> nicht so lecker wie erwartet.</p>
+<p>Für die 2025er Ausgabe habe ich eine Packung <em>BarthHaas Spectrum Galaxy</em> ergattert. Dieser Flüssigextrakt soll das Hopfenstopfen einfacher machen, da er sich komplett in der Flüssigkeit löst und durch die hohe Konzentration nur wenige Stoffe in das Bier eingebracht werden müssen. Leider ist die kleinste verfügbare Einheit 20g, die schon für 20l Bier zu viel sind (maximal empfohlene Menge 1g/l). Mit meinen 8-10l Suden werde ich also nicht mal die Hälfte verbrauchen, wodurch das Stopfen deutlich teurer als mit Hopfenpellets wird. Aber ich wollte unbedingt testen, ob ich die Hopfen- und Hefesedimente weiter reduzieren kann.</p>
+<p>Für alle anderen Hopfengaben habe ich <em>Nectaron</em> ausgewählt. Diesen habe ich letztes Jahr in einem Cold IPA ausprobiert und war begeistert von dem Aroma nach Aprikosen. Das müsste eigentlich gut zu der Milchzuckersüße passen.</p>
+<section id="maische" class="level3">
+<h3 class="anchored" data-anchor-id="maische">Maische</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Malz</th>
+<th>Menge</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Pale Ale Malz</td>
+<td>1320g</td>
+</tr>
+<tr class="even">
+<td>Weizenmalz hell</td>
+<td>550g</td>
+</tr>
+<tr class="odd">
+<td>Cara Pils</td>
+<td>110g</td>
+</tr>
+<tr class="even">
+<td>Haferflocken</td>
+<td>220g</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="maischverlauf" class="level3">
+<h3 class="anchored" data-anchor-id="maischverlauf">Maischverlauf</h3>
+<ul>
+<li>Einmaischen bei 39°C, 5 Minuten Rast.</li>
+<li>auf 63°C aufheizen, 35 Minuten Rast</li>
+<li>auf 72°C aufheizen, 25 Minuten Rast</li>
+<li>Abmaischen bei 78°C</li>
+</ul>
+</section>
+<section id="kochen" class="level3">
+<h3 class="anchored" data-anchor-id="kochen">Kochen</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Zutat</th>
+<th>Menge</th>
+<th>Kochzeit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Milchzucker</td>
+<td>175g</td>
+<td>10min</td>
+</tr>
+<tr class="even">
+<td>Nectaron</td>
+<td>10g</td>
+<td>10min</td>
+</tr>
+<tr class="odd">
+<td>Nectaron</td>
+<td>5g</td>
+<td>Whirlpool</td>
+</tr>
+<tr class="even">
+<td>Spectrum Galaxy</td>
+<td>6g</td>
+<td>Stopfen gegen Ende der Gärung</td>
+</tr>
+<tr class="odd">
+<td>Nectaron</td>
+<td>25g</td>
+<td>1 Tag Stopfen</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="gärung" class="level3">
+<h3 class="anchored" data-anchor-id="gärung">Gärung</h3>
+<ul>
+<li>Wyeast 1318 London Ale III Flüssighefe</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>gebraut</category>
+  <guid>https://kingoli.net/blog/2025/05/08/martian-milkshake/</guid>
+  <pubDate>Thu, 08 May 2025 22:24:00 GMT</pubDate>
+</item>
 <item>
   <title>Der Weg vom Foto zum Panorama im Web</title>
   <link>https://kingoli.net/blog/2025/04/27/panoramen/</link>
@@ -29,7 +132,7 @@
 <p>Also machte ich mich auf die Suche nach einer Lösung zum Selberhosten - und fand in <a href="https://openseadragon.github.io/">OpenSeadragon</a> einen OpenSource-Viewer für das <a href="https://iiif.io/api/image/">IIIF-Format</a>. Als passenden IIIF-Server bot sich <a href="https://omeka.org/s/modules/IiifServer/">Omeka</a> an.</p>
 <p>Doch leider kam ich mit beiden nicht klar. Omeka ist vieles und das merkt man der Oberfläche auch an. Nur zum Ausliefern von Panoramen ist das Tool einfach zu komplex, auch wenn das IIIF-Modul selbständig die Tiles generiert. Zudem scheiterte ich kontinuierlich, OpenSeadragon mit Omeka IIIF oder selbstgenerierten Tiles zum Laufen zu bekommen.</p>
 <p>Durch Zufall stolperte ich schließlich über <a href="https://openlayers.org/">OpenLayers</a>, einer Software zur Darstellung von Geodaten (hauptsächlich Karten). Meine Freude war groß als ich feststellte, dass OpenLayers auch IIIF-Panoramen darstellen kann und ich in kürzester Zeit einen Proof of concept implementieren konnte. Im Zusammenspiel mit <a href="https://github.com/glenrobson/iiif-tiler">IIIF-tiler</a> war es mir sogar möglich, die Tiles vorab lokal zu generieren und einfach als statische Dateien von meinem Server ausliefern zu lassen.</p>
-<p>Damit haben nun meine Panoramas endlich eine neue Heimat gefunden: <a href="https://kingoli.net/panoramas/">https://kingoli.net/panoramas/</a>. Entgegen aller Erwartungen ist Gigapan zwar immer noch online, aber es scheint in den letzten zehn Jahren keinerlei Weiterentwicklung gegeben zu haben, so dass ich dankend Tschüss sage und mich darüber freue, dass mein digitaler Garten um weiteren Content angewachsen ist.</p>
+<p>Damit haben nun meine Panoramas endlich eine neue Heimat gefunden: <a href="https://kingoli.net/panoramas/">https://kingoli.net/panoramas/</a>. Entgegen aller Erwartungen ist Gigapan zwar immer noch online, aber es scheint in den letzten zehn Jahren keinerlei Weiterentwicklung gegeben zu haben, so dass ich dankend Tschüss sage und mich darüber freue, dass mein digitaler Garten um ein neues Pflänzchen angewachsen ist.</p>
 
 
 
@@ -890,31 +993,6 @@ Die Biersteuerverordnung vom 5. Oktober 2009 (BGBl. I S. 3262, 3319), die zuletz
   <category>gefunden</category>
   <guid>https://kingoli.net/blog/2024/06/15/fanmeile/</guid>
   <pubDate>Sat, 15 Jun 2024 15:55:00 GMT</pubDate>
-</item>
-<item>
-  <title>Fallout - Staffel 1</title>
-  <link>https://kingoli.net/blog/2024/04/20/fallout/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Es ist schon über <a href="../../../../2011/09/06/washington-d-c-und-die-fallout-brille/">13 Jahre her</a>, dass ich in <em>Fallout 3</em> das Ödland erkundet habe. Mit der achtteiligen ersten Staffel <em>Fallout</em> bringt Amazon nun zusammen mit Bethesda, dem Entwickler der Spiele, die Handlung der Spielewelt als Live-Action-Serie auf die Streaming-Geräte. Und ich habe die knapp acht Stunden in wenigen Tagen weggebinged.</p>
-<p>Das liegt vor allem daran, dass die Serie die wunderbar schräge Welt der Spiele sehr gut übernommen hat. In <em>Fallout</em> scheint die Welt in den 50er/60er Jahren stehen geblieben zu sein; nur dass 2077 die Welt durch Atombomben zerstört wurde und die gesamte Erdoberfläche seitdem verstrahlt ist. Ein Teil der Menschen konnte sich in unterirdische Bunker (sogenannte Vaults) retten und plant, nach dem Nachlassen der Strahlung die Erde wieder zu bevölkern. Doch auch an der Ödland genannten Oberfläche hat sich menschliches Leben erhalten können, wenngleich die Formen des Zusammenlebens eher an den Wilden Westen als moderne Zivilisationen erinnern.</p>
-<p>Oft habe ich in Zusammenhang mit <em>Fallout</em> von Retrofuturismus gelesen, und das trifft es ganz gut. Der oberflächliche Optimismus der Nachkriegszeit, dass die wirtschaftliche und technische Entwicklung das Leben aller verbessert, wird dem aktuellen Pessimismus gegenübergestellt, dass die Menschheit eine stark zerstörerische Ader hat, dass grenzenloses wirtschaftliches Wachstum als Selbstzweck unseren Planeten und damit unsere Lebensgrundlage vernichtet und Technologien auch ihre Schattenseiten haben.</p>
-<p>Aus dieser starken Reibung entstehen auch die Konflikte der Serie, denn zwei der drei Hauptcharaktere (Lucy MacLean und Maximus) kommen aus den repräsentierenden Fraktionen (Vault-Bewohner als Erhalter der wirtschaftlich-technischen Welt, die Bruderschaft als Sekte, die in militärischer Stärke und Zerstörung alles Andersartigen den einzigen Weg des Überlebens sieht) und ecken mit ihren erlernten Vorstellungen ganz schön an, als sie mit der Realität im Ödland konfrontiert werden. Mit dem Ghoul als autonomen Cowboy bekommen sie eine Figur an die Seite gestellt, die mit ihrem Wissensvorsprung und Talenten an dieser Konfliktlinie entlangtanzt und in Rückblenden in die Zeit der Atomschläge nach und nach die wahre Geschichte dieser alternativen Welt offenlegt.</p>
-<p>Besonders gefallen hat mir dabei der schwarze Humor, der nicht nur in den Dialogen auftritt sondern sich auch auf der Handlungsebene wiederfindet. Immer wieder verhalten sich die Nebenfiguren anders als von Lucy oder Maximus erwartet, gehen Kämpfe anders aus als sie sollten, tauchen tragikomische Roboter auf. Einmal muss Maximus Zähne verkaufen, oder der Knappe Thaddeus bewundert die Fallen vor einer Radiostation und tappt dann selber hinein - hier funktioniert auch das Timing im Schnitt hervorragend und der Soundtrack unterstützt mit vielen Oldies die Bildebene hervorragend.</p>
-<p>Die Ausstattung und das gesamte Art-Design ist ebenso gelungen. Das 50er/60er industrielle Design von Möbeln, Autos, Schaltern und Monitoren lebt wunderbar den Geist der Vorlage; auch die Farben (markant das Blau von Vault-Tec) und Kostüme (markant der zerissene Rock des Ghouls) prägen sich ein. Dazu beeindrucken sowohl die Ödland-Kulissen in den wüstenartigen Weiten als auch den Oasen wie der Stadt Filly (Megaton aus <em>Fallout 3</em>?) oder den Resten des Griffith-Observatoriums. Im Gegensatz zu vielen anderen Serien sind die Effekte auch sehr stimmig integriert und kaum zu sagen, was jetzt Modell oder CGI ist. Nur in der zweiten Episode beim Kampf des Ghouls mit der Militärrüstung sehen die Bewegungen unnatürlich aus, in Episode 7 schneit es plötzlich an einer Tankstelle, wo wir doch sonst nur kalifornische Sonne sehen und in der letzten Episode sehen wir einen seltsam verjüngten Kyle MacLachlan - den Rest der Zeit wirkt jedoch alles wie aus einem Guss.</p>
-<p>Als Spieler der Vorlage hat es mich gefreut, dass viele Details der Games den Weg in die Serie geschafft haben: Kronkorken als Währung, die an Atomkraft erinnernde Markennamen (Nuka Cola, Radiation King Fernsehgeräte) und sogar sehr spielerische Elemente wie der Pipboy oder Stimpacks finden sich wieder. Aber auch wenn die Handlung Teile der Spiele aufgreift, hebt sie sich doch deutlich von klassischen Game-Story-Arcs ab (negatives Beispiel: <em>Ready Player One</em>).</p>
-<p>Doch wo viel Licht, da gibt es auch Schatten. Der Soundtrack hat Höhen und Tiefen. Und manchmal passieren einfach Dinge, die nicht zueinander passen wollen. So wird Lucy vom Ghoul der Finger abgeschnitten, doch gleich in der nächsten Szene bekommt sie von Roboter Mr.&nbsp;Handy einen neuen angenäht. Das zeigt sehr gut, wie Medizin in der gamifizierten Welt von <em>Fallout</em> funktioniert. Allerdings will der Roboter gleich danach Lucy zerschneiden, um an ihre wertvollen Organe zu kommen. Warum sollte er ihr vorher einen Finger annähen; warum hat er sie nicht gleich zerlegt?</p>
-<p>Es gibt einige Stellen, an denen das Drehbuch in aller Überdrehtheit seine Konstruiertheit offen zeigt. Doch da die Handlung unterhaltsam ist, mit viel schwarzem Humor serviert wird und die Welt von <em>Fallout</em> einfach toll anzusehen ist, empfehle ich die Serie nicht nur, aber vor allem Fans der Spiele.</p>
-
-
-
- ]]></description>
-  <category>gesehen</category>
-  <guid>https://kingoli.net/blog/2024/04/20/fallout/</guid>
-  <pubDate>Sat, 20 Apr 2024 23:55:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
