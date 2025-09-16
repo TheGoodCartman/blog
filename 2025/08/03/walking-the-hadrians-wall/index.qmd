@@ -1,0 +1,121 @@
+---
+title: "Walking the Hadrian's Wall"
+date: "2025-08-03T23:44:00"
+categories: [gewesen]
+---
+
+[Da mich die Reste römischer Bauwerke in vielen meiner Urlaube begleiten](/2024/08/24/die-roemer-und-ihre-baeder/), war es nur konsequent, dass ich einmal einen Urlaub nur auf ihren Spuren wandere - und das im wahrsten Sinne des Wortes, denn ich bin auf dem _Hadrian's Wall Path_ einmal von Ost nach West quer durch England gewandert.
+
+Das klingt jetzt nach mehr, als es eigentlich ist. Die Römer haben sich für ihren Schutzwall eine der schmalsten Stellen der britischen Insel ausgesucht. Die Mauer war ursprünglich 120km lang, [der offizielle Wanderpfad geht über 138km](https://www.nationaltrail.co.uk/en_GB/trails/hadrians-wall-path/) und es werden sieben Etappen empfohlen. Aufgrund der Flüge und der teilweise schwierigen B&B-Situation sollten es bei mir acht Etappen werden.
+
+<iframe title="Hadrian's Wall Path" aria-label="Locator-Karte" id="datawrapper-chart-BvPN6" src="https://datawrapper.dwcdn.net/BvPN6/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="370" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();
+</script>
+
+### Hadrian's Wall Path - Der Osten
+
+Gestartet bin ich in _Wallsend_, einem Vorort von _Newcastle_. Dort befand sich das römische Fort _Segedunum_; heute ist die Ausgrabungsstätte ein Museum. Bis zur Nordsee sind es noch sieben Kilometer Luftlinie, aber der von den Gezeiten dominierte Fluss Tyne ist hier bereits so breit und das Ufer so steil, dass an ein einfaches Überqueren nicht zu denken ist und die Mauer erst hier beginnen musste.
+
+Und siehe da, vor knapp zehn Jahren wurden nach dem Abriss eines Pubs die Überreste des Badehauses der römischen Garnison wieder entdeckt. Wie von den Römern nicht anders zu erwarten sollte es natürlich nicht das letzte auf der Wanderung bleiben.
+
+Aber für einige Kilometer war es die letzte römische Ruine entlang des Weges, denn innerhalb _Newcastles_ liegt der rekonstruierte Verlauf der Mauer hauptsächlich unter Straßen. Am Rande der West Road (A186 bzw A69) sind einige wenige Fundamente noch zu sehen, aber der offizielle Wanderweg führt einen Kilometer weiter südlich entlang des Tynes unter den sieben Brücken von Newcastle hindurch.
+
+Nach knapp 20 Kilometern wird hinter Newburn endlich der urbane Teil des Pfades verlassen. Es geht entlang einer alten Bahntrasse weg vom Fluss und dann zum ersten Mal steil nach oben (116 Höhenmeter) bis nach _Heddon-on-the-Wall_, wo der Wanderweg wieder auf den Mauerverlauf und die ersten sichtbaren Reste des _Hadrian's Wall_ trifft.
+
+Weiter geht es entlang einer alten Militärstraße, für die im 18. Jahrhundert die Mauer in diesem Abschnitt komplett abgetragen wurde, durch landwirtschaftlich geprägtes Hügelland. Das bedeutet: Der Wanderweg führt hauptsächlich über aktiv genutzt Kuh- und Schafsweiden. Das hat zwei große Nachteile: Eine Weide ist von der nächsten meist durch Hecken oder Steinmauern getrennt. Die Engländer haben dabei eine Vielzahl kreativer Wege gefunden, damit Menschen die Hindernisse überwinden können, die Tiere aber nicht. Es fängt an mit einfachen in die Mauern eingelassenen Stufen, verschiedenen Formen von Leitern, und endet mit selbstschließenden Toren - wobei die Anzahl der möglichen Schließmechanismen, die zuerst geöffnet werden müssen, erstaunlich groß ist.
+
+Der zweite Nachteil ist, dass die Wege auf den Weiden leider keine schönen Wanderwege sind. Oft sind es nur Trampelpfade, meist nicht sehr eben, und die Weidetiere hinterlassen gerne ihre Exkremente mitten auf dem Weg. Das Wandern artet so zu einem ständigen Hindernislauf aus, bei dem ich mehr Aufmerksamkeit auf den Boden vor mir richten musste als auf die Landschaft. Wobei diese hier auch noch sehr flach und wenig spektakulär ausfällt.
+
+::: {layout="[[1,1,1,1], [1,1]]"}
+![Eines von vielen Toren mit wechselnden Schlossarten](PXL_20250726_125136938.jpg){group="east"}
+
+![Eine von vielen Treppen](PXL_20250726_133226691.jpg){group="east"}
+
+![Einer von vielen Mauerübergängen](PXL_20250726_162124008.jpg){group="east"}
+
+![Ein Überstieg mit Holzgriff](PXL_20250726_171629395.jpg){group="east"}
+
+![Doch die Schafe überwinden jeden Zaun, wie hier am Mithras-Tempel](PXL_20250728_105258457.jpg){group="east"}
+
+![Die Überreste des römischen Badehauses von Segedunum](PXL_20250725_090512889.jpg){group="east"}
+:::
+
+Das Highlight des Tages stellte das [Robin Hood Inn](https://robinhoodinnhadrianswall.co.uk/dining) dar, ein uriger Pub mitten im Nirgendwo mit gutem Essen, lokalem Bier und dem ersten Stempelkasten für den Wanderpass, den ich in Wallsend gekauft habe. Ebenfalls empfehlenswert ist das B&B von Katie in der [Halton Red House Farm](https://www.haltonredhousefarm.co.uk/).
+
+### Hadrian's Wall Path - Aufbau der Mauer
+
+Von dort waren es für den dritten Tag nur noch knapp 10km bis _Chollerford_ (gerne im [Riverside Kitchen](https://www.theriversidekitchen.co.uk/) für ein Sandwich Halt machen), wo die ersten Highlights der Wanderung auf mich warteten. Deshalb will ich kurz beschreiben, wie die Mauer eigentlich aufgebaut war.
+
+Eine spannende Erkenntnis war für mich, dass die Mauer zwar die Grenze zum nicht-römischen Gebiet im Norden markierte, aber mehr symbolischen und wirtschaftlichen Zwecken diente und weniger der militärischen Abwehr. Die nächsten Jahrhunderte sollten zeigen, dass gerade Armeen sie einfach überwinden bzw umfahren konnten. Doch da die Mauer nur einmal pro römischer Meile (ungefähr anderthalb Kilometer) ein Tor hatte - befestigt durch die sogenannten _Milecastles_ - konnten die Römer sehr genau kontrollieren, wer und vor allem welche Waren die Grenze durchquerten.
+
+Zwischen diesen _Milecastles_ gab es jeweils zwei kleinere Wachtürme, genannt _Turrets_, im Abstand von jeweils 500 Metern. Und kurz vor dem Fluss North Tyne finden sich mit dem _Brunton Turret_ die ersten Grundmauern eines solchen Turmes.
+
+Generell sind als höchstes der Gefühle noch flache Reste der Mauer und ihrer Bauwerke erhalten. Selbst die vor und hinter der Mauer verlaufenden Gräben (_Vallum_) sind an vielen Stellen kaum mehr zu erahnen, und von den ursprünglich 80 _Milecastles_ sind noch ganze zehn Fundamente zu sehen.
+
+::: {layout-ncol=2}
+![Brunton-Turret 26B](PXL_20250727_113739490.jpg){group="wall"}
+
+![Milecastle 48 "Poltross Burn" bei Gilsland](DJI_0166.JPG){group="wall"}
+:::
+
+
+### Hadrian's Wall Path - Northumberland National Park
+
+Gleich auf der anderen Flussseite des North Tyne liegt die Ausgrabungsstätte des römischen Forts _Chesters_, eines der vielen Museen entlang des Wanderweges. Ab hier beginnt der landschaftlich schönste wie auch besterhaltenste Abschnitt der Mauer.
+
+Vom Fluss kommend geht es stetige zweihundert Höhenmeter nach oben bis zur nächsten römischen Siedlung _Brocolitia_, die sich unter einem Hügel aber nur noch erahnen lässt. Dafür hat ein trockener Sommer vor ein paar Jahren die Mauern eines Tempels des Mithras-Kultes freigelegt, der im Sumpf untergegangen war.
+
+Kurz danach löst sich der Weg von der Straße, die parallelen Gräben vor und hinter der Mauer werden sichtbar, und plötzlich steht man auf einem Hügel und sieht bis zum Horizont, wie sich die nun durchgängigen Mauernreste dem welligen Terrain anschmiegen. Hier im mittleren Abschnitt des _Hadrian's Wall Path_ gab es ~~keine~~ weniger Bauprojekte, für die die Mauer abgetragen wurde, so dass teilweise noch mehr als mannshohe Abschnitte zu bewundern sind. Ab und zu wurde auch geschummelt und die römische Mauer durch eine einfache Schafsmauer ersetzt, aber den Gesamteindruck schmälert das nicht.
+
+An vielen Stellen wurde die Mauer hier an die steil abfallenden Hänge der Hügel gebaut, so dass der _Hadrian's Wall Path_ nun fleißig jeden Anstieg mitnimmt, nur um danach sofort wieder nach unten zu führen. Dadurch haben sich am vierten Tag die Höhenmeter auf fast 500 hoch und 300 abwärts aufsummiert - das sind fast schon alpine Werte.
+
+Auf den letzten fünf Kilometern reiht sich dann ein Highlight an das andere. Zuerst kommt mit _Housesteads_ die nächste große Ausgrabungsstätte/Museum, bevor am _Sycamore Gap_ der wohl berühmteste Fotospot des gesamten _Hadrian's Wall_ wartet. Hier stand bis 2023 ein alter Ahornbaum in der Senke zwischen zwei Hügeln und genoss die Aufmerksamkeit, die ihm seit seinem Auftritt im 1991er Film _Robin Hood_ mit Kevin Costner zuteil wurde. Leider kamen vor zwei Jahren zwei Einheimische auf die Idee, den Baum zu fällen. Nun ist der _Sycamore Gap_ zwar immer noch ein Touristenmagnet, aber leider nicht mehr so fotogen.
+
+Kurz danach war mit der Ankunft in _Once Brewed_ (What a name!) die Mitte der gesamten Wanderung erreicht. Hier gibt es weitere Highlights wie das Nationalparkzentrum _The Sill_ und die große Ausgrabungsstätte _Vindolanda_, so dass sich vergleichsweise viele Touristen in der Gegend tummelten.
+
+Und wenn ein Ort schon einen so schönen Namen trägt, dann muss es natürlich auch einen Pub geben. Das [_Twice Brewed Inn_](https://twicebrewedinn.co.uk/) ist jedoch nicht nur Kneipe und B&B, sondern auch eine empfehlenswerte Craft Beer Brewery und betreibt sogar ein kleines Planetarium. Denn der Nationalpark ist dank seiner Abgeschiedenheit frei von Lichtverschmutzung, ein sogenannter _Dark Sky Park_. Ich konnte dies aber trotz einer klaren Nacht nicht nutzen, da es Ende Juli so weit im Norden nicht richtig dunkel wurde.
+
+Am nächsten Tag, der nunmehr fünften Etappe, ging es zuerst hügelig weiter wie bisher. An den _Winshield Crags_ wurde der höchste Punkt der gesamten Wanderung erreicht; danach ging es bis zum gefluteten ehemaligen Steinbruch _Cawfield Quarry_ stetig bergab. Ab wird der Weg etwas sumpfig, aber insgesamt weniger hügelig, bis ein noch mit EU-Geldern angelegter kleiner Park am nächsten Steinbruch _Walltown Quarry_ zu einer Pause einlädt. Direkt dahinter lädt das _Roman Army Museum_ zu einer Zeitreise in die römische Militärgeschichte ein, bevor die kleine Burgruine _Thirlwall Castle_ den westlichsten Punkt des Nationalparks markiert.
+
+::: {layout="[[1,1], [1,1]]"}
+![Mauer bis zum Horizont](PXL_20250728_124804500.jpg){group="middle"}
+
+![Auf und ab - über jeden Hügel, durch jedes Tal](PXL_20250728_143351891.jpg){group="middle"}
+
+![Walking on the Wall - Literally](PXL_20250728_134453866.jpg){group="middle"}
+
+![Die Reste des berühmten Sycamore Gap](PXL_20250728_144015999~2.jpg){group="middle"}
+:::
+
+### Hadrian's Wall Path - Der Westen
+
+Nach drei Kilometern über an das Auenland von Mittelerde erinnernde Wiesen wird _Gilsland_ erreicht. Hier wurde eine Bahnlinie mitten durch die Mauer gebaut, doch zum Glück die Grundmauern eines _Milecastles_ nur fünf Meter von den Schienen entfernt erhalten.
+
+Hinter _Gilsland_ musste die Mauer den Fluss Irthing queren. Von der damaligen Brücke sind nur noch die Fundamente der Pfeiler erhalten, liegen aber spannenderweise ein paar Meter neben dem heutigen Flussbett, wo hinter einer modernen Brücke und kurze, aber heftige 50m-Steigung wartet. Nur 500m weiter liegt schließlich mit _Birdoswald_ die letzte Ausgrabungsstätte am Wanderweg.
+
+Ab jetzt werden die Überreste der Mauer mit jedem Kilometer weniger. Das hat hauptsächlich damit zu tun, dass die Mauer zum Bau des nahegelegenen _Lanercost Priory_ (heute selbst eine halbe Ruine) geplündert wurde. Am _Hare Hill_ des kleinen Ortes _Banks_ steht schließlich die letzte der vielen Tafeln, die mich am _Hadrian's Wall Path_ über jeden _Turret_ und jedes _Milecastle_ informiert haben.
+
+Und nur wenige Kilometer weiter, nach sechs von acht Etappen, musste ich leider die Wanderung abbrechen. Ich hatte mir vermutlich am vierten Tag meinen rechten Fuß überdehnt, der daraufhin fleißig anschwoll und mich schlussendlich am Weiterlaufen hinderte. 
+
+So kann ich von dem Rest der Strecke nur berichten, was mein Mitwanderer erzählt hat: Es geht nun nur noch flach weiter; _Carlisle_ nähert man sich auf inzwischen ordentlichen Wanderwegen entlang des Flusses Eden an. Von _Carlisle_ sind es schließlich noch 25km durch hauptsächlich Marschland bis nach _Bowness-on-Solway_, dem offiziellen Ende des _Hadrian's Wall Path_. Zu sehen gibt es von den Römern gar nichts mehr, so dass ich zum Glück nicht viel verpasst habe.
+
+::: {layout-ncol=3}
+![Mein angeschwollener Fuß](PXL_20250731_143832732~2.jpg){group="west"}
+
+![Der ~~Garten~~ Fluss Eden in Carlisle](PXL_20250802_100350921.jpg){group="west"}
+
+![Das offizielle Ende des Wanderwegs in Bowness-on-Solway](PXL_20250801_163534786~2.jpg){group="west"}
+:::
+
+### Hadrian's Wall Path - Was bleibt
+
+Der _Hadrian's Wall Path_ als eine Querung der britischen Insel entlang des Mauerverlaufs ist eine wirklich nette Idee für einen Wanderweg. Unterwegs gibt es viele Museen und einiges zu sehen; die Ausstattung mit englischen Landpubs entlang der Strecke ist erstaunlich gut.
+
+Würde ich die Wanderung deshalb noch einmal machen oder jemandem empfehlen? Eher nicht. Das liegt zum einen daran, dass mir Wandern über vollgeschissene Viehweiden einfach keinen Spaß macht. Zum Anderen können die Teile des Weges außerhalb des _Northumberland National Park_ einfach nicht mit der tollen Landschaft in der Mitte der Strecke mithalten.
+
+Deshalb mein Tipp: Einfach im netten Städtchen _Hexham_ oder in _Once Brewed_ eine Unterkunft suchen und dann den [Hadrian's Wall Country Bus AD122](https://www.gonortheast.co.uk/services/GNE/AD12) nutzen, um die zwei Highlight-Etappen von _Chollerford_ bis _Walltown_ zu machen.
+
+
+
+
+
+
