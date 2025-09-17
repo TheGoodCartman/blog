@@ -77,7 +77,7 @@ Und wenn ein Ort schon einen so schönen Namen trägt, dann muss es natürlich a
 
 Am nächsten Tag, der nunmehr fünften Etappe, ging es zuerst hügelig weiter wie bisher. An den _Winshield Crags_ wurde der höchste Punkt der gesamten Wanderung erreicht; danach ging es bis zum gefluteten ehemaligen Steinbruch _Cawfield Quarry_ stetig bergab. Ab wird der Weg etwas sumpfig, aber insgesamt weniger hügelig, bis ein noch mit EU-Geldern angelegter kleiner Park am nächsten Steinbruch _Walltown Quarry_ zu einer Pause einlädt. Direkt dahinter lädt das _Roman Army Museum_ zu einer Zeitreise in die römische Militärgeschichte ein, bevor die kleine Burgruine _Thirlwall Castle_ den westlichsten Punkt des Nationalparks markiert.
 
-::: {layout="[[1,1], [1,1]]"}
+::: {layout="[[1,1,1], [1,1]]"}
 ![Mauer bis zum Horizont](PXL_20250728_124804500.jpg){group="middle"}
 
 ![Auf und ab - über jeden Hügel, durch jedes Tal](PXL_20250728_143351891.jpg){group="middle"}
