@@ -2,6 +2,7 @@
 title: "Walking the Hadrian's Wall"
 date: "2025-08-03T23:44:00"
 categories: [gewesen]
+lightbox: true
 ---
 
 [Da mich die Reste römischer Bauwerke in vielen meiner Urlaube begleiten](/2024/08/24/die-roemer-und-ihre-baeder/), war es nur konsequent, dass ich einmal einen Urlaub nur auf ihren Spuren wandere - und das im wahrsten Sinne des Wortes, denn ich bin auf dem _Hadrian's Wall Path_ einmal von Ost nach West quer durch England gewandert.
@@ -80,6 +81,8 @@ Am nächsten Tag, der nunmehr fünften Etappe, ging es zuerst hügelig weiter wi
 ![Mauer bis zum Horizont](PXL_20250728_124804500.jpg){group="middle"}
 
 ![Auf und ab - über jeden Hügel, durch jedes Tal](PXL_20250728_143351891.jpg){group="middle"}
+
+![Die Ausgrabungsstätte Housesteads/Vercovicium](DJI_0150.JPG){group="middle"}
 
 ![Walking on the Wall - Literally](PXL_20250728_134453866.jpg){group="middle"}
 
