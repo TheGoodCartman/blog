@@ -34,9 +34,9 @@ Anfang 1991 lief im ZDF eine Serie an, der wohl niemand zugetraut hat, 2023 imme
 
 Damit fing alles an. Meine erste Konsole, das NES; mein erstes Spiel, *Super Mario Bros 1*. Seitdem zocke ich Computerspiele, und noch heute könnte ich vermutlich blind das Game durchspielen, so oft habe ich es wiederholt.
 
-## Agathe Christie
+## Agatha Christie
 
-Nachdem mich die Aussicht, einen Sommer lang Gamegear zu spielen, dazu verleitet hat, Mitglied einer Kinder-/Jugend-Bibliothek zu werden, fand ich bald heraus, dass ich großer Krimi-Fan bin. Sherlock Holmes, Maigret, alles von Agathe Christie - ich habe sie verschlungen. Christies Stil hatte sich dabei noch am Besten über die Jahre gehalten, wobei Miss Marple mein Favorit wurde - als Buch und auch in den sympathischen Verfilmungen mit Margaret Rutherford. 
+Nachdem mich die Aussicht, einen Sommer lang Gamegear zu spielen, dazu verleitet hat, Mitglied einer Kinder-/Jugend-Bibliothek zu werden, fand ich bald heraus, dass ich großer Krimi-Fan bin. Sherlock Holmes, Maigret, alles von Agatha Christie - ich habe sie verschlungen. Christies Stil hatte sich dabei noch am Besten über die Jahre gehalten, wobei Miss Marple mein Favorit wurde - als Buch und auch in den sympathischen Verfilmungen mit Margaret Rutherford. 
 
 ## Franquin
 
