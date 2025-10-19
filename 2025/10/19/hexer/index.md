@@ -1,0 +1,37 @@
+---
+title: "Die Geralt-Saga (Hexer-Pentalogie)"
+date: "2025-10-19T16:15:00"
+categories: [gelesen]
+---
+
+_von Andrzej Sapkowski_
+
+* _Das Erbe der Elfen_
+* _Die Zeit der Verachtung_
+* _Feuertaufe_
+* _Der Schwalbenturm_
+* _Die Dame vom See_ 
+
+Zum ersten Mal bin ich mit dem Hexer Geralt anno 2007 über das Spiel _The Witcher_ in Kontakt gekommen. Was anfangs wie ein typisches Action-RPG in Third-Person-Perspektive mit einem wortkargen Helden daher kam, entfaltete im Verlauf eine für die Zeit innovative Spielmechanik: Der Spieler spielte nicht nur einen vorgegebenen Charakter, sondern musste auch ambivalente Entscheidungen nach eigenem Werteverständnis treffen, ohne die Konsequenzen zu kennen. Erst später wurde ich mit den Folgen der Entscheidungen konfrontiert, was auch dazu führte, dass ich ganze Abschnitte des Spiels nicht zu Gesicht bekam. Das hat mir damals nicht geschmeckt, aber inzwischen ist es Standard geworden, parallele Handlungspfade und mehrere Enden anzubieten.
+
+Erst mit dem Erfolg von _The Witcher 3: Wild Hunt_ (2015) hörte ich zum ersten Mal vom Autor der Vorlage, Andrzej Sapkowski. Denn dieser stritt sich mit dem Spielstudio, da er - für mich verständlich - nicht mehr zufrieden war mit den rund 8000€, für die er zwei Jahrzehnte vorher die Rechte an der Videospielumsetzung verkauft hatte.
+
+Doch erst die Netflix-Serie (seit 2019) weckte mein Interesse, mich tiefer mit der Vorlage zu befassen. Denn zwei Aspekte heben sie in meiner Wahrnehmung aus der breiten Masse der Fantasy hervor. Zum einen nimmt sich _The Witcher_ nicht so bockernst wie andere Vertreter des Genres. Sapkowski bedient sich zwar fleißig an der europäischen Sagenwelt, hinterfragt die bekannten Motive aber immer wieder hintergründig und mit angenehmer Ironie. Der wohl deutlichste Ausdruck davon ist der Barden-Sidekick [Jaskier/Dandelion/Rittersporn](https://www.youtube.com/watch?v=PoQJM8SO6V0). Als Minnesänger reist er mit Geralt herum, um aus erster Hand Material für seine Lieder zu erhalten. Gleichzeitig hält er dem Hexer aber auch den Spiegel vor (das ist fast schon postmodern) und bewirbt ihn (und seine eigene Rolle) in den gekonnt übertriebenen Liedern.
+
+Zum anderen hat mir gefallen, dass Geralt nicht nur ein einsilbiger Monsterslasher ist, sondern dank des tiefen Wissens über die Welt und ihre Fauna auch immer nachvollziehen kann, dass die Bezeichnung Monster nur eine Frage der Perspektive ist. Ich würde ihn fast als mittelalterlichen Naturschützer bezeichnen - wenn es nicht sein Job wäre, für Geld die Monsterprobleme der Menschen zu lösen. Diese Ambivalenz ist ein wiederkehrendes Thema: Wie neutral kann ein Hexer sein? Wie kann er sicherstellen, dass er das Richtige tut?
+
+Als ich nun [im Sommer zum Wandern nach England reiste](/2025/08/03/walking-the-hadrians-wall/), war der Platz in meinem Handgepäck limitiert, so dass ich auf eine Reiselektüre verzichten musste. In Newcastle bin ich dann als Erstes in den [schönen Waterstones-Buchladen](https://x.com/NewcastleNE1/status/1909230441057427656) gegangen und habe in Abwägung von Gewicht und Interesse den ersten Band der Hexer-Saga ausgewählt - und in Carlisle gleich den zweiten hinterher gekauft. 
+
+Der Grund für den sofortigen Kauf des zweiten Teils liegt in einer Eigenheit der Bücher, die jeder Leser wissen sollte, bevor er/sie damit startet: Andrzej Sapkowski kann (oder will) nicht linear erzählen. Und er kann keine Enden - nicht von Kapiteln, nicht von Büchern. Ersteres war anfangs noch interessant: Die Bücher werden nicht nur aus einer Perspektive erzählt, sondern wechseln konstant den Erzähler. Nur selten kommen die Hauptcharaktere selber zu Wort; meist sind es Nebenfiguren, die aus ihrer eigenen Sicht berichten. Das ist am Anfang wirklich spannend zu lesen, weil ich als Leser sehr viele Seiten der Welt und damit auch die Welt selber kennenlerne. Doch leider führt dies auch zu ständigen Unterbrechungen und Zeitsprüngen; teilweise wird aus der weit entfernten Zukunft rückblickend berichtet, teilweise vom anderen Ende der Welt. Und immer wieder musste ich mich gedulden, da oft nicht sofort klar ist, wie der erzählende Charakter überhaupt mit der Haupthandlung in Verbindung steht. Das ist umso ärgerlicher, da Sapkowski seine Kapitel gerne mit Cliffhangern beendet und es viele Seiten dauern kann, bis der abrupt unterbrochene Handlungsfaden überhaupt wieder aufgegriffen wird.
+
+Generell habe ich bis zum vierten Band benötigt, um überhaupt irgendeine Logik in der Kapiteleinteilung zu erkennen. Und dasselbe Muster wiederholt sich auf größerer Ebene bei den Büchern: Sie schließen nichts ab, die Unterteilung wirkt beliebig und gerade in den ersten drei etwas dünneren Bänden passiert so wenig in der Haupthandlung, dass sie definitiv nur am Stück gelesen werden sollten.
+
+In diesem Sinne ist die erste Staffel der Serie eine sehr gute Umsetzung der Bücher: Es wird nur wenig aus der Haupthandlung erzählt, dafür aber wild zwischen Zeiten und Orten gesprungen.
+
+Was die Serie zum Glück besser macht, dank der Gnade der späten Geburt, ist die Darstellung der Frauen und ihres Verhaltens. Mit Ciri und Yennefer gibt es zwei starke weibliche Hauptcharaktere, und die Loge der Zauberinnen agiert selbstbewusst aus einer Position der Stärke heraus. Trotzdem kommt Ciri wiederholt in die Situation, misshandelt oder vergewaltigt zu werden. Das war für mich teilweise sehr schwer zu lesen, wie schnell dieser wilde und willensstarke Charakter sich damit abfindet und im Sinne des Stockholm-Syndroms Rechtfertigungen ausdenkt, die Situation zu akzeptieren. Diese Stellen sind einfach extrem schlecht geschrieben und waren für mich nicht nachzuvollziehen.
+
+Zum Glück ist das der einzige Aspekt, wo man den Büchern das Alter anmerkt (sie wurden in den 90ern geschrieben). Denn ansonsten werden viele aktuelle Topos behandelt, denen ich in der Fantasy bisher wenig bis gar nicht begegnet bin: Kapitalismus als wichtigen Motivator sowohl auf individueller Ebene als auch bei den Kriegsparteien (Sapkowski hat Wirtschaft studiert). Rassismus aufgrund der Andersartigkeit von Elfen, Zwergen und Halblingen. Und das Multiversum-Thema war zu der Zeit ebenfalls noch nicht so ausgetreten wie heute.
+
+Ebenso spannend fand ich die Sprache. Ich habe die Bücher nur in der englischen Übersetzung mit ihrem anstrengenden Satzbau und auf deutsch gelesen, aber in letzterer Fassung haben mir die vielen alten Begriffe gefallen, die aus der Alltagssprache verschwunden sind (z.B. Zeidler). Sie geben der Welt eine mittelalterliche Erdung und passen zu den verwendeten Motiven wie der Artus-Saga oder Goethes Gedichten (Zauberlehrling, Erlkönig). In die Kategorie ausgestorbene Wortnutzung fällt auch das Wort Hexer selbst, das durch die Bücher mit einer neuen Bedeutung aufgeladen wurde und sogar zu einer neuen weiblichen Form (Hexerin) geführt hat - dabei ist das Wort Hexe ja die ursprüngliche weibliche Form.
+
+Zusammenfassend kann ich sagen: Wer die erste Staffel der Netflix-Serie mochte, der kann sich ruhig an die Bücher wagen, da diese neben den Stärken auch die meisten Mankos der Pentalogie auf den Bildschirm übernommen hat. Ansonsten rate ich eher zum Verzicht: Auf den rund 2000 Seiten schweift Andrzej Sapkowski derart oft ab, dass es nur schwer auszuhalten ist. Als Stilmittel macht dies die Welt des Hexers umso interessanter, aber das Lesen fühlt sich teilweise wie das Waten durch einen Sumpf an - man investiert viel Zeit und Energie, kommt aber kaum voran.

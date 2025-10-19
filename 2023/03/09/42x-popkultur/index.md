@@ -54,7 +54,7 @@ Wenn man mit spärlichem Taschengeld nicht alle gewünschten Videospiele kaufen 
 
 Ausgerechnet in der Spiele-Zeitschrift Powerplay bekam ich den Lesetipp zu Terry Pratchetts Scheibenwelt. Fortan habe ich alle Bücher der Serie lachend verschlungen, habe alle Volten der deutschen Verlage betreffend Übersetzung, Cover und Auflagen mitgemacht, um am Ende doch bei den englischen Originalen zu landen. Am besten fand ich immer den notorischen Verlierer Rincewind und wie Pratchett seine Reiseerlebnisse darin verarbeitete, aber auch die Auseinandersetzung mit Wirtschaft, Presse und Eisenbahn im Spätwerk unterhielt mich gut.
 
-## Fräulein Smillas Geschmack für Schnee
+## Fräulein Smillas Gespür für Schnee
 
 Mein erster Crush. Die faszinierende Welt der grönländischen Inuit, verbunden mit einer Verschwörung in Kopenhagen und einer markanten Hauptfigur, deren individuell-subjektive Sichtweise trotz des trockenen Schreibstils den Roman prägt, haben sich so in meinen Kopf eingebrannt, dass ich mich noch heute 25 Jahre später an einige Zitate erinnern kann.
 
@@ -68,7 +68,7 @@ Ich spielte alles, was von Lucas Arts und Sierra im Genre zu bekommen war. Aber 
 
 ## Alien
 
-Das Monster von HR Giger kannte ich bereits von Bildern. Aber dann sah ich den Film im Spätprogramm des ZDF und war geflasht: Das klaustrophobische SciFi-Szenario auf einem Weltraum-Frachter, das Computer-/Roboter-Motiv, das übermächtige Alien und das fantastische Finale mit Sigourney Weaver in flackernden Einstellungen - der Film hat nicht nur seine eigene Serie geprägt. Ridley Scott machte danach noch Blade Runner und war damit die 80er Ikone des Science Fiction.
+Das Monster von HR Giger kannte ich bereits von Bildern. Aber dann sah ich den Film im Spätprogramm des ZDF und war geflasht: Das klaustrophobische SciFi-Szenario auf einem Weltraum-Frachter, das Computer-/Roboter-Motiv, das übermächtige Alien und das fantastische Finale mit Sigourney Weaver in flackernden Einstellungen - der Film hat nicht nur seine eigene Serie geprägt. Ridley Scott machte danach noch Blade Runner und war damit die 80er Jahre Ikone des Science Fiction.
 
 ## Life of Brian
 
@@ -127,7 +127,7 @@ Die vorherigen Filme Jeunets waren als Genrearbeiten eigentlich viel mehr mein D
 
 Computerspiele im Fernsehen hatten einige probiert. Aber gefühlt war GIGA TV das erste Format, das das Thema wirklich ernst nahm. Dazu kam eine Menge spannender junger Moderatoren, so dass ich den Sender abends immer im Hintergrund laufen hatte, während ich las oder zockte.
 
-## Herr der Ringe
+## Der Herr der Ringe
 
 Bereits in der Schule hatte eine Lehrerin von *Lord of the Rings* geschwärmt, aber erst nach dem [ersten Film von Peter Jackson](https://kingoli.net/blog/2001/12/19/der-herr-der-ringe-die-gefahrten/) schnappte ich mir den Vater der modernen Fantasy (natürlich in Englisch, die Diskussion um die bessere deutsche Übersetzung schreckte mich ab) und anschließlich so ziemlich jeden Text, den Tolkien zu Mittelerde verfasst hat. 
 
