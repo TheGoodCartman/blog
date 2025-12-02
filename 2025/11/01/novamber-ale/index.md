@@ -33,3 +33,7 @@ Die Tage werden kürzer, das Wetter schlechter, die Sonne zeigt sich nur noch in
 ### Gärung
 
 *  LalBrew Verdant IPA Trockenhefe
+
+### Das Ergebnis
+
+![Gärverlauf NovAmber Ale](gärverlauf.PNG)
