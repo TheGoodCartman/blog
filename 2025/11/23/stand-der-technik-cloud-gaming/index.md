@@ -1,0 +1,29 @@
+---
+title: "Stand der Technik - Cloud Gaming"
+date: "2025-11-23T22:44:59"
+categories: [gespielt]
+---
+
+Als ich mich nach dem Ende von [Stadia](/2022/10/02/stadia/) nach einer Alternative umgesehen habe, bin ich natürlich auch auf [GeForce Now](https://www.nvidia.com/de-de/geforce-now/) gestoßen. NVIDIAs Game-Streaming-Dienst konnte mit einer großen Anzahl unterstützter Spiele punkten, und der Einstieg mit einem kostenlosen Account ist wunderbar einfach, um es gefahrlos auszutesten. Allerdings gab es ein großes Manko: _Geforce Now_ verkauft im Gegensatz zu Stadia die Spiele nicht selber, sondern verlangt einen Steam-Account - und ich hatte mich auf [GOG](https://www.gog.com/) festgelegt und meine kleine Spielebibliothek dort aufgebaut.
+
+Zweieinhalb Jahre später sieht die Situation nun etwas besser aus. Zum Einen wird mit dem Epic Games Store ein Steam-Konkurrent unterstützt, bei dem ich mittlerweile durch verschiedene Aktionen eine Sammlung kostenloser Spiele aufgebaut habe. Zum Anderen hat CD Projekt bewirkt, dass ihre Eigenentwicklungen wie [Cyberpunk 2077](/2021/05/07/cyberpunk-2077/) und _The Witcher 3_ auch über den GOG-Account in _Geforce Now_ gespielt werden können.
+
+Da es aber immer Einzel-Absprachen mit den Publishern bedarf, damit ein Spiel von NVIDIA auf _Geforce Now_ angeboten werden kann (unabhängig davon, ob ich es z.B. auf Steam gekauft habe), gibt es ein paar Lücken in der Spiele-Bibliothek: Es fehlen sämtliche 2K Spiele (u.a. _TopSpin 2K25_), es gibt kein _Hogwarts Legacy_, und auch die Horizon-Serie von Sony (_Zero Dawn_ & _Forbidden West_) sind leider nicht spielbar.
+
+Nach ein paar Tagen des Testens bin ich trotzdem aufgrund des Angebots, das mittlere Abo für 33€ für sechs Monate zu kaufen, zahlender Kunde bei _Geforce Now_ geworden. Und habe ein paar Spiele angespielt, die ich schon länger spielen wollte, aber nie konnte (aufgrund meiner schwachen Hardware zu Hause).
+
+Technisch ist _Geforce Now_ in Sachen Flexibilität viel näher am eigenen PC als es _Stadia_ war. Die drei unterschiedlichen Abo-Stufen unterscheiden sich in ihrer Hardware (kostenlos 4 vCPU cores 14GB RAM, _Performance_ 8 vCPU cores 28GB RAM, _Ultimate_ 16 vCPU cores 56 GB DRAM), Grafikpower und den verfügbaren Features wie Raytracing und HDR (erst ab _Performance_), DLSS und G-Sync (_Ultimate_). Davon abgeleitet sind die maximal möglichen Auflösungen und Framerates und in den Spieloptionen unter Grafik sind erstaunliche viele Schalter vorhanden, mit denen ggf die Leistung in Spielen angepasst werden kann.
+
+Der einfachste Weg zum Zocken auf _Geforce Now_ ist wohl die offizielle App, die es für Windows, macOS, Android, iOS und zig Handhelds, Smart-TVs und Streaming-Devices gibt. Und zur Not reicht auch ein einfacher Webbrowser. Bei mir im WLAN hat _Geforce Now_ aber sehr sensibel auf die Latenz reagiert, so dass ich meinen Laptop wieder an ein LAN-Kabel gehängt habe, damit die App zufrieden war und es weniger Störungen gab. Diese äußerten sich vor allem in Form von grob aufgelösten Bildern, während die FPS scheinbar stabil blieben.
+
+Alles in allem ist _Geforce Now_ aber ein sehr ausgereiftes Angebot für alle, die nicht in eigene Hardware investieren wollen. Ein Bluetooth-Controller und ein Device, auf dem ein aktueller Browser läuft, reichen schon aus - eine schnelle Internetverbindung sollte inzwischen jeder haben.
+
+Seit Ende Oktober gibt es aber einen neuen Player, der sich an das Thema Cloud Gaming wagt: Amazon hat _Luna_ aus der Casual Gaming Ecke hervorgeholt. Den Dienst selber gibt es schon seit 2023 in Deutschland, und ich hatte ihn sogar einmal ausprobiert. Es gab jedoch nur alte Spiele wie _Fallout 3_ + _New Vegas_ und familientaugliche Partyspiele, die bei mir zudem partout nicht performant laufen wollten. Dabei hat Amazon mit AWS als Cloud-Dienstleister und der Streaming-Erfahrung von Prime-Video ja nun wirklich die besten Voraussetzungen, den Cloud Gaming Markt anzugreifen.
+
+Im Oktober ist Amazon mit _Luna_ dann endlich in die Offensive gegangen. Seitdem gibt es verschiedene Abo-Modelle, die Zugriff auf eine größere Anzahl aktueller Spiele bieten - vergleichbar mit dem Gamepass, da einige Spiele auch nur für eine begrenzte Zeit verfügbar sind. Zu den für mich interessanten Spielen gehören u.a _Top Spin 2K25_, _Kingdom Come Deliverance 2_, _Indiana Jones and the great circle_ und _Hogwarts Legacy_, die im Basisabo enthalten sind. Andere Spiele wie _EA FC 26_ müssen aber gekauft werden, um sie spielen zu können. 
+
+Das klingt verdächtig nach dem üblichen Prime-Modell von Amazon: In der Basismitgliedschaft sind einige Appetithappen enthalten, doch für aktuelle Highlights wird extra kassiert und idealerweise sollen die Kunden auch noch andere Abos/Channels buchen. Mal sehen, wie lange es dauert, bis Amazon auch bei _Luna_ Werbung einblendet
+
+Unabhängig vom Businessmodell ist Luna jedoch ein Stadia-ähnliches Erlebnis: Spiel im Browser starten und spielen; technische Optionen gibt es quasi nicht. In einem Menü kann bei Bedarf noch von 1080p auf 720p umgestellt werden, aber das war es auch schon. Zu der eingesetzten Hardware macht Amazon keine Angaben, die von mir getesteten Spiele liefen aber alle flüssig. Ab und zu habe ich kurze Aussetzer gesehen, und ein paar von den Aussetzern führten dazu, dass Bild und Sound nicht mehr synchron waren (diese scheinen wohl unabhängig voneinander kodiert und gestreamt zu werden) - aber alles in allem war ich zufrieden mit dem Spielerlebnis.
+
+Wer also ohnehin Prime-Kunde ist, sollte ruhig einmal einen Blick auf _Luna_ werfen - gerade wenn man eher ein Konsolen-ähnliches Spielvergnügen sucht. _Geforce Now_ dagegen hat das einfachere/ehrlichere Geschäftsmodell und richtet sich eher an PC-Spieler, auch wenn leider nicht alle Publisher mitspielen.
