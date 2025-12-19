@@ -1,5 +1,5 @@
 ---
-title: "Last beer of the year"
+title: "The dark NEIPA rises"
 date: "2025-11-29T22:24:00"
 categories: [gebraut]
 ---
@@ -39,7 +39,7 @@ Der Ölfilm klebte später auch hartnäckig an meiner Kühlspirale und der Spül
 | Cascade US | 10g | 5min |
 | Mosaic Dynaboost | 10g | Whirlpool |
 | Chinook Incognito | 5g | Whirlpool |
-| Citra Spectrum | 10g | 1 Tag Stopfen |
+| Citra Spectrum | 8g | 1 Tag Stopfen |
 
 ### Gärung
 

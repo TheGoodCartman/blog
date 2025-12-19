@@ -1,0 +1,23 @@
+---
+title: "Bye bye, Plaato Airlock"
+date: "2025-12-15T22:24:00"
+categories: [gebraut]
+---
+
+Als Hobbybrauer versuche ich ständig, den Brauprozess zu vereinfachen, denn da steckt eine Menge manuelle, zeitaufwendige Arbeit drin. Die Gärung z.B. wird normalerweise überwacht, indem eine Probe genommen und dann per Spindel die _specific gravity_ (SG) bzw die Stammwürze in Grad Plaato gemessen wird. Das ist vereinfacht ausgedrückt der Anteil des Zuckers im Bier. Der Zucker wird während der Gärung von der Hefe verbraucht und somit sinkt die Stammwürze, solange die Hefe aktiv ist. Verändert sich der Wert nicht mehr, kann davon ausgegangen werden, dass die Hauptgärung beendet ist und abgefüllt werden kann.
+
+Da mein Gärraum im Keller eines Mehrfamilienhauses liegt, habe ich immer warten müssen, bis keine CO₂-Bläschen mehr im Gärröhrchen aufstiegen (d.h. jeden Tag einmal runter in den Keller gehen und nachschauen), und dann habe ich die bei meinem Ausschlagvolumen von knapp 10l nicht unerhebliche Menge von 200ml Bier entnommen, um die Stammwürze mit einer Bierspindel zu messen.
+
+Deshalb war ich sehr begeistert, als ich 2018 von der [iSpindel](https://www.ispindel.de/) las, die mir diese Aufgaben abnehmen wollte, und habe mir sofort einen Bausatz bestellt. Allerdings waren meine feinmotorischen Fähigkeiten nicht ausreichend, so dass ich die Hardware beim Löten zerstört habe.
+
+Auf der Suche nach kommerziellen Alternativen für Menschen mit zwei linken Händen stieß ich dann auf den [Plaato Airlock](https://grainmother.com/products/plaato-airlock-v3), der zwar nach einem anderen Prinzip funktioniert, aber gebraucht kaum teurer als die iSpindel war. Während die Spindel im Gärtank in der Würze schwimmt, um über den Neigungswinkel indirekt die Stammwürze zu messen, wird der Airlock anstelle des Gärröhrchens auf den Gärbehälter geschraubt und misst dort die Anzahl der entweichenden CO₂-Bläschen und damit ungefähr die Menge des von der Hefe erzeugten Kohlendioxids. Bei beiden Prinzipien heißt es warten, bis sich nichts mehr ändert - d.h. ich musste erst wieder in den Keller gehen, wenn ich abfüllen wollte.
+
+Der Plaato Airlock machte auch optisch wie haptisch einiges her und so habe ich nun fast fünf Jahre erfolgreich meine Brauvorgänge überwacht und dokumentiert. Aber wie das so ist mit Hardware in unserer Zeit: Es gehört auch Software dazu (in diesem Fall eine App für iOS/Android) und die Daten wurden in der herstellereigenen Cloud gespeichert.
+
+Und da dies nicht nur über Hardware-Verkäufe finanziert werden kann, hat sich die Firma Plaato schon vor Jahren entschieden, das eigene Geschäftsmodell auf kommerzielle Brauereien umzustellen. [Anfang 2024 wurde dann angekündigt](https://www.reddit.com/r/Homebrewing/comments/1986sfo/plaato_community_meeting_january_15_2024/), dass November 2025 die Server für die Hobbybrauerprodukte abgeschaltet werden. Allerdings gab es damals noch die Aussicht, dass die Software als OpenSource veröffentlicht wird. Passiert ist das leider nicht.
+
+Ich hatte noch die Hoffnung, dass eine bereits existierende Option innerhalb des Airlocks auch nach Abschalten der Cloud weiter funktioniert. Es konnte nämlich schon immer eine Webhook-Adresse angegeben werden, an die eine Kopie jedes Mess-Events gesendet wird. Auf diesem Weg habe ich die Daten parallel in mein Prometheus auf dem Heimserver eingespielt, denn Grafana macht einfach schönere Dashboards als die Plaato App es jemals konnte.
+
+Doch als nun die App in den letzten Tagen nach und nach ausfiel (erst fehlten die Graphen, danach gab es nur noch die Ladeanimation), musste ich auch diese Hoffnung begraben - der Airlock scheint sich immer erst an der Cloud anmelden zu wollen. Und da er das nicht mehr schafft, wird auch der Webhook nicht mehr aufgerufen. Und ein tolles Stück funktionierende Hardware ist nur noch Elektro-Schrott.
+
+Das bedeutet, dass ich mich nun nach einer Alternative umsehen muss. Von Speidel gibt es [ein sehr ähnliches Produkt](https://shop.speidels-braumeister.de/de/product?info=643&country_preselect_country=DE), das aber gleich mal mit über 200€ zu Buche schlägt und mit derselben Idee (Hardware wird gekauft, Daten landen in der Herstellercloud) auch dieselben Risiken birgt. Dann versuche ich es wohl lieber noch mal mit der iSpindel, die es inzwischen auch als fertiges Paket zu kaufen gibt - das ist deutlich günstiger und ich kann von Anfang an ohne Cloud-Lösung arbeiten.
