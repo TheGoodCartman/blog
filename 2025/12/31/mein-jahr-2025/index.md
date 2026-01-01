@@ -20,7 +20,7 @@ Zum Schluss verlängere ich meine Empfehlung vom letzten Jahr für _Severance_ f
 
 ### ... in Büchern
 
-Mit 18 Büchern konnte ich dieses Jahr mein Level von 2024 halten. Eine Statistik zeigt aber schön, dass ich ein Urlaubs-Leser bin und mir ansonsten zu wenig Zeit für das Lesen nehme. Mehr Details gibt es wie immer bei [Goodreads](https://www.goodreads.com/user/year_in_books/2025/44097851).
+Mit 18 Büchern konnte ich dieses Jahr mein Level von 2024 halten. Die Statistik zeigt aber schön, dass ich ein Urlaubs-Leser bin und mir ansonsten zu wenig Zeit für das Lesen nehme. Mehr Details gibt es wie immer bei [Goodreads](https://www.goodreads.com/user/year_in_books/2025/44097851).
 
 ![](goodreads_months.png)
 

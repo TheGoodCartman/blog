@@ -1,6 +1,6 @@
 ---
 title: "Der Anfang vom Ende?"
-date: "2025-12-31T22:44:59"
+date: "2025-12-31T12:44:59"
 categories: [gedacht]
 ---
 
