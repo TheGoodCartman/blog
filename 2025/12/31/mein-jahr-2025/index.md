@@ -28,6 +28,8 @@ Mit 18 Büchern konnte ich dieses Jahr mein Level von 2024 halten. Die Statistik
 
 Nachdem ich 2024 endlich auf einen Familienaccount bei Youtube Music umgestiegen bin, gibt es nun auch Statistiken, die nicht von _Bibi Blocksberg_ und _Imagine Dragons_ verfälscht sind. Da das Tool aber nicht versteht, dass ich hauptsächlich Alben von vorne bis hinten höre, greife ich doch lieber auf die Daten bei Last.fm zurück. Und dort zeigt sich: Ich habe fast doppelt so viel Musik gehört verglichen mit 2024, was vermutlich an der höheren Qualität der Releases liegt. So haben meine long-time favourites _Coheed and Cambria_, _Underoath_ und _The Birthday Massacre_ allesamt abgeliefert und mich über das Jahr getragen.
 
+![](lastfm.png)
+
 ### ... in Bier
 
 Untappd versaut den Recappd genannten Jahresrückblick dieses Mal mit einer wenig aussagekräftigen Klickstrecke, die von extrem viel Werbung garniert ist. So bleibt mir nur, von den Pubs entlang der [Hadrian's Wall Wanderung](/2025/08/03/walking-the-hadrians-wall/) zu schwärmen.
