@@ -9,7 +9,7 @@
 <link>https://kingoli.net/blog/</link>
 <atom:link href="https://kingoli.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.9.19</generator>
+<generator>quarto-1.9.20</generator>
 <lastBuildDate>Tue, 03 Feb 2026 22:44:00 GMT</lastBuildDate>
 <item>
   <title>Im Vorspann nichts Neues</title>
@@ -31,6 +31,37 @@
   <category>gedacht</category>
   <guid>https://kingoli.net/blog/2026/02/03/vorspann/</guid>
   <pubDate>Tue, 03 Feb 2026 22:44:00 GMT</pubDate>
+</item>
+<item>
+  <title>Indiana Jones und der große Kreis</title>
+  <link>https://kingoli.net/blog/2026/01/22/indiana-jones-kreis/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Gleich vorneweg: <em>Indiana Jones und der große Kreis</em> hat etwas geschafft, das ich nicht für möglich hielt - es hat <em>The Fate of Atlantis</em> in meiner Gunst den Rang abgelaufen. Und das tut es nicht aufgrund seines Gameplays (dazu gleich mehr), sondern weil es die Atmosphäre und Drehbücher der Indiana-Jones-Filme perfekt als Spiel adaptiert und dabei von über 30 Jahren Grafik-Engines-Entwicklung profitiert.</p>
+<p>Denn die Grafik ist das Highlight des Spiels. Ob Vatikanstadt, Ägypten, Himalaya oder Thailand - die Level wirken authentisch und sehen teilweise fotorealistisch aus. Ich habe aber schnell die Helligkeit nach oben gedreht, da das Bild sonst in den vielen Innenbereichen, die man erkundet, deutlich zu dunkel ist. Weiterhin ist das Modell von Indy auffallend gut getroffen; es wurde scheinbar in die Imitation der Mimik und Gestik von Harrison Ford viel Zeit und Energie gesteckt.</p>
+<p>Dieselbe Sorgfalt und Liebe kam auch bei den Levels zum Einsatz. Ich habe mir den Vatikan bei Google Earth etwas genauer angesehen und bin begeistert, mit welcher Genauigkeit der Originalschauplatz nachgebildet wurde. Bei aller Liebe zum Realismus gibt es aber auch Indiana-Jones-typische Twists wie die Besetzung des Vatikans durch die italienischen Faschisten oder das Anlegen des Nazi-Luftschiffs am Petersdom.</p>
+<p>Das Gameplay hat mich hingegen weniger überzeugt. Für meinen Geschmack gibt es einfach viel zu viele Schleichpassagen, für die ich generell nicht viel übrig habe. Sie machen ca. ein Drittel des Spiels aus; der Rest besteht aus Erkundung (gerne kombiniert mit Kletterpassagen) und Rätseln, meist in Schalterform. Ab und zu gilt es auch wie in einem interaktivem Film an der richtigen Stelle einen Button zu drücken. Doch zum Glück ist dies eher die Ausnahme.</p>
+<p>Wie in den Filmen reist Indy auch in <em>Der große Kreis</em> um die Welt, wo dann in den schon weiter oben genannten und relativ frei erkundbaren Open-World-Arealen verschiedene Haupt- und Nebenquests warten. Es haben sich auch zwei kleinere Schlauchlevels dazwischen gemogelt (Himalaya, Shanghai), die durch die geringere Freiheit aber weniger Spaß machen.</p>
+<p>Mit seinem Gameplay-Loop (Erkunden, Schleichen, Rätseln) ist <em>Der große Kreis</em> eigentlich ein klassisches Action-Adventure. Doch die Entwickler haben sich entschieden, die Ego-Perspektive zu verwenden, obwohl die Grafik-Engine Third-Person genauso gut beherrscht (Indy wird z.B. beim Klettern komplett gezeigt). Durch diese Wahl werden manche Jump-and-Run-Passagen und Kämpfe unnötig schwer: So kann ich bei Sprüngen entweder auf meine Füße schauen, um den Absprungpunkt zu treffen, oder auf das Ziel - aber nie beides gleichzeitig. Besonders ärgerlich war dies bei einer Treibsand-Sequenz, wo nur schwer ersichtlich war, dass (und wie tief) Indy gerade im Sand versinkt.</p>
+<p>Am Anfang ist auch sehr unklar, was im Spiel realistisch umgesetzt ist und was nicht. So kann Indy immer nur ein Item in der Hand halten - entweder die Kamera, oder eine Fackel, oder eine Waffe. Die Kamera kann man auch wegstecken, aber beim Hochklettern einer Leiter oder beim Peitschenschlag wirft Indy den Gegenstand in seiner Hand einfach weg.</p>
+<p>Ebenso fremd wirkte auf mich das Konzept der Verkleidungen. Sowohl im Vatikan als auch in der Nazi-Ausgrabungsstätte von Gizeh findet Indy jeweils eine Verkleidung, die fast alle Gegner täuscht und ein deutlich einfacheres Bewegen erlaubt verglichen mit dem ständigen Schleichen. Doch höherrangige Offiziere lassen sich davon nicht in die Irre führen und wollen den Ausweis kontrollieren - dem kann man sich nur durch schnelle Flucht entziehen. An der Stelle wird es wild, denn die Offiziere alarmieren die anderen Faschisten oder Nazis in ihrer Nähe. Eine Minute später nach der Flucht haben sie dies jedoch schon wieder vergessen und grüßen wie zuvor.</p>
+<p>Der Realismus hat also Grenzen, die erst erkundet werden müssen. Für mich war es schon schwer, die Uniformen der Offiziere von denen der normalen Soldaten zu unterscheiden. Und da es keine Gesundheitsanzeige der Gegner und nur wenig Trefferfeedback gibt war jeder Kampf eine Überraschung, wieviel Schläge das Gegenüber noch einsteckt. Besonders heftig war das bei den “Endgegnern”, wo ich oft minutenlang prügelte ohne zu wissen, ob das was ich gerade mache überhaupt Wirkung zeigt.</p>
+<p>Dabei ist das Kampfsystem generell wunderbar hemdsärmlig. Es gibt zwar Schusswaffen, aber deren Einsatz ruft meist viele Gegner auf den Plan, weshalb hauptsächlich mit den überall herumliegenden Gegenständen geschlagen wird. Diese nutzen sich auch schnell ab, so dass sie selten für mehr als einen Widersacher reichen. Idealerweise schleicht man sich von hinten an, das spart Schläge, oder schleicht gleich um die (vielen) Gegner herum - Indiana Jones ist alles andere als ein Superheld.</p>
+<p>In den Optionen kann der Schwierigkeitsgrad von Schleichen und Kämpfen nach den eigenen Wünschen angepasst werden. Ich habe beides auf Easy gestellt, wodurch auch der leichte Rollenspielanteil obsolet wurde (für gesammelte Abenteuerpunkte können über Abenteuerbücher die Fähigkeiten wie Ausdauer gesteigert werden).</p>
+<p>Etwas gefremdelt habe ich mit der Steuerung. Nicht alles ist logisch (Einzeltasten für rechte und linke Schläge, aber nur eine Taste für den Block, das zweidimensionale Menü hinter dem D-Pad), <a href="https://ravi64.com/pressing-buttons-indiana-jones/">einiges ist nervig</a>, und anderes hat mich über das gesamte Spiel hinweg gequält: So gibt es zwar einen Abbrechen-Button mit B, aber wenn ich ins Kartenmenü gehe komme ich nur mit derselben Menü-Taste zurück, nicht aber mit B wie in fast jedem anderen Spiel. Dadurch dass auf B das Schleichen liegt, bin ich so oft unerwartet aus meiner Deckung gegangen, was bei einer Entdeckung unschön enden kann.</p>
+<p>Doch zum Glück hat <em>Indiana Jones und der große Kreis</em> ein gut funktionierendes Speicherkonzept. Es gibt keine klassischen Spielstände sondern es wird an wichtigen Punkten durch das Spiel automatisch gespeichert. Und dieser Savepoint wird zusammen mit dem Spiel direkt beim Start geladen, so dass bereits im Menü der aktuelle Stand zu sehen ist und gleich weitergemacht werden kann. Das fand ich sehr angenehm, vor allem da es außer dem Fortschritt kaum Inhalte gibt, die unterschiedliche Spielstände erfordern würden.</p>
+<p>Vielmehr ist das Spiel sehr story-getrieben und adaptiert so perfekt die Atmosphäre der Filme: Es gibt ironischen Dialoge, augenzwinkernde Action und all die kleinen Verrücktheiten, die Spielbergs Interpretation von Archäologie so unterhaltsam gemacht haben. Und als kleines Plus bietet das Spiel auch ein deutlich besseres Frauenbild, denn der Sidekick Gina ist weit entfernt von einer <em>damsel in distress</em> und gibt Indy nicht nur auf der Tonspur Kontra, sonder schlägt auch gerne in Kämpfen mit zu. Einzig das Thailand-Level fällt da etwas aus der Rolle und macht den Eindruck, dass den Autoren plötzlich nichts mehr zu Gina eingefallen ist. Sie macht kaum mehr als im Boot zu sitzen, während Indy zeitweise sogar von einer plötzlich aus dem Nichts auftauchenden Archäologin begleitet wird.</p>
+<p>Und ähnlich seltsam fühlt sich auch das Finale an. Der Kampf gegen Voss ist spielerisch sehr unklar (ich habe ihn dreimal in die Hocke geprügelt, bis es endlich weiterging zum nächsten Teil des Kampfes) und optisch enttäuschend nach dem vorhergehenden hohen Grad an Realismus. Doch alles in allem ist <em>Indiana Jones und der große Kreis</em> ein sehr rundes Spiel mit vielen gelungenen Teilen, aber auch ein paar Eckend und Kanten, das mir viel Spaß gemacht hat.</p>
+
+
+
+ ]]></description>
+  <category>gespielt</category>
+  <guid>https://kingoli.net/blog/2026/01/22/indiana-jones-kreis/</guid>
+  <pubDate>Thu, 22 Jan 2026 23:44:59 GMT</pubDate>
 </item>
 <item>
   <title>Mein Jahr 2025</title>
@@ -89,8 +120,15 @@
 <p>Ausgerechnet die EU gibt sich in Sachen Verschärfung aktuell noch moderat. <a href="https://www.deutschlandfunk.de/drohnenabwehr-kritis-deutschland-sicherheit-hybride-bedrohung-100.html">So begegnet Deutschland der zunehmenden Nutzung von Drohnen zur Spionage und Betriebsstörung mit Abschussrechten</a> - aus meiner Sicht ein gutes Mittel. Wenn es sich wirklich um Spionage-Drohnen handelt, dann ist es nicht schade um die Drohnen. Und wenn es sich um einen Hobby-Piloten handelt, der sich verflogen hat, dann ist ein kleiner finanzieller Schaden durch Verlust der Drohne immer noch besser als Schadensersatzforderungen für Betriebsstörungen oder gar ein Prozess wegen Spionage.</p>
 <p>Zur Wahrheit in der EU gehört aber auch, dass einige Länder bereits in den letzten Jahren durch verschiedene Maßnahmen Hobby-Fotografen wie mich eingeschränkt haben. In Deutschland betrifft dies hauptsächlich Überflugverbote für Infrastruktur, was ich nachvollziehen kann. <a href="https://www.geoportail.gouv.fr/donnees/restrictions-uas-categorie-ouverte-et-aeromodelisme">In Frankreich dagegen hat die Karte der Flugverbotszonen</a> quasi kaum weiße Flecken, so dass ich die Drohne gleich zu Hause gelassen habe. Und in Italien gibt es hohe Bußgelder im Fall von Verstößen, aber die lokale Luftfahrtbehörde macht es einem Nicht-Italiener extrem schwer, überhaupt an die Karte der Flugverbotszonen zu kommen.</p>
 <p>Die zentrale und einheitliche Regelung in der EU ist damit praktisch nur ein Papiertiger. Und ich warte eigentlich nur darauf, dass die EU der UK folgt und die Remote-ID-Pflicht auf alle Modelle ausweitet und damit Legacy Drohnen für illegal erklärt. Für Hobby-Piloten wie mich wird es so oder so immer teurer und komplizierter, eine Drohne zu fliegen, weshalb ich davon ausgehe, dass der Consumer-Bereich in den nächsten Jahren sterben wird. RIP.</p>
+<section id="update-11.02.2026" class="level3">
+<h3 class="anchored" data-anchor-id="update-11.02.2026">Update 11.02.2026</h3>
+<p>Das hat nicht lange gedauert. Heute hat die EU Kommission einen <a href="https://digital-strategy.ec.europa.eu/en/library/action-plan-drone-and-counter-drone-security">Plan für Drohnensicherheit</a> vorgestellt. Weite Teile des Dokuments beschäftigen sich mit den militärischen Aspekten von Drohnen - offensiv wie defensiv. Da ist es nicht verwunderlich, dass es keine Lobby für zivile Drohnen gibt.</p>
+<p>Inhaltlich begrüße ich die Initiative, die Karten für die Flugverbotszonen endlich europaweit zu vereinheitlichen (siehe oben). Aber die Senkung des Einstiegsdrohnengewichts auf 100g und die Idee, <em>Trust Chips</em> einzuführen, wird es für private Drohnenpiloten wie mich nicht einfacher machen.</p>
+<p>Dabei glaube ich nicht, dass bei für Spionage und Angriffe verwendeten Drohnen irgendwelche Energie darauf verschwendet wird, EU Sicherheitsrichtlinien zu implementieren.</p>
+<p>So bleibt es dabei: Drohnen werden zunehmend nur als militärisches Produkt wahrgenommen und der zivile Markt durch immer mehr Auflagen auf professionelle Einsatzgebiete beschränkt.</p>
 
 
+</section>
 
  ]]></description>
   <category>gedacht</category>
@@ -1160,98 +1198,6 @@
   <category>gebraut</category>
   <guid>https://kingoli.net/blog/2025/04/05/st-patrick-red-ale/</guid>
   <pubDate>Sat, 05 Apr 2025 19:44:00 GMT</pubDate>
-</item>
-<item>
-  <title>Tropical Smoothy Pastry Sour</title>
-  <link>https://kingoli.net/blog/2025/03/09/tropical-smoothy-pastry-sour/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><a href="../../../../2024/11/23/foederale-demokratie/">Letztes Jahr habe ich es angekündigt</a>: Fortan werde ich hier im Blog auch über mein Hobby schreiben, das Bierbrauen. Der erste Brautag 2025 ist dabei Teil eins der diesjährigen Herrentags-Trilogie. Mein Ziel ist es, drei Biere pünktlich zum traditionellen Wanderausflug an Himmelfahrt trinkfertig im Keller zu haben.</p>
-<p>Da es sich am längsten hält, habe ich mit einem Sauerbier angefangen. Vor zwei Jahren bin ich auf der Suche nach einfachen Alternativen zu belgischen Frucht-Lambics auf die Philly Sour Hefe gestoßen. Im Normalfall werden Sauerbiere mit der Brettanomyces-Hefe und Milchsäurebakterien (Lactobacillus) vergoren. Beide sind schwer kontrollierbar und setzen sich gerne in den Brauutensilien fest, weshalb sie die folgenden Brauvorgänge stören können. Die Philly Sour Hefe hingegen ist besser für Hobbybrauer geeignet, da sie schnell die Arbeit aufnimmt (dazu gehört auch die gewollte Bildung von Milchsäure) und nach Ende der Gärung auch wie gewünscht einstellt.</p>
-<p>Verglichen mit normalen Sauerbieren ist das Ergebnis allerdings ein sehr trockenes Bier. Deshalb habe ich in meinen ersten beiden Versuchen das fertige Bier auf Kirschen und Himbeeren gelagert, um letztes Jahr dann mein erstes Smoothie Pastry Sour auszuprobieren: Ein Bier voller Fruchtpüree und so dick, dass man es wie einen Nachtisch löffeln kann. Wie immer habe ich viel dabei gelernt. Zum Beispiel, dass 30% Fruchtpüree einfach zu viel sind und nicht einfach in gleichem Maße auf Flaschen aufzuteilen ist. Und dass trotz positiver Berichte aus Amerika Marshmallow Fluff kein geeigneter Ersatz für Milchzucker ist, um der Säure von Hefe und Frucht etwas Süße entgegen zu setzen.</p>
-<p>Ansonsten ist das Brauen eines Sauerbieres nicht viel anders als bei Ales oder Lagern: Das Malz ist eine Mischung aus Gerste und Weizen; ich verwende eine Single Infusion bei 66°C. Meinen 10l Maischekessel fülle ich mit 8,4l Hauptguss und 4l Nachguss aus Berliner Leitungswasser. Danach wird eine Stunde gekocht und weil am Ende die Frucht das Smoothy Pastry Sour dominieren soll, gebe ich nur für die letzten 10 Minuten 5g Amarillo-Hopfen hinzu und noch einmal 15g in den Whirlpool. Im Gegensatz zu Ales spielt der Hopfen bei Sauerbieren geschmacklich keine Rolle; aber die konservierende Wirkung ist schon wichtig und die tropischen Aromen des Amarillo passen gut zu den Fruchtpürees, die ich später hinzufügen werde.</p>
-<p>Die Fruchtmischung habe ich mir bei dem sehr leckeren <a href="https://fuerstwiacek.com/de/buy/frisches-craft-beer/sunburst-w-uchu-smoothie-sour/">Fuerst Wiacek Sunburst</a> abgeschaut: Mango, Ananas und Limette werde ich nach Ende der Hauptgärung in Form von Fruchtpüree hinzugeben und die Mischung noch ein, zwei Wochen reifen lassen, bevor in Flaschen abgefüllt wird. Und da Fruchtpüree gar nicht so süß ist, wie man meinen sollte, und die Hefe gerne alles an Zucker verarbeitet, dass sie im Bier findet, habe ich bei Flameout noch 160g Milchzucker hinzugegeben.</p>
-<p>Das ist alles weit weg vom deutschen Reinheitsgebot, aber ich bin inzwischen ein echter Fan von Frucht-Sauerbieren und vor allem Pastry Sours und bin gespannt auf das Ergebnis.</p>
-<section id="maische" class="level3">
-<h3 class="anchored" data-anchor-id="maische">Maische</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Malz</th>
-<th>Menge</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pilsner Malz</td>
-<td>1200g</td>
-</tr>
-<tr class="even">
-<td>Weizenmalz</td>
-<td>600g</td>
-</tr>
-<tr class="odd">
-<td>Hafermalzflocken</td>
-<td>100g</td>
-</tr>
-<tr class="even">
-<td>Haferflocken</td>
-<td>100g</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="kochen" class="level3">
-<h3 class="anchored" data-anchor-id="kochen">Kochen</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Zutat</th>
-<th>Menge</th>
-<th>Kochzeit</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Amarillo</td>
-<td>5g</td>
-<td>10min</td>
-</tr>
-<tr class="even">
-<td>Milchzucker</td>
-<td>160g</td>
-<td>Flameout</td>
-</tr>
-<tr class="odd">
-<td>Amarillo</td>
-<td>15g</td>
-<td>Whirlpool</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="gärung" class="level3">
-<h3 class="anchored" data-anchor-id="gärung">Gärung</h3>
-<ul>
-<li>11g Philly Sour Trockenhefe</li>
-<li>nach Ende Hauptgärung:
-<ul>
-<li>1l Mango Fruchtpüree</li>
-<li>1l Ananas Fruchtpüree</li>
-<li>Limetten Fruchtpüree aus vier Limetten</li>
-</ul></li>
-</ul>
-
-
-</section>
-
- ]]></description>
-  <category>gebraut</category>
-  <guid>https://kingoli.net/blog/2025/03/09/tropical-smoothy-pastry-sour/</guid>
-  <pubDate>Sun, 09 Mar 2025 23:44:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
