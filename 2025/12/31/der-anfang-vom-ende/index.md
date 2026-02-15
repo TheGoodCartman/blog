@@ -15,3 +15,13 @@ Ausgerechnet die EU gibt sich in Sachen Verschärfung aktuell noch moderat. [So 
 Zur Wahrheit in der EU gehört aber auch, dass einige Länder bereits in den letzten Jahren durch verschiedene Maßnahmen Hobby-Fotografen wie mich eingeschränkt haben. In Deutschland betrifft dies hauptsächlich Überflugverbote für Infrastruktur, was ich nachvollziehen kann. [In Frankreich dagegen hat die Karte der Flugverbotszonen](https://www.geoportail.gouv.fr/donnees/restrictions-uas-categorie-ouverte-et-aeromodelisme) quasi kaum weiße Flecken, so dass ich die Drohne gleich zu Hause gelassen habe. Und in Italien gibt es hohe Bußgelder im Fall von Verstößen, aber die lokale Luftfahrtbehörde macht es einem Nicht-Italiener extrem schwer, überhaupt an die Karte der Flugverbotszonen zu kommen.
 
 Die zentrale und einheitliche Regelung in der EU ist damit praktisch nur ein Papiertiger. Und ich warte eigentlich nur darauf, dass die EU der UK folgt und die Remote-ID-Pflicht auf alle Modelle ausweitet und damit Legacy Drohnen für illegal erklärt. Für Hobby-Piloten wie mich wird es so oder so immer teurer und komplizierter, eine Drohne zu fliegen, weshalb ich davon ausgehe, dass der Consumer-Bereich in den nächsten Jahren sterben wird. RIP.
+
+### Update 11.02.2026
+
+Das hat nicht lange gedauert. Heute hat die EU Kommission einen [Plan für Drohnensicherheit](https://digital-strategy.ec.europa.eu/en/library/action-plan-drone-and-counter-drone-security) vorgestellt. Weite Teile des Dokuments beschäftigen sich mit den militärischen Aspekten von Drohnen - offensiv wie defensiv. Da ist es nicht verwunderlich, dass es keine Lobby für zivile Drohnen gibt.
+
+Inhaltlich begrüße ich die Initiative, die Karten für die Flugverbotszonen endlich europaweit zu vereinheitlichen (siehe oben). Aber die Senkung des Einstiegsdrohnengewichts auf 100g und die Idee, _Trust Chips_ einzuführen, wird es für private Drohnenpiloten wie mich nicht einfacher machen.
+
+Dabei glaube ich nicht, dass bei für Spionage und Angriffe verwendeten Drohnen irgendwelche Energie darauf verschwendet wird, EU Sicherheitsrichtlinien zu implementieren.
+
+So bleibt es dabei: Drohnen werden zunehmend nur als militärisches Produkt wahrgenommen und der zivile Markt durch immer mehr Auflagen auf professionelle Einsatzgebiete beschränkt.
