@@ -45,3 +45,6 @@ Der Ölfilm klebte später auch hartnäckig an meiner Kühlspirale und der Spül
 
 * WYEAST 1318 London Ale III Flüssighefe
 
+### Das Ergebnis
+
+Nach all dem Chaos am Brautag ist schlussendlich ein sehr gut trinkbares Bier herausgekommen. Keinerlei Fehlaromen trüben den Geschmack, aber leider auch kaum fruchtige Hopfennoten. So dominiert die Malzigkeit der Schüttung, auch wenn der Unterschied zwischen Black NEIPA und Black IPA kleiner war als erwartet. Beim nächsten Mal werde ich die Haferflocken wieder weglassen und ein paar IBUs drauflegen.
