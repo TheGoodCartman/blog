@@ -9,8 +9,110 @@
 <link>https://kingoli.net/blog/</link>
 <atom:link href="https://kingoli.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.9.20</generator>
-<lastBuildDate>Tue, 03 Feb 2026 22:44:00 GMT</lastBuildDate>
+<generator>quarto-1.9.35</generator>
+<lastBuildDate>Mon, 09 Mar 2026 22:24:00 GMT</lastBuildDate>
+<item>
+  <title>Martian Milkshake IPA IV</title>
+  <link>https://kingoli.net/blog/2026/03/09/martian-milkshake-iv/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Als Heimbrauer mit begrenzter Hardware muss ich oft mit den Umständen arbeiten, anstatt sie zu beeinflussen. So ist zum Beispiel die Temperatur in meinem Gärkeller nach dem kalten Winter mit 15°C gerade unterhalb des Wohlfühlbereichs für fruchtige Ale-Hefen, aber die Planung für das <a href="https://kingoli.net/blog/2025/05/08/martian-milkshake/">alljährliche Herrentagsbier</a> erforderte es, das Bier jetzt zu brauen.</p>
+<p>Mit den noch vorhandenen Mengen Spectrum Galaxy und Citra war zudem der Stopfhopfen schon gesetzt, so dass ich nur noch eine Sorte für die Bittere und den Whirlpool benötigte. Die Wahl fiel schließlich auf Mosaic, weil dieser gut mit Citra harmonieren soll und als Cryo Pellet verfügbar war. In dieser Form sollen Aromaöle und Bitterstoffe in doppelter Konzentration vorhanden sein, was die Menge an Feststoffen im Bier reduziert.</p>
+<p>Und nach dem Brauen kann ich sagen, dass es sich schon einmal gut angefühlt hat: Beim Umfüllen in den Gärtank blieb weniger grüner Matsch übrig als sonst. Wenn jetzt noch der Geschmack stimmt, werde ich versuchen, mehr Cryo Hopfen einzusetzen.</p>
+<section id="maische" class="level3">
+<h3 class="anchored" data-anchor-id="maische">Maische</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Malz</th>
+<th>Menge</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Pale Ale Malz</td>
+<td>1320g</td>
+</tr>
+<tr class="even">
+<td>Weizenmalz hell</td>
+<td>550g</td>
+</tr>
+<tr class="odd">
+<td>Cara Pils</td>
+<td>110g</td>
+</tr>
+<tr class="even">
+<td>Haferflocken</td>
+<td>220g</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="maischverlauf" class="level3">
+<h3 class="anchored" data-anchor-id="maischverlauf">Maischverlauf</h3>
+<ul>
+<li>Einmaischen bei 39°C, 5 Minuten Rast.</li>
+<li>auf 63°C aufheizen, 35 Minuten Rast</li>
+<li>auf 72°C aufheizen, 25 Minuten Rast</li>
+<li>Abmaischen bei 78°C</li>
+</ul>
+</section>
+<section id="kochen" class="level3">
+<h3 class="anchored" data-anchor-id="kochen">Kochen</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Zutat</th>
+<th>Menge</th>
+<th>Kochzeit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Milchzucker</td>
+<td>165g</td>
+<td>10min</td>
+</tr>
+<tr class="even">
+<td>Mosaic Cryo</td>
+<td>2g</td>
+<td>10min</td>
+</tr>
+<tr class="odd">
+<td>Mosaic Cryo</td>
+<td>18g</td>
+<td>Whirlpool</td>
+</tr>
+<tr class="even">
+<td>Spectrum Galaxy</td>
+<td>4g</td>
+<td>Stopfen gegen Ende der Gärung</td>
+</tr>
+<tr class="odd">
+<td>Spectrum Citra</td>
+<td>6g</td>
+<td>Stopfen gegen Ende der Gärung</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="gärung" class="level3">
+<h3 class="anchored" data-anchor-id="gärung">Gärung</h3>
+<ul>
+<li>Wyeast 1318 London Ale III Flüssighefe</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>gebraut</category>
+  <guid>https://kingoli.net/blog/2026/03/09/martian-milkshake-iv/</guid>
+  <pubDate>Mon, 09 Mar 2026 22:24:00 GMT</pubDate>
+</item>
 <item>
   <title>Im Vorspann nichts Neues</title>
   <link>https://kingoli.net/blog/2026/02/03/vorspann/</link>
@@ -54,7 +156,7 @@
 <p>Etwas gefremdelt habe ich mit der Steuerung. Nicht alles ist logisch (Einzeltasten für rechte und linke Schläge, aber nur eine Taste für den Block, das zweidimensionale Menü hinter dem D-Pad), <a href="https://ravi64.com/pressing-buttons-indiana-jones/">einiges ist nervig</a>, und anderes hat mich über das gesamte Spiel hinweg gequält: So gibt es zwar einen Abbrechen-Button mit B, aber wenn ich ins Kartenmenü gehe komme ich nur mit derselben Menü-Taste zurück, nicht aber mit B wie in fast jedem anderen Spiel. Dadurch dass auf B das Schleichen liegt, bin ich so oft unerwartet aus meiner Deckung gegangen, was bei einer Entdeckung unschön enden kann.</p>
 <p>Doch zum Glück hat <em>Indiana Jones und der große Kreis</em> ein gut funktionierendes Speicherkonzept. Es gibt keine klassischen Spielstände sondern es wird an wichtigen Punkten durch das Spiel automatisch gespeichert. Und dieser Savepoint wird zusammen mit dem Spiel direkt beim Start geladen, so dass bereits im Menü der aktuelle Stand zu sehen ist und gleich weitergemacht werden kann. Das fand ich sehr angenehm, vor allem da es außer dem Fortschritt kaum Inhalte gibt, die unterschiedliche Spielstände erfordern würden.</p>
 <p>Vielmehr ist das Spiel sehr story-getrieben und adaptiert so perfekt die Atmosphäre der Filme: Es gibt ironischen Dialoge, augenzwinkernde Action und all die kleinen Verrücktheiten, die Spielbergs Interpretation von Archäologie so unterhaltsam gemacht haben. Und als kleines Plus bietet das Spiel auch ein deutlich besseres Frauenbild, denn der Sidekick Gina ist weit entfernt von einer <em>damsel in distress</em> und gibt Indy nicht nur auf der Tonspur Kontra, sonder schlägt auch gerne in Kämpfen mit zu. Einzig das Thailand-Level fällt da etwas aus der Rolle und macht den Eindruck, dass den Autoren plötzlich nichts mehr zu Gina eingefallen ist. Sie macht kaum mehr als im Boot zu sitzen, während Indy zeitweise sogar von einer plötzlich aus dem Nichts auftauchenden Archäologin begleitet wird.</p>
-<p>Und ähnlich seltsam fühlt sich auch das Finale an. Der Kampf gegen Voss ist spielerisch sehr unklar (ich habe ihn dreimal in die Hocke geprügelt, bis es endlich weiterging zum nächsten Teil des Kampfes) und optisch enttäuschend nach dem vorhergehenden hohen Grad an Realismus. Doch alles in allem ist <em>Indiana Jones und der große Kreis</em> ein sehr rundes Spiel mit vielen gelungenen Teilen, aber auch ein paar Eckend und Kanten, das mir viel Spaß gemacht hat.</p>
+<p>Und ähnlich seltsam fühlt sich auch das Finale an. Der Kampf gegen Voss ist spielerisch sehr unklar (ich habe ihn dreimal in die Hocke geprügelt, bis es endlich weiterging zum nächsten Teil des Kampfes) und optisch enttäuschend nach dem vorhergehenden hohen Grad an Realismus. Doch alles in allem ist <em>Indiana Jones und der große Kreis</em> ein sehr rundes Spiel mit vielen gelungenen Teilen, aber auch ein paar Ecken und Kanten, das mir viel Spaß gemacht hat.</p>
 
 
 
@@ -327,6 +429,10 @@
 <ul>
 <li>WYEAST 1318 London Ale III Flüssighefe</li>
 </ul>
+</section>
+<section id="das-ergebnis" class="level3">
+<h3 class="anchored" data-anchor-id="das-ergebnis">Das Ergebnis</h3>
+<p>Nach all dem Chaos am Brautag ist schlussendlich ein sehr gut trinkbares Bier herausgekommen. Keinerlei Fehlaromen trüben den Geschmack, aber leider auch kaum fruchtige Hopfennoten. So dominiert die Malzigkeit der Schüttung, auch wenn der Unterschied zwischen Black NEIPA und Black IPA kleiner war als erwartet. Beim nächsten Mal werde ich die Haferflocken wieder weglassen und ein paar IBUs drauflegen.</p>
 
 
 </section>
@@ -1101,103 +1207,6 @@
   <category>getan</category>
   <guid>https://kingoli.net/blog/2025/04/27/panoramen/</guid>
   <pubDate>Sun, 27 Apr 2025 15:55:00 GMT</pubDate>
-</item>
-<item>
-  <title>St Patrick Red Ale</title>
-  <link>https://kingoli.net/blog/2025/04/05/st-patrick-red-ale/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Heute war Brautag Nummer zwei der diesjährigen Herrentags-Trilogie. Und wieder war ein Fuerst Wiacek Bier die Vorlage: <a href="https://fuerstwiacek.com/buy/fresh-craft-beer/she-wants-more-red-ale-2/">She wants more</a>. Im Gegensatz zu dem meisten irischen Red Ales hat es ein leichtes Hopfenprofil, während bei der Malzmischung eher die Süße als das Malzige dominiert.</p>
-<p>Ich habe schon ein paar Versuche hinter mir, die hohe Trinkbarkeit der irischen Biere zu erreichen. Ich musste lernen, sehr vorsichtig mit Röstmalzen zu sein, und dass die richtige Farbe (eingestellt über Carared und Melanoidin) nicht gleichbedeutend mit dem richtigen Geschmack ist. Zudem haben die typischen britischen Hefen wie die Nottingham gerne wilde Sachen mit meinen Bieren gemacht, so dass ich am Ende Erfolg mit der Allzweckwaffe US-5 hatte.</p>
-<p>Für die diesjährige Auflage habe ich nun auf eine Erfolgsmischung von 2019 zurückgegriffen. Und weil sich Fuerst Wiacek nicht ganz sicher sind, ob <em>She wants more</em> nun ein Red Ale oder ein Pale Ale ist, habe ich passend dazu die <a href="https://wyeastlab.com/product/american-ale/">Wyeast 1056 American Ale</a> als Hefe eingesetzt.</p>
-<section id="maische" class="level3">
-<h3 class="anchored" data-anchor-id="maische">Maische</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Malz</th>
-<th>Menge</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pale Ale Malz</td>
-<td>1500g</td>
-</tr>
-<tr class="even">
-<td>Münchner Malz</td>
-<td>220g</td>
-</tr>
-<tr class="odd">
-<td>Cara Red</td>
-<td>115g</td>
-</tr>
-<tr class="even">
-<td>Melanoidinmalz</td>
-<td>75g</td>
-</tr>
-<tr class="odd">
-<td>Chocolate Malt</td>
-<td>20g</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="kochen" class="level3">
-<h3 class="anchored" data-anchor-id="kochen">Kochen</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Zutat</th>
-<th>Menge</th>
-<th>Kochzeit</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Tradition</td>
-<td>5g</td>
-<td>60min</td>
-</tr>
-<tr class="even">
-<td>Chinook</td>
-<td>5g</td>
-<td>30min</td>
-</tr>
-<tr class="odd">
-<td>Amarillo</td>
-<td>8g</td>
-<td>Whirlpool</td>
-</tr>
-<tr class="even">
-<td>Tradition</td>
-<td>5g</td>
-<td>Whirlpool</td>
-</tr>
-<tr class="odd">
-<td>Chinook</td>
-<td>8g</td>
-<td>Whirlpool</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="gärung" class="level3">
-<h3 class="anchored" data-anchor-id="gärung">Gärung</h3>
-<ul>
-<li>Wyeast 1056 American Ale Flüssighefe</li>
-</ul>
-
-
-</section>
-
- ]]></description>
-  <category>gebraut</category>
-  <guid>https://kingoli.net/blog/2025/04/05/st-patrick-red-ale/</guid>
-  <pubDate>Sat, 05 Apr 2025 19:44:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
