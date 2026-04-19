@@ -32,7 +32,7 @@ Die einzelnen Episoden setzen verschiedene künstlerische Schwerpunkte. Arbeitet
 
 Denn Sharingseiten wie The Pirate Bay führen zu starken Verlusten der Musikindustrie, und Per muss nicht nur Mitarbeiter entlassen, sondern gleichzeitig mit den großen Bossen in Amerika um Perspektiven für die Zukunft ringen. 
 
-Doch nicht nur der Tonfall wechselt zur zweiten Episode, auch schauspielerisch und auf Dialogebene kann sie leider das Niveau nicht halten. Und dieses Auf und Ab zieht sich durch die gesamte Serie: Gizem Erdogan als Petra Hansson ist leider eine Fehlbesetzung, auch wenn ihre Episode durch die Idee mit dem Flur, der alle Handlungsorte verbindet, und dem Gegensatz der holzvertäfelten Räume der Kanzleiwelt zu dem offenen Kellerbüro des Startups einige schöne Bilder aufweisen kann.
+Doch nicht nur der Tonfall wechselt zur zweiten Episode, auch schauspielerisch und auf Dialogebene kann sie das Niveau nicht halten. Und dieses Auf und Ab zieht sich durch die gesamte Serie: Gizem Erdogan als Petra Hansson ist leider eine Fehlbesetzung, auch wenn ihre Episode durch die Idee mit dem Flur, der alle Handlungsorte verbindet, und dem Gegensatz der holzvertäfelten Räume der Kanzleiwelt zu dem offenen Kellerbüro des Startups einige schöne Bilder aufweisen kann.
 
 Zum Chefentwickler Andreas Ehn weiß die Serie nicht mehr als Klischees anzuhäufen, und der Wechsel von monochrom zu farbig hat sich mir nicht erschlossen. Umso ärgerlicher ist es, dass beim extrovertierten Martin Lorentzon Neurodiversität positiv thematisiert wird, während es beim introvertierten Ehn nicht einmal angesprochen wird.
 

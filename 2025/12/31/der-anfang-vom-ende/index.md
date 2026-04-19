@@ -4,7 +4,7 @@ date: "2025-12-31T12:44:59"
 categories: [gedacht]
 ---
 
-So kurz vor dem Jahresende übe ich mich noch etwas in Kulturpessismus und prophezeie hiermit das nahende Ende der privaten Drohnenfotografie.
+So kurz vor dem Jahresende übe ich mich noch etwas in Kulturpessimismus und prophezeie hiermit das nahende Ende der privaten Drohnenfotografie.
 
 Denn es gibt immer mehr Einschränkungen und Auflagen für "Drohnenpiloten" wie mich. Zuletzt hat selbst das sonst so liberale UK die Zügel angezogen: Die bisher weltweit einheitliche [Grenze für Einsteiger-Drohnen (bis 250g) wurde auf 100g gesenkt, wodurch praktisch alle Drohnenpiloten nun einen Online-Test absolvieren müssen, um neben der Operator-ID eine Flyer-ID zu bekommen](https://www.caa.co.uk/newsroom/news/regulator-calls-on-new-and-existing-drone-users-to-learn-new-rules-before-taking-off/). Zusätzlich wird aber auch die [Remote-ID Pflicht (ab 01.01.2028)](https://www.caa.co.uk/drones/moving-on-to-more-advanced-flying/remote-id-rid/), wodurch ich meine DJI Mini 3 Pro ab dann in der UK nicht mehr fliegen lassen darf.  
 

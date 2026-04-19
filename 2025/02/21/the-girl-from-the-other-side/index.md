@@ -10,7 +10,7 @@ Es ist eine düstere Welt, die der japanische Künstler Nagabe in seiner Graphic
 
 Eine zentrale Rolle spielt dabei ein kleines Mädchen, das außerhalb der Mauer bei einem der Outsider lebt und sich scheinbar nicht ansteckt. Doch das weckt nicht nur das Interesse der Menschen im Inneren, sondern auch der anderen Outsider.
 
-Was auf den ersten Blick wie eine Parabel auf die Corona-Pandemie klingt ist jedoch etwas älter: Nagabe hat sein Werk zwischen 2015 und 2021 in einem Mangamagazin veröffentlicht; inzwischen gibt es die 53 Kapitel aufgeteilt auf 11 Bände zu kaufen.
+Was auf den ersten Blick wie eine Parabel auf die Corona-Pandemie klingt, ist jedoch etwas älter: Nagabe hat sein Werk zwischen 2015 und 2021 in einem Mangamagazin veröffentlicht; inzwischen gibt es die 53 Kapitel aufgeteilt auf 11 Bände zu kaufen.
 
 Der schiere Umfang von über 1700 Seiten steht dabei in starkem Kontrast zu der überschaubaren Handlung. Nagabe nimmt sich viel Zeit, seine anfangs an das europäische Mittelalter erinnernde Welt und vor allem die beiden Hauptcharaktere aufzubauen, und deckt erst im letzten Drittel die wahren Hintergründe auf, um dann in den abschließenden zwei Kapiteln die Auflösung zu reflektieren.
 

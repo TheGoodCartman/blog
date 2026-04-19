@@ -6,7 +6,7 @@ categories: [gedacht]
 
 ### ... in Filmen
 
-Ein Trend hat mich dieses Jahr sowohl bei den Filmen als auch den Serien geprägt: Ich brauchte etwas zum Lachen und habe deshalb gezielt nach Humor gesucht. Und in Filmform habe ich ihn bei [Hundreds of Beavers](/2025/01/03/filme-zum-jahresstart/#hundreds-of-beavers) gefunden. Etwas deart Wildes und Verrücktes habe ich lange nicht gesehen.
+Ein Trend hat mich dieses Jahr sowohl bei den Filmen als auch den Serien geprägt: Ich brauchte etwas zum Lachen und habe deshalb gezielt nach Humor gesucht. Und in Filmform habe ich ihn bei [Hundreds of Beavers](/2025/01/03/filme-zum-jahresstart/#hundreds-of-beavers) gefunden. Etwas derart Wildes und Verrücktes habe ich lange nicht gesehen.
 
 Das Kontrastprogramm dazu war _Heldin_. Fast schon dokumentarisch zeigt dieser Film die Nachtschicht einer Krankenschwester und damit wie mit der Lupe die Probleme unseres Gesundheitssystems und den Stand unserer Gesellschaft. Intensiv und wichtig!
 
@@ -14,7 +14,7 @@ Das Kontrastprogramm dazu war _Heldin_. Fast schon dokumentarisch zeigt dieser F
 
 Gelacht habe ich vor allem über _Almania_, _Tschappel_ und (die leider letzte Staffel von) _Parlament_.
 
-Aber auch im Serienbereich gibt es mit _Adolescence_ einen Beitrag, der nicht nur viel über unsere Gesellschaft zu sagen hat, sondern dies auch noch anspruchsvoll in scheibaren One-Takes verpackt.
+Aber auch im Serienbereich gibt es mit _Adolescence_ einen Beitrag, der nicht nur viel über unsere Gesellschaft zu sagen hat, sondern dies auch noch anspruchsvoll in scheinbaren One-Takes verpackt.
 
 Zum Schluss verlängere ich meine Empfehlung vom letzten Jahr für _Severance_ für dessen zweite Staffel. Es wird nicht ganz das Niveau der ersten Folgen gehalten, aber die Mischung von SciFi und _Lost_ lebt weiterhin von den vielen WTF-Momenten und wird getragen von guten Schauspielern und der fantastischen Ausstattung.
 

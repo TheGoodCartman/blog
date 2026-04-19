@@ -22,7 +22,7 @@ Danach verläuft sich der Film aber dabei, die Handlungsstränge des Auf- und Ab
 
 ### Hundreds of Beavers
 
-Dies ist wohl der wildeste Film, den ich seit langem gesehen habe. Am Besten ist er wohl als reale Variante der Verrücktheiten im Stile der zeitigen _Looney Tunes_ zu beschreiben: Ein Apfelfarmer verliert seine Ciderproduktion und muss plötzlich im Winter des Wilden Westens überleben. Doch die Jagd auf Hasen und Biber (Menschen in Kostümen) misslingt durch allerhand slapstickhafte Probleme, für die der Farmer die verrücktesten Lösungen findet.
+Dies ist wohl der wildeste Film, den ich seit langem gesehen habe. Am besten ist er wohl als reale Variante der Verrücktheiten im Stile der zeitigen _Looney Tunes_ zu beschreiben: Ein Apfelfarmer verliert seine Ciderproduktion und muss plötzlich im Winter des Wilden Westens überleben. Doch die Jagd auf Hasen und Biber (Menschen in Kostümen) misslingt durch allerhand slapstickhafte Probleme, für die der Farmer die verrücktesten Lösungen findet.
 
 Neben seiner Prämisse und den verschiedenen Menschen in Tierkostümen lebt _Hundreds of Beavers_ auch von seiner Optik. Komplett schwarz-weiß, mit übersättigtem Weiß, ist der Film nah dran an den Vorbildern von Dick & Doof und Buster Keaton. Gleichzeitig wird viel mit Zeichentrickeffekten gearbeitet, die sich wie die Handlungsebene in immer extremere Verrücktheiten steigern.
 

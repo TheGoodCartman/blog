@@ -4,7 +4,7 @@ date: "2025-12-20T22:44:59"
 categories: [gedacht]
 ---
 
-[Vor nunmehr 13 Jahren habe ich zum ersten Mal Geld in ein Crowdfunding-Projekt investiert](/2012/07/30/von-crowdfunding-bis-eichinger-gedanken-zum-kinofilm/). Seitdem habe ich viel lernen dürfen, was bei solchen Kampagnen alles schief gehen kann, und möchte deshalb in einem Recap von meinen bunten Erfahrungen berichten.
+[Vor nunmehr 13 Jahren habe ich zum ersten Mal Geld in ein Crowdfunding-Projekt investiert](/2012/07/30/von-crowdfunding-bis-eichinger-gedanken-zum-kinofilm/). Seitdem habe ich viel lernen dürfen, was bei solchen Kampagnen alles schiefgehen kann, und möchte deshalb in einem Recap von meinen bunten Erfahrungen berichten.
 
 # 2012 Anomalisa
 
@@ -32,15 +32,15 @@ Es war Corona, wir waren eingesperrt in unserer Wohnung und ich widmete mich zur
 
 Doch statt dem Ziel Oktober 2020 wurde es Ende März 2021, bis das Puzzle wirklich an mich versendet wurde. Das hing damit zusammen, dass die Creators während des Brexits unbedingt die für Europa bestimmten Sendungen aus Großbritannien heraus verschicken wollten. So hing mein Puzzle mehrfach für Wochen beim britischen Zoll fest.
 
-Als das fertige Puzzle dann bei mir ankam hielt es zwar seine Versprechungen, aber nach zehn Monaten Wartezeit war meine Begeisterung doch etwas gedämpft.
+Als das fertige Puzzle dann bei mir ankam, hielt es zwar seine Versprechungen, aber nach zehn Monaten Wartezeit war meine Begeisterung doch etwas gedämpft.
 
 # 2022 INVZI GaNHub 140W GaN Charger PD 3.1
 
 Nachdem 2022 die familiäre Armada an Smartphones, Tablets und Laptops endlich auf USB-C umgestellt war, quoll die Wohnung über von Ladegeräten, die noch dazu nicht für alle Geräte geeignet waren. Also suche ich nach einer Ladestation, die nicht zu viel Platz auf dem Schreibtisch wegnahm und doch genug Ladeleistung bot. Die ersten GAN Charger kamen damals gerade auf den Markt, doch entweder hörten sie bei 30 bis 60W auf oder hatten zu wenige USB-C Anschlüsse.
 
-Nicht so das [Projekt von INVZI](https://www.indiegogo.com/de/projects/invzi/invzi-ganhub-140w-gan-charger-pd-3-1). Hier passte scheinbar alles und das Verlängerungskabel inklusive Wechselstecker machte es gleich noch zum idealen Reisebegleiter. Einziger Wehrmutstropfen war das geplante Shipping neun Monate später - aber nach der Erfahrung mit der 360° Cam hielt ich diesen Zeitplan für realistisch.
+Nicht so das [Projekt von INVZI](https://www.indiegogo.com/de/projects/invzi/invzi-ganhub-140w-gan-charger-pd-3-1). Hier passte scheinbar alles und das Verlängerungskabel inklusive Wechselstecker machte es gleich noch zum idealen Reisebegleiter. Einziger Wermutstropfen war das geplante Shipping neun Monate später - aber nach der Erfahrung mit der 360° Cam hielt ich diesen Zeitplan für realistisch.
 
-Und tatsächlich wurde der Termin sogar übererfüllt; mein Examplar des 140W Chargers wurde bereits Anfang Januar 2023 verschickt. Das Produkt selber war auch überzeugend und hatte keine der Kinderkrankheiten, von denen ich in Tests anderer GAN Charger las.
+Und tatsächlich wurde der Termin sogar übererfüllt; mein Exemplar des 140W Chargers wurde bereits Anfang Januar 2023 verschickt. Das Produkt selber war auch überzeugend und hatte keine der Kinderkrankheiten, von denen ich in Tests anderer GAN Charger las.
 
 Aber: Neun Monate sind im Bereich der Mikroelektronik eine halbe Ewigkeit. In der Zwischenzeit hatten andere Hersteller vergleichbare Produkte entwickelt, so dass ich mir sogar zu Weihnachten 2022 schon etwas hätte kaufen können. Denn während INVZI noch Kraft und Zeit in die Crowdfunding-Kampagne steckte, wurden andere Produkte direkt auf den Markt geworfen.
 
@@ -52,11 +52,11 @@ Wie zum Beispiel bei meinem aktuellen Gadget, einem Smart Ring. Ich hatte mich s
 
 Die französische Firma Circular war mit ihrer Garantie, die Daten nur in europäischen Clouds zu speichern und die Grundfunktionen ohne Abo anzubieten, ein möglicher Kandidat. Aber erst, als sie [die zweite Generation ihres Rings über Kickstarter finanzieren](https://www.kickstarter.com/projects/circular-ring/circular-ring-2-worlds-most-advanced-health-tracking-ring) wollten, griff ich zu.
 
-Ihren geplanten Zeitplan haben sie leider gerissen, so dass mein Exemplar statt im Juni erst nach [meinen Urlauben](/2025/08/03/walking-the-hadrians-wall/) im August ankam, wo ich die Sport-Tracking-Funktionen doch gerne ausprobiert hätte. Dabei hatte ich, um unter den ersten Chargen zu sein, sogar auf das Sizing-Kit verzichtet und nur die Größe per App geschätzt (leider ein Fehler).
+Ihren geplanten Zeitplan haben sie leider gerissen, so dass mein Exemplar statt im Juni erst nach [meinen Urlauben](/2025/08/03/walking-the-hadrians-wall/) im August ankam, wo ich die Sport-Tracking-Funktionen doch gerne ausprobiert hätte. Dabei hatte ich, um unter den ersten Chargen zu sein, sogar auf das Sizing-Kit verzichtet und nur die Größe per App geschätzt (was sich als Fehler herausstellte).
 
 Und auch nach der Ankunft ging es mit Problemen weiter: Zwar war es bereits die zweite Generation des Rings, aber trotzdem haben die Entwickler die benötigten Cloud-Ressourcen unterschätzt. Da der Ring ohne die Cloud leider nicht einmal die gesammelten Daten anzeigen kann, war das Gerät tagelang nutzlos. Bis heute gibt es noch Probleme mit der Synchronisation in der App und mit jedem App-Update gibt es das Risiko, dass Funktionalitäten plötzlich nicht wie gewohnt funktionieren.
 
-Ein erfahrenes Team ist also noch lange kein Garant für ein gutes Produkt. Mit ist zwar klar, dass ein Cloud-Backend und die dauerhafte Entwicklung einer App nicht von Hardware-Verkäufen allein finanziert werden können, aber was beim Circular Ring 2 alles schief lief (und läuft) ist einen eigenen Artikel wert.
+Ein erfahrenes Team ist also noch lange kein Garant für ein gutes Produkt. Mit ist zwar klar, dass ein Cloud-Backend und die dauerhafte Entwicklung einer App nicht von Hardware-Verkäufen allein finanziert werden können, aber was beim Circular Ring 2 alles schieflief (und läuft) ist einen eigenen Artikel wert.
 
 # 2025 Straßenbräu Biergarten
 
@@ -66,6 +66,6 @@ Ganz zum Schluss noch ein positives Beispiel. Die Berliner Brauerei Straßenbrä
 
 Es ist keine Neuigkeit, dass Crowdfunding Risiken birgt. Aber ich kann jedem nur empfehlen, sich zumindest etwas über die Macher hinter den Kampagnen zu informieren. Auch erfahrene Teams können Produkte in den Sand setzen, aber unerfahrene tun das mit einer viel höheren Wahrscheinlichkeit. 
 
-Eine weiterer Erkenntnis ist: Zeitpläne beim Crowdfunding sind mit Vorsicht zu genießen. Häufig geht etwas schief und es gibt Verzögerungen. In dieser Zeit dreht die Welt sich jedoch weiter, so dass eine Idee aus dem letzten Jahr bei Fertigstellung nicht mehr das wert sein muss, was ich in sie investiert habe (von der Qualität ganz zu schweigen).
+Eine weitere Erkenntnis ist: Zeitpläne beim Crowdfunding sind mit Vorsicht zu genießen. Häufig geht etwas schief und es gibt Verzögerungen. In dieser Zeit dreht die Welt sich jedoch weiter, so dass eine Idee aus dem letzten Jahr bei Fertigstellung nicht mehr das wert sein muss, was ich in sie investiert habe (von der Qualität ganz zu schweigen).
 
 Also rate ich dazu zu hinterfragen, ob das Funding wirklich nötig ist. Oft kommen die Produkte nach der erfolgreichen Kampagne auch in den regulären Handel. Dann kann man checken, ob die Qualität passt und geht weniger Risiko ein. _Anomalisa_ oder der Straßenbräu-Biergarten wären niemals entstanden ohne meinen Beitrag, aber bei Technik-Produkten bin ich inzwischen geläutert.
