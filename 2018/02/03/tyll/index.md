@@ -7,7 +7,7 @@ categories: [gelesen]
 *von Daniel Kehlmann,
 erschienen bei Rowohlt, ISBN 978-3498035679, 22,95€*
 
-Das Bernburger Schloss hat einen Bergfried, der aufgrund seines Vorkommens in einer Geschichte Eulenspiegelturm genannt wird. Als Kind war ich öfters da, so dass mich die Figur Till Eulenspiegel seitdem berührt. Daniel Kehlmann berührt sie weniger, denn er deutet sie anachronistisch um und degradiert sie zum verbindenden Element seines eigentlichen Themas, in Episoden erzählt: Dem 30jährigen Krieg.
+Das Bernburger Schloss hat einen Bergfried, der aufgrund seines Vorkommens in einer Geschichte Eulenspiegelturm genannt wird. Als Kind war ich öfters da, so dass mich die Figur Till Eulenspiegel seitdem berührt. Daniel Kehlmann berührt sie weniger, denn er deutet sie anachronistisch um und degradiert sie zum verbindenden Element seines eigentlichen Themas, in Episoden erzählt: Dem 30-jährigen Krieg.
 
 Die Irrungen und Wirrungen dieses Krieges, genauso wie dessen Grausamkeiten und offenen historischen Fragen sind aufgrund der plastischen Charaktere durchaus faszinierend zu lesen.
 

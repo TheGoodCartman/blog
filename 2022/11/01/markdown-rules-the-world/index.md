@@ -8,7 +8,7 @@ OK, vielleicht nicht die gesamte Welt. Aber seitdem Github Markdown nativ unters
 
 Da lag der Gedanke nahe, dass ich auch in Markdown bloggen könnte. Ich benötigte keines der tausend Experimente, die Wordpress mit ihrem Editor angestellt hat, mir genügt ein reiner Texteditor.
 
-Mit dieser Prämisse eines möglichst einfachen Blogsystems auf Basis von Markdown-Files kam ich schließlich auf [Quarto](https://quarto.org/). Der Funktionsumfang der Software, die aus dem Bereich der wissenschaftlichen Publikations stammt und [Pandoc](https://pandoc.org/) zur Konvertierung nutzt, ist eigentlich schon wieder zu viel für meine bescheidenen Bedürfnisse.
+Mit dieser Prämisse eines möglichst einfachen Blogsystems auf Basis von Markdown-Files kam ich schließlich auf [Quarto](https://quarto.org/). Der Funktionsumfang der Software, die aus dem Bereich der wissenschaftlichen Publikation stammt und [Pandoc](https://pandoc.org/) zur Konvertierung nutzt, ist eigentlich schon wieder zu viel für meine bescheidenen Bedürfnisse.
 
 Aber *Quarto* macht eben auch genau das, was ich brauche: Ich schreibe meine Posts in Markdown, packe ggf noch Bilder in denselben Ordner, und checke das in ein Repo ein (*Quarto* ist datenbanklos, yeah!). Eine Github Action läuft dann los, generiert das Blog als Static Pages und lädt es in meinen Webspace - fertig!
 
