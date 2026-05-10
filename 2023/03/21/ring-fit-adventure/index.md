@@ -16,15 +16,15 @@ Weiterhin gibt es eine Art Fähigkeitenbaum zum Skillen, wobei effektiv nur ein 
 
 Offensiv- und Defensivstärke lassen sich auch mit Bekleidung steigern. Oberteil, Hose und Schuhe (gerne auch als Set mit Bonus) finden sich entweder in Truhen oder bei Hanni und Manni, die in jeder Welt in der dazugehörigen Stadt den obligatorischen Laden mit immerhin wechselndem Angebot betreiben.
 
-Bei den Gegnern und vielen Teilen der Levels wurde das Thema Fitnessstudio fantasievoll aufgegriffen: Der Spieler kämpft gegen Hanteln und andere Gewichte, Gymnastikbälle und fliegende Matten. Später müssen auch Tiere bezwungen werden, aber ingesamt wiederholen sich die Gegner schnell, darüber können auch Farbvariationen und blaue Auren nicht hinwegtäuschen.
+Bei den Gegnern und vielen Teilen der Levels wurde das Thema Fitnessstudio fantasievoll aufgegriffen: Der Spieler kämpft gegen Hanteln und andere Gewichte, Gymnastikbälle und fliegende Matten. Später müssen auch Tiere bezwungen werden, aber insgesamt wiederholen sich die Gegner schnell, darüber können auch Farbvariationen und blaue Auren nicht hinwegtäuschen.
 
-Das gleiche gilt für die "Story": Anfangs ist man noch fasziniert von dem sprechenden Ring-Controller, von den die vier Angriffsschulen repräsentierenden Zwischenbossen und natürlich dem Oberschurken Drako, einem Bodybuilder-Drachen.
+Das Gleiche gilt für die "Story": Anfangs ist man noch fasziniert von dem sprechenden Ring-Controller, von den die vier Angriffsschulen repräsentierenden Zwischenbossen und natürlich dem Oberschurken Drako, einem Bodybuilder-Drachen.
 
 Doch dann hat man ihn zum ersten Mal besiegt und muss mit anschauen, wie er einfach davon fliegt und alles von vorne beginnt. In insgesamt 22 Welten wiederholt sich dieses Schema in leichten Variationen, und nicht nur das: Auch die Levels selber haben nur wenige Variationen, bieten gerade einmal vier verschiedene optische Themen, und die Sidequests wiederholen sich in jeder Welt - dabei nötigt das Spiel einem auch noch, einige Levels zu wiederholen!
 
 Als wäre die Hauptquest nicht schon eine einzige Wiederholung. Dazu kommt, dass diese "Handlung" konstant in Textboxen erzählt wird. Keine Textausgabe, keine Filmchen, die Präsentation ist mehr als karg: Manchmal soll man Personen durch Level folgen, die man dort aber nie sieht.
 
-Zudem nervt, dass die Spielzeit nur zu 50% aus wirklicher Fitness besteht. Viel Zeit wird auf der Weltkarte, mit Ladebildschirmen, generell beim Warten auf das Spiel verbracht. Ich will gar nicht wissen, wieviele hundert Mal ich die Frage nach der Pulsmessung weggeklickt habe. Auch beim Starten und Beenden muss man sich durch dutzende Screens klicken, die zu 80% immer gleich sind.
+Zudem nervt, dass die Spielzeit nur zu 50% aus wirklicher Fitness besteht. Viel Zeit wird auf der Weltkarte, mit Ladebildschirmen, generell beim Warten auf das Spiel verbracht. Ich will gar nicht wissen, wie viele hundert Mal ich die Frage nach der Pulsmessung weggeklickt habe. Auch beim Starten und Beenden muss man sich durch dutzende Screens klicken, die zu 80% immer gleich sind.
 
 Vor den Übungen kalibriert RFA die beiden Controller und die richtige Position des Spielers. Das kann teilweise richtig nervig werden, vor allem wenn RFA am Ende jedes Levels von neuem erklärt, wie die Abschlusspose funktioniert.
 

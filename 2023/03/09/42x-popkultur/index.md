@@ -36,7 +36,7 @@ Damit fing alles an. Meine erste Konsole, das NES; mein erstes Spiel, *Super Mar
 
 ## Agatha Christie
 
-Nachdem mich die Aussicht, einen Sommer lang Gamegear zu spielen, dazu verleitet hat, Mitglied einer Kinder-/Jugend-Bibliothek zu werden, fand ich bald heraus, dass ich großer Krimi-Fan bin. Sherlock Holmes, Maigret, alles von Agatha Christie - ich habe sie verschlungen. Christies Stil hatte sich dabei noch am Besten über die Jahre gehalten, wobei Miss Marple mein Favorit wurde - als Buch und auch in den sympathischen Verfilmungen mit Margaret Rutherford. 
+Nachdem mich die Aussicht, einen Sommer lang Gamegear zu spielen, dazu verleitet hat, Mitglied einer Kinder-/Jugend-Bibliothek zu werden, fand ich bald heraus, dass ich großer Krimi-Fan bin. Sherlock Holmes, Maigret, alles von Agatha Christie - ich habe sie verschlungen. Christies Stil hatte sich dabei noch am besten über die Jahre gehalten, wobei Miss Marple mein Favorit wurde - als Buch und auch in den sympathischen Verfilmungen mit Margaret Rutherford. 
 
 ## Franquin
 
@@ -84,7 +84,7 @@ Lara Croft war das Ereignis der späten 90er. Ich hatte ein Plakat von ihr an de
 
 ## Das fünfte Element
 
-Luc Besson hat viele spannende Genre-Arbeiten abgeliefert, war aber nie besser als hier. Die Handlung ist sicherlich nichts für die Ewigkeit, aber die eigenständige, von Moebius und Mézières gestaltete Optik inklusive Kostümen von Gaultier, die fantastischen Effekte und mein guilty pleasure Bruce Willis machen den Film zu einen Augenschmaus.
+Luc Besson hat viele spannende Genre-Arbeiten abgeliefert, war aber nie besser als hier. Die Handlung ist sicherlich nichts für die Ewigkeit, aber die eigenständige, von Moebius und Mézières gestaltete Optik inklusive Kostümen von Gaultier, die fantastischen Effekte und mein guilty pleasure Bruce Willis machen den Film zu einem Augenschmaus.
 
 ## VIVA II
 
@@ -92,7 +92,7 @@ Die Jahrtausendwende war der Höhepunkt des Musikfernsehens in Deutschland. Es g
 
 ## The big Lebowski
 
-Mein erster Coen-Film im Kino, und vielleicht auch mein Liebster. Der Dude schlafwandelt durch ein Sammelsurium an verdrehten Charakteren und will doch eigenlich nur seinen Teppich zurück. Vom Drehbuch über die Schauspieler bis hin zur Kamera (die Traumsequenz, die aus einer rollenden Bowlingkugel startet) passt hier einfach alles.
+Mein erster Coen-Film im Kino, und vielleicht auch mein Liebster. Der Dude schlafwandelt durch ein Sammelsurium an verdrehten Charakteren und will doch eigentlich nur seinen Teppich zurück. Vom Drehbuch über die Schauspieler bis hin zur Kamera (die Traumsequenz, die aus einer rollenden Bowlingkugel startet) passt hier einfach alles.
 
 ## [Harald Schmidt Show](https://kingoli.net/blog/2005/09/08/harald-schmidt/) 
 
@@ -100,7 +100,7 @@ Harald Schmidt ist ein anderes Guilty Pleasure. Er hat einige Angewohnheiten zum
 
 ## John Irving
 
-Als Auszeichnung für mein Abitur habe ich *Zirkuskind* von John Irving geschenkt bekommen, womit meine Liebe zu seinen Büchern begann. Ich hatte zu dem Zeitpunkt (dank Jodie Foster) zwar bereits *Hotel New Hampshire* als Film gesehen, aber nun begann ich mehr und mehr von ihm zu lesen und auch die Verfilmungen anzusehen. Irgendetwas an seinem Stil zieht mich an, und da kann ich auch wohlwollend darüben hinweg sehen, dass sich die behandelten Themen doch oft wiederholen.
+Als Auszeichnung für mein Abitur habe ich *Zirkuskind* von John Irving geschenkt bekommen, womit meine Liebe zu seinen Büchern begann. Ich hatte zu dem Zeitpunkt (dank Jodie Foster) zwar bereits *Hotel New Hampshire* als Film gesehen, aber nun begann ich mehr und mehr von ihm zu lesen und auch die Verfilmungen anzusehen. Irgendetwas an seinem Stil zieht mich an, und da kann ich auch wohlwollend darüber hinwegsehen, dass sich die behandelten Themen doch oft wiederholen.
 
 ## Gothic II
 
@@ -108,12 +108,12 @@ Mit der Abfindung aus der Grundausbildung bei der Bundeswehr finanzierte ich mei
 
 ## Grand Theft Auto
 
-Gespiel habe ich schon GTA I in Draufsicht mit der spannenden Kamera, die beim Beschleunigen so wunderbar smooth rauszoomte. Doch erst mit dem Wechsel ins Dreidimensionale mit GTA III wurde ich ein Fan und habe seitdem alle Spiele gespielt (inklusive dem GTA auf Pferden, [Red Dead Redemption](https://kingoli.net/blog/2011/06/26/red-dead-redemption/)). Der Humor, das Gameplay, die Radiosender und eine Menge pokulturelle Zitate und Referenzen haben mich lange an PC und später an die PS3 gefesselt.
+Gespielt habe ich schon GTA I in Draufsicht mit der spannenden Kamera, die beim Beschleunigen so wunderbar smooth rauszoomte. Doch erst mit dem Wechsel ins Dreidimensionale mit GTA III wurde ich ein Fan und habe seitdem alle Spiele gespielt (inklusive dem GTA auf Pferden, [Red Dead Redemption](https://kingoli.net/blog/2011/06/26/red-dead-redemption/)). Der Humor, das Gameplay, die Radiosender und eine Menge popkulturelle Zitate und Referenzen haben mich lange an PC und später an die PS3 gefesselt.
 
 ## Nightmare before Christmas
 
 Ich. Liebe. Stop. Motion. Filme.
-Nicht erst seit *Nightmare before Christmas*, und vielleicht ist er nicht einmal der beste Film dieser Animationsart. Aber er bringt vieles zusammen, was ich mag: Die Griffigkeit der Stop-Motion, die skurilen Modelle mit ihren verqueren Proportionen, der morbide Charme eines Tim Burton und sogar noch gute Songs.
+Nicht erst seit *Nightmare before Christmas*, und vielleicht ist er nicht einmal der beste Film dieser Animationsart. Aber er bringt vieles zusammen, was ich mag: Die Griffigkeit der Stop-Motion, die skurrilen Modelle mit ihren verqueren Proportionen, der morbide Charme eines Tim Burton und sogar noch gute Songs.
 
 ## Per Anhalter durch die Galaxis
 
@@ -129,11 +129,11 @@ Computerspiele im Fernsehen hatten einige probiert. Aber gefühlt war GIGA TV da
 
 ## Der Herr der Ringe
 
-Bereits in der Schule hatte eine Lehrerin von *Lord of the Rings* geschwärmt, aber erst nach dem [ersten Film von Peter Jackson](https://kingoli.net/blog/2001/12/19/der-herr-der-ringe-die-gefahrten/) schnappte ich mir den Vater der modernen Fantasy (natürlich in Englisch, die Diskussion um die bessere deutsche Übersetzung schreckte mich ab) und anschließlich so ziemlich jeden Text, den Tolkien zu Mittelerde verfasst hat. 
+Bereits in der Schule hatte eine Lehrerin von *Lord of the Rings* geschwärmt, aber erst nach dem [ersten Film von Peter Jackson](https://kingoli.net/blog/2001/12/19/der-herr-der-ringe-die-gefahrten/) schnappte ich mir den Vater der modernen Fantasy (natürlich in Englisch, die Diskussion um die bessere deutsche Übersetzung schreckte mich ab) und anschließend so ziemlich jeden Text, den Tolkien zu Mittelerde verfasst hat. 
 
 ## Das Geheimnis der Großen Schwerter
 
-Und Fantasy sollte es bleiben. In der Wühlkiste einer Buchhandlung fand ich drei der vier Bücher der Serie (wie bei fast allen Tad Williams Werken traditionell als Trilogie geplant) und konnte sie fortan nicht mehr weglegen - was zeitlich ungelegen kam, da ich eigentlich für eine Klausur lernen musste. Was anfangs einige Parallelen zu Mittelerde hatte, fand recht schnell seinen eigenen Spin, nahm mich mit dem sympatisch-doofen Hauptcharakter ein und endete mit einigen tollen Plottwists.
+Und Fantasy sollte es bleiben. In der Wühlkiste einer Buchhandlung fand ich drei der vier Bücher der Serie (wie bei fast allen Tad Williams Werken traditionell als Trilogie geplant) und konnte sie fortan nicht mehr weglegen - was zeitlich ungelegen kam, da ich eigentlich für eine Klausur lernen musste. Was anfangs einige Parallelen zu Mittelerde hatte, fand recht schnell seinen eigenen Spin, nahm mich mit dem sympathisch-doofen Hauptcharakter ein und endete mit einigen tollen Plottwists.
 
 Otherland hat mich dagegen gar nicht geflasht und [Shadowmarch](https://kingoli.net/blog/2005/09/18/shadowmarch-die-grenze/) gingen etwas die Ideen aus, so dass ich mich lieber an seine erste Buchreihe erinnere.
 
@@ -173,7 +173,7 @@ Irgendwann in der Jugend realisierte ich, dass die in den Büchern beschriebene 
 
 ## Die letzten Glühwürmchen
 
-Ich habe mich ob des Themas Atombombenabwurf auf Hiroshima lange nicht an diesen Film getraut - am Ende hat er sich jedoch als der Höhepunkt im Œuvre des an herausragenden Werken nicht armen Studios Ghiblis herausgestellt. Neben der gewohnten optischen Qualität finden sich in *Grave of the Fireflies* nicht nur die ambivalentesten Charaktere, sondern auch eine deprimierend konsequente Handlung ohne Happy Ende. Vorsicht: Nicht für Kinder geeignet.
+Ich habe mich ob des Themas Atombombenabwurf auf Hiroshima lange nicht an diesen Film getraut - am Ende hat er sich jedoch als der Höhepunkt im Œuvre des an herausragenden Werken nicht armen Studios Ghiblis herausgestellt. Neben der gewohnten optischen Qualität finden sich in *Grave of the Fireflies* nicht nur die ambivalentesten Charaktere, sondern auch eine deprimierend konsequente Handlung ohne Happy End. Vorsicht: Nicht für Kinder geeignet.
 
 ## Drive
 
