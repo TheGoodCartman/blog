@@ -19,8 +19,8 @@ Ich gehe inzwischen ja nur noch mit meiner Tochter ins Kino, weshalb ich dieses 
 Besser gefallen als viele Filme haben mir dieses Jahr einige Serien. Wer also noch nach Futter für die nächste Binge-Session sucht, dem empfehle ich
 
 * _Severance_: Anfang 2025 startet die zweite Staffel dieser sehr interessanten Serie, die Ben Stiller als Produzent und Regisseur mitgestaltet hat. Die Idee: Mark arbeitet in einer Firma, wo aufgrund eines Eingriffs in sein Gehirn sein Privat- und Arbeitsleben komplett voneinander getrennt wurden. Doch nicht nur das Innere der Firma ist sehr seltsam, auch scheinen nicht alle Mitarbeiter den gleichen Eingriff erfahren zu haben - was also geht hier vor?
-* _The Dropout_: Wie kann eine Firma, die auch nach Jahren niemals das versprochene Produkt liefern kann, über all die Zeit von wichtigen Geldgebern ünterstützt worden sein? Die Serie legt offen, wie sich Schein verkaufen lässt und ist vor allem auf der sprachlichen Ebene sehr spannend, da es das Vokabular der Startup-Welt als bloße Fassade entlarvt. 
-* [_Fallout Staffel 1_](/2024/04/20/fallout/): Ich mag die Spiele, ich mag die retrofuturistische Welt und ich mag den Humor - das alles hat sich in die Serie hinübergerettet und sieht dazu auch noch sehr realistisch aus, wodurch _Fallout_ positiv aus der Menge der vielen schlechten Videospielverfilmungen vorsticht.
+* _The Dropout_: Wie kann eine Firma, die auch nach Jahren niemals das versprochene Produkt liefern kann, über all die Zeit von wichtigen Geldgebern unterstützt worden sein? Die Serie legt offen, wie sich Schein verkaufen lässt und ist vor allem auf der sprachlichen Ebene sehr spannend, da es das Vokabular der Startup-Welt als bloße Fassade entlarvt. 
+* [_Fallout Staffel 1_](/2024/04/20/fallout/): Ich mag die Spiele, ich mag die retrofuturistische Welt und ich mag den Humor - das alles hat sich in die Serie hinübergerettet und sieht dazu auch noch sehr realistisch aus, wodurch _Fallout_ positiv aus der Menge der vielen schlechten Videospielverfilmungen vor sticht.
 
 ### ... in Büchern
 

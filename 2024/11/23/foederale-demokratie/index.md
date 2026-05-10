@@ -16,7 +16,7 @@ Früher galt es sogar Brauprotokolle pro Brauvorgang einzureichen, was dem Hobby
 
 Das Jahressteuergesetz 2024 sieht nun vor, die Menge an steuerfrei zu brauendem Bier auf 500l zu erhöhen und - für mich der wichtigere Teil - streicht die Anmeldepflicht komplett aus dem Gesetz. Dies hilft auch den Steuerbehörden, die sich nicht mit Kleinstbeträgen beschäftigen müssen.
 
-Warum hat es nun aber fast acht Monate gebraucht, bis diese kleine Änderung zum Bürokratieabbau beschlossen wurde? Das hat zum Einen mit der Förderalität in Deutschland zu tun, und ist zum Anderen darin begründet, dass die jährlichen Jahressteuergesetze aus deutlich mehr Änderungen bestehen, die zusammen gebilligt werden müssen.
+Warum hat es nun aber fast acht Monate gebraucht, bis diese kleine Änderung zum Bürokratieabbau beschlossen wurde? Das hat zum einen mit der Förderalität in Deutschland zu tun, und ist zum anderen darin begründet, dass die jährlichen Jahressteuergesetze aus deutlich mehr Änderungen bestehen, die zusammen gebilligt werden müssen.
 
 Zum Glück arbeiten in der deutschen Demokratie die Institutionen relativ transparent, so dass ich diese für mich wichtige Gesetzesanpassung auf ihrem Weg durch die Institutionen verfolgen konnte.
 
@@ -44,12 +44,12 @@ Zum Glück arbeiten in der deutschen Demokratie die Institutionen relativ transp
 
    Für mich als Nicht-Juristen war es spannend zu lesen, dass der Entwurf quasi ein Diff ist: Ein sehr formales Dokument, das sehr präzise die Änderungen angibt, aber dabei jedwede Intention ausspart.
 
-   Einen Monat später, nachdem noch Feedback der Verbände und Fachkreise eingearbeitet wurde (u.a. kam noch ein Artikel dazu), hatte der Referentenentwurfe  den Status eines Regierungsentwurfs erreicht. Auch am **Artikel 40** gab es eine kleine Anpassung in Ziffer 2:
+   Einen Monat später, nachdem noch Feedback der Verbände und Fachkreise eingearbeitet wurde (u.a. kam noch ein Artikel dazu), hatte der Referentenentwurf  den Status eines Regierungsentwurfs erreicht. Auch am **Artikel 40** gab es eine kleine Anpassung in Ziffer 2:
 
    > 2. In § 52 Absatz 1 Nummer 1 Buchstabe b werden die Wörter „Absatz 5 Satz 3, entgegen § 39a Absatz 2 Satz 2 oder § 41 Absatz 2 Satz 1“ durch die Wörter „Absatz 5
 Satz 3, oder entgegen § 39a Absatz 2 Satz 2“ ersetzt.
 
-3. Damit aus so diesem Gesetzentwurf auch wirklich ein Gesetz wird, muss es zuerst durch den Bundestag (Legislative) beschlossen werden. Da das Jahressteuergesetz auch Länderinteressen berührt, musste der Bundesrat als Vertretung der Bundesländer ebenfalls zustimmen. Doch zuerst passierte erst einmal nicht viel; erst nach der parlamentarischen Sommerpause [besprach das Parlamant am 25.09. erstmals das Gesetz; der Bundesrat nahm sich derselben Sache zwei Tage später an](https://dip.bundestag.de/vorgang/jahressteuergesetz-2024-jahressteuergesetz-2024-jstg-2024/314975).\
+3. Damit aus so diesem Gesetzentwurf auch wirklich ein Gesetz wird, muss es zuerst durch den Bundestag (Legislative) beschlossen werden. Da das Jahressteuergesetz auch Länderinteressen berührt, musste der Bundesrat als Vertretung der Bundesländer ebenfalls zustimmen. Doch zuerst passierte erst einmal nicht viel; erst nach der parlamentarischen Sommerpause [besprach das Parlament am 25.09. erstmals das Gesetz; der Bundesrat nahm sich derselben Sache zwei Tage später an](https://dip.bundestag.de/vorgang/jahressteuergesetz-2024-jahressteuergesetz-2024-jstg-2024/314975).\
 [Im Bundestag folgte der ersten Lesung eine Anhörung im Finanzausschuss](https://www.bundestag.de/dokumente/textarchiv/2024/kw39-de-jahressteuergesetz-1017648); und nach weiteren Anpassungen wurde des Gesetz schließlich am 18.10. angenommen.
 
 4. Der Bundesrat hatte ebenfalls [Änderungswünsche](https://www.bundestag.de/presse/hib/kurzmeldungen-1022724); zum Glück aber nicht an den Biersteueranpassungen. Grundsätzlich arbeitet auch der Bundesrat mit Ausschüssen, und ebenso wie die Kollegen im Bundestag [nahmen diese Stellung](https://www.bundesrat.de/SharedDocs/beratungsvorgaenge/2024/0301-0400/0369-24.html) zum Gesetz. Der überarbeiteten Fassung des Bundestages vom 18.10. wurde dann schließlich [in der Sitzung vom 22.11. zugestimmt](https://www.bundesrat.de/SharedDocs/beratungsvorgaenge/2024/0501-0600/0529-24.html?nn=4732016).

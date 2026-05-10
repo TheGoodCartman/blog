@@ -4,9 +4,9 @@ date: "2024-06-15T15:55:00"
 categories: [gedacht, gefunden]
 ---
 
-Es ist mal wieder mal wieder ein großes Fußballturnier in Deutschland und es ist mal wieder Wahlkampf, was in Kombination seltsame Blüten treibt. Am weitesten aus dem Fenster lehnt sich Jens Spahn in einem Interview, das der [Tagesspiegel](https://www.tagesspiegel.de/berlin/es-nervt-die-leute-jens-spahn-kritisiert-em-fanmeile-in-berlin-11810420.html) wie folgt zusammenfasst:
+Es ist mal wieder ein großes Fußballturnier in Deutschland und es ist mal wieder Wahlkampf, was in Kombination seltsame Blüten treibt. Am weitesten aus dem Fenster lehnt sich Jens Spahn in einem Interview, das der [Tagesspiegel](https://www.tagesspiegel.de/berlin/es-nervt-die-leute-jens-spahn-kritisiert-em-fanmeile-in-berlin-11810420.html) wie folgt zusammenfasst:
 
-> „Es nervt die Leute. Und es macht die Stimmung nicht besser in einer Zeit, in denen eh schon alle gereizt sind», sagte Spahn der Düsseldorfer „Rheinischen Post“.
+> „Es nervt die Leute. Und es macht die Stimmung nicht besser in einer Zeit, in denen eh schon alle gereizt sind“, sagte Spahn der Düsseldorfer „Rheinischen Post“.
 > „Die Fanmeile gefährdet die Arbeitsfähigkeit des Parlaments.“ Staus dieser Art könnten „auch nicht zu Wirtschaftswachstum führen“. Der Berliner Senat müsse künftig für solche Veranstaltungen einen anderen Ort wählen: „Und im Übrigen bin ich der Meinung, dass Großveranstaltungen in Berlin auf dem Tempelhofer Feld stattfinden sollten.“
 
 Nun könnte man das als ein typisches NIMBY abtun, denn Spahn hat gleich einen Vorschlag für einen alternativen Standort parat, der nicht den eigenen Arbeitsweg beeinflusst. Doch in der inzwischen in der Politik leider üblichen populistischen Art des Einsatzes von Auslassungen und der bewussten Verdrehung der Fakten - präsentiert als eigene Meinung - schwingt auch ein Subtext mit, der mich als Bewohner von Berlin auf die Palme bringt.
