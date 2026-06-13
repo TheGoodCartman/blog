@@ -37,10 +37,15 @@ jobs:
         run: |
           lftp -u "$SFTP_USER","$SFTP_PASSWORD" "sftp://$SFTP_HOST" <<EOF
           set cmd:fail-exit yes
+          set cmd:trace yes
+          set xfer:log yes
+          set log:enabled/xfer yes
+          debug 5
           set sftp:auto-confirm yes
-          set net:max-retries 2
+          set net:max-retries 10
           set net:reconnect-interval-base 5
-          set net:timeout 20
-          mirror --reverse --delete --verbose ./docs/ .
+          set net:reconnect-interval-max 60
+          set net:timeout 120
+          mirror --reverse --delete --continue --verbose ./docs/ .
           bye
           EOF
