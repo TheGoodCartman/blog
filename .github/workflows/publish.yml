@@ -25,12 +25,22 @@ jobs:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
-      - name: Upload to kingoli.net
-        uses: TheGoodCartman/ftp-hash-sync@v1
-        with:
-          protocol: sftp
-          host: w012899b.kasserver.com
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          source: ./docs/
+
+      - name: Install lftp
+        run: sudo apt-get update && sudo apt-get install -y lftp
+
+      - name: Upload changed files to kingoli.net
+        env:
+          SFTP_HOST: w012899b.kasserver.com
+          SFTP_USER: ${{ secrets.FTP_USER }}
+          SFTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          lftp -u "$SFTP_USER","$SFTP_PASSWORD" "sftp://$SFTP_HOST" <<EOF
+          set cmd:fail-exit yes
+          set sftp:auto-confirm yes
+          set net:max-retries 2
+          set net:reconnect-interval-base 5
+          set net:timeout 20
+          mirror --reverse --delete --verbose ./docs/ .
+          bye
+          EOF
