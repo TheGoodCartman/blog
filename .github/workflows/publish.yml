@@ -5,6 +5,10 @@ on:
 
 name: Quarto Publish
 
+concurrency:
+  group: publish-kingoli
+  cancel-in-progress: false
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
@@ -25,12 +29,14 @@ jobs:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
+
+      - name: Install lftp
+        run: sudo apt-get update && sudo apt-get install -y lftp
+
       - name: Upload to kingoli.net
-        uses: TheGoodCartman/ftp-hash-sync@v1
-        with:
-          protocol: sftp
-          host: w012899b.kasserver.com
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          source: ./docs/
+        env:
+          FTP_HOST: w012899b.kasserver.com
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_USE_TLS: "true"
+        run: node scripts/sync-site.mjs docs

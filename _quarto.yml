@@ -16,6 +16,7 @@ format:
     theme: minty
     css: styles.css
     date-format: "DD.MM.YYYY HH:mm"
+    quarto-version: ""
 
 
 
