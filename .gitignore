@@ -1,3 +1,5 @@
 /.quarto/
 /.vscode/
+/.idea/
 /docs/
+**/*.quarto_ipynb
