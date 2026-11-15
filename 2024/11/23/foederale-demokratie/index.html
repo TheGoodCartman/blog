@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.11.9">
+<meta name="generator" content="quarto">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -26,7 +26,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+@media print {
+  html {
+    color-scheme: light only;
+  }
+  html, body, pre, code {
+    background-color: transparent;
+  }
+  body, a, a:visited, blockquote {
+    color: black;
+  }
+  pre, code {
+    padding: 0;
+  }
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2, h3, h4 {
+    page-break-after: avoid;
+  }
+}</style>
 
 
 <script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -44,10 +64,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-a34e72179bd910c3a0d1c193f042680d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../../site_libs/bootstrap/bootstrap-eed7a3b0b280c4a981be701f049d0e6b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../../site_libs/bootstrap/bootstrap-3c0df6fc5e8fc8ac36452112f61ed9ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -191,16 +211,12 @@ Die Biersteuerverordnung vom 5. Oktober 2009 (BGBl. I S. 3262, 3319), die zuletz
 </li>
 <li>Der bisherige Absatz 3 wird Absatz 2.</li>
 </ol>
-<ol start="2" type="1">
-<li>In § 52 Absatz 1 Nummer 1 Buchstabe b werden die Wörter „oder § 41 Absatz 2 Satz 1“ gestrichen.</li>
-</ol>
+<p>2. In § 52 Absatz 1 Nummer 1 Buchstabe b werden die Wörter „oder § 41 Absatz 2 Satz 1“ gestrichen.</p>
 </blockquote>
 <p>Für mich als Nicht-Juristen war es spannend zu lesen, dass der Entwurf quasi ein Diff ist: Ein sehr formales Dokument, das sehr präzise die Änderungen angibt, aber dabei jedwede Intention ausspart.</p>
 <p>Einen Monat später, nachdem noch Feedback der Verbände und Fachkreise eingearbeitet wurde (u.a. kam noch ein Artikel dazu), hatte der Referentenentwurf den Status eines Regierungsentwurfs erreicht. Auch am <strong>Artikel 40</strong> gab es eine kleine Anpassung in Ziffer 2:</p>
 <blockquote class="blockquote">
-<ol start="2" type="1">
-<li>In § 52 Absatz 1 Nummer 1 Buchstabe b werden die Wörter „Absatz 5 Satz 3, entgegen § 39a Absatz 2 Satz 2 oder § 41 Absatz 2 Satz 1“ durch die Wörter „Absatz 5 Satz 3, oder entgegen § 39a Absatz 2 Satz 2“ ersetzt.</li>
-</ol>
+<p>2. In § 52 Absatz 1 Nummer 1 Buchstabe b werden die Wörter „Absatz 5 Satz 3, entgegen § 39a Absatz 2 Satz 2 oder § 41 Absatz 2 Satz 1“ durch die Wörter „Absatz 5 Satz 3, oder entgegen § 39a Absatz 2 Satz 2“ ersetzt.</p>
 </blockquote></li>
 <li><p>Damit aus so diesem Gesetzentwurf auch wirklich ein Gesetz wird, muss es zuerst durch den Bundestag (Legislative) beschlossen werden. Da das Jahressteuergesetz auch Länderinteressen berührt, musste der Bundesrat als Vertretung der Bundesländer ebenfalls zustimmen. Doch zuerst passierte erst einmal nicht viel; erst nach der parlamentarischen Sommerpause <a href="https://dip.bundestag.de/vorgang/jahressteuergesetz-2024-jahressteuergesetz-2024-jstg-2024/314975">besprach das Parlament am 25.09. erstmals das Gesetz; der Bundesrat nahm sich derselben Sache zwei Tage später an</a>.<br>
 <a href="https://www.bundestag.de/dokumente/textarchiv/2024/kw39-de-jahressteuergesetz-1017648">Im Bundestag folgte der ersten Lesung eine Anhörung im Finanzausschuss</a>; und nach weiteren Anpassungen wurde des Gesetz schließlich am 18.10. angenommen.</p></li>
@@ -286,6 +302,28 @@ Die Biersteuerverordnung vom 5. Oktober 2009 (BGBl. I S. 3262, 3319), die zuletz
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
         var filterRegex = new RegExp("https:\/\/kingoli\.net\/blog\/");
+      const newWindowLabel = "(opens in a new tab)";
+      const newWindowNoteId = "quarto-ext-newwindow-label";
+      // Links reference one hidden label through aria-describedby, so the
+      // announcement never changes their accessible name.
+      var describeNewWindow = (link) => {
+        if (!window.document.getElementById(newWindowNoteId)) {
+          var newWindowNote = window.document.createElement("span");
+          newWindowNote.id = newWindowNoteId;
+          newWindowNote.hidden = true;
+          newWindowNote.textContent = newWindowLabel;
+          window.document.body.appendChild(newWindowNote);
+        }
+        var describedBy = (link.getAttribute("aria-describedby") || "").split(/\s+/).filter(Boolean);
+        if (!describedBy.includes(newWindowNoteId)) {
+          describedBy.push(newWindowNoteId);
+          link.setAttribute("aria-describedby", describedBy.join(" "));
+        }
+      }
+      var opensNewContext = (link) => {
+        var target = (link.getAttribute("target") || "").toLowerCase();
+        return target !== "" && !["_self", "_parent", "_top"].includes(target);
+      }
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -302,6 +340,9 @@ Die Biersteuerverordnung vom 5. Oktober 2009 (BGBl. I S. 3262, 3319), die zuletz
           }
           if (!link.classList.contains('no-external-icon')) {
           }
+        }
+        if (opensNewContext(link)) {
+          describeNewWindow(link);
         }
       }
       };
